@@ -1,0 +1,665 @@
+#AGCEEP - List of cultures
+#NOTE: Please keep in alphabetical order; as of 1.60 all cultures are now correctly named using unique tags
+
+#Cultures must be uniquely named ("none" is reserved and may NOT be used).
+
+#city = <tag>       Sprites of the city displayed on the map
+#buildings = <tag>  Set for city view
+
+#-----------------------------------------------------------------------------------------------
+
+abenaki = {
+	city = OHI
+	buildings = OHI
+	color = Green
+}
+
+aboriginal = { # was aborigin
+	city = MOG
+	buildings = MOG
+	color = LightBlue
+}
+
+afghani = {
+	city = MUS
+	buildings = MUS
+	color = DarkGray
+}
+
+aka = {
+	city = BAN
+	buildings = BAN
+	color = White
+}
+
+albanian = {
+	city = BYZ
+	buildings = MIN
+	color = Red
+}
+
+altai = {
+	city = MUS
+	buildings = MUS
+	color = LightGray
+}
+
+andean = {
+	city = AZT
+	buildings = AZT
+	color = DarkGreen
+}
+
+arabic = {
+	city = MUS
+	buildings = MUS
+	color = DarkOrange
+}
+
+armenian = {
+	city = BYZ
+	buildings = RUS
+	color = Red
+}
+
+ashanti = {
+	city = BAN
+	buildings = BAN
+	color = Purple
+}
+
+aztec = { # was aztek
+	city = AZT
+	buildings = AZT
+	color = Red
+}
+
+baltic = {
+	city = MIN
+	buildings = MIN
+	color = DarkOrange
+}
+
+baluchi = {
+	city = MUS
+	buildings = MUS
+	color = White
+}
+
+bantu = {
+	city = BAN
+	buildings = BAN
+	color = LightBlue
+}
+
+basque = {
+	city = MIN
+	buildings = MIN
+	color = LightGreen
+}
+
+bengali = {
+	city = MOG
+	buildings = MOG
+	color = DarkRed
+}
+
+berber = {
+	city = MUS
+	buildings = MUS
+	color = Yellow
+}
+
+burmese = {
+	city = MOG
+	buildings = MOG
+	color = LightGreen
+}
+
+caribbean = {
+	city = AZT
+	buildings = AZT
+	color = LightOrange
+}
+
+castilian = { # was iberian
+	city = MIN
+	buildings = MIN
+	color = LightBrown
+}
+
+catalan = { # was amazonian
+	city = MIN
+	buildings = MIN
+	color = DarkGray
+}
+
+caucasian = { # was patagonian
+	city = MIN
+	buildings = RUS
+	color = Brown
+}
+
+celtic = { # was gaelic
+	city = MIN
+	buildings = MIN
+	color = Brown
+}
+
+cham = { # was laotian
+	city = CHI
+	buildings = CHI
+	color = Purple
+}
+
+cherokee = {
+	city = OHI
+	buildings = OHI
+	color = Purple
+}
+
+cree = {
+	city = OHI
+	buildings = OHI
+	color = LightBrown
+}
+
+creek = {
+	city = OHI
+	buildings = OHI
+	color = DarkOrange
+}
+
+czech = {
+	city = MIN
+	buildings = MIN
+	color = Gray
+}
+
+dakota = {
+	city = OHI
+	buildings = OHI
+	color = DarkGreen
+}
+
+dalmatian = { # was syrian
+	city = BYZ
+	buildings = MIN
+	color = Brown
+}
+
+dutch = {
+	city = MIN
+	buildings = MIN
+	color = White
+}
+
+dyola = {
+	city = BAN
+	buildings = BAN
+	color = Purple
+}
+
+english = { # was anglosaxon
+	city = MIN
+	buildings = MIN
+	color = Red
+}
+
+ethiopian = {
+	city = BAN
+	buildings = BAN
+	color = LightRed
+}
+
+french = {
+	city = MIN
+	buildings = MIN
+	color = LightBlue
+}
+
+georgian = {
+	city = BYZ
+	buildings = RUS
+	color = LightYellow
+}
+
+german = {
+	city = MIN
+	buildings = MIN
+	color = Yellow
+}
+
+greek = {
+	city = BYZ
+	buildings = MIN
+	color = DarkPurple
+}
+
+guajiro = {
+	city = AZT
+	buildings = AZT
+	color = Green
+}
+
+gujarati = {
+	city = MOG
+	buildings = MOG
+	color = LightBlue
+}
+
+han = {
+	city = CHI
+	buildings = CHI
+	color = DarkGray
+}
+
+hindi = {
+	city = MOG
+	buildings = MOG
+	color = LightOrange
+}
+
+huron = {
+	city = OHI
+	buildings = OHI
+	color = Yellow
+}
+
+indonesian = {
+	city = MOG
+	buildings = MOG
+	color = Gray
+}
+
+inuit = {
+	city = OHI
+	buildings = OHI
+	color = LightOrange
+}
+
+iroquis = {
+	city = OHI
+	buildings = OHI
+	color = DarkBlue
+}
+
+italian = {
+	city = MIN
+	buildings = MIN
+	color = DarkGreen
+}
+
+japanese = {
+	city = NIP
+	buildings = CHI
+	color = White
+}
+
+javan = {
+	city = MOG
+	buildings = MOG
+	color = DarkPurple
+}
+
+kannada = { # was dravidian
+	city = MOG
+	buildings = MOG
+	color = White
+}
+
+kazakh = { # was khazak
+	city = MUS
+	buildings = MUS
+	color = LightGreen
+}
+
+khmer = {
+	city = CHI
+	buildings = CHI
+	color = DarkGreen
+}
+
+kongolese = {
+	city = BAN
+	buildings = BAN
+	color = Brown
+}
+
+korean = {
+	city = NIP
+	buildings = CHI
+	color = Blue
+}
+
+kurdish = {
+	city = MUS
+	buildings = MUS
+	color = LightOrange
+}
+
+lombard = {
+	city = MIN
+	buildings = MIN
+	color = LightBrown
+}
+
+madagasque = {
+	city = BAN
+	buildings = BAN
+	color = DarkPurple
+}
+
+maghrebi = { # was delaware
+	city = MUS
+	buildings = MUS
+	color = Brown
+}
+
+magyar = {
+	city = MIN
+	buildings = MIN
+	color = LightRed
+}
+
+malay = {
+	city = MOG
+	buildings = MOG
+	color = Green
+}
+
+maltese = {
+	city = MIN
+	buildings = MIN
+	color = Yellow
+}
+
+manchu = {
+	city = CHI
+	buildings = CHI
+	color = LightRed
+}
+
+mande = { # was mali
+	city = BAN
+	buildings = BAN
+	color = LightOrange
+}
+
+marathi = {
+	city = MOG
+	buildings = MOG
+	color = LightYellow
+}
+
+mataco = {
+	city = AZT
+	buildings = AZT
+	color = Gray
+}
+
+mayan = {
+	city = AZT
+	buildings = AZT
+	color = DarkGreen
+}
+
+mesoamerican = {
+	city = AZT
+	buildings = AZT
+	color = DarkYellow
+}
+
+mon = { # was melanese
+	city = MOG
+	buildings = MOG
+	color = Blue
+}
+
+mongol = {
+	city = MUS
+	buildings = MUS
+	color = Purple
+}
+
+native = { # was indian
+	city = OHI
+	buildings = OHI
+	color = LightRed
+}
+
+navajo = {
+	city = OHI
+	buildings = OHI
+	color = Green
+}
+
+nubian = {
+	city = BAN
+	buildings = BAN
+	color = DarkGreen
+}
+
+persian = {
+	city = MUS
+	buildings = MUS
+	color = DarkBlue
+}
+
+polish = {
+	city = MIN
+	buildings = MIN
+	color = DarkBlue
+}
+
+polynese = {
+	city = MOG
+	buildings = MOG
+	color = Purple
+}
+
+portuguese = { # was mississippian
+	city = MIN
+	buildings = MIN
+	color = White
+}
+
+punjabi = { # was sikh
+	city = MOG
+	buildings = MOG
+	color = DarkPurple
+}
+
+rajput = { # was aleutian
+	city = MOG
+	buildings = MOG
+	color = LightBrown
+}
+
+romanian = {
+	city = BYZ
+	buildings = MIN
+	color = DarkGray
+}
+
+russian = {
+	city = RUS
+	buildings = RUS
+	color = DarkRed
+}
+
+ruthenian = {
+	city = MIN
+	buildings = MIN
+	color = Brown
+}
+
+scandinavian = {
+	city = MIN
+	buildings = MIN
+	color = DarkYellow
+}
+
+senegambian = {
+	city = BAN
+	buildings = BAN
+	color = DarkBlue
+}
+
+shawnee = {
+	city = OHI
+	buildings = OHI
+	color = DarkRed
+}
+
+shona = {
+	city = BAN
+	buildings = BAN
+	color = LightBrown
+}
+
+slavonic = {
+	city = BYZ
+	buildings = MIN
+	color = White
+}
+
+slovak = {
+	city = MIN
+	buildings = MIN
+	color = LightOrange
+}
+
+somali = {
+	city = BAN
+	buildings = BAN
+	color = DarkBlue
+}
+
+swahili = {
+	city = BAN
+	buildings = BAN
+	color = White
+}
+
+swiss = {
+	city = MIN
+	buildings = MIN
+	color = Purple
+}
+
+tamil = { # was lithuanian
+	city = MOG
+	buildings = MOG
+	color = LightBrown
+}
+
+tatar = { # was naskapi
+	city = MUS
+	buildings = MUS
+	color = LightBlue
+}
+
+telugu = { # was cambodian
+	city = MOG
+	buildings = MOG
+	color = Yellow
+}
+
+teremembe = {
+	city = AZT
+	buildings = AZT
+	color = DarkGreen
+}
+
+thai = {
+	city = CHI
+	buildings = CHI
+	color = Brown
+}
+
+tibetan = {
+	city = CHI
+	buildings = CHI
+	color = DarkBlue
+}
+
+tuareg = {
+	city = MUS
+	buildings = MUS
+	color = DarkRed
+}
+
+tupinamba = {
+	city = AZT
+	buildings = AZT
+	color = Purple
+}
+
+turkish = {
+	city = MUS
+	buildings = MUS
+	color = LightGreen
+}
+
+turkoman = { # was canary
+	city = MUS
+	buildings = MUS
+	color = LightBrown
+}
+
+ugric = {
+	city = MIN
+	buildings = MIN
+	color = Green
+}
+
+uighur = { # was hawaiian
+	city = MUS
+	buildings = MUS
+	color = LightGreen
+}
+
+ukrainian = {
+	city = MIN
+	buildings = MIN
+	color = White
+}
+
+upper_burman = { # was filippine
+	city = CHI
+	buildings = CHI
+	color = LightGreen
+}
+
+uzbek = { # was uzbehk
+	city = MUS
+	buildings = MUS
+	color = Purple
+}
+
+vietnamese = {
+	city = CHI
+	buildings = CHI
+	color = Yellow
+}
+
+yoruba = { # was yorumba
+	city = BAN
+	buildings = BAN
+	color = LightGreen
+}
+
+zapotec = { # was zapotek
+	city = AZT
+	buildings = AZT
+	color = LightBrown
+}
+
+zhuang = { # was cantonese
+	city = CHI
+	buildings = CHI
+	color = DarkOrange
+}
+
+#-----------------------------------------------------------------------------------------------

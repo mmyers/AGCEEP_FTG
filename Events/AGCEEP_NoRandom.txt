@@ -1,0 +1,5 @@
+#No Random
+
+#This is now a dummy file as random events are no longer necessary in FtG.
+
+#-----------------------------------------------------------------------------------------------

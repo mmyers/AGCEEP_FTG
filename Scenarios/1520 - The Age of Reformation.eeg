@@ -1,0 +1,215 @@
+#AGCEEP - 1520 Scenario
+
+#Agung pasha (2005) - YodaMaster
+
+#-----------------------------------------------------------------------------------------------
+
+header = {
+	name = "AGCEEP 1520 GC"
+
+	startyear = 1520
+	endyear = 1819
+	startdate = { day = 0 month = january year = 1520 }
+
+	selectable = {
+		ABK ADA ADE AHM ALD ANG ARA ARK ASH AST ATJ AYU AZT BAL BAY BEI BEN BGL
+		BIJ BIM BJR BLI BOH BRA BRE BRI BRM BTN BUT CAM CHG CHI CLC CRI DAH DAI
+		DAN DLH ENG ETH FOI FRA FRI GEL GEN GHR GOL GON GUJ HAA HAB HAD HAN HAS
+		HEL HES HUN HYA IMR INC KAK KAZ KHI KIL KLE KNI KOL KON KOR KUT KZK LAT
+		LAX LIT LIV LNA LNK LOR LUW MAI MAL MAN MAS MCH MEC MEI MGL MGU MKS MLC
+		MLI MLW MND MOD MOG MOL MOM MON MOR MRA MSH MSS MTR MUB MYS NIP NUB OLD
+		ORI OYO PAK PAL PAP PER PFA POL POM POR RAJ RUS RYA SAC SAV SCO SHI SHL
+		SIB SIE SIN SON SPA STR SUS SWE TER TIB TLE TOS TRV TUN TUR UZB VEN VIJ
+		WAL YEM ZAN ZAP ZIM
+	}
+
+	flagname = {
+		FOI = "Navarre"
+		HAB = "Imperial"
+		POM = "Stettin"
+		POR = "Manuel_I"
+		SCO = "Ancient"
+		SPA = "Saltire"
+		TUN = "Hafsids"
+	}
+
+	SPA = {
+		countrydifficulty = 5
+		countryeconomy = 5
+		countrymilitary = 5
+		countrydiplomacy = 5
+	}
+	POR = {
+		countrydifficulty = 4
+		countryeconomy = 2
+		countrymilitary = 3
+		countrydiplomacy = 4
+	}
+	FRA = {
+		countrydifficulty = 4
+		countryeconomy = 5
+		countrymilitary = 5
+		countrydiplomacy = 4
+	}
+	GEL = {
+		countrydifficulty = 3
+		countryeconomy = 4
+		countrymilitary = 3
+		countrydiplomacy = 2
+	}
+	ENG = {
+		countrydifficulty = 5
+		countryeconomy = 4
+		countrymilitary = 5
+		countrydiplomacy = 4
+	}
+	VEN = {
+		countrydifficulty = 3
+		countryeconomy = 3
+		countrymilitary = 2
+		countrydiplomacy = 3
+	}
+	SAV = {
+		countrydifficulty = 2
+		countryeconomy = 3
+		countrymilitary = 2
+		countrydiplomacy = 3
+	}
+	HAB = {
+		countrydifficulty = 4
+		countryeconomy = 2
+		countrymilitary = 3
+		countrydiplomacy = 5
+	}
+	BRA = {
+		countrydifficulty = 2
+		countryeconomy = 1
+		countrymilitary = 3
+		countrydiplomacy = 2
+	}
+	BAY = {
+		countrydifficulty = 2
+		countryeconomy = 1
+		countrymilitary = 2
+		countrydiplomacy = 2
+	}
+	SWE = {
+		countrydifficulty = 4
+		countryeconomy = 3
+		countrymilitary = 4
+		countrydiplomacy = 3
+	}
+	DAN = {
+		countrydifficulty = 3
+		countryeconomy = 3
+		countrymilitary = 2
+		countrydiplomacy = 2
+	}
+	POL = {
+		countrydifficulty = 4
+		countryeconomy = 2
+		countrymilitary = 3
+		countrydiplomacy = 3
+	}
+	RUS = {
+		countrydifficulty = 4
+		countryeconomy = 2
+		countrymilitary = 3
+		countrydiplomacy = 3
+	}
+	SUS = {
+		countrydifficulty = 1
+		countryeconomy = 1
+		countrymilitary = 1
+		countrydiplomacy = 1
+	}
+	ALD = {
+		countrydifficulty = 1
+		countryeconomy = 1
+		countrymilitary = 1
+		countrydiplomacy = 1
+	}
+	TUR = {
+		countrydifficulty = 5
+		countryeconomy = 4
+		countrymilitary = 4
+		countrydiplomacy = 5
+	}
+	PER = {
+		countrydifficulty = 2
+		countryeconomy = 2
+		countrymilitary = 2
+		countrydiplomacy = 0
+	}
+	MOG = {
+		countrydifficulty = 2
+		countryeconomy = 2
+		countrymilitary = 1
+		countrydiplomacy = 1
+	}
+	VIJ = {
+		countrydifficulty = 1
+		countryeconomy = 1
+		countrymilitary = 1
+		countrydiplomacy = 1
+	}
+	AYU = {
+		countrydifficulty = 2
+		countryeconomy = 1
+		countrymilitary = 1
+		countrydiplomacy = 1
+	}
+	ATJ = {
+		countrydifficulty = 1
+		countryeconomy = 1
+		countrymilitary = 1
+		countrydiplomacy = 0
+	}
+	CHI = {
+		countrydifficulty = 3
+		countryeconomy = 2
+		countrymilitary = 3
+		countrydiplomacy = 2
+	}
+	SON = {
+		countrydifficulty = 0
+		countryeconomy = 0
+		countrymilitary = 1
+		countrydiplomacy = 0
+	}
+
+	option = {
+		name = "Random Events"
+		tag = random
+		status = yes
+	}
+	option = {
+		name = "Crusader Events"
+		tag = Alternative_Crusader
+		status = no
+	}
+	option = {
+		name = "Kingdom of Italy"
+		tag = Alternative_Italy
+		status = no
+	}
+}
+
+include = "scenarios\inc\Reformation_Events.inc"
+include = "scenarios\inc\RNGC.inc"
+
+include = "scenarios\1520\inc\1520_GlobalData.inc"
+include = "scenarios\1520\inc\1520_Countries.inc"
+
+include = "scenarios\1520\inc\1520_Provinces_Culture.inc"
+include = "scenarios\1520\inc\1520_Provinces_Income.inc"
+include = "scenarios\1520\inc\1520_Provinces_Manpower.inc"
+include = "scenarios\1520\inc\1520_Provinces_Mines.inc"
+
+include = "scenarios\1520\inc\1520_Provinces_Misc.inc"
+
+include = "scenarios\1520\inc\1520_CoTs.inc"
+
+include = "db\events.txt"
+
+#-----------------------------------------------------------------------------------------------

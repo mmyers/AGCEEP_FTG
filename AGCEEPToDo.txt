@@ -1,0 +1,96 @@
+PLEASE HELP OUT WITH THINGS HERE:
+
+...or tell us if something is obsolete and should be removed from the list.
+
+---------------------------------------------------------------------
+Things to do list:
+
+- add additional/re-add previously removed tags in line with the fact there are no longer tag limits
+- similarly, re-add additional 'native' cultures from 1.3 vanilla
+- update religions in line with vanilla (e.g. lollard)
+- further discussion on the merits of a 14th century scenario (e.g. 1357)
+- further discussion on additional alt. history starting options (e.g. Zheng He discovers America)
+- progress towards an 18th century scenario (1718 was the original agreed date)
+- finish updating AGCEEP website with recent changes and additions
+- tidy up the Americas and ocean borders in provinces.txt (geography mapmode)
+- update rebels.txt with new regional rebel and pirate types
+
+
+Bugs to fix list:
+
+Incoherencies in 1.58 events
+
+Empty monarchs files:
+monarchs_ang.txt
+monarchs_gon.txt
+monarchs_mli.txt
+
+Missing monarch files:
+monarchs_got.txt
+
+Events with commands for non existing monarchs:
+367000 in AGCEEP_Specific_Gotland.txt awakes 053501 - commented out
+
+Events with commands for non existing leaders:
+328056 in AGCEEP_Specific_Vijayanagar.txt awakes 133001 - commented out
+
+Dormant and never awakened monarchs:
+'Mehmed Bey Bushati *' (Id = 03015) in monarchs_alb.txt
+'Kara Mahmud *' (Id = 03016) in monarchs_alb.txt
+'Ibrahim Pasha *' (Id = 03017) in monarchs_alb.txt
+'Mustafa *' (Id = 03018) in monarchs_alb.txt
+'Davit X.' (Id = 018003) in monarchs_kak.txt
+'Charles, Dauphin de France' (Id = 027016) in monarchs_bur.txt
+'Ismail Adil Shah' (Id = 041502) in monarchs_bij.txt
+'Paullu' (Id = 063015) in monarchs_inc.txt
+'Sayri-Tupac' (Id = 063016) in monarchs_inc.txt
+'Titu Cusi' (Id = 063017) in monarchs_inc.txt
+'Tupac-Amaru' (Id = 063018) in monarchs_inc.txt
+'Qara Iskandar' (Id = 0114002) in monarchs_qar.txt
+'Abu Sa'id' (Id = 0114003) in monarchs_qar.txt
+'Karl Knutsson Bonde' (Id = 0131508) in monarchs_swe.txt
+
+Dormant and never awakened leaders:
+'Hou Xian' (Id = 032303) in leaders_chi.txt
+'Yongle' (Id = 032304) in leaders_chi.txt
+'Xuan Zong' (Id = 032305) in leaders_chi.txt
+'Henri de Guise' (Id = 049821) in leaders_fra.txt
+'Sri Vijay Singh' (Id = 065306) in leaders_raj.txt
+'Miklos Zrinyi II' (Id = 0124308) in leaders_tra.txt
+'Ferenc Nadasdy' (Id = 0124309) in leaders_tra.txt
+'Andras Hadik' (Id = 0124310) in leaders_tra.txt
+
+
+Bugs in 1.42:
+http://forum.paradoxplaza.com/forum/showpost.php?p=6775610&postcount=68
+
+
+Some remaining questions here:
+http://forum.paradoxplaza.com/forum/showpost.php?p=5444552&postcount=75
+
+
+Major issues that need resolving:
+- Setup and events for Butung are all messed up.
+- Gotland needs a monarch file, and its event file is broken/unfinished.
+
+
+Dormant and never awakened monarchs/leaders (future use):
+'Zhi Chen Hao' (Id = 032040) in monarchs_chi.txt
+'Zhi Zhi Pan' (Id = 032041) in monarchs_chi.txt
+'Sigurd III Jonsson *' (Id = 098519) in monarchs_nor.txt
+'Hans I *' (Id = 098520) in monarchs_nor.txt
+'Li Jin' (Id = 0146002) in monarchs_das.txt
+'Zhang Ke Wang' (Id = 0146501) in monarchs_dax.txt
+'Zhang Zheng Qi' (Id = 0146502) in monarchs_dax.txt
+'Zhang Zheng Chun' (Id = 0146503) in monarchs_dax.txt
+'Zhang Zheng Hao' (Id = 0146504) in monarchs_dax.txt
+'Zhang Ding Guo' (Id = 0146505) in monarchs_dax.txt
+'Zhang Si Xing' (Id = 0146506) in monarchs_dax.txt
+'Zhang Si Xing descendants' (Id = 0146508) in monarchs_dax.txt
+'Wu Ying Xiong' (Id = 0147001) in monarchs_zho.txt
+'Wu Shi Lin' (Id = 0147002) in monarchs_zho.txt
+'Nuno Tristão' (Id = 0110827) in leaders_por.txt
+'A. Gonçalves Baldaia' (Id = 0110833) in leaders_por.txt
+'Antão Gonçalves' (Id = 0110837) in leaders_por.txt
+'Gonçalo Velho' (Id = 0110845) in leaders_por.txt
+'R. Lourenço Ravasco' (Id = 0110829) in leaders_por.txt
