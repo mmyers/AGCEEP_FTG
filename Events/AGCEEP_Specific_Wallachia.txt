@@ -1067,7 +1067,7 @@ event = {
 	country = WAL
 	name = "EVENTNAME329000" #Union of Transylvania
 	desc = "EVENTHIST329000"
-	#-#In 1599 Mihai II Viteazul crossed the Carpathians and defeated the Transylvanian Prince András Báthory at Selimbar (18 October 1599). Entering the Capitol Gyulafehérvár (Alba Julia) in impressive pomp, he proclaimed himself 'Imperial Governor of Transylvania' in the name of Rudolf II of Austria. In reality, he ruled like an independent prince.
+	#-#In 1599 Mihai II Viteazul crossed the Carpathians and defeated the Transylvanian Prince András Báthory at Selimbar (18 October 1599). Entering the capital Gyulafehérvár (Alba Julia) in impressive pomp, he proclaimed himself 'Imperial Governor of Transylvania' in the name of Rudolf II of Austria. In reality, he ruled like an independent prince.
 
 	action_a = {
 		name = "ACTIONNAME329000A" #Personal Union

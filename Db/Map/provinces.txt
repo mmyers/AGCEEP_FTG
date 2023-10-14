@@ -3137,8 +3137,8 @@ province = {
 	continent = "America"
 	region = "North America"
 	area = "America"
-	type = inland
-	sea_adjacency = 0
+	type = coastal
+	sea_adjacency = 862
 	terrain = forest
 	size_modifier = 0.00
 	climate = tundra
@@ -3160,7 +3160,8 @@ province = {
 	gfx = {
 		city = { x = 5344 y = 1653 }
 		army = { x = 5313 y = 1664 }
-		manufactory = { x = 5296 y = 1709 }
+		port = { x = 5280 y = 1725 }
+		manufactory = { x = 5315 y = 1660 }
 	}
 	history = { }
 }
@@ -33345,7 +33346,7 @@ province = {
 province = {
 	id = 1089
 	name = "PROV_Ryukyu_Islands"
-	continent = "Oceania"
+	continent = "Asia"
 	region = "ChinaSea"
 	area = "Sea"
 	terrain = sea
@@ -33360,7 +33361,7 @@ province = {
 province = {
 	id = 1090
 	name = "PROV_Pacific_Equatorial_Current"
-	continent = "Oceania"
+	continent = "Asia"
 	region = "WPacificSea"
 	area = "Sea"
 	terrain = sea
@@ -34254,7 +34255,7 @@ province = {
 province = {
 	id = 1155
 	name = "PROV_Philippine_Sea"
-	continent = "Oceania"
+	continent = "Asia"
 	region = "WPacificSea"
 	area = "Sea"
 	terrain = sea
@@ -34267,7 +34268,7 @@ province = {
 province = {
 	id = 1156
 	name = "PROV_Palau_Island"
-	continent = "Oceania"
+	continent = "Asia"
 	region = "OceaniaSea"
 	area = "Sea"
 	terrain = sea
@@ -35631,7 +35632,7 @@ province = {
 
 province = {
 	id = 1255
-	name = "PROV_Southern__Indian_Ocean"
+	name = "PROV_Cape_Romain"
 	continent = "Africa"
 	region = "SWIndianSea"
 	area = "Sea"
@@ -36550,7 +36551,7 @@ province = {
 
 province = {
 	id = 1321
-	name = "PROV_Ocean"
+	name = "PROV_Northern_Pacific_Ocean"
 	continent = "Asia"
 	region = "NWPacificSea"
 	area = "Sea"
@@ -36563,7 +36564,7 @@ province = {
 
 province = {
 	id = 1322
-	name = "PROV_Ocean"
+	name = "PROV_South_Pacific_Ocean"
 	continent = "Oceania"
 	region = "SEPacificSea"
 	area = "Sea"
@@ -36905,7 +36906,7 @@ province = {
 
 province = {
 	id = 1348
-	name = "PROV_Ocean"
+	name = "PROV_Moro_Gulf"
 	continent = "Asia"
 	region = "WPacificSea"
 	area = "Sea"
@@ -37269,7 +37270,7 @@ province = {
 
 province = {
 	id = 1376
-	name = "PROV_Ocean"
+	name = "PROV_Southern_Atlantic_Ocean"
 	continent = "America"
 	region = "SWAtlanticSea"
 	area = "Sea"
@@ -40465,7 +40466,7 @@ province = {
 	manpower = 1
 	income = 1
 	goods = wool
-	city_name = "CITY_Sichuan"
+	city_name = "CITY_Xinjiang"
 	cot_modifier = -2
 	colonization_difficulty = 5
 	natives = {
@@ -42536,7 +42537,7 @@ province = {
 	manpower = 1
 	income = 3
 	goods = grain
-	city_name = "CITY_Xinjiang"
+	city_name = "CITY_Sichuan"
 	cot_modifier = -3
 	colonization_difficulty = 7
 	natives = {

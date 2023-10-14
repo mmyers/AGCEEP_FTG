@@ -1394,6 +1394,7 @@ event = {
 		command = { type = flagname which = "" }
 		command = { type = country which = POL }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = capital which = 291 } #Masovia
 		command = { type = addcore which = 291 } #Masovia
 		command = { type = addcore which = 292 } #Podlasia

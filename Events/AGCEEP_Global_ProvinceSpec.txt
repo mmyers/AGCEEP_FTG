@@ -3123,7 +3123,7 @@ event = {
 		command = { type = stability value = 1 }
 		command = { type = relation which = POR value = -100 }
 		command = { type = trigger which = 355002 } #COC: Fight for freedom
-		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu)
+		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu, Sikh or Jain)
 	}
 	action_b = {
 		name = "ACTIONNAME338445B" #Let our vassals take care of the Raja
@@ -3131,14 +3131,18 @@ event = {
 		command = { type = stability value = -1 }
 		command = { type = treasury value = -100 }
 		command = { type = trigger which = 355004 } #COC: Freedom
-		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu)
+		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu, Sikh or Jain)
 	}
 }
-#(1498-1658) Independence of Cochin for Hindu countries
+#(1498-1658) Independence of Cochin for Hindu, Sikh and Jain countries
 event = {
 	id = 338449
 	trigger = {
-		religion = hindu
+		OR = {
+			religion = hindu
+			religion = sikh
+			religion = jain
+		}
 		OR = {
 			event = 260099 #POR: A foothold in India -I-
 			event = 260100 #POR: A foothold in India -II-
@@ -3209,7 +3213,7 @@ event = {
 		command = { type = cedeprovince which = POR value = 573 } #Cochin
 		command = { type = trigger which = 260103 } #POR: Annexation of Cochin
 		command = { type = sleepevent which = 338445 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Muslim or Buddhist)
-		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu)
+		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu, Sikh or Jain)
 	}
 }
 #-----------------------------------------------------------------------------------------------
@@ -4012,13 +4016,17 @@ event = {
 		command = { type = trigger which = 18040 } #POR: The infidel yield to our demands
 	}
 }
-#(1510-1660) Submission of Goa for Hindu countries
+#(1510-1660) Submission of Goa for Hindu, Sikh and Jain countries
 event = {
 	id = 338006
 	trigger = {
+		OR = {
+			religion = hindu
+			religion = sikh
+			religion = jain
+		}
 		event = 18062
 		control = { province = 549 data = -1 }
-		religion = hindu
 		exists = POR
 	}
 	random = no
@@ -7848,6 +7856,8 @@ event = {
 			religion = eastern_shia
 			religion = pagan
 			religion = buddhist
+			religion = sikh
+			religion = jain
 		}
 		countrysize = 2
 		NOT = { countrysize = 15 } #big country will not be intimidated
@@ -9471,6 +9481,8 @@ event = {
 			religion = eastern_shia
 			religion = buddhist
 			religion = hindu
+			religion = sikh
+			religion = jain
 		}
 	}
 	random = no

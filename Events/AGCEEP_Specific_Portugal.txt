@@ -1811,7 +1811,7 @@ event = {
 		command = { type = removecot which = 547 } #Gujarat
 		command = { type = removecot which = 569 } #Kerala
 		command = { type = sleepevent which = 338445 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Muslim or Buddhist)
-		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu)
+		command = { type = sleepevent which = 338447 } #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu, Sikh or Jain)
 		command = { type = sleepevent which = 338450 } #ProvinceSpec*573: Cochin is lost
 		command = { type = trigger which = 260137 } #POR: The gates of India
 	}

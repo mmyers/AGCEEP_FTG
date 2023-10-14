@@ -16,13 +16,22 @@ Use Random events:
   If clicked NO, this option will disable the use of the AGCEEP Random events.
 
 Alternative Events:
-  If clicked YES, then certain Fantasy events will be enabled that will allow the formation of the imperial kingdoms of Germany and Italy, an Independent Wales, a Unified Iberia, and a new crusade by the Order of St. John and England.
+  If clicked YES, then certain Fantasy events will be enabled that will allow the formation of the Imperial kingdoms of Germany and Italy, an Independent Wales, a Unified Iberia, and a new crusade by the Order of St. John and England.
 
 #-----------------------------------------------------------------------------------------------
 
 The High Council are the users designated with compiling and curating the AGCEEP. They are: 
 
+Twoflower
+doktarr
+Mad King James
+ribbon22
 Garbon
+Sun_Zi_36
+Norrefeldt
+dharper
+YodaMaster
+Fodoron
 mandead
 ConjurerDragon
 

@@ -2061,6 +2061,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2090,6 +2091,7 @@ event = {
 		name = "ACTIONNAME3475B" #Keep it a loose structure
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2157,6 +2159,7 @@ event = {
 		name = "ACTIONNAME3475B" #Keep it a loose structure
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2175,6 +2178,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2242,6 +2246,7 @@ event = {
 		name = "ACTIONNAME3475B" #Keep it a loose structure
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2273,6 +2278,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2302,6 +2308,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = stability value = 2 }
 		command = { type = add_countryculture which = baltic }
 		command = { type = domestic which = CENTRALIZATION value = -1 }
@@ -2575,6 +2582,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = domestic which = OFFENSIVE value = -2 }
 		command = { type = domestic which = QUALITY value = -3 }
 		command = { type = domestic which = SERFDOM value = 2 }
@@ -2615,6 +2623,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = domestic which = OFFENSIVE value = -2 }
 		command = { type = domestic which = QUALITY value = -3 }
 		command = { type = domestic which = SERFDOM value = 2 }
@@ -2647,6 +2656,7 @@ event = {
 		name = "ACTIONNAME3475A" #Enact the Union
 		command = { type = inherit which = LIT }
 		command = { type = flagname which = "Union" }
+		command = { type = countryname value = "PLI" }
 		command = { type = domestic which = OFFENSIVE value = -2 }
 		command = { type = domestic which = QUALITY value = -3 }
 		command = { type = domestic which = SERFDOM value = 2 }
@@ -6255,6 +6265,7 @@ event = {
 	action_a = {
 		name = "VIVAT"
 		command = { type = flagname which = "Duchy" }
+		command = { type = countryname value = "POL" }
 		command = { type = sleepmonarch which = 0109538 } #Tadeusz Kosciuszko
 		command = { type = wakemonarch which = 0109535 } #Fryderyk August I
 		command = { type = relation which = FRA value = 300 }
@@ -6299,6 +6310,7 @@ event = {
 	action_a = {
 		name = "OK"
 		command = { type = flagname which = "Congress" }
+		command = { type = countryname value = "POL" }
 		command = { type = wakemonarch which = 0109539 } #Aleksander Romanow
 	}
 }
@@ -6320,6 +6332,7 @@ event = {
 	action_a = {
 		name = "OK"
 		command = { type = flagname which = "Congress" }
+		command = { type = countryname value = "POL" }
 		command = { type = sleepmonarch which = 0109535 } #Fryderyk August I
 		command = { type = wakemonarch which = 0109539 } #Aleksander Romanow
 		command = { type = breakvassal which = FRA }

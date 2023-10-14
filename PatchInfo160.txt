@@ -1,4 +1,26 @@
 
+-Version 1.60, additional changes since June 2023 beta
+
+-added new random events 92000080 and 93000080 for the commissioning of a Jain Temple
+-added countryname commands to several events for ENG/SCO (Great Britain, United Kingdom) and POL/LIT (Poland-Lithuania)
+-added ENG event 164274 'The Court of King Edward' as an alternative version of event 164268 for if Gloucester remains regent
+-added base defines.txt so as to overwrite new vanilla start/end years and tech/pirate/mercenary offset values (as they are now 1399-1837)
+-added base land.txt and naval.txt tech files so as to overwrite new vanilla variants (as they are now 1399-1837)
+-added a port in Susquehanna (85) for compatibility with the naval strait now in vanilla
+-added Cape Romain and Moro Gulf as new sea tile names
+-POL is now called Poland-Lithuania in the 1648 scenario
+-Dutch Rebels (NDR) now have a x1.2 morale_multiplier and a +1 tech_bonus
+-updated MOG event 230001 'Akbar's Religious Conversion' option C with jain rather than buddhist (old placeholder)
+-updated ENG event 21110 'To Kill a King' to sleep ENG leader "Gloucester" (046313)
+-updated BOH event 3642 'The Death of King Lajos of Bohemia' to cede prov #329 (Erz) to HAB instead of BRA (pending a new sequence)
+-updated a few random events and the Cochin/Goa province events with sikh and jain
+-removed the remaining blank 'Ocean' tiles in provinces.txt
+-removed all duplicate text from provinces.csv and made a few sea tile name improvements
+-fixed a few monarch ID discrepancies for Richard III as regent and king
+-fixed a potential trigger issue with ENG event 20006 'The End of the Wars of the Roses in France'
+-fixed a few typos
+
+
 -Version 1.60, additional changes since April 2023 beta
 
 -revived AGCEEP website at: www.agceep.org

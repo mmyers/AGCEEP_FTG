@@ -12030,7 +12030,7 @@ event = {
 			event = 3788
 			event = 3789
 		} #FRA: The Restoration of the Monarchy (in France)
-		OR = { #Any Carribean province owned by France but not Tobago & Trinidad
+		OR = { #Any Caribbean province owned by France but not Tobago & Trinidad
 			AND = {
 				owned = { province = 137 data = FRA } #Havana
 				NOT = { provincereligion = { province = 137 data = pagan } } #not a TP

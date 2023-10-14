@@ -321,7 +321,7 @@ event = {
 	country = TRA
 	name = "EVENTNAME282006" #Báthory's Last Stand
 	desc = "EVENTHIST282006"
-	#-#When Zsigmond Báthory resigned in favour of his cousin András Báthory, Transylvania fell under the Polish sphere of influence as Cardinal András was already a Polish vassal. Báthory's decision ultimately turned his allies against him. Beginning on October 5 1599, Mihály II Vitéz of Wallachia and György Básta (an Austrian general), launched a campaign against the Principality. On October 18 Mihály defeated András at the Battle of Selimbar - giving him control of the Capitol Gyulafehérvár. Zsigmond Báthory hastened to reclaim his throne with a force of Cossacks and Poles, only to be defeated at Suceava. Still Romanian peasants and nobles alike hated Vitéz, despite his attempts at endearing himself to them. Who shall be our Prince?
+	#-#When Zsigmond Báthory resigned in favour of his cousin András Báthory, Transylvania fell under the Polish sphere of influence as Cardinal András was already a Polish vassal. Báthory's decision ultimately turned his allies against him. Beginning on October 5 1599, Mihály II Vitéz of Wallachia and György Básta (an Austrian general), launched a campaign against the Principality. On October 18 Mihály defeated András at the Battle of Selimbar - giving him control of the capital Gyulafehérvár. Zsigmond Báthory hastened to reclaim his throne with a force of Cossacks and Poles, only to be defeated at Suceava. Still Romanian peasants and nobles alike hated Vitéz, despite his attempts at endearing himself to them. Who shall be our Prince?
 
 	date = { day = 1 month = january year = 1599 }
 	offset = 30

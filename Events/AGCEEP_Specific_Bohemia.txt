@@ -1475,14 +1475,11 @@ event = {
 		command = { type = cedeprovince which = HAB value = 314 } #Silesia
 		command = { type = cedeprovince which = HAB value = 315 } #Moravia
 		command = { type = cedeprovince which = HAB value = 327 } #Ostmarch
-		command = { type = cedeprovince which = BRA value = 329 } #Erz
+		command = { type = cedeprovince which = HAB value = 329 } #Erz
 		command = { type = trigger which = 3187 } #HAB: The Habsburg Inheritance of Bohemia
 	}
 	action_b = {
 		name = "ACTIONNAME3642B" #Accept the Habsburgs as Hereditary Kings
-		command = { type = cedeprovince which = BRA value = 329 } #Erz
-		command = { type = cedeprovince which = HAB value = 314 } #Silesia
-		command = { type = cedeprovince which = HAB value = 327 } #Ostmarch
 		command = { type = trigger which = 3733 } #HAB: The Habsburg Inheritance of Bohemia
 	}
 }

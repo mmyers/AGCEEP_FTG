@@ -763,14 +763,14 @@ event = {
 	country = MOG
 	name = "EVENTNAME230027" #Fatehpur Sikri
 	desc = "EVENTHIST230027"
-	#-#Located 26 miles west of Agra, its regarded as Akbar I's crowning architectural legacy. Numerous structures here illustrate a fusion of Muslim, Hindu and Jain influences reflecting Mughal impulses of creativity and aestheticism. Its layout is likened to Akbar's moveable imperial encampments whilst attempting to reproduce rich spatial effects of nomadic life via strategic placement of buildings and squares. Some of Akbar's most innovative reforms was during Fatehpur Sikri's tenure as capitol but a lack of water led to its abandonment in 1585.
+	#-#Located 26 miles west of Agra, its regarded as Akbar I's crowning architectural legacy. Numerous structures here illustrate a fusion of Muslim, Hindu and Jain influences reflecting Mughal impulses of creativity and aestheticism. Its layout is likened to Akbar's moveable imperial encampments whilst attempting to reproduce rich spatial effects of nomadic life via strategic placement of buildings and squares. Some of Akbar's most innovative reforms was during Fatehpur Sikri's tenure as capital but a lack of water led to its abandonment in 1585.
 
 	date = { day = 1 month = january year = 1571 }
 	offset = 30
 	deathdate = { day = 29 month = december year = 1584 }
 
 	action_a = {
-		name = "ACTIONNAME230027A" #Build a new Capitol
+		name = "ACTIONNAME230027A" #Build a new capital
 		command = { type = domestic which = innovative value = 1 } #diff styles
 		command = { type = population which = 543 value = 1000 } #MOG Court
 		command = { type = treasury value = -150 }
@@ -929,7 +929,7 @@ event = {
 	action_c = {
 		name = "ACTIONNAME230001C" #Convert to Jainism
 		command = { type = stability value = -3 }
-		command = { type = religion which = buddhist }
+		command = { type = religion which = jain }
 		command = { type = revolt which = 543 } #Delhi
 		command = { type = revoltrisk value = 1 }
 		command = { type = domestic which = innovative value = 1 }

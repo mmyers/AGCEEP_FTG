@@ -11062,6 +11062,7 @@ event = {
 			religion = shia
 			religion = eastern_shia
 			religion = buddhist
+			religion = jain
 			religion = confucian
 			religion = pagan
 		}
@@ -11740,6 +11741,7 @@ event = {
 			religion = shia
 			religion = eastern_shia
 			religion = buddhist
+			religion = jain
 			religion = confucian
 		}
 	}
@@ -11774,6 +11776,7 @@ event = {
 			religion = shia
 			religion = eastern_shia
 			religion = buddhist
+			religion = jain
 			religion = confucian
 		}
 	}
@@ -17412,6 +17415,60 @@ event = {
 	}
 	action_b = {
 		name = "ACTIONNAME_RANDOM128A" #No, there are enough gurdwaras already
+		command = { type = vp value = -20 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------
+#Commission a great Jain Temple (Written by mandead)
+#-----------------------------------------------------------------------------------------------
+
+event = {
+	id = 92000080
+	trigger = {
+		NOT = { owned = { province = 1614 data = -1 } } #not for the Pope (MUS)
+		NOT = { countrysize = 30 }
+		NOT = { stability = 3 }
+		religion = jain
+	}
+	random = yes
+	name = "EVENTNAME_RANDOM129" #Commissioning of a Jain Temple
+	desc = "EVENTHIST_RANDOM129"
+	#-#Our Acharyas recommend that we commission a new Jain Temple in honor of the Devas. Should we heed their advice?
+
+	action_a = {
+		name = "ACTIONNAME_RANDOM129A" #No, there are enough temples already
+		command = { type = vp value = -20 }
+	}
+	action_b = {
+		name = "ACTIONNAME_RANDOM129B" #Yes! We should honor the Devas!
+		command = { type = stability value = 2 }
+		command = { type = treasury value = -200 }
+		command = { type = missionaries value = 1 }
+	}
+}
+
+event = {
+	id = 93000080
+	trigger = {
+		NOT = { owned = { province = 1614 data = -1 } } #not for the Pope (MUS)
+		countrysize = 30
+		NOT = { stability = 3 }
+		religion = jain
+	}
+	random = yes
+	name = "EVENTNAME_RANDOM129" #Commissioning of a Jain Temple
+	desc = "EVENTHIST_RANDOM129"
+	#-#Our Acharyas recommend that we commission a new Jain Temple in honor of the Devas. Should we heed their advice?
+
+	action_a = {
+		name = "ACTIONNAME_RANDOM129B" #Yes! We should honor the Devas!
+		command = { type = stability value = 2 }
+		command = { type = treasury value = -200 }
+		command = { type = missionaries value = 1 }
+	}
+	action_b = {
+		name = "ACTIONNAME_RANDOM129A" #No, there are enough temples already
 		command = { type = vp value = -20 }
 	}
 }
