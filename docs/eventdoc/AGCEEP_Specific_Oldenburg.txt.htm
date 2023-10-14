@@ -1,0 +1,644 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>AGCEEP Event Documentation: AGCEEP_Specific_Oldenburg.txt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Keywords" content="For the Glory, For the Glory game">
+<meta http-equiv="Description" content="For the Glory AGCEEP mod game event documentation">
+<link rel="stylesheet" type="text/css" href="../scripts/eventdoc/eventdoc.css" title="Style" />
+<script src="../scripts/eventdoc/eventdoc.js" type="text/javascript"></script>
+<!-- Custom header data -->
+
+<!-- End of custom header data -->
+</head>
+<body onload="toggle('eventlist')">
+<!-- Custom page start content -->
+
+<!-- End of custom content -->
+<div class="index" id="index">
+<div class="index_head"><h2><a id="top" class="index_title">AGCEEP_Specific_Oldenburg.txt</a></h2></div>
+<div class="index_body">
+<a href="javascript:toggle('eventlist')">Toggle table of contents</a><br />
+<div class="eventlist" id="eventlist">
+1420-1550: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247012">Frisian dominance</a> for <span class="country" title="OLD">Oldenburg</span><br />
+1420-1550: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247013">End of Frisian dominance</a> for <span class="country" title="OLD">Oldenburg</span><br />
+1579-1582: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247010">Frisian mayhem</a> for <span class="country" title="OLD">Oldenburg</span><br />
+1605-1609: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247004">The Evangelic Union</a> for <span class="country" title="OLD">Oldenburg</span><br />
+1648-1649: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247005">The Weser Toll</a> for <span class="country" title="OLD">Oldenburg</span><br />
+1667: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247006">Count Anton Günther dies without an heir</a> for <span class="country" title="OLD">Oldenburg</span><br />
+1667: <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247007">Count Anton Günther dies without an heir</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (triggered event): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt20315">Burgundian Claims on Oldenburg</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (1460-1481): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247003">Christian of Oldenburg is elected Duke of Schleswig and Count of Holstein</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (1460-1481): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247009">Christian of Oldenburg is elected Duke of Schleswig and Count of Holstein</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (1448-1481): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247000">Christian of Oldenburg is elected King of Denmark</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (1448-1481): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247001">Christian of Oldenburg is elected King of Denmark</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (triggered event): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247011">Friesland still supports the pirates</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (1575-1578): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247008">Inheritance of Frisia</a> for <span class="country" title="OLD">Oldenburg</span><br />
+Triggered (1460-1481): <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247002">Oldenburg inherits Holstein</a> for <span class="country" title="OLD">Oldenburg</span><br />
+</div> <!-- End of event list -->
+<br />
+</div> <!-- End of index body -->
+<div class="index_footer">
+<p><a href="../eventdoc.htm">Back to Index</a></p>
+</div> <!-- End of index footer -->
+</div> <!-- End of index -->
+
+<div class="main">
+<div class="event">
+<div class="event_head"><h2><a id="evt247012" class="event_title">247012. Frisian dominance</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+<span class="country" title="OLD">Oldenburg</span> is a vassal of <span class="country" title="FRI">Friesland</span>
+</li>
+</ul>
+<p>Will happen within 90 days of <span class="date">January 5, 1420</span>
+<br />Checked again every 90 days until trigger is met (cannot happen after <span class="date">November 15, 1550</span>)
+</p>
+<h3>Description</h3>
+Oldenburg is now governed by an East Frisian...
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. No freedom</h4>
+<ul class="action">
+<li>Flag graphics extension set to "Frisia"</li>
+<li>Stability -1</li>
+<li>-50 relations with <span class="country" title="FRI">Friesland</span></li>
+<li>Set flag [FrisianDominance] for events</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247013" class="event_title">247013. End of Frisian dominance</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+Flag [FrisianDominance] is set
+</li>
+<li class="combo">
+The following must not occur:
+<ul class="trigger">
+<li>
+<span class="country" title="OLD">Oldenburg</span> is a vassal of <span class="country" title="FRI">Friesland</span>
+</li>
+</ul>
+
+</li>
+</ul>
+<p>Will happen within 30 days of <span class="date">January 5, 1420</span>
+<br />Checked again every 30 days until trigger is met (cannot happen after <span class="date">December 30, 1550</span>)
+</p>
+<h3>Description</h3>
+Oldenburg will rule on its own.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Freedom!</h4>
+<ul class="action">
+<li>Flag graphics set to default</li>
+<li>Stability +1</li>
+<li>-20 relations with <span class="country" title="FRI">Friesland</span></li>
+<li>Clear flag "[FrisianDominance]"</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247010" class="event_title">247010. Frisian mayhem</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+Own <span class="province" title="Id:&nbsp;337,&nbsp;area:&nbsp;Low Countries,&nbsp;region:&nbsp;Western Europe,&nbsp;continent:&nbsp;Europe">Friesen</span>
+</li>
+<li>
+Control <span class="province" title="Id:&nbsp;337,&nbsp;area:&nbsp;Low Countries,&nbsp;region:&nbsp;Western Europe,&nbsp;continent:&nbsp;Europe">Friesen</span>
+</li>
+</ul>
+<p>Will happen within 40 days of <span class="date">January 24, 1579</span>
+<br />Checked again every 40 days until trigger is met (cannot happen after <span class="date">December 30, 1582</span>)
+</p>
+<h3>Description</h3>
+In January 23, 1579 the northern seven provinces of the Low Countries signed the Union of Utrecht. In the declaration, these provinces are Brabant, Guelders, Holland, Flanders, Zeeland, Frisia, Mechelen and Utrecht. Although parts of Frisia where already free, the eastern half was held by Oldenburg. This Frisian speaking area known as Ommelanden, declared its separation from the influence of the Saxon city of Groningen. The province quickly joined the other parts of Frisia and followed the other Low Countries in 1581 in signing the Oath of Abjuration.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Let them go</h4>
+<ul class="action">
+<li>Grant independence to <span class="country" title="FRI">Friesland</span></li>
+<li>-1 badboy</li>
+</ul>
+<h4 class="action_title">B. Try to keep Frisia</h4>
+<ul class="action">
+<li><span class="province" title="Id:&nbsp;337,&nbsp;area:&nbsp;Low Countries,&nbsp;region:&nbsp;Western Europe,&nbsp;continent:&nbsp;Europe">Friesen</span> revolts</li>
+<li><span class="province" title="Id:&nbsp;337,&nbsp;area:&nbsp;Low Countries,&nbsp;region:&nbsp;Western Europe,&nbsp;continent:&nbsp;Europe">Friesen</span> revolts</li>
+<li><span class="province" title="Id:&nbsp;337,&nbsp;area:&nbsp;Low Countries,&nbsp;region:&nbsp;Western Europe,&nbsp;continent:&nbsp;Europe">Friesen</span> revolts</li>
+<li>Stability -2</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247004" class="event_title">247004. The Evangelic Union</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li class="combo">
+At least one of the following must occur:
+<ul class="trigger">
+<li>
+State religion is protestant
+</li>
+<li>
+State religion is reformed
+</li>
+</ul>
+
+</li>
+</ul>
+<p>Will happen within 30 days of <span class="date">January 2, 1605</span>
+<br />Checked again every 30 days until trigger is met (cannot happen after <span class="date">January 2, 1609</span>)
+</p>
+<h3>Description</h3>
+The Holy Roman Empire had a fragile balance, split between 10 major and nearly 400 minor states and principalities, as well as two opposing religions. The power of the Emperor is quite limited beyond his direct domains and the erratic and inconsistent behavior of some of them as Rudolph II increases frictions. In 1608, the Protestant city of Donauwerth refused Catholics the right to practice their cult and is banned from the Empire. As a reaction, most German Protestant states form the Evangelic Union to defend their freedom. The count of Oldenburg, however, stayed neutral.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Stay Neutral</h4>
+<ul class="action">
+<li>-100 relations with <span class="country" title="BRA">Brandenburg</span></li>
+<li>-100 relations with <span class="country" title="BAD">Baden</span></li>
+<li>-100 relations with <span class="country" title="HES">Hesse</span></li>
+<li>-100 relations with <span class="country" title="PFA">Palatinate</span></li>
+<li>-100 relations with <span class="country" title="SAC">Saxony</span></li>
+<li>+50 relations with <span class="country" title="HAB">Austria</span></li>
+</ul>
+<h4 class="action_title">B. Prepare to Join</h4>
+<ul class="action">
+<li>+100 relations with <span class="country" title="FRA">France</span></li>
+<li>+150 relations with <span class="country" title="BRA">Brandenburg</span></li>
+<li>+150 relations with <span class="country" title="BAD">Baden</span></li>
+<li>+150 relations with <span class="country" title="HES">Hesse</span></li>
+<li>+150 relations with <span class="country" title="PFA">Palatinate</span></li>
+<li>+150 relations with <span class="country" title="SAC">Saxony</span></li>
+<li>+150 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>+100 relations with <span class="country" title="KLE">Cleves</span></li>
+<li>+50 relations with <span class="country" title="KOL">Cologne</span></li>
+<li>+50 relations with <span class="country" title="BAY">Bavaria</span></li>
+<li>-100 relations with <span class="country" title="PAP">Papal States</span></li>
+<li>-100 relations with <span class="country" title="SPA">Spain</span></li>
+<li>-150 relations with <span class="country" title="HAB">Austria</span></li>
+<li>Event <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247005" class="a_und">247005 - The Weser Toll</a> for <span class="country" title="OLD">Oldenburg</span> will never fire</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247005" class="event_title">247005. The Weser Toll</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+Event <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247004" class="a_und">247004 - The Evangelic Union</a> for <span class="country" title="OLD">Oldenburg</span> has already occurred
+</li>
+</ul>
+<p>Will happen within 100 days of <span class="date">October 25, 1648</span>
+<br />Checked again every 100 days until trigger is met (cannot happen after <span class="date">December 30, 1649</span>)
+
+<br />unless prevented by<br />Action B of <a href="AGCEEP_Specific_Oldenburg.txt.htm#evt247004" class="a_und">247004 - The Evangelic Union</a> for <span class="country" title="OLD">Oldenburg</span><br />
+</p>
+<h3>Description</h3>
+AS a reward for their neutrality in the Thirty Years War the emperor granted the Counts of Oldenburg the right to levy tolls on vessels passing along the Weser, which soon became a precious source of income for the Counts.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Great!</h4>
+<ul class="action">
+<li>+4 base tax value in <span class="province" title="Id:&nbsp;335,&nbsp;area:&nbsp;Hansa,&nbsp;region:&nbsp;HRE,&nbsp;continent:&nbsp;Europe">Oldenburg</span></li>
+<li>Mercantilism +2</li>
+<li>Trade tech investment: +250</li>
+<li>+50 relations with <span class="country" title="HAB">Austria</span></li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247006" class="event_title">247006. Count Anton Günther dies without an heir</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+<span class="country" title="DAN">Denmark</span> exists
+</li>
+<li>
+<span class="country" title="SHL">Holstein</span> exists
+</li>
+</ul>
+<p>Will happen on <span class="date">June 19, 1667</span>
+</p>
+<h3>Description</h3>
+In 1667 Count Anton Günther died without a direct successor. The Count's closest relatives and potential heirs, Frederik III., King of Denmark, and Christian Albert of Holstein-Gottorp, had achieved a compact in 1649 giving the biggest part of Oldenburg to Denmark. Oldenburg would be danish for more than hundred years.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Denmark shall inherit Oldenburg (End Game)</h4>
+<ul class="action">
+<li>Event <a href="AGCEEP_Specific_Denmark.txt.htm#evt159050" class="a_und">159050 - Denmark inherits Oldenburg</a> for <span class="country" title="DAN">Denmark</span> is triggered immediately</li>
+</ul>
+<h4 class="action_title">B. Oldenburg to the Duke of Holstein-Gottorp (End Game)</h4>
+<ul class="action">
+<li>Event <a href="AGCEEP_Specific_Holstein.txt.htm#evt279010" class="a_und">279010 - Holstein inherits Oldenburg</a> for <span class="country" title="SHL">Holstein</span> is triggered immediately</li>
+</ul>
+<h4 class="action_title">C. Choose a local noble and remain independent</h4>
+<ul class="action">
+<li>Event <a href="AGCEEP_Specific_Denmark.txt.htm#evt159051" class="a_und">159051 - Oldenburg ignores our claim</a> for <span class="country" title="DAN">Denmark</span> is triggered immediately</li>
+<li>Stability -4</li>
+<li>-200 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>Break vassalization with <span class="country" title="DAN">Denmark</span></li>
+<li>-150 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>+50 relations with <span class="country" title="SWE">Sweden</span></li>
+<li>Global revolt risk  +10 for 120 months</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247007" class="event_title">247007. Count Anton Günther dies without an heir</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+<span class="country" title="DAN">Denmark</span> exists
+</li>
+<li class="combo">
+The following must not occur:
+<ul class="trigger">
+<li>
+<span class="country" title="SHL">Holstein</span> exists
+</li>
+</ul>
+
+</li>
+</ul>
+<p>Will happen on <span class="date">June 19, 1667</span>
+</p>
+<h3>Description</h3>
+In 1667 Count Anton Günther died without a direct successor. The Count's closest relatives and potential heirs, Frederik III., King of Denmark, and Christian Albert of Holstein-Gottorp, had achieved a compact in 1649 giving the biggest part of Oldenburg to Denmark. Oldenburg would be danish for more than hundred years.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Denmark shall inherit Oldenburg (End Game)</h4>
+<ul class="action">
+<li>Event <a href="AGCEEP_Specific_Denmark.txt.htm#evt159050" class="a_und">159050 - Denmark inherits Oldenburg</a> for <span class="country" title="DAN">Denmark</span> is triggered immediately</li>
+</ul>
+<h4 class="action_title">B. Choose a local noble and remain independent</h4>
+<ul class="action">
+<li>Event <a href="AGCEEP_Specific_Denmark.txt.htm#evt159051" class="a_und">159051 - Oldenburg ignores our claim</a> for <span class="country" title="DAN">Denmark</span> is triggered immediately</li>
+<li>Stability -4</li>
+<li>-200 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>Break vassalization with <span class="country" title="DAN">Denmark</span></li>
+<li>+50 relations with <span class="country" title="SWE">Sweden</span></li>
+<li>Global revolt risk  +10 for 120 months</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt20315" class="event_title">20315. Burgundian Claims on Oldenburg</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action A of <a href="AGCEEP_Specific_Burgundy.txt.htm#evt28006" class="a_und">28006 - King Philip</a> for <span class="country" title="BUR">Burgundy</span><br />
+<h3>Description</h3>
+The Emperor has made Philip the Good of Burgundy King of Lotharingia, reviving the ninth century Kingdom of Lothar. The emperor has granted some of our lands to Burgundy!
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Damn!</h4>
+<ul class="action">
+<li>Gain a temporary casus belli against <span class="country" title="BUR">Burgundy</span> for 2500 months</li>
+<li>-50 relations with <span class="country" title="HAB">Austria</span></li>
+<li>+6000 cavalry in the capital province</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247003" class="event_title">247003. Christian of Oldenburg is elected Duke of Schleswig and Count of Holstein</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li class="combo">
+The following must not occur:
+<ul class="trigger">
+<li>
+<span class="country" title="OLD">Oldenburg</span> is a vassal of <span class="country" title="SHL">Holstein</span>
+</li>
+</ul>
+
+</li>
+</ul>
+<h3>Triggered by</h3>
+Action B of <a href="AGCEEP_Specific_Holstein.txt.htm#evt279004" class="a_und">279004 - Death of the last Schauenburg</a> for <span class="country" title="SHL">Holstein</span><br />
+<h3>Description</h3>
+As expected long before, Adolf VIII Duke of Schleswig and Count of Holstein died childlessly in 1459. His closest male relative was his nephew, Christian of Oldenburg. Christian was proclaimed Duke of Schleswig and Count of Holstein after swearing that both territories would remain 'up ewig, ungedelt' (eternally undivided) and granting privileges to the estates in a charter signed in Riben on March 5th 1460. He also had to guarantee that both territories would be governed separately from Denmark.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Grant the privileges of Riben</h4>
+<ul class="action">
+<li>Gain <span class="country" title="SHL">Holstein</span> as vassals</li>
+<li>Gain an alliance with <span class="country" title="SHL">Holstein</span></li>
+<li>+200 relations with <span class="country" title="SHL">Holstein</span></li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247009" class="event_title">247009. Christian of Oldenburg is elected Duke of Schleswig and Count of Holstein</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+<span class="country" title="OLD">Oldenburg</span> is a vassal of <span class="country" title="SHL">Holstein</span>
+</li>
+</ul>
+<h3>Triggered by</h3>
+Action B of <a href="AGCEEP_Specific_Holstein.txt.htm#evt279004" class="a_und">279004 - Death of the last Schauenburg</a> for <span class="country" title="SHL">Holstein</span><br />
+<h3>Description</h3>
+As expected long before, Adolf VIII Duke of Schleswig and Count of Holstein died childlessly in 1459. His closest male relative was his nephew, Christian of Oldenburg. Christian was proclaimed Duke of Schleswig and Count of Holstein after swearing that both territories would remain 'up ewig, ungedelt' (eternally undivided) and granting privileges to the estates in a charter signed in Riben on March 5th 1460. He also had to guarantee that both territories would be governed separately from Denmark.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Grant the privileges of Riben</h4>
+<ul class="action">
+<li>Break vassalization with <span class="country" title="SHL">Holstein</span></li>
+<li>Stability +3</li>
+<li>Gain a royal marriage with <span class="country" title="SHL">Holstein</span></li>
+<li>+150 relations with <span class="country" title="SHL">Holstein</span></li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247000" class="event_title">247000. Christian of Oldenburg is elected King of Denmark</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action A of <a href="AGCEEP_Specific_Denmark.txt.htm#evt159032" class="a_und">159032 - Christian of Oldenburg is elected King of Denmark</a> for <span class="country" title="DAN">Denmark</span><br />
+<h3>Description</h3>
+When Christoffer III died without heirs in 1448, the Rigsraad, the Danish convention of nobles, first chose Count Adolf VIII of Holstein. But since he was himself old and childless, he suggested to crown his nephew, Christian of Oldenburg instead, and so did the Rigsraad. Christian ascended the Danish and Norwegian throne and left the County of Oldenburg to his younger brother Gerhard.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Gerhard accepts Oldenburg as a Danish vassal</h4>
+<ul class="action">
+<li>+100 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>+75 relations with <span class="country" title="NOR">Norway</span></li>
+<li>+50 relations with <span class="country" title="SWE">Sweden</span></li>
+<li>+50 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>Monarch <span class="monarch" title="Id:&nbsp;100502,&nbsp;DIP:&nbsp;6,&nbsp;ADM:&nbsp;5,&nbsp;MIL:&nbsp;6">Gerhard</span> becomes active</li>
+</ul>
+<h4 class="action_title">B. Gerhard chooses to run a independent Oldenburg</h4>
+<ul class="action">
+<li>Break vassalization with <span class="country" title="DAN">Denmark</span></li>
+<li>-100 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>-75 relations with <span class="country" title="NOR">Norway</span></li>
+<li>-50 relations with <span class="country" title="SWE">Sweden</span></li>
+<li>-50 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>+25 relations with <span class="country" title="MEC">Mecklenburg</span></li>
+<li>+25 relations with <span class="country" title="POM">Pomerania</span></li>
+<li>+50 relations with <span class="country" title="BRE">Bremen</span></li>
+<li>Monarch <span class="monarch" title="Id:&nbsp;100502,&nbsp;DIP:&nbsp;6,&nbsp;ADM:&nbsp;5,&nbsp;MIL:&nbsp;6">Gerhard</span> becomes active</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247001" class="event_title">247001. Christian of Oldenburg is elected King of Denmark</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action B of <a href="AGCEEP_Specific_Denmark.txt.htm#evt159032" class="a_und">159032 - Christian of Oldenburg is elected King of Denmark</a> for <span class="country" title="DAN">Denmark</span><br />
+<h3>Description</h3>
+When Christoffer III died without heirs in 1448, the Rigsraad, the Danish convention of nobles, first chose Count Adolf VIII of Holstein. But since he was himself old and childless, he suggested to crown his nephew, Christian of Oldenburg instead, and so did the Rigsraad. Christian ascended the Danish and Norwegian throne and tried to incorperate Oldenburg into Denmark instead of leaving the county to his younger brother Gerhard.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Accept incorporation into Denmark (End Game)</h4>
+<ul class="action">
+<li>Event <a href="AGCEEP_Specific_Denmark.txt.htm#evt159033" class="a_und">159033 - Oldenburg is incorporated into Denmark</a> for <span class="country" title="DAN">Denmark</span> is triggered immediately</li>
+</ul>
+<h4 class="action_title">B. Demand that Gerhard rules Oldenburg</h4>
+<ul class="action">
+<li>Stability -3</li>
+<li>-100 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>-75 relations with <span class="country" title="NOR">Norway</span></li>
+<li>-50 relations with <span class="country" title="SWE">Sweden</span></li>
+<li>-25 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>+25 relations with <span class="country" title="MEC">Mecklenburg</span></li>
+<li>+25 relations with <span class="country" title="POM">Pomerania</span></li>
+<li>+50 relations with <span class="country" title="BRE">Bremen</span></li>
+<li>+100 relations with <span class="country" title="HAB">Austria</span></li>
+<li>Monarch <span class="monarch" title="Id:&nbsp;100502,&nbsp;DIP:&nbsp;6,&nbsp;ADM:&nbsp;5,&nbsp;MIL:&nbsp;6">Gerhard</span> becomes active</li>
+</ul>
+<h4 class="action_title">C. Demand that Gerhard rules Oldenburg independent of Denmark</h4>
+<ul class="action">
+<li>Stability -6</li>
+<li>Break vassalization with <span class="country" title="DAN">Denmark</span></li>
+<li>-200 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>-150 relations with <span class="country" title="NOR">Norway</span></li>
+<li>-100 relations with <span class="country" title="SWE">Sweden</span></li>
+<li>-50 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>+50 relations with <span class="country" title="MEC">Mecklenburg</span></li>
+<li>+50 relations with <span class="country" title="POM">Pomerania</span></li>
+<li>+100 relations with <span class="country" title="BRE">Bremen</span></li>
+<li>+100 relations with <span class="country" title="HAB">Austria</span></li>
+<li>Monarch <span class="monarch" title="Id:&nbsp;100502,&nbsp;DIP:&nbsp;6,&nbsp;ADM:&nbsp;5,&nbsp;MIL:&nbsp;6">Gerhard</span> becomes active</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247011" class="event_title">247011. Friesland still supports the pirates</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li class="combo">
+The following must not occur:
+<ul class="trigger">
+<li>
+<span class="country" title="FRI">Friesland</span> and <span class="country" title="OLD">Oldenburg</span> are at war
+</li>
+</ul>
+
+</li>
+</ul>
+<h3>Triggered by</h3>
+Action B of <a href="AGCEEP_Specific_Friesland.txt.htm#evt171005" class="a_und">171005 - Pressure of the Hanse</a> for <span class="country" title="FRI">Friesland</span><br />
+<h3>Description</h3>
+We cannot tolerate such activities...
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Act, but not at once</h4>
+<ul class="action">
+<li>Gain a temporary casus belli against <span class="country" title="FRI">Friesland</span> for 72 months</li>
+</ul>
+<h4 class="action_title">B. War!</h4>
+<ul class="action">
+<li>Start a war with <span class="country" title="FRI">Friesland</span></li>
+<li>+5 relations with <span class="country" title="DAN">Denmark</span></li>
+<li>+15 relations with <span class="country" title="BRE">Bremen</span></li>
+<li>+15 relations with <span class="country" title="SHL">Holstein</span></li>
+<li>+25 relations with <span class="country" title="MEC">Mecklenburg</span></li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247008" class="event_title">247008. Inheritance of Frisia</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action A of <a href="AGCEEP_Specific_Friesland.txt.htm#evt171000" class="a_und">171000 - Frisian future</a> for <span class="country" title="FRI">Friesland</span><br />
+<h3>Description</h3>
+The last ruler of Friesland was Maria of Jever, who ruled until 1575. After her death, Friesland became a part of Oldenburg, as per her instructions which where initiated by Hero Oomkens von Esens who was a Frisian nobleman of Wittmund. Hero arranged in 1489 by his marriage to Armgard Countess of Oldenburg a set of instructions that upon the lack of heirs within the old Frisian aristocracy, that Frisia lands would become a part of Oldenburg.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Good!</h4>
+<ul class="action">
+<li>Inherit the realms of <span class="country" title="FRI">Friesland</span></li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt247002" class="event_title">247002. Oldenburg inherits Holstein</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="OLD">Oldenburg</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action A of <a href="AGCEEP_Specific_Holstein.txt.htm#evt279004" class="a_und">279004 - Death of the last Schauenburg</a> for <span class="country" title="SHL">Holstein</span><br />
+<h3>Description</h3>
+As expected long before, Adolf VIII Duke of Schleswig and Count of Holstein died childlessly in 1459. His closest male relative was his nephew, Christian of Oldenburg. Christian was proclaimed Duke of Schleswig and Count of Holstein after swearing that both territories would remain 'up ewig, ungedelt' (eternally undivided) and granting privileges to the estates in a charter signed in Riben on March 5th 1460.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Inherit Schleswig and Holstein and grant the privileges</h4>
+<ul class="action">
+<li>Inherit the realms of <span class="country" title="SHL">Holstein</span></li>
+<li><span class="province" title="Id:&nbsp;306,&nbsp;area:&nbsp;Hansa,&nbsp;region:&nbsp;HRE,&nbsp;continent:&nbsp;Europe">Holstein</span> will be considered a national province</li>
+<li>Centralization -2</li>
+<li>Aristocracy +2</li>
+<li>Stability +1</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="index">
+<div class="index_head"><h2><span class="index_title">AGCEEP_Specific_Oldenburg.txt</span></h2></div>
+<div class="index_body"></div> <!-- This must be present for the borders to work. -->
+<div class="index_footer">
+<p><a href="../eventdoc.htm">Back to index</a><br />
+<a href="#top">Back to top</a></p>
+</div> <!-- End of index footer -->
+</div> <!-- End of bottom index -->
+</div> <!-- End of main div -->
+
+<!-- Custom page end content -->
+<div></div> <!-- Empty div to help the layout when there is no custom content. -->
+
+<!-- End of custom content -->
+</body>
+</html>

@@ -1,0 +1,768 @@
+<html>
+<head>
+<title>AGCEEP For the Glory - Modders Corner</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="keywords" content="AGCEEP,Alternative Grand Campaign Event Exchange Project,europa universalis,paradox interactive,for the glory"/>
+<meta name="description" content="AGCEEP: Alternative Grand Campaign Event Exchange Project mod for For the Glory"/>
+<link rel="stylesheet" type="text/css" href="scripts/style.css" title="Style"/>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td valign="top" align="center" width="25"><a name="Top"></a><img border="0" src="images/0.gif" width="25" height="1"></td>
+		<td valign="top" align="center" width="140"><img border="0" src="images/AGCEEP.gif" width="110" height="60"></td>
+		<td valign="top" align="center" width="25"><img border="0" src="images/0.gif" width="25" height="1"></td>
+		<td valign="top" align="center" width="100%"><img border="0" src="images/0.gif" width="1" height="1"></td>
+		<td valign="top" align="center" width="25"><img border="0" src="images/0.gif" width="25" height="1"></td>
+	</tr>
+	<tr>
+		<td width="25"><img border="0" src="images/0.gif" width="25" width="1" height="1"></td>
+		<td width="140" valign="top">
+			<table border="0" cellspacing="0" cellpadding="0" width="140">
+				<tr>
+					<td width="20" height="20" background="images/corner-1.gif"></td>
+					<td valign="top" width="100" height="20" background="images/top.gif"></td>
+					<td width="20" height="20" background="images/corner-2.gif"></td>
+				</tr>
+				<tr>
+					<td width="20" background="images/left.gif"></td>
+					<td width="100" class="td_inner">
+						<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="index.htm">Introduction</a><br>
+						<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="Installation.htm">Installation</span><br>
+						<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="FAQ.htm">FAQ&nbsp;&amp;&nbsp;Tips</a><br>
+						<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="downloads.htm">Downloads</a><br>
+						<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<span class="menu_select">Modders&nbsp;Corner</span><br>
+						<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="eventdoc.htm">Documentation</a><br>
+					</td>
+					<td width="20" background="images/right.gif"></td>
+				</tr>
+				<tr>
+					<td width="20" height="20" background="images/corner-3.gif"></td>
+					<td valign="top" width="100" height="20" background="images/bottom.gif"></td>
+					<td width="20" height="20" background="images/corner-4.gif"></td>
+				</tr>
+			</table>
+		</td>
+		<td width="25"><img border="0" src="images/0.gif" width="25" width="1" height="1"></td>
+		<td width="100%">
+			<table border="0" cellspacing="0" cellpadding="0" width="100%">
+				<tr>
+					<td>
+						<table border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="20" height="20" background="images/corner-1.gif"></td>
+								<td valign="top" width="*" height="20" background="images/top.gif"></td>
+								<td width="20" height="20" background="images/corner-2.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" background="images/left.gif"></td>
+								<td width="*" class="td_inner"><span class="td_title">Table of content</span><br><br>
+									<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="#Repository">Grand ID and tag repository</a><br>
+									<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="#Cultures">Cultures in AGCEEP</a><br>
+									<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="#Events">Formatting events</a><br>
+									<img border="0" src="images/dot.gif" width="5" height="5" align="absmiddle">&nbsp;<a href="#Complements">Scripting complements and modding AI files</a><br>
+								</td>
+								<td width="20" background="images/right.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" height="20" background="images/corner-3.gif"></td>
+								<td valign="top" width="*" height="20" background="images/bottom.gif"></td>
+								<td width="20" height="20" background="images/corner-4.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" align="center" height="25"><img border="0" src="images/0.gif" width="1" height="25"></td>
+				</tr>
+				<tr>
+					<td>
+						<table border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="20" height="20" background="images/corner-1.gif"></td>
+								<td valign="top" width="*" height="20" background="images/top.gif"></td>
+								<td width="20" height="20" background="images/corner-2.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" background="images/left.gif"></td>
+								<td width="*" class="td_inner"><a name="Repository"></a><span class="td_title">Grand ID and tag repository</span><br><br>
+									<table border="1" cellpadding="2" cellspacing="0">
+										<tr><td><b>Tag</b></td><td width="100"><b>Events</b></td><td width="100"><b>Monarchs/Leaders</b></td><td>&nbsp;</td><td><b>Country</b></td><td><b>Comment</b></td></tr>
+										<tr><td><b>	ABB	</b></td><td align="right">	339000	</td><td align="right">	01000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ADE	</b></td><td align="right">	101000	</td><td align="right">	01500	</td><td>&nbsp;</td><td>	Aden	</td><td>	historical	</td></tr>
+										<tr><td><b>	AFG	</b></td><td align="right">	102000	</td><td align="right">	02000	</td><td>&nbsp;</td><td>	Afghanistan	</td><td>	historical	</td></tr>
+										<tr><td><b>	AKK	</b></td><td align="right">	103000	</td><td align="right">	02500	</td><td>&nbsp;</td><td>	Ak Koyunlu	</td><td>	historical	</td></tr>
+										<tr><td><b>	ALB	</b></td><td align="right">	104000	</td><td align="right">	03000	</td><td>&nbsp;</td><td>	Albania	</td><td>	historical	</td></tr>
+										<tr><td><b>	ALD	</b></td><td align="right">	105000	</td><td align="right">	03500	</td><td>&nbsp;</td><td>	Algiers	</td><td>	historical	</td></tr>
+										<tr><td><b>	ALE	</b></td><td align="right">	340000	</td><td align="right">	04000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ALI	</b></td><td align="right">	440000	</td><td align="right">	04500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ALM	</b></td><td align="right">	341000	</td><td align="right">	05000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ALT	</b></td><td align="right">	342000	</td><td align="right">	05500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Tlaxcala	</td></tr>
+										<tr><td><b>	AMG	</b></td><td align="right">	345000	</td><td align="right">	06000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Armagnac	</td></tr>
+										<tr><td><b>	AMI	</b></td><td align="right">	106000	</td><td align="right">	06500	</td><td>&nbsp;</td><td>	Lan Xang	</td><td>	historical	</td></tr>
+										<tr><td><b>	ANH	</b></td><td align="right">	441000	</td><td align="right">	07000	</td><td>&nbsp;</td><td>	Angoche	</td><td>	historical	</td></tr>
+										<tr><td><b>	ANJ	</b></td><td align="right">	343000	</td><td align="right">	07500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ANN	</b></td><td align="right">	107000	</td><td align="right">	08000	</td><td>&nbsp;</td><td>	Annam	</td><td>	historical	</td></tr>
+										<tr><td><b>	APA	</b></td><td align="right">	108000	</td><td align="right">	08500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	APU	</b></td><td align="right">	344000	</td><td align="right">	09000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	AQU	</b></td><td align="right">	109000	</td><td align="right">	09500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ARA	</b></td><td align="right">	110000	</td><td align="right">	010000	</td><td>&nbsp;</td><td>	Hejaz	</td><td>	historical	</td></tr>
+										<tr><td><b>	ARG	</b></td><td align="right">	111000	</td><td align="right">	010500	</td><td>&nbsp;</td><td>	Aragon	</td><td>	historical	</td></tr>
+										<tr><td><b>	ARK	</b></td><td align="right">	112000	</td><td align="right">	011000	</td><td>&nbsp;</td><td>	Arakan	</td><td>	historical	</td></tr>
+										<tr><td><b>	ARM	</b></td><td align="right">	113000	</td><td align="right">	011500	</td><td>&nbsp;</td><td>	Malindi	</td><td>	historical	</td></tr>
+										<tr><td><b>	ART	</b></td><td align="right">	346000	</td><td align="right">	012000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ASH	</b></td><td align="right">	114000	</td><td align="right">	012500	</td><td>&nbsp;</td><td>	Ashanti	</td><td>	historical	</td></tr>
+										<tr><td><b>	ASS	</b></td><td align="right">	115000	</td><td align="right">	013000	</td><td>&nbsp;</td><td>	Mongolia	</td><td>	historical	</td></tr>
+										<tr><td><b>	AST	</b></td><td align="right">	116000	</td><td align="right">	013500	</td><td>&nbsp;</td><td>	Astrakhan	</td><td>	historical	</td></tr>
+										<tr><td><b>	ASU	</b></td><td align="right">	347000	</td><td align="right">	014000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ATH	</b></td><td align="right">	117000	</td><td align="right">	014500	</td><td>&nbsp;</td><td>	Athens	</td><td>	historical	</td></tr>
+										<tr><td><b>	ATJ	</b></td><td align="right">	118000	</td><td align="right">	015000	</td><td>&nbsp;</td><td>	Atjeh	</td><td>	historical	</td></tr>
+										<tr><td><b>	AUV	</b></td><td align="right">	119000	</td><td align="right">	015500	</td><td>&nbsp;</td><td>	Magindanao	</td><td>	historical	</td></tr>
+										<tr><td><b>	AYU	</b></td><td align="right">	120000	</td><td align="right">	016000	</td><td>&nbsp;</td><td>	Ayutthaya	</td><td>	historical	</td></tr>
+										<tr><td><b>	AYY	</b></td><td align="right">	348000	</td><td align="right">	016500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	AZT	</b></td><td align="right">	121000	</td><td align="right">	017000	</td><td>&nbsp;</td><td>	Aztec Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	BAD	</b></td><td align="right">	122000	</td><td align="right">	017500	</td><td>&nbsp;</td><td>	Baden	</td><td>	historical	</td></tr>
+										<tr><td><b>	BAE	</b></td><td align="right">	349000	</td><td align="right">	018000	</td><td>&nbsp;</td><td>	Kakheti	</td><td>	historical	</td></tr>
+										<tr><td><b>	BAL	</b></td><td align="right">	123000	</td><td align="right">	018500	</td><td>&nbsp;</td><td>	Baluchistan	</td><td>	historical	</td></tr>
+										<tr><td><b>	BAN	</b></td><td align="right">	124000	</td><td align="right">	019000	</td><td>&nbsp;</td><td>	Timbuktu	</td><td>	historical	</td></tr>
+										<tr><td><b>	BAS	</b></td><td align="right">	350000	</td><td align="right">	019500	</td><td>&nbsp;</td><td>	Basrah	</td><td>	historical	</td></tr>
+										<tr><td><b>	BAY	</b></td><td align="right">	125000	</td><td align="right">	020000	</td><td>&nbsp;</td><td>	Bavaria	</td><td>	historical	</td></tr>
+										<tr><td><b>	BEA	</b></td><td align="right">	351000	</td><td align="right">	020500	</td><td>&nbsp;</td><td>	Foix	</td><td>	historical	</td></tr>
+										<tr><td><b>	BEI	</b></td><td align="right">	126000	</td><td align="right">	021000	</td><td>&nbsp;</td><td>	Brunei	</td><td>	historical	</td></tr>
+										<tr><td><b>	BEN	</b></td><td align="right">	127000	</td><td align="right">	021500	</td><td>&nbsp;</td><td>	Benin	</td><td>	historical	</td></tr>
+										<tr><td><b>	BGL	</b></td><td align="right">	128000	</td><td align="right">	022000	</td><td>&nbsp;</td><td>	Bengal	</td><td>	historical	</td></tr>
+										<tr><td><b>	BOH	</b></td><td align="right">	129000	</td><td align="right">	022500	</td><td>&nbsp;</td><td>	Bohemia	</td><td>	historical	</td></tr>
+										<tr><td><b>	BOS	</b></td><td align="right">	130000	</td><td align="right">	023000	</td><td>&nbsp;</td><td>	Bosnia	</td><td>	historical	</td></tr>
+										<tr><td><b>	BOU	</b></td><td align="right">	131000	</td><td align="right">	023500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	BRA	</b></td><td align="right">	132000	</td><td align="right">	024000	</td><td>&nbsp;</td><td>	Brandenburg	</td><td>	historical	</td></tr>
+										<tr><td><b>	BRE	</b></td><td align="right">	133000	</td><td align="right">	024500	</td><td>&nbsp;</td><td>	Bremen	</td><td>	historical	</td></tr>
+										<tr><td><b>	BRI	</b></td><td align="right">	134000	</td><td align="right">	025000	</td><td>&nbsp;</td><td>	Brittany	</td><td>	historical	</td></tr>
+										<tr><td><b>	BRZ	</b></td><td align="right">	135000	</td><td align="right">	025500	</td><td>&nbsp;</td><td>	Brazil	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	BUK	</b></td><td align="right">	352000	</td><td align="right">	026000	</td><td>&nbsp;</td><td>	Bukhara	</td><td>	historical	</td></tr>
+										<tr><td><b>	BUL	</b></td><td align="right">	136000	</td><td align="right">	026500	</td><td>&nbsp;</td><td>	Bulgaria	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	BUR	</b></td><td align="right">	137000	</td><td align="right">	027000	</td><td>&nbsp;</td><td>	Burgundy	</td><td>	historical	</td></tr>
+										<tr><td><b>	BYZ	</b></td><td align="right">	138000	</td><td align="right">	027500	</td><td>&nbsp;</td><td>	Byzantine Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	CAL	</b></td><td align="right">	139000	</td><td align="right">	028000	</td><td>&nbsp;</td><td>	Musha'sha'	</td><td>	historical	</td></tr>
+										<tr><td><b>	CAM	</b></td><td align="right">	140000	</td><td align="right">	028500	</td><td>&nbsp;</td><td>	Cambodia	</td><td>	historical	</td></tr>
+										<tr><td><b>	CAN	</b></td><td align="right">	141000	</td><td align="right">	029000	</td><td>&nbsp;</td><td>	Candar	</td><td>	historical	</td></tr>
+										<tr><td><b>	CAS	</b></td><td align="right">	142000	</td><td align="right">	029500	</td><td>&nbsp;</td><td>	Castile	</td><td>	historical	</td></tr>
+										<tr><td><b>	CAT	</b></td><td align="right">	143000	</td><td align="right">	030000	</td><td>&nbsp;</td><td>	Catalonia	</td><td>	historical	</td></tr>
+										<tr><td><b>	CHA	</b></td><td align="right">	144000	</td><td align="right">	030500	</td><td>&nbsp;</td><td>	Champa	</td><td>	historical	</td></tr>
+										<tr><td><b>	CHE	</b></td><td align="right">	145000	</td><td align="right">	031000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	CHG	</b></td><td align="right">	146000	</td><td align="right">	031500	</td><td>&nbsp;</td><td>	Chagatai Khanate	</td><td>	historical	</td></tr>
+										<tr><td><b>	CHI	</b></td><td align="right">	147000	</td><td align="right">	032000	</td><td>&nbsp;</td><td>	China	</td><td>	historical	</td></tr>
+										<tr><td><b>	CHM	</b></td><td align="right">	148000	</td><td align="right">	032500	</td><td>&nbsp;</td><td>	Chimu	</td><td>	historical	</td></tr>
+										<tr><td><b>	CMG	</b></td><td align="right">	353000	</td><td align="right">	033000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	CNW	</b></td><td align="right">	358000	</td><td align="right">	033500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	COI	</b></td><td align="right">	355000	</td><td align="right">	034000	</td><td>&nbsp;</td><td>	Cochin	</td><td>	historical	</td></tr>
+										<tr><td><b>	COL	</b></td><td align="right">	149000	</td><td align="right">	034500	</td><td>&nbsp;</td><td>	Colombia	</td><td>	historical	</td></tr>
+										<tr><td><b>	CON	</b></td><td align="right">	356000	</td><td align="right">	035000	</td><td>&nbsp;</td><td>	Connaught	</td><td>	historical	</td></tr>
+										<tr><td><b>	COR	</b></td><td align="right">	150000	</td><td align="right">	035500	</td><td>&nbsp;</td><td>	Corsica	</td><td>	historical	</td></tr>
+										<tr><td><b>	CRD	</b></td><td align="right">	357000	</td><td align="right">	036000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	CRE	</b></td><td align="right">	151000	</td><td align="right">	036500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	CRG	</b></td><td align="right">	354000	</td><td align="right">	037000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Uighuristan	</td></tr>
+										<tr><td><b>	CRI	</b></td><td align="right">	152000	</td><td align="right">	037500	</td><td>&nbsp;</td><td>	Crimea	</td><td>	historical	</td></tr>
+										<tr><td><b>	CRO	</b></td><td align="right">	153000	</td><td align="right">	038000	</td><td>&nbsp;</td><td>	Croatia	</td><td>	historical	</td></tr>
+										<tr><td><b>	CUM	</b></td><td align="right">	359000	</td><td align="right">	038500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	CYP	</b></td><td align="right">	154000	</td><td align="right">	039000	</td><td>&nbsp;</td><td>	Cyprus	</td><td>	historical	</td></tr>
+										<tr><td><b>	CYR	</b></td><td align="right">	155000	</td><td align="right">	039500	</td><td>&nbsp;</td><td>	Adal	</td><td>	historical	</td></tr>
+										<tr><td><b>	DAH	</b></td><td align="right">	156000	</td><td align="right">	040000	</td><td>&nbsp;</td><td>	Dahomey	</td><td>	historical	</td></tr>
+										<tr><td><b>	DAI	</b></td><td align="right">	157000	</td><td align="right">	040500	</td><td>&nbsp;</td><td>	Dai Viet	</td><td>	historical	</td></tr>
+										<tr><td><b>	DAK	</b></td><td align="right">	158000	</td><td align="right">	041000	</td><td>&nbsp;</td><td>	Champassak	</td><td>	historical	</td></tr>
+										<tr><td><b>	DAM	</b></td><td align="right">	360000	</td><td align="right">	041500	</td><td>&nbsp;</td><td>	Bijapur	</td><td>	historical	</td></tr>
+										<tr><td><b>	DAN	</b></td><td align="right">	159000	</td><td align="right">	042000	</td><td>&nbsp;</td><td>	Denmark	</td><td>	historical	</td></tr>
+										<tr><td><b>	DAU	</b></td><td align="right">	361000	</td><td align="right">	042500	</td><td>&nbsp;</td><td>	Dauphiné	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	DEL	</b></td><td align="right">	160000	</td><td align="right">	043000	</td><td>&nbsp;</td><td>	Mogadishu	</td><td>	historical	</td></tr>
+										<tr><td><b>	DLH	</b></td><td align="right">	161000	</td><td align="right">	043500	</td><td>&nbsp;</td><td>	Delhi	</td><td>	historical	</td></tr>
+										<tr><td><b>	DUL	</b></td><td align="right">	162000	</td><td align="right">	044000	</td><td>&nbsp;</td><td>	Dulkadir	</td><td>	historical	</td></tr>
+										<tr><td><b>	EDE	</b></td><td align="right">	362000	</td><td align="right">	044500	</td><td>&nbsp;</td><td>	Madurai	</td><td>	historical	</td></tr>
+										<tr><td><b>	EGY	</b></td><td align="right">	363000	</td><td align="right">	045000	</td><td>&nbsp;</td><td>	Egypt	</td><td>	historical	</td></tr>
+										<tr><td><b>	EIR	</b></td><td align="right">	163000	</td><td align="right">	045500	</td><td>&nbsp;</td><td>	Eire	</td><td>	historical	</td></tr>
+										<tr><td><b>	ENG	</b></td><td align="right">	164000	</td><td align="right">	046000	</td><td>&nbsp;</td><td>	England	</td><td>	historical	</td></tr>
+										<tr><td><b>	ETH	</b></td><td align="right">	165000	</td><td align="right">	046500	</td><td>&nbsp;</td><td>	Ethiopia	</td><td>	historical	</td></tr>
+										<tr><td><b>	FAT	</b></td><td align="right">	364000	</td><td align="right">	047000	</td><td>&nbsp;</td><td>	Calicut	</td><td>	historical	</td></tr>
+										<tr><td><b>	FEZ	</b></td><td align="right">	166000	</td><td align="right">	047500	</td><td>&nbsp;</td><td>	Sus	</td><td>	historical	</td></tr>
+										<tr><td><b>	FIN	</b></td><td align="right">	167000	</td><td align="right">	048000	</td><td>&nbsp;</td><td>	Finland	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	FLA	</b></td><td align="right">	168000	</td><td align="right">	048500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	FPR	</b></td><td align="right">	169000	</td><td align="right">	049000	</td><td>&nbsp;</td><td>	Huguenots	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	FRA	</b></td><td align="right">	170000	</td><td align="right">	049500	</td><td>&nbsp;</td><td>	France	</td><td>	historical	</td></tr>
+										<tr><td><b>	FRC	</b></td><td align="right">	365000	</td><td align="right">	050000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	FRI	</b></td><td align="right">	171000	</td><td align="right">	050500	</td><td>&nbsp;</td><td>	Friesland	</td><td>	historical	</td></tr>
+										<tr><td><b>	FUC	</b></td><td align="right">	172000	</td><td align="right">	051000	</td><td>&nbsp;</td><td>	French Catholics	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	GEL	</b></td><td align="right">	173000	</td><td align="right">	051500	</td><td>&nbsp;</td><td>	Gelderland	</td><td>	historical	</td></tr>
+										<tr><td><b>	GEN	</b></td><td align="right">	174000	</td><td align="right">	052000	</td><td>&nbsp;</td><td>	Genoa	</td><td>	historical	</td></tr>
+										<tr><td><b>	GEO	</b></td><td align="right">	175000	</td><td align="right">	052500	</td><td>&nbsp;</td><td>	Georgia	</td><td>	historical	</td></tr>
+										<tr><td><b>	GER	</b></td><td align="right">	366000	</td><td align="right">	053000	</td><td>&nbsp;</td><td>	Germany	</td><td>	fantasy	</td></tr>
+										<tr><td><b>	GOT	</b></td><td align="right">	367000	</td><td align="right">	053500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	GRA	</b></td><td align="right">	176000	</td><td align="right">	054000	</td><td>&nbsp;</td><td>	Granada	</td><td>	historical	</td></tr>
+										<tr><td><b>	GRE	</b></td><td align="right">	177000	</td><td align="right">	054500	</td><td>&nbsp;</td><td>	Greece	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	GUJ	</b></td><td align="right">	178000	</td><td align="right">	055000	</td><td>&nbsp;</td><td>	Gujarat	</td><td>	historical	</td></tr>
+										<tr><td><b>	HAB	</b></td><td align="right">	179000	</td><td align="right">	055500	</td><td>&nbsp;</td><td>	Austria	</td><td>	historical	</td></tr>
+										<tr><td><b>	HAI	</b></td><td align="right">	180000	</td><td align="right">	056000	</td><td>&nbsp;</td><td>	Haiti	</td><td>	historical	</td></tr>
+										<tr><td><b>	HAM	</b></td><td align="right">	368000	</td><td align="right">	056500	</td><td>&nbsp;</td><td>	Ha Mi	</td><td>	historical	</td></tr>
+										<tr><td><b>	HAN	</b></td><td align="right">	181000	</td><td align="right">	057000	</td><td>&nbsp;</td><td>	Hanover	</td><td>	historical	</td></tr>
+										<tr><td><b>	HAU	</b></td><td align="right">	182000	</td><td align="right">	057500	</td><td>&nbsp;</td><td>	Brabant	</td><td>	historical	</td></tr>
+										<tr><td><b>	HEI	</b></td><td align="right">	183000	</td><td align="right">	058000	</td><td>&nbsp;</td><td>	-	</td><td>	Holy Roman Empire	</td></tr>
+										<tr><td><b>	HEL	</b></td><td align="right">	184000	</td><td align="right">	058500	</td><td>&nbsp;</td><td>	Switzerland	</td><td>	historical	</td></tr>
+										<tr><td><b>	HES	</b></td><td align="right">	185000	</td><td align="right">	059000	</td><td>&nbsp;</td><td>	Hesse	</td><td>	historical	</td></tr>
+										<tr><td><b>	HLL	</b></td><td align="right">	369000	</td><td align="right">	059500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	HOL	</b></td><td align="right">	186000	</td><td align="right">	060000	</td><td>&nbsp;</td><td>	Netherlands	</td><td>	historical	</td></tr>
+										<tr><td><b>	HSA	</b></td><td align="right">	187000	</td><td align="right">	060500	</td><td>&nbsp;</td><td>	Habsburg Spain	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	HUN	</b></td><td align="right">	188000	</td><td align="right">	061000	</td><td>&nbsp;</td><td>	Hungary	</td><td>	historical	</td></tr>
+										<tr><td><b>	HUR	</b></td><td align="right">	189000	</td><td align="right">	061500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	HYD	</b></td><td align="right">	190000	</td><td align="right">	062000	</td><td>&nbsp;</td><td>	Golconda	</td><td>	historical	</td></tr>
+										<tr><td><b>	ICE	</b></td><td align="right">	370000	</td><td align="right">	062500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	INC	</b></td><td align="right">	191000	</td><td align="right">	063000	</td><td>&nbsp;</td><td>	Inca Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	IRA	</b></td><td align="right">	192000	</td><td align="right">	063500	</td><td>&nbsp;</td><td>	Irak	</td><td>	historical	</td></tr>
+										<tr><td><b>	IST	</b></td><td align="right">	371000	</td><td align="right">	064000	</td><td>&nbsp;</td><td>	Ikkeri	</td><td>	historical	</td></tr>
+										<tr><td><b>	ITA	</b></td><td align="right">	193000	</td><td align="right">	064500	</td><td>&nbsp;</td><td>	Italy	</td><td>	fantasy	</td></tr>
+										<tr><td><b>	JAI	</b></td><td align="right">	194000	</td><td align="right">	065000	</td><td>&nbsp;</td><td>	Rajputana	</td><td>	historical	</td></tr>
+										<tr><td><b>	JER	</b></td><td align="right">	195000	</td><td align="right">	065500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	JUT	</b></td><td align="right">	372000	</td><td align="right">	066000	</td><td>&nbsp;</td><td>	Jaunpur	</td><td>	historical	</td></tr>
+										<tr><td><b>	KAL	</b></td><td align="right">	196000	</td><td align="right">	066500	</td><td>&nbsp;</td><td>	Theodoros	</td><td>	historical	</td></tr>
+										<tr><td><b>	KAR	</b></td><td align="right">	197000	</td><td align="right">	067000	</td><td>&nbsp;</td><td>	Karaman	</td><td>	historical	</td></tr>
+										<tr><td><b>	KAZ	</b></td><td align="right">	198000	</td><td align="right">	067500	</td><td>&nbsp;</td><td>	Kazan	</td><td>	historical	</td></tr>
+										<tr><td><b>	KHM	</b></td><td align="right">	199000	</td><td align="right">	068000	</td><td>&nbsp;</td><td>	Lan Na	</td><td>	historical	</td></tr>
+										<tr><td><b>	KIE	</b></td><td align="right">	333000	</td><td align="right">	068500	</td><td>&nbsp;</td><td>	Kilwa	</td><td>	historical	</td></tr>
+										<tr><td><b>	KLE	</b></td><td align="right">	200000	</td><td align="right">	069000	</td><td>&nbsp;</td><td>	Cleves	</td><td>	historical	</td></tr>
+										<tr><td><b>	KNI	</b></td><td align="right">	201000	</td><td align="right">	069500	</td><td>&nbsp;</td><td>	Order of St. John	</td><td>	historical	</td></tr>
+										<tr><td><b>	KOL	</b></td><td align="right">	202000	</td><td align="right">	070000	</td><td>&nbsp;</td><td>	Cologne	</td><td>	historical	</td></tr>
+										<tr><td><b>	KON	</b></td><td align="right">	203000	</td><td align="right">	070500	</td><td>&nbsp;</td><td>	Congo	</td><td>	historical	</td></tr>
+										<tr><td><b>	KOR	</b></td><td align="right">	204000	</td><td align="right">	071000	</td><td>&nbsp;</td><td>	Korea	</td><td>	historical	</td></tr>
+										<tr><td><b>	KRE	</b></td><td align="right">	374000	</td><td align="right">	071500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	KRN	</b></td><td align="right">	376000	</td><td align="right">	072000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Cilli	</td></tr>
+										<tr><td><b>	KSH	</b></td><td align="right">	205000	</td><td align="right">	072500	</td><td>&nbsp;</td><td>	Punjab	</td><td>	historical	</td></tr>
+										<tr><td><b>	KUR	</b></td><td align="right">	206000	</td><td align="right">	073000	</td><td>&nbsp;</td><td>	Kurland	</td><td>	historical	</td></tr>
+										<tr><td><b>	KUS	</b></td><td align="right">	375000	</td><td align="right">	073500	</td><td>&nbsp;</td><td>	Kabul	</td><td>	historical	</td></tr>
+										<tr><td><b>	KZK	</b></td><td align="right">	207000	</td><td align="right">	074000	</td><td>&nbsp;</td><td>	Kazakhs	</td><td>	historical	</td></tr>
+										<tr><td><b>	LAN	</b></td><td align="right">	377000	</td><td align="right">	074500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	LAP	</b></td><td align="right">	208000	</td><td align="right">	075000	</td><td>&nbsp;</td><td>	La Plata	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	LAT	</b></td><td align="right">	209000	</td><td align="right">	075500	</td><td>&nbsp;</td><td>	Teutonic Order	</td><td>	historical	</td></tr>
+										<tr><td><b>	LEI	</b></td><td align="right">	379000	</td><td align="right">	076000	</td><td>&nbsp;</td><td>	Leinster	</td><td>	historical	</td></tr>
+										<tr><td><b>	LEO	</b></td><td align="right">	380000	</td><td align="right">	076500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	LGD	</b></td><td align="right">	378000	</td><td align="right">	077000	</td><td>&nbsp;</td><td>	Lu Chuan	</td><td>	historical	</td></tr>
+										<tr><td><b>	LIT	</b></td><td align="right">	210000	</td><td align="right">	077500	</td><td>&nbsp;</td><td>	Lithuania	</td><td>	historical	</td></tr>
+										<tr><td><b>	LIV	</b></td><td align="right">	381000	</td><td align="right">	078000	</td><td>&nbsp;</td><td>	Livonian Order	</td><td>	historical	</td></tr>
+										<tr><td><b>	LOR	</b></td><td align="right">	211000	</td><td align="right">	078500	</td><td>&nbsp;</td><td>	Lorraine	</td><td>	historical	</td></tr>
+										<tr><td><b>	LOU	</b></td><td align="right">	382000	</td><td align="right">	079000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	LUA	</b></td><td align="right">	212000	</td><td align="right">	079500	</td><td>&nbsp;</td><td>	Luang Prabang	</td><td>	historical	</td></tr>
+										<tr><td><b>	LUX	</b></td><td align="right">	213000	</td><td align="right">	080000	</td><td>&nbsp;</td><td>	Luxemburg	</td><td>	historical	</td></tr>
+										<tr><td><b>	MAA	</b></td><td align="right">	214000	</td><td align="right">	080500	</td><td>&nbsp;</td><td>	Maya	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	MAG	</b></td><td align="right">	215000	</td><td align="right">	081000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	MAH	</b></td><td align="right">	216000	</td><td align="right">	081500	</td><td>&nbsp;</td><td>	Mahrattis	</td><td>	historical	</td></tr>
+										<tr><td><b>	MAI	</b></td><td align="right">	217000	</td><td align="right">	082000	</td><td>&nbsp;</td><td>	Mainz	</td><td>	historical	</td></tr>
+										<tr><td><b>	MAL	</b></td><td align="right">	218000	</td><td align="right">	082500	</td><td>&nbsp;</td><td>	Mali	</td><td>	historical	</td></tr>
+										<tr><td><b>	MAM	</b></td><td align="right">	219000	</td><td align="right">	083000	</td><td>&nbsp;</td><td>	Mamluks	</td><td>	historical	</td></tr>
+										<tr><td><b>	MAN	</b></td><td align="right">	220000	</td><td align="right">	083500	</td><td>&nbsp;</td><td>	Mantua	</td><td>	historical	</td></tr>
+										<tr><td><b>	MCH	</b></td><td align="right">	221000	</td><td align="right">	084000	</td><td>&nbsp;</td><td>	Manchus	</td><td>	historical	</td></tr>
+										<tr><td><b>	MEA	</b></td><td align="right">	384000	</td><td align="right">	084500	</td><td>&nbsp;</td><td>	Meng Yang	</td><td>	historical	</td></tr>
+										<tr><td><b>	MEC	</b></td><td align="right">	222000	</td><td align="right">	085000	</td><td>&nbsp;</td><td>	Mecklenburg	</td><td>	historical	</td></tr>
+										<tr><td><b>	MER	</b></td><td align="right">	223000	</td><td align="right">	085500	</td><td>&nbsp;</td><td>	-	</td><td>	Mercenaries - special use	</td></tr>
+										<tr><td><b>	MES	</b></td><td align="right">	385000	</td><td align="right">	086000	</td><td>&nbsp;</td><td>	Sindh	</td><td>	historical	</td></tr>
+										<tr><td><b>	MEX	</b></td><td align="right">	224000	</td><td align="right">	086500	</td><td>&nbsp;</td><td>	Mexico	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	MIN	</b></td><td align="right">	225000	</td><td align="right">	087000	</td><td>&nbsp;</td><td>	Masovia	</td><td>	historical	</td></tr>
+										<tr><td><b>	MKS	</b></td><td align="right">	226000	</td><td align="right">	087500	</td><td>&nbsp;</td><td>	Makassar	</td><td>	historical	</td></tr>
+										<tr><td><b>	MLC	</b></td><td align="right">	227000	</td><td align="right">	088000	</td><td>&nbsp;</td><td>	Malacca	</td><td>	historical	</td></tr>
+										<tr><td><b>	MLL	</b></td><td align="right">	383000	</td><td align="right">	088500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	MLO	</b></td><td align="right">	228000	</td><td align="right">	089000	</td><td>&nbsp;</td><td>	Milan	</td><td>	historical	</td></tr>
+										<tr><td><b>	MLW	</b></td><td align="right">	229000	</td><td align="right">	089500	</td><td>&nbsp;</td><td>	Malwa	</td><td>	historical	</td></tr>
+										<tr><td><b>	MOG	</b></td><td align="right">	230000	</td><td align="right">	090000	</td><td>&nbsp;</td><td>	Mughal Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	MOL	</b></td><td align="right">	231000	</td><td align="right">	090500	</td><td>&nbsp;</td><td>	Moldavia	</td><td>	historical	</td></tr>
+										<tr><td><b>	MOR	</b></td><td align="right">	232000	</td><td align="right">	091000	</td><td>&nbsp;</td><td>	Morocco	</td><td>	historical	</td></tr>
+										<tr><td><b>	MOS	</b></td><td align="right">	233000	</td><td align="right">	091500	</td><td>&nbsp;</td><td>	Muscovy	</td><td>	historical	</td></tr>
+										<tr><td><b>	MSK	</b></td><td align="right">	386000	</td><td align="right">	092000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	MST	</b></td><td align="right">	387000	</td><td align="right">	092500	</td><td>&nbsp;</td><td>	Desmond	</td><td>	historical	</td></tr>
+										<tr><td><b>	MTR	</b></td><td align="right">	234000	</td><td align="right">	093000	</td><td>&nbsp;</td><td>	Mataram	</td><td>	historical	</td></tr>
+										<tr><td><b>	MUN	</b></td><td align="right">	235000	</td><td align="right">	093500	</td><td>&nbsp;</td><td>	Berg	</td><td>	historical	</td></tr>
+										<tr><td><b>	MUS	</b></td><td align="right">	236000	</td><td align="right">	094000	</td><td>&nbsp;</td><td>	-	</td><td>	placeholder for Reformation mod	</td></tr>
+										<tr><td><b>	MYA	</b></td><td align="right">	237000	</td><td align="right">	094500	</td><td>&nbsp;</td><td>	Burma	</td><td>	historical	</td></tr>
+										<tr><td><b>	MYS	</b></td><td align="right">	238000	</td><td align="right">	095000	</td><td>&nbsp;</td><td>	Mysore	</td><td>	historical	</td></tr>
+										<tr><td><b>	NAF	</b></td><td align="right">	389000	</td><td align="right">	095500	</td><td>&nbsp;</td><td>	Gondwana	</td><td>	historical	</td></tr>
+										<tr><td><b>	NAP	</b></td><td align="right">	239000	</td><td align="right">	096000	</td><td>&nbsp;</td><td>	Naples	</td><td>	historical	</td></tr>
+										<tr><td><b>	NAT	</b></td><td align="right">	240000	</td><td align="right">	096500	</td><td>&nbsp;</td><td>	-	</td><td>	Natives - special use	</td></tr>
+										<tr><td><b>	NAV	</b></td><td align="right">	241000	</td><td align="right">	097000	</td><td>&nbsp;</td><td>	Navarra	</td><td>	historical	</td></tr>
+										<tr><td><b>	NIP	</b></td><td align="right">	242000	</td><td align="right">	097500	</td><td>&nbsp;</td><td>	Japan	</td><td>	historical	</td></tr>
+										<tr><td><b>	NOG	</b></td><td align="right">	243000	</td><td align="right">	098000	</td><td>&nbsp;</td><td>	Ferghana	</td><td>	historical	</td></tr>
+										<tr><td><b>	NOR	</b></td><td align="right">	244000	</td><td align="right">	098500	</td><td>&nbsp;</td><td>	Norway	</td><td>	historical	</td></tr>
+										<tr><td><b>	NRM	</b></td><td align="right">	388000	</td><td align="right">	099000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	NVG	</b></td><td align="right">	245000	</td><td align="right">	099500	</td><td>&nbsp;</td><td>	Novgorod	</td><td>	historical	</td></tr>
+										<tr><td><b>	OHI	</b></td><td align="right">	246000	</td><td align="right">	0100000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	OLD	</b></td><td align="right">	247000	</td><td align="right">	0100500	</td><td>&nbsp;</td><td>	Oldenburg	</td><td>	historical	</td></tr>
+										<tr><td><b>	OMA	</b></td><td align="right">	248000	</td><td align="right">	0101000	</td><td>&nbsp;</td><td>	Oman	</td><td>	historical	</td></tr>
+										<tr><td><b>	ORI	</b></td><td align="right">	249000	</td><td align="right">	0101500	</td><td>&nbsp;</td><td>	Orissa	</td><td>	historical	</td></tr>
+										<tr><td><b>	ORL	</b></td><td align="right">	250000	</td><td align="right">	0102000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	PAM	</b></td><td align="right">	252000	</td><td align="right">	0102500	</td><td>&nbsp;</td><td>	Modena	</td><td>	historical	</td></tr>
+										<tr><td><b>	PAP	</b></td><td align="right">	251000	</td><td align="right">	0103000	</td><td>&nbsp;</td><td>	Papal States	</td><td>	historical	</td></tr>
+										<tr><td><b>	PAR	</b></td><td align="right">	390000	</td><td align="right">	0103500	</td><td>&nbsp;</td><td>	Parma	</td><td>	historical	</td></tr>
+										<tr><td><b>	PEG	</b></td><td align="right">	253000	</td><td align="right">	0104000	</td><td>&nbsp;</td><td>	Mon	</td><td>	historical	</td></tr>
+										<tr><td><b>	PER	</b></td><td align="right">	254000	</td><td align="right">	0104500	</td><td>&nbsp;</td><td>	Safavid Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	PET	</b></td><td align="right">	392000	</td><td align="right">	0105000	</td><td>&nbsp;</td><td>	Gingee	</td><td>	historical	</td></tr>
+										<tr><td><b>	PEU	</b></td><td align="right">	391000	</td><td align="right">	0105500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Peru	</td></tr>
+										<tr><td><b>	PFA	</b></td><td align="right">	255000	</td><td align="right">	0106000	</td><td>&nbsp;</td><td>	Palatinate	</td><td>	historical	</td></tr>
+										<tr><td><b>	PIC	</b></td><td align="right">	393000	</td><td align="right">	0106500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Tarascan	</td></tr>
+										<tr><td><b>	PIR	</b></td><td align="right">	256000	</td><td align="right">	0107000	</td><td>&nbsp;</td><td>	-	</td><td>	Pirates - special use	</td></tr>
+										<tr><td><b>	PIS	</b></td><td align="right">	257000	</td><td align="right">	0107500	</td><td>&nbsp;</td><td>	Siena	</td><td>	historical	</td></tr>
+										<tr><td><b>	POD	</b></td><td align="right">	394000	</td><td align="right">	0108000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	POI	</b></td><td align="right">	395000	</td><td align="right">	0108500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	POK	</b></td><td align="right">	396000	</td><td align="right">	0109000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	POL	</b></td><td align="right">	258000	</td><td align="right">	0109500	</td><td>&nbsp;</td><td>	Poland	</td><td>	historical	</td></tr>
+										<tr><td><b>	POM	</b></td><td align="right">	259000	</td><td align="right">	0110000	</td><td>&nbsp;</td><td>	Pomerania	</td><td>	historical	</td></tr>
+										<tr><td><b>	POR	</b></td><td align="right">	260000	</td><td align="right">	0110500	</td><td>&nbsp;</td><td>	Portugal	</td><td>	historical	</td></tr>
+										<tr><td><b>	PRM	</b></td><td align="right">	261000	</td><td align="right">	0111000	</td><td>&nbsp;</td><td>	Styria	</td><td>	historical	</td></tr>
+										<tr><td><b>	PRO	</b></td><td align="right">	262000	</td><td align="right">	0111500	</td><td>&nbsp;</td><td>	Provence	</td><td>	historical	</td></tr>
+										<tr><td><b>	PRT	</b></td><td align="right">	397000	</td><td align="right">	0112000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Oirat	</td></tr>
+										<tr><td><b>	PRU	</b></td><td align="right">	263000	</td><td align="right">	0112500	</td><td>&nbsp;</td><td>	Prussia	</td><td>	historical	</td></tr>
+										<tr><td><b>	PSK	</b></td><td align="right">	264000	</td><td align="right">	0113000	</td><td>&nbsp;</td><td>	Pskov	</td><td>	historical	</td></tr>
+										<tr><td><b>	PUR	</b></td><td align="right">	265000	</td><td align="right">	0113500	</td><td>&nbsp;</td><td>	Puritans	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	QAR	</b></td><td align="right">	266000	</td><td align="right">	0114000	</td><td>&nbsp;</td><td>	Qara Koyunlu	</td><td>	historical	</td></tr>
+										<tr><td><b>	QUE	</b></td><td align="right">	267000	</td><td align="right">	0114500	</td><td>&nbsp;</td><td>	Quebec	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	RAG	</b></td><td align="right">	268000	</td><td align="right">	0115000	</td><td>&nbsp;</td><td>	Ramazan	</td><td>	historical	</td></tr>
+										<tr><td><b>	REB	</b></td><td align="right">	269000	</td><td align="right">	0115500	</td><td>&nbsp;</td><td>	-	</td><td>	Rebel Scum - special use	</td></tr>
+										<tr><td><b>	ROM	</b></td><td align="right">	398000	</td><td align="right">	0116000	</td><td>&nbsp;</td><td>	Romanist Bohemia	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	ROY	</b></td><td align="right">	270000	</td><td align="right">	0116500	</td><td>&nbsp;</td><td>	Royalists	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	RUS	</b></td><td align="right">	271000	</td><td align="right">	0117000	</td><td>&nbsp;</td><td>	Russia	</td><td>	historical	</td></tr>
+										<tr><td><b>	RYA	</b></td><td align="right">	272000	</td><td align="right">	0117500	</td><td>&nbsp;</td><td>	Ryazan	</td><td>	historical	</td></tr>
+										<tr><td><b>	SAC	</b></td><td align="right">	273000	</td><td align="right">	0118000	</td><td>&nbsp;</td><td>	Saxony	</td><td>	historical	</td></tr>
+										<tr><td><b>	SAR	</b></td><td align="right">	274000	</td><td align="right">	0118500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	SAV	</b></td><td align="right">	275000	</td><td align="right">	0119000	</td><td>&nbsp;</td><td>	Savoy	</td><td>	historical	</td></tr>
+										<tr><td><b>	SCO	</b></td><td align="right">	276000	</td><td align="right">	0119500	</td><td>&nbsp;</td><td>	Scotland	</td><td>	historical	</td></tr>
+										<tr><td><b>	SEI	</b></td><td align="right">	405000	</td><td align="right">	0120000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: British East India Company	</td></tr>
+										<tr><td><b>	SEL	</b></td><td align="right">	399000	</td><td align="right">	0120500	</td><td>&nbsp;</td><td>	Imereti	</td><td>	historical	</td></tr>
+										<tr><td><b>	SER	</b></td><td align="right">	277000	</td><td align="right">	0121000	</td><td>&nbsp;</td><td>	Serbia	</td><td>	historical	</td></tr>
+										<tr><td><b>	SEV	</b></td><td align="right">	400000	</td><td align="right">	0121500	</td><td>&nbsp;</td><td>	Abkhazia	</td><td>	historical	</td></tr>
+										<tr><td><b>	SHA	</b></td><td align="right">	278000	</td><td align="right">	0122000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Shewa	</td></tr>
+										<tr><td><b>	SHL	</b></td><td align="right">	279000	</td><td align="right">	0122500	</td><td>&nbsp;</td><td>	Holstein	</td><td>	historical	</td></tr>
+										<tr><td><b>	SIB	</b></td><td align="right">	280000	</td><td align="right">	0123000	</td><td>&nbsp;</td><td>	Sibir	</td><td>	historical	</td></tr>
+										<tr><td><b>	SIC	</b></td><td align="right">	281000	</td><td align="right">	0123500	</td><td>&nbsp;</td><td>	Sicily	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	SIE	</b></td><td align="right">	282000	</td><td align="right">	0124000	</td><td>&nbsp;</td><td>	Transylvania	</td><td>	historical	</td></tr>
+										<tr><td><b>	SIL	</b></td><td align="right">	401000	</td><td align="right">	0124500	</td><td>&nbsp;</td><td>	Hussites	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	SKA	</b></td><td align="right">	402000	</td><td align="right">	0125000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	SLO	</b></td><td align="right">	403000	</td><td align="right">	0125500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Sofala	</td></tr>
+										<tr><td><b>	SLZ	</b></td><td align="right">	283000	</td><td align="right">	0126000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	SMO	</b></td><td align="right">	404000	</td><td align="right">	0126500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	SON	</b></td><td align="right">	284000	</td><td align="right">	0127000	</td><td>&nbsp;</td><td>	Songhai	</td><td>	historical	</td></tr>
+										<tr><td><b>	SPA	</b></td><td align="right">	285000	</td><td align="right">	0127500	</td><td>&nbsp;</td><td>	Spain	</td><td>	historical	</td></tr>
+										<tr><td><b>	SPR	</b></td><td align="right">	286000	</td><td align="right">	0128000	</td><td>&nbsp;</td><td>	Morea	</td><td>	historical	</td></tr>
+										<tr><td><b>	STE	</b></td><td align="right">	287000	</td><td align="right">	0128500	</td><td>&nbsp;</td><td>	Golden Horde	</td><td>	historical	</td></tr>
+										<tr><td><b>	STR	</b></td><td align="right">	288000	</td><td align="right">	0129000	</td><td>&nbsp;</td><td>	Strasburg	</td><td>	historical	</td></tr>
+										<tr><td><b>	STT	</b></td><td align="right">	406000	</td><td align="right">	0129500	</td><td>&nbsp;</td><td>	Stettin	</td><td>	historical	</td></tr>
+										<tr><td><b>	SUD	</b></td><td align="right">	289000	</td><td align="right">	0130000	</td><td>&nbsp;</td><td>	Nubia	</td><td>	historical	</td></tr>
+										<tr><td><b>	SUZ	</b></td><td align="right">	290000	</td><td align="right">	0130500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	SWA	</b></td><td align="right">	407000	</td><td align="right">	0131000	</td><td>&nbsp;</td><td>	Bima	</td><td>	historical	</td></tr>
+										<tr><td><b>	SWE	</b></td><td align="right">	291000	</td><td align="right">	0131500	</td><td>&nbsp;</td><td>	Sweden	</td><td>	historical	</td></tr>
+										<tr><td><b>	SYR	</b></td><td align="right">	408000	</td><td align="right">	0132000	</td><td>&nbsp;</td><td>	Haihaya	</td><td>	historical	</td></tr>
+										<tr><td><b>	TAN	</b></td><td align="right">	409000	</td><td align="right">	0132500	</td><td>&nbsp;</td><td>	Travancore	</td><td>	historical	</td></tr>
+										<tr><td><b>	TAU	</b></td><td align="right">	292000	</td><td align="right">	0133000	</td><td>&nbsp;</td><td>	Mu Bang	</td><td>	historical	</td></tr>
+										<tr><td><b>	TEK	</b></td><td align="right">	293000	</td><td align="right">	0133500	</td><td>&nbsp;</td><td>	Ghazi	</td><td>	historical	</td></tr>
+										<tr><td><b>	THE	</b></td><td align="right">	410000	</td><td align="right">	0134000	</td><td>&nbsp;</td><td>	Bahmanid Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	THU	</b></td><td align="right">	294000	</td><td align="right">	0134500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	TIB	</b></td><td align="right">	295000	</td><td align="right">	0135000	</td><td>&nbsp;</td><td>	Tibet	</td><td>	historical	</td></tr>
+										<tr><td><b>	TIM	</b></td><td align="right">	296000	</td><td align="right">	0135500	</td><td>&nbsp;</td><td>	Timurid Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	TOS	</b></td><td align="right">	297000	</td><td align="right">	0136000	</td><td>&nbsp;</td><td>	Tuscany	</td><td>	historical	</td></tr>
+										<tr><td><b>	TOU	</b></td><td align="right">	411000	</td><td align="right">	0136500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	TOX	</b></td><td align="right">	412000	</td><td align="right">	0137000	</td><td>&nbsp;</td><td>	Balkh	</td><td>	historical	</td></tr>
+										<tr><td><b>	TRE	</b></td><td align="right">	298000	</td><td align="right">	0137500	</td><td>&nbsp;</td><td>	Trebizond	</td><td>	historical	</td></tr>
+										<tr><td><b>	TRI	</b></td><td align="right">	299000	</td><td align="right">	0138000	</td><td>&nbsp;</td><td>	Tripoli	</td><td>	historical	</td></tr>
+										<tr><td><b>	TUN	</b></td><td align="right">	300000	</td><td align="right">	0138500	</td><td>&nbsp;</td><td>	Tunisia	</td><td>	historical	</td></tr>
+										<tr><td><b>	TUR	</b></td><td align="right">	301000	</td><td align="right">	0139000	</td><td>&nbsp;</td><td>	Ottoman Empire	</td><td>	historical	</td></tr>
+										<tr><td><b>	TVE	</b></td><td align="right">	302000	</td><td align="right">	0139500	</td><td>&nbsp;</td><td>	Tver	</td><td>	historical	</td></tr>
+										<tr><td><b>	TYR	</b></td><td align="right">	413000	</td><td align="right">	0140000	</td><td>&nbsp;</td><td>	Tyrol	</td><td>	historical	</td></tr>
+										<tr><td><b>	U00	</b></td><td align="right">	303000	</td><td align="right">	0140500	</td><td>&nbsp;</td><td>	Khiva	</td><td>	historical	</td></tr>
+										<tr><td><b>	U01	</b></td><td align="right">	304000	</td><td align="right">	0141000	</td><td>&nbsp;</td><td>	Khorasan	</td><td>	historical	</td></tr>
+										<tr><td><b>	U02	</b></td><td align="right">	305000	</td><td align="right">	0141500	</td><td>&nbsp;</td><td>	Ahmadnagar	</td><td>	historical	</td></tr>
+										<tr><td><b>	U03	</b></td><td align="right">	306000	</td><td align="right">	0142000	</td><td>&nbsp;</td><td>	Fars	</td><td>	historical	</td></tr>
+										<tr><td><b>	U04	</b></td><td align="right">	307000	</td><td align="right">	0142500	</td><td>&nbsp;</td><td>	Sirvan	</td><td>	historical	</td></tr>
+										<tr><td><b>	U05	</b></td><td align="right">	308000	</td><td align="right">	0143000	</td><td>&nbsp;</td><td>	Ternate	</td><td>	historical	</td></tr>
+										<tr><td><b>	U06	</b></td><td align="right">	309000	</td><td align="right">	0143500	</td><td>&nbsp;</td><td>	Butung	</td><td>	historical	</td></tr>
+										<tr><td><b>	U07	</b></td><td align="right">	310000	</td><td align="right">	0144000	</td><td>&nbsp;</td><td>	Mossi	</td><td>	historical	</td></tr>
+										<tr><td><b>	U08	</b></td><td align="right">	311000	</td><td align="right">	0144500	</td><td>&nbsp;</td><td>	Hausa	</td><td>	historical	</td></tr>
+										<tr><td><b>	U09	</b></td><td align="right">	312000	</td><td align="right">	0145000	</td><td>&nbsp;</td><td>	Oyo	</td><td>	historical	</td></tr>
+										<tr><td><b>	U10 </b></td><td align="right">	313000	</td><td align="right">	0145500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	U11	</b></td><td align="right">	314000	</td><td align="right">	0146000	</td><td>&nbsp;</td><td>	Da Shun	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	U12	</b></td><td align="right">	315000	</td><td align="right">	0146500	</td><td>&nbsp;</td><td>	Da Xi	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	U13	</b></td><td align="right">	316000	</td><td align="right">	0147000	</td><td>&nbsp;</td><td>	Zhou	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	U14	</b></td><td align="right">	317000	</td><td align="right">	0147500	</td><td>&nbsp;</td><td>	Southern Ming	</td><td>	civil war state	</td></tr>
+										<tr><td><b>	U15	</b></td><td align="right">	318000	</td><td align="right">	0148000	</td><td>&nbsp;</td><td>	Palembang	</td><td>	historical	</td></tr>
+										<tr><td><b>	U16	</b></td><td align="right">	319000	</td><td align="right">	0148500	</td><td>&nbsp;</td><td>	Meissen	</td><td>	historical	</td></tr>
+										<tr><td><b>	U17	</b></td><td align="right">	320000	</td><td align="right">	0149000	</td><td>&nbsp;</td><td>	Luwu	</td><td>	historical	</td></tr>
+										<tr><td><b>	U18	</b></td><td align="right">	321000	</td><td align="right">	0149500	</td><td>&nbsp;</td><td>	Yemen	</td><td>	historical	</td></tr>
+										<tr><td><b>	U19	</b></td><td align="right">	322000	</td><td align="right">	0150000	</td><td>&nbsp;</td><td>	Lanka	</td><td>	historical	</td></tr>
+										<tr><td><b>	U20	</b></td><td align="right">	420000	</td><td align="right">	0150500	</td><td>&nbsp;</td><td>	Hadramut	</td><td>	historical	</td></tr>
+										<tr><td><b>	U21	</b></td><td align="right">	421000	</td><td align="right">	0151000	</td><td>&nbsp;</td><td>	Mahra	</td><td>	historical	</td></tr>
+										<tr><td><b>	U22	</b></td><td align="right">	422000	</td><td align="right">	0151500	</td><td>&nbsp;</td><td>	Gharra	</td><td>	historical	</td></tr>
+										<tr><td><b>	U23	</b></td><td align="right">	423000	</td><td align="right">	0152000	</td><td>&nbsp;</td><td>	Ormuz	</td><td>	historical	</td></tr>
+										<tr><td><b>	U24	</b></td><td align="right">	424000	</td><td align="right">	0152500	</td><td>&nbsp;</td><td>	Al-Haasa	</td><td>	historical	</td></tr>
+										<tr><td><b>	U25	</b></td><td align="right">	425000	</td><td align="right">	0153000	</td><td>&nbsp;</td><td>	Buriat Horde	</td><td>	historical	</td></tr>
+										<tr><td><b>	U26	</b></td><td align="right">	426000	</td><td align="right">	0153500	</td><td>&nbsp;</td><td>	Kutei	</td><td>	historical	</td></tr>
+										<tr><td><b>	U27	</b></td><td align="right">	427000	</td><td align="right">	0154000	</td><td>&nbsp;</td><td>	Banjar	</td><td>	historical	</td></tr>
+										<tr><td><b>	U28	</b></td><td align="right">	428000	</td><td align="right">	0154500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	U29	</b></td><td align="right">	429000	</td><td align="right">	0155000	</td><td>&nbsp;</td><td>	Bali	</td><td>	historical	</td></tr>
+										<tr><td><b>	U30	</b></td><td align="right">	430000	</td><td align="right">	0155500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Japanese breakaway state	</td></tr>
+										<tr><td><b>	U31	</b></td><td align="right">	431000	</td><td align="right">	0156000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Japanese breakaway state	</td></tr>
+										<tr><td><b>	U32	</b></td><td align="right">	432000	</td><td align="right">	0156500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Japanese breakaway state	</td></tr>
+										<tr><td><b>	U33	</b></td><td align="right">	433000	</td><td align="right">	0157000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Japanese breakaway state	</td></tr>
+										<tr><td><b>	U34	</b></td><td align="right">	434000	</td><td align="right">	0157500	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Japanese breakaway state	</td></tr>
+										<tr><td><b>	U35	</b></td><td align="right">	435000	</td><td align="right">	0158000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Japanese breakaway state	</td></tr>
+										<tr><td><b>	U36	</b></td><td align="right">	436000	</td><td align="right">	0158500	</td><td>&nbsp;</td><td>	Perak	</td><td>	historical	</td></tr>
+										<tr><td><b>	U37	</b></td><td align="right">	437000	</td><td align="right">	0159000	</td><td>&nbsp;</td><td>	Siak	</td><td>	historical	</td></tr>
+										<tr><td><b>	U38	</b></td><td align="right">	438000	</td><td align="right">	0159500	</td><td>&nbsp;</td><td>	Sulu	</td><td>	historical	</td></tr>
+										<tr><td><b>	U39	</b></td><td align="right">	439000	</td><td align="right">	0160000	</td><td>&nbsp;</td><td>	Bantam	</td><td>	historical	</td></tr>
+										<tr><td><b>	UKR	</b></td><td align="right">	323000	</td><td align="right">	0160500	</td><td>&nbsp;</td><td>	Ukraine	</td><td>	historical	</td></tr>
+										<tr><td><b>	ULS	</b></td><td align="right">	414000	</td><td align="right">	0161000	</td><td>&nbsp;</td><td>	Ulster	</td><td>	historical	</td></tr>
+										<tr><td><b>	USA	</b></td><td align="right">	324000	</td><td align="right">	0161500	</td><td>&nbsp;</td><td>	United States	</td><td>	historical	</td></tr>
+										<tr><td><b>	UZB	</b></td><td align="right">	325000	</td><td align="right">	0162000	</td><td>&nbsp;</td><td>	Uzbeks	</td><td>	historical	</td></tr>
+										<tr><td><b>	VAL	</b></td><td align="right">	415000	</td><td align="right">	0162500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	VEN	</b></td><td align="right">	326000	</td><td align="right">	0163000	</td><td>&nbsp;</td><td>	Venice	</td><td>	historical	</td></tr>
+										<tr><td><b>	VER	</b></td><td align="right">	416000	</td><td align="right">	0163500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	VIE	</b></td><td align="right">	327000	</td><td align="right">	0164000	</td><td>&nbsp;</td><td>	Vientiane	</td><td>	historical	</td></tr>
+										<tr><td><b>	VIJ	</b></td><td align="right">	328000	</td><td align="right">	0164500	</td><td>&nbsp;</td><td>	Vijayanagar	</td><td>	historical	</td></tr>
+										<tr><td><b>	VOL	</b></td><td align="right">	417000	</td><td align="right">	0165000	</td><td>&nbsp;</td><td>	-	</td><td>	reserved: Dutch East India Company	</td></tr>
+										<tr><td><b>	WAL	</b></td><td align="right">	329000	</td><td align="right">	0165500	</td><td>&nbsp;</td><td>	Wallachia	</td><td>	historical	</td></tr>
+										<tr><td><b>	WLS	</b></td><td align="right">	330000	</td><td align="right">	0166000	</td><td>&nbsp;</td><td>	Wales	</td><td>	plausible ahistorical revolter	</td></tr>
+										<tr><td><b>	WUR	</b></td><td align="right">	331000	</td><td align="right">	0166500	</td><td>&nbsp;</td><td>	Wirtemberg	</td><td>	historical	</td></tr>
+										<tr><td><b>	XHO	</b></td><td align="right">	332000	</td><td align="right">	0167000	</td><td>&nbsp;</td><td>	Tlemcen	</td><td>	historical	</td></tr>
+										<tr><td><b>	YOR	</b></td><td align="right">	418000	</td><td align="right">	0167500	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ZAN	</b></td><td align="right">	373000	</td><td align="right">	0168000	</td><td>&nbsp;</td><td>	Zanzibar	</td><td>	historical	</td></tr>
+										<tr><td><b>	ZAP	</b></td><td align="right">	334000	</td><td align="right">	0168500	</td><td>&nbsp;</td><td>	Zapotecs	</td><td>	historical	</td></tr>
+										<tr><td><b>	ZEE	</b></td><td align="right">	419000	</td><td align="right">	0169000	</td><td>&nbsp;</td><td>	-	</td><td>	free	</td></tr>
+										<tr><td><b>	ZIM	</b></td><td align="right">	335000	</td><td align="right">	0169500	</td><td>&nbsp;</td><td>	Zimbabwe	</td><td>	historical	</td></tr>
+										<tr><td><b>	ZUL	</b></td><td align="right">	336000	</td><td align="right">	0170000	</td><td>&nbsp;</td><td>	Mombasa	</td><td>	historical	</td></tr>
+									</table><br>
+									First free id for Events ids should be found in each events file, but not always...<br><br>
+									Range for Monarchs/Leaders is divided into two groups: the 300 first are for monarchs and 200 last for leaders. If more than 200 leaders for a country, it is always possible to use first 300 for same tag beginning with 299.<br>
+									First free id is available for each monarchs/leaders file at the end of the file (but not for empty files, because, in this case, first free id is the first of the range).<br>
+									All Monarchs/Leaders ids are <span class="important"><b>always</b></span> prefixed with 0 for search/replace purpose.<br><br>
+									<br>
+									For discussion about tags, use this <a class="a_underline" href="http://web.archive.org/web/20130413081514/http://forum.paradoxplaza.com/forum/showthread.php?t=215426" tagert="_blank">thread</a>.<br><br>
+									<br>
+									<b>Other Events used ranges:</b><br><br>
+									<table border="1" cellpadding="2" cellspacing="0">
+										<tr><td><b>Type</b></td><td><b>Range</b></td></tr>
+										<tr><td><b>	DP Sliders	</b></td><td align="right">	22150-22190	</td></tr>
+										<tr><td><b>	Dutch revolts	</b></td><td align="right">	337000-337099	</td></tr>
+										<tr><td><b>	Mines	</b></td><td align="right">	337500-337799	</td></tr>
+										<tr><td><b>	CoTs	</b></td><td align="right">	337800-337999	</td></tr>
+										<tr><td><b>	Province events	</b></td><td align="right">	338000-338999	</td></tr>
+										<tr><td><b>	AI files	</b></td><td align="right">	600000-600499	</td></tr>
+										<tr><td><b>	HYW files	</b></td><td align="right">	1000000-2999999	</td></tr>
+										<tr><td><b>	Fantasy Resurgant Granada	</b></td><td align="right">	3000000-3000999	</td></tr>
+										<tr><td><b>	HRE integrity	</b></td><td align="right">	5000000-5999999	</td></tr>
+										<tr><td><b>	Random	</b></td><td align="right">	90000000-99999999	</td></tr>
+										<tr><td><b>	Reformation	</b></td><td align="right">	717000000-717999999	</td></tr>
+									</table><br>
+									<br>
+									<b>Maps:</b><br><br>
+									<a class="a_underline" href="http://web.archive.org/web/20130413081514/http://forum.paradoxplaza.com/forum/showthread.php?t=42046">Orionis' maps</a> (EU2 vanilla provinces with ids and sea zones)<br>
+									<br>
+								</td>
+								<td width="20" background="images/right.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" height="20" background="images/corner-3.gif"></td>
+								<td valign="top" width="*" height="20" background="images/bottom.gif"></td>
+								<td width="20" height="20" background="images/corner-4.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" align="center" height="25"><img border="0" src="images/0.gif" width="1" height="25"></td>
+				</tr>
+				<tr>
+					<td>
+						<table border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="20" height="20" background="images/corner-1.gif"></td>
+								<td valign="top" width="*" height="20" background="images/top.gif"></td>
+								<td width="20" height="20" background="images/corner-2.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" background="images/left.gif"></td>
+								<td width="*" class="td_inner"><a name="Cultures"></a><span class="td_title">Cultures in AGCEEP</span><br><br>
+									<table cellpadding="0" cellspacing="0">
+										<tr><td><b>	CULTURE_ABENAKI	</b></td><td>&nbsp;</td><td>	abenaki - natives	</td></tr>
+										<tr><td><b>	CULTURE_ABORIGIN	</b></td><td>&nbsp;</td><td>	aborigin - natives	</td></tr>
+										<tr><td><b>	CULTURE_AFGHANI	</b></td><td>&nbsp;</td><td>	afghani	</td></tr>
+										<tr><td><b>	CULTURE_AKA	</b></td><td>&nbsp;</td><td>	aka	</td></tr>
+										<tr><td><b>	CULTURE_ALBANIAN	</b></td><td>&nbsp;</td><td>	albanian	</td></tr>
+										<tr><td><b>	CULTURE_ALEUTIAN	</b></td><td>&nbsp;</td><td>	rajput	</td></tr>
+										<tr><td><b>	CULTURE_ALTAI	</b></td><td>&nbsp;</td><td>	altai	</td></tr>
+										<tr><td><b>	CULTURE_AMAZONIAN	</b></td><td>&nbsp;</td><td>	catalan	</td></tr>
+										<tr><td><b>	CULTURE_ANDEAN	</b></td><td>&nbsp;</td><td>	andean	</td></tr>
+										<tr><td><b>	CULTURE_ANGLOSAXON	</b></td><td>&nbsp;</td><td>	anglosaxon	</td></tr>
+										<tr><td><b>	CULTURE_ARABIC	</b></td><td>&nbsp;</td><td>	arabic	</td></tr>
+										<tr><td><b>	CULTURE_ARMENIAN	</b></td><td>&nbsp;</td><td>	armenian	</td></tr>
+										<tr><td><b>	CULTURE_ASHANTI	</b></td><td>&nbsp;</td><td>	ashanti	</td></tr>
+										<tr><td><b>	CULTURE_AZTEK	</b></td><td>&nbsp;</td><td>	aztec	</td></tr>
+										<tr><td><b>	CULTURE_BALTIC	</b></td><td>&nbsp;</td><td>	baltic	</td></tr>
+										<tr><td><b>	CULTURE_BALUCHI	</b></td><td>&nbsp;</td><td>	baluchi	</td></tr>
+										<tr><td><b>	CULTURE_BANTU	</b></td><td>&nbsp;</td><td>	bantu - natives	</td></tr>
+										<tr><td><b>	CULTURE_BASQUE	</b></td><td>&nbsp;</td><td>	basque	</td></tr>
+										<tr><td><b>	CULTURE_BENGALI	</b></td><td>&nbsp;</td><td>	bengali	</td></tr>
+										<tr><td><b>	CULTURE_BERBER	</b></td><td>&nbsp;</td><td>	berber	</td></tr>
+										<tr><td><b>	CULTURE_BURMANESE	</b></td><td>&nbsp;</td><td>	burmanese	</td></tr>
+										<tr><td><b>	CULTURE_CAMBODIAN	</b></td><td>&nbsp;</td><td>	telugu	</td></tr>
+										<tr><td><b>	CULTURE_CANARY	</b></td><td>&nbsp;</td><td>	turkoman	</td></tr>
+										<tr><td><b>	CULTURE_CANTONESE	</b></td><td>&nbsp;</td><td>	zhuang	</td></tr>
+										<tr><td><b>	CULTURE_CARIBBEAN	</b></td><td>&nbsp;</td><td>	caribbean - natives	</td></tr>
+										<tr><td><b>	CULTURE_CHEROKEE	</b></td><td>&nbsp;</td><td>	cherokee	</td></tr>
+										<tr><td><b>	CULTURE_CREE	</b></td><td>&nbsp;</td><td>	cree - natives	</td></tr>
+										<tr><td><b>	CULTURE_CREEK	</b></td><td>&nbsp;</td><td>	creek - natives	</td></tr>
+										<tr><td><b>	CULTURE_CZECH	</b></td><td>&nbsp;</td><td>	czech	</td></tr>
+										<tr><td><b>	CULTURE_DAKOTA	</b></td><td>&nbsp;</td><td>	dakota - natives	</td></tr>
+										<tr><td><b>	CULTURE_DELAWARE	</b></td><td>&nbsp;</td><td>	maghrebi	</td></tr>
+										<tr><td><b>	CULTURE_DRAVIDIAN	</b></td><td>&nbsp;</td><td>	kannada	</td></tr>
+										<tr><td><b>	CULTURE_DUTCH	</b></td><td>&nbsp;</td><td>	dutch	</td></tr>
+										<tr><td><b>	CULTURE_DYOLA	</b></td><td>&nbsp;</td><td>	dyola - natives	</td></tr>
+										<tr><td><b>	CULTURE_ETHIOPIAN	</b></td><td>&nbsp;</td><td>	ethiopian	</td></tr>
+										<tr><td><b>	CULTURE_FILIPPINE	</b></td><td>&nbsp;</td><td>	upper burman	</td></tr>
+										<tr><td><b>	CULTURE_FRENCH	</b></td><td>&nbsp;</td><td>	french	</td></tr>
+										<tr><td><b>	CULTURE_GAELIC	</b></td><td>&nbsp;</td><td>	celtic	</td></tr>
+										<tr><td><b>	CULTURE_GEORGIAN	</b></td><td>&nbsp;</td><td>	georgian	</td></tr>
+										<tr><td><b>	CULTURE_GERMAN	</b></td><td>&nbsp;</td><td>	german	</td></tr>
+										<tr><td><b>	CULTURE_GREEK	</b></td><td>&nbsp;</td><td>	greek	</td></tr>
+										<tr><td><b>	CULTURE_GUAJIRO	</b></td><td>&nbsp;</td><td>	guajiro - natives	</td></tr>
+										<tr><td><b>	CULTURE_GUJARATI	</b></td><td>&nbsp;</td><td>	gujarati	</td></tr>
+										<tr><td><b>	CULTURE_HAN	</b></td><td>&nbsp;</td><td>	han	</td></tr>
+										<tr><td><b>	CULTURE_HAWAIIAN	</b></td><td>&nbsp;</td><td>	uighur	</td></tr>
+										<tr><td><b>	CULTURE_HINDI	</b></td><td>&nbsp;</td><td>	hindi	</td></tr>
+										<tr><td><b>	CULTURE_HURON	</b></td><td>&nbsp;</td><td>	huron - natives	</td></tr>
+										<tr><td><b>	CULTURE_IBERIAN	</b></td><td>&nbsp;</td><td>	castilian	</td></tr>
+										<tr><td><b>	CULTURE_INDIAN	</b></td><td>&nbsp;</td><td>	native	</td></tr>
+										<tr><td><b>	CULTURE_INDONESIAN	</b></td><td>&nbsp;</td><td>	indonesian	</td></tr>
+										<tr><td><b>	CULTURE_INUIT	</b></td><td>&nbsp;</td><td>	inuit - natives	</td></tr>
+										<tr><td><b>	CULTURE_IROQUIS	</b></td><td>&nbsp;</td><td>	iroquoian	</td></tr>
+										<tr><td><b>	CULTURE_ITALIAN	</b></td><td>&nbsp;</td><td>	italian	</td></tr>
+										<tr><td><b>	CULTURE_JAPANESE	</b></td><td>&nbsp;</td><td>	japanese	</td></tr>
+										<tr><td><b>	CULTURE_JAVAN	</b></td><td>&nbsp;</td><td>	javan	</td></tr>
+										<tr><td><b>	CULTURE_KHAZAK	</b></td><td>&nbsp;</td><td>	kazakh	</td></tr>
+										<tr><td><b>	CULTURE_KHMER	</b></td><td>&nbsp;</td><td>	khmer	</td></tr>
+										<tr><td><b>	CULTURE_KONGOLESE	</b></td><td>&nbsp;</td><td>	kongolese	</td></tr>
+										<tr><td><b>	CULTURE_KOREAN	</b></td><td>&nbsp;</td><td>	korean	</td></tr>
+										<tr><td><b>	CULTURE_KURDISH	</b></td><td>&nbsp;</td><td>	kurdish	</td></tr>
+										<tr><td><b>	CULTURE_LAOTIAN	</b></td><td>&nbsp;</td><td>	cham	</td></tr>
+										<tr><td><b>	CULTURE_LITHUANIAN	</b></td><td>&nbsp;</td><td>	tamil	</td></tr>
+										<tr><td><b>	CULTURE_MADAGASQUE	</b></td><td>&nbsp;</td><td>	madagasque - natives	</td></tr>
+										<tr><td><b>	CULTURE_MAGYAR	</b></td><td>&nbsp;</td><td>	magyar	</td></tr>
+										<tr><td><b>	CULTURE_MALAY	</b></td><td>&nbsp;</td><td>	malay	</td></tr>
+										<tr><td><b>	CULTURE_MALI	</b></td><td>&nbsp;</td><td>	mande	</td></tr>
+										<tr><td><b>	CULTURE_MALTESE	</b></td><td>&nbsp;</td><td>	maltese	</td></tr>
+										<tr><td><b>	CULTURE_MANCHU	</b></td><td>&nbsp;</td><td>	manchu	</td></tr>
+										<tr><td><b>	CULTURE_MARATHI	</b></td><td>&nbsp;</td><td>	marathi	</td></tr>
+										<tr><td><b>	CULTURE_MATACO	</b></td><td>&nbsp;</td><td>	mataco - natives	</td></tr>
+										<tr><td><b>	CULTURE_MAYAN	</b></td><td>&nbsp;</td><td>	mayan	</td></tr>
+										<tr><td><b>	CULTURE_MELANESE	</b></td><td>&nbsp;</td><td>	mon	</td></tr>
+										<tr><td><b>	CULTURE_MESOAMERICAN	</b></td><td>&nbsp;</td><td>	mesoamerican - natives	</td></tr>
+										<tr><td><b>	CULTURE_MISSISSIPPIAN	</b></td><td>&nbsp;</td><td>	portuguese	</td></tr>
+										<tr><td><b>	CULTURE_MONGOL	</b></td><td>&nbsp;</td><td>	mongol	</td></tr>
+										<tr><td><b>	CULTURE_NASKAPI	</b></td><td>&nbsp;</td><td>	tatar	</td></tr>
+										<tr><td><b>	CULTURE_NAVAJO	</b></td><td>&nbsp;</td><td>	navajo - natives	</td></tr>
+										<tr><td><b>	CULTURE_NONE	</b></td><td>&nbsp;</td><td>	none	</td></tr>
+										<tr><td><b>	CULTURE_NUBIAN	</b></td><td>&nbsp;</td><td>	nubian	</td></tr>
+										<tr><td><b>	CULTURE_PATAGONIAN	</b></td><td>&nbsp;</td><td>	caucasian	</td></tr>
+										<tr><td><b>	CULTURE_PERSIAN	</b></td><td>&nbsp;</td><td>	persian	</td></tr>
+										<tr><td><b>	CULTURE_POLISH	</b></td><td>&nbsp;</td><td>	polish	</td></tr>
+										<tr><td><b>	CULTURE_POLYNESE	</b></td><td>&nbsp;</td><td>	polynese - natives	</td></tr>
+										<tr><td><b>	CULTURE_ROMANIAN	</b></td><td>&nbsp;</td><td>	romanian	</td></tr>
+										<tr><td><b>	CULTURE_RUSSIAN	</b></td><td>&nbsp;</td><td>	russian	</td></tr>
+										<tr><td><b>	CULTURE_RUTHENIAN	</b></td><td>&nbsp;</td><td>	ruthenian	</td></tr>
+										<tr><td><b>	CULTURE_SCANDINAVIAN	</b></td><td>&nbsp;</td><td>	scandinavian	</td></tr>
+										<tr><td><b>	CULTURE_SENEGAMBIAN	</b></td><td>&nbsp;</td><td>	senegambian - natives	</td></tr>
+										<tr><td><b>	CULTURE_SHAWNEE	</b></td><td>&nbsp;</td><td>	shawnee - natives	</td></tr>
+										<tr><td><b>	CULTURE_SHONA	</b></td><td>&nbsp;</td><td>	shona	</td></tr>
+										<tr><td><b>	CULTURE_SIKH	</b></td><td>&nbsp;</td><td>	sikh	</td></tr>
+										<tr><td><b>	CULTURE_SLAVONIC	</b></td><td>&nbsp;</td><td>	slavonic	</td></tr>
+										<tr><td><b>	CULTURE_SLOVAK	</b></td><td>&nbsp;</td><td>	slovak	</td></tr>
+										<tr><td><b>	CULTURE_SOMALI	</b></td><td>&nbsp;</td><td>	somali	</td></tr>
+										<tr><td><b>	CULTURE_SWAHILI	</b></td><td>&nbsp;</td><td>	swahili	</td></tr>
+										<tr><td><b>	CULTURE_SWISS	</b></td><td>&nbsp;</td><td>	swiss	</td></tr>
+										<tr><td><b>	CULTURE_SYRIAN	</b></td><td>&nbsp;</td><td>	syrian	</td></tr>
+										<tr><td><b>	CULTURE_TEREMEMBE	</b></td><td>&nbsp;</td><td>	teremembe - natives	</td></tr>
+										<tr><td><b>	CULTURE_THAI	</b></td><td>&nbsp;</td><td>	thai	</td></tr>
+										<tr><td><b>	CULTURE_TIBETAN	</b></td><td>&nbsp;</td><td>	tibetan	</td></tr>
+										<tr><td><b>	CULTURE_TUAREG	</b></td><td>&nbsp;</td><td>	tuareg	</td></tr>
+										<tr><td><b>	CULTURE_TUPINAMBA	</b></td><td>&nbsp;</td><td>	tupinamba - natives	</td></tr>
+										<tr><td><b>	CULTURE_TURKISH	</b></td><td>&nbsp;</td><td>	turkish	</td></tr>
+										<tr><td><b>	CULTURE_UGRIC	</b></td><td>&nbsp;</td><td>	ugric	</td></tr>
+										<tr><td><b>	CULTURE_UKRAINIAN	</b></td><td>&nbsp;</td><td>	ukrainian	</td></tr>
+										<tr><td><b>	CULTURE_UZBEHK	</b></td><td>&nbsp;</td><td>	uzbek	</td></tr>
+										<tr><td><b>	CULTURE_VIETNAMESE	</b></td><td>&nbsp;</td><td>	vietnamese	</td></tr>
+										<tr><td><b>	CULTURE_YORUMBA	</b></td><td>&nbsp;</td><td>	yoruba	</td></tr>
+										<tr><td><b>	CULTURE_ZAPOTEK	</b></td><td>&nbsp;</td><td>	zapotec	</td></tr>
+									</table><br>
+									Many cultures are only used for natives and could be reused.<br>
+									<br>
+									For general suggestions and questions on cultures use the discussion thread: <a class="a_underline" href="http://web.archive.org/web/20130413081514/http://forum.paradoxplaza.com/forum/showthread.php?t=152745" target="_blank">Culture requests</a>.<br>
+									Try to use a regional thread for discussing a culture change in the first place, or create a new one for your topic.<br><br>
+								</td>
+								<td width="20" background="images/right.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" height="20" background="images/corner-3.gif"></td>
+								<td valign="top" width="*" height="20" background="images/bottom.gif"></td>
+								<td width="20" height="20" background="images/corner-4.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" align="center" height="25"><img border="0" src="images/0.gif" width="1" height="25"></td>
+				</tr>
+				<tr>
+					<td>
+						<table border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="20" height="20" background="images/corner-1.gif"></td>
+								<td valign="top" width="*" height="20" background="images/top.gif"></td>
+								<td width="20" height="20" background="images/corner-2.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" background="images/left.gif"></td>
+								<td width="*" class="td_inner"><a name="Events"></a><span class="td_title">Formatting events</span><br><br>
+									When posting on Paradox forum, following format for events is <span class="Important"><b>highly recommended</b></span> but not mandatory.<br><br>
+<div style="margin:0px; padding:6px; border:inset 1px">Code:<pre style="margin:0px; padding:6px; border:inset 1px; overflow:auto">#(&lt;year&gt; or &lt;startyear-deathyear&gt;) &lt;name of the event&gt;
+#By &lt;name of the author&gt; &lt;- modified by ... / with the help of ...&gt;
+event = {
+	id = &lt;id&gt; #triggered by &lt;TAG&gt;_&lt;corresponding id&gt; &lt;A, B, C or D&gt;
+	trigger = {
+		...
+	}
+	random = yes/no
+	country = &lt;TAG&gt; or province = &lt;id&gt; #&lt;name of the province&gt;
+	name = &quot;EVENTNAME&lt;id&gt;&quot; #&lt;name of the event&gt;
+	desc = &quot;EVENTHIST&lt;id&gt;&quot;
+	#-#
+
+	date = { day = &lt;&gt; month = &lt;&gt; year = &lt;&gt; }
+	offset = &lt;&gt;
+	deathdate = { day = &lt;&gt; month = &lt;&gt; year = &lt;&gt; }
+
+	action_a = {
+		name = &quot;ACTIONNAME&lt;id&gt;A&quot; #&lt;name of action A&gt;
+		command = { ...
+	}
+	action_b = {
+		name = &quot;ACTIONNAME&lt;id&gt;B&quot; #&lt;name of action B&gt;
+		command = { ...
+	}
+	action_...
+}</pre>
+								<br>
+								EVENTNAME&lt;id&gt;;&lt;name of the event&gt;;;;;;;;;;;<br>
+								EVENTHIST&lt;id&gt;;&lt;description on a single line (without carriage return)&gt;;;;;;;;;;;<br>
+								ACTIONNAME&lt;id&gt;A;&lt;name of action A&gt;;;;;;;;;;;<br>
+								ACTIONNAME&lt;id&gt;B;&lt;name of action B&gt;;;;;;;;;;;<br>
+								ACTIONNAME&lt;id&gt;...<br>
+</div>
+								<br>
+								Always use CODE markup (# button in advanced editing) to insert events.<br>
+								<br>
+								Indentation should be made with tabulations and not spaces.<br>
+								<br>
+								The id of a new event should be the first free id as found in corresponding events file. Be aware other modders could have already used the first free id... Please be careful.<br>
+								<br>
+								Use comment &quot;#triggered by ...&quot; only if necessary. If event can be triggered by several events, use / as separator for each event.<br>
+								<br>
+								Trigger is optional. Never forget to indent inside trigger.<br>
+								<br>
+								Offset and deathdate are optional but if one of them is used, both are mandatory. A deathdate until the end of the game is <i>deathdate = { year = 1820 }</i>, nothing else...<br>
+								Never forget day range in EU2 is 0-29 (and not 1-30). See <a class="a_underline" href="#Complements">Scripting complements</a> for details.<br>
+								<br>
+								If no date in the event (triggered event), just have a blank line between #-# and action_a<br>
+								<br>
+								For commands about provinces, add &quot;#&lt;name of the province&gt;&quot; at the end of the line (without double-quotes)<br>
+								For commands about monarchs, add &quot;#&lt;name of the monarch&gt;&quot; at the end of the line (without double-quotes)<br>
+								For commands about leaders, add &quot;#&lt;name of the leader&gt; (&lt;TAG&gt;)&quot; where TAG is the country tag of the leader, at the end of the line (without double-quotes)<br>
+								For commands about other events, add &quot;#&lt;TAG&gt;: &lt;name of the event&gt;&quot; where TAG is the country tag for the event (or ProvinceSpec), at the end of the line (without double-quotes)<br>
+								These rules apply to triggers too.<br>
+								<br>
+								Flags in AGCEEP <b>always</b> begins with '[' and end with ']'.<br>
+								Example: [myflag]
+								<br>
+								EVENTNAME&lt;id&gt;;&lt;name of the event&gt;;;;;;;;;;;<br>
+								EVENTHIST&lt;id&gt;;&lt;description on a single line (without carriage return)&gt;;;;;;;;;;;<br>
+								ACTIONNAME&lt;id&gt;A;&lt;name of action A&gt;;;;;;;;;;;<br>
+								ACTIONNAME&lt;id&gt;B;&lt;name of action B&gt;;;;;;;;;;;<br>
+								ACTIONNAME&lt;id&gt;...<br>
+								These lines must be posted outside CODE markup and are for inclusion in text.csv.<br>
+								<br>
+								For modified events, use red color to show information to be removed and yellow color to show modifications or added informations.<br>
+								<br><br>
+								When new or modified event will have impact on setup of scenarios (province manpower, income, cores, owned or known provinces, policies,...), these effects <span class="Important"><b>should</b></span> be part of submission.<br>
+								<br><br>
+								As a conclusion, events are written in a language. It is useful for all modders to write them the same way and this way helps a lot for:
+								<ol>
+									<li>discussion before submission
+									<li>compilation time and inclusion of texts in text.csv
+									<li>readability of the event when modification needed in events file
+								</ol>
+								See events files for examples.<br><br>
+								</td>
+								<td width="20" background="images/right.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" height="20" background="images/corner-3.gif"></td>
+								<td valign="top" width="*" height="20" background="images/bottom.gif"></td>
+								<td width="20" height="20" background="images/corner-4.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" align="center" height="25"><img border="0" src="images/0.gif" width="1" height="25"></td>
+				</tr>
+				<tr>
+					<td>
+						<table border="0" cellspacing="0" cellpadding="0" width="100%">
+							<tr>
+								<td width="20" height="20" background="images/corner-1.gif"></td>
+								<td valign="top" width="*" height="20" background="images/top.gif"></td>
+								<td width="20" height="20" background="images/corner-2.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" background="images/left.gif"></td>
+								<td width="*" class="td_inner"><a name="Complements"></a><span class="td_title">Scripting complements and modding AI files</span><br><br>
+									Articles can be found on Paradox forum in this <a class="a_underline" href="http://forum.paradoxplaza.com/forum/showthread.php?t=136031" tagert="_blank">thread</a>.<br><br>
+								</td>
+								<td width="20" background="images/right.gif"></td>
+							</tr>
+							<tr>
+								<td width="20" height="20" background="images/corner-3.gif"></td>
+								<td valign="top" width="*" height="20" background="images/bottom.gif"></td>
+								<td width="20" height="20" background="images/corner-4.gif"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top" align="center" height="25"><img border="0" src="images/0.gif" width="1" height="25"></td>
+				</tr>
+			</table>
+		</td>
+		<td valign="top" align="center" width="25"><img border="0" src="images/0.gif" width="25" height="1"></td>
+	</tr>
+</table>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 08:15:14 Apr 13, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:05:28 Mar 31, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 259.648
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.083
+  cdx.remote: 0.072
+  esindex: 0.011
+  LoadShardBlock: 168.613 (3)
+  PetaboxLoader3.datanode: 197.89 (4)
+  load_resource: 62.329
+  PetaboxLoader3.resolve: 26.57
+-->
