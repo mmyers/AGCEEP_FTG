@@ -133,7 +133,9 @@ R06 = { #Pirate Raiders
 NDR = { #Dutch Rebels
 	type = nationalist
 	morale_base = parent
+	morale_multiplier = 1.2
 	tech_base = latin
+	tech_bonus = 1
 	retreat = yes
 	army = {
 		infantry = 70
@@ -169,5 +171,6 @@ USR = { #American Rebels
 		year = 1750
 	}
 	area = America
+	culture = english
 	weight = 500
 }

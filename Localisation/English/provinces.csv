@@ -21,7 +21,6 @@ PROV_Al_Kharam;Al Kharam;x
 PROV_Alabama;Alabama;x
 PROV_Alabama_River;Alabama River;x
 PROV_Alagoas;Alagoas;x
-PROV_Åland_Sea;Åland Sea;x
 PROV_Albania;Albania;x
 PROV_Aleppo;Aleppo;x
 PROV_Aleutes;Aleutes;x
@@ -89,10 +88,6 @@ PROV_Atalaya;Atalaya;x
 PROV_Athabasca_River;Athabasca River;x
 PROV_Athabaska;Athabaska;x
 PROV_Atlantic_Equatorial_Current;Atlantic Equatorial Current;x
-PROV_Atlantic_Equatorial_Current;Atlantic Equatorial Current;x
-PROV_Atlantic_Equatorial_Current;Atlantic Equatorial Current;x
-PROV_Atlantic_Equatorial_Current;Atlantic Equatorial Current;x
-PROV_Atlantic_Equatorial_Current;Atlantic Equatorial Current;x
 PROV_Atlas;Atlas;x
 PROV_Atlixco;Atlixco;x
 PROV_Attawapiskat;Attawapiskat;x
@@ -155,7 +150,6 @@ PROV_Bay_of_Oljut;Bay of Oljut;x
 PROV_Bay_of_Uka;Bay of Uka;x
 PROV_Bayern;Bayern;x
 PROV_Bayou;Bayou;x
-PROV_Béarn;Béarn;x
 PROV_Begho;Begho;x
 PROV_Belarus;Belarus;x
 PROV_Belgorod;Belgorod;x
@@ -199,10 +193,11 @@ PROV_Bujak;Bujak;x
 PROV_Bukhara;Bukhara;x
 PROV_Bulgaria;Bulgaria;x
 PROV_Bundelkhand;Bundelkhand;x
-PROV_Buré;Buré;x
 PROV_Buriat;Buriat;x
 PROV_Buru;Buru;x
+PROV_Buré;Buré;x
 PROV_Bushman;Bushman;x
+PROV_Béarn;Béarn;x
 PROV_Cabinda;Cabinda;x
 PROV_Cajamarca;Cajamarca;x
 PROV_Calais;Calais;x
@@ -228,6 +223,7 @@ PROV_Cape_Leeuwin;Cape Leeuwin;x
 PROV_Cape_of_Good_Hope;Cape of Good Hope;x
 PROV_Cape_of_Kamchatska;Cape of Kamchatska;x
 PROV_Cape_of_Storms;Cape of Storms;x
+PROV_Cape_Romain;Cape Romain;x
 PROV_Cape_Verde;Cape Verde;x
 PROV_Cape_Verde_Islands;Cape Verde Islands;x
 PROV_Capricorn_Channel;Capricorn Channel;x
@@ -247,37 +243,9 @@ PROV_Catskill;Catskill;x
 PROV_Caux;Caux;x
 PROV_Central_Aleutian_Sea;Central Aleutian Sea;x
 PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
-PROV_Central_Atlantic_Ocean;Central Atlantic Ocean;x
 PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Indian_Ocean;Central Indian Ocean;x
-PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
-PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
-PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
-PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
-PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
-PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
 PROV_Central_Pacific_Ocean;Central Pacific Ocean;x
 PROV_Ceram;Ceram;x
-PROV_Cévennes;Cévennes;x
 PROV_Ceylon_Sea;Ceylon Sea;x
 PROV_Chagatai;Chagatai;x
 PROV_Champagne;Champagne;x
@@ -365,8 +333,6 @@ PROV_Cornwall;Cornwall;x
 PROV_Corrientes;Corrientes;x
 PROV_Corsica;Corsica;x
 PROV_Costa_Rica;Costa Rica;x
-PROV_Côte_d'Argent;Côte d'Argent;x
-PROV_Côte_d'Azur;Côte d'Azur;x
 PROV_Cretan_Sea;Cretan Sea;x
 PROV_Crete;Crete;x
 PROV_Crimea;Crimea;x
@@ -379,6 +345,9 @@ PROV_Cuyuni;Cuyuni;x
 PROV_Cuzco;Cuzco;x
 PROV_Cyprus;Cyprus;x
 PROV_Cyrenaica;Cyrenaica;x
+PROV_Cévennes;Cévennes;x
+PROV_Côte_d'Argent;Côte d'Argent;x
+PROV_Côte_d'Azur;Côte d'Azur;x
 PROV_Da_Lat;Da Lat;x
 PROV_Da_Nang;Da Nang;x
 PROV_Daghestan;Daghestan;x
@@ -471,7 +440,6 @@ PROV_Gao;Gao;x
 PROV_Garonne_River;Garonne River;x
 PROV_Gascogne;Gascogne;x
 PROV_Gaspésie;Gaspésie;x
-PROV_Gästrikland;Gästrikland;x
 PROV_Geldre;Geldre;x
 PROV_German_Bight;German Bight;x
 PROV_Gerona;Gerona;x
@@ -489,7 +457,7 @@ PROV_Great_Australian_Bight;Great Australian Bight;x
 PROV_Great_Barrier_Reef;Great Barrier Reef;x
 PROV_Great_Fish_River;Great Fish River;x
 PROV_Great_Rapid_River;Great Rapid River;x
-PROV_Greater_Antillas;Greater Antillas;x
+PROV_Greater_Antillas;Greater Antilles;x
 PROV_Greenland_Sea;Greenland Sea;x
 PROV_Guadeloupe;Guadeloupe;x
 PROV_Guangdong;Guangdong;x
@@ -515,7 +483,7 @@ PROV_Gulf_of_Finland;Gulf of Finland;x
 PROV_Gulf_of_Guayaquil;Gulf of Guayaquil;x
 PROV_Gulf_of_Guinea;Gulf of Guinea;x
 PROV_Gulf_of_Indus;Gulf of Indus;x
-PROV_Gulf_of_kolyma;Gulf of kolyma;x
+PROV_Gulf_of_kolyma;Gulf of Kolyma;x
 PROV_Gulf_of_Leyte;Gulf of Leyte;x
 PROV_Gulf_of_Lion;Gulf of Lion;x
 PROV_Gulf_of_Mallorca;Gulf of Mallorca;x
@@ -538,10 +506,10 @@ PROV_Gulf_of_Varna;Gulf of Varna;x
 PROV_Gulf_of_Venice;Gulf of Venice;x
 PROV_Gulf_of_Zambeze;Gulf of Zambeze;x
 PROV_Gulf_Stream;Gulf Stream;x
-PROV_Gulf_Stream;Gulf Stream;x
 PROV_Guyana;Guyana;x
 PROV_Guyana_Coast;Guyana Coast;x
 PROV_Guyenne;Guyenne;x
+PROV_Gästrikland;Gästrikland;x
 PROV_Hadramut;Hadramut;x
 PROV_Hainan;Hainan;x
 PROV_Hamadan;Hamadan;x
@@ -549,7 +517,7 @@ PROV_Hannover;Hannover;x
 PROV_Hanoi;Hanoi;x
 PROV_Harerge;Harerge;x
 PROV_Havana;Havana;x
-PROV_Hawaian_Sea;Hawaian Sea;x
+PROV_Hawaian_Sea;Hawaiian Sea;x
 PROV_Hebei;Hebei;x
 PROV_Hebrides;Hebrides;x
 PROV_Heilongjiang;Heilongjiang;x
@@ -568,7 +536,7 @@ PROV_Holstein;Holstein;x
 PROV_Honduras;Honduras;x
 PROV_Hormouz;Hormouz;x
 PROV_Horn_of_Africa;Horn of Africa;x
-PROV_Houang_Ho_River;Houang Ho River;x
+PROV_Houang_Ho_River;Yellow River;x
 PROV_Howrah;Howrah;x
 PROV_Huanuco;Huanuco;x
 PROV_Hubei;Hubei;x
@@ -588,14 +556,6 @@ PROV_Ile_de_France;Ile de France;x
 PROV_Illinois;Illinois;x
 PROV_Illinois_River;Illinois River;x
 PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
-PROV_Indian_Equatorial_Current;Indian Equatorial Current;x
 PROV_Indus;Indus;x
 PROV_Indus_River;Indus River;x
 PROV_Ingermanland;Ingermanland;x
@@ -610,7 +570,7 @@ PROV_Irish_Sea;Irish Sea;x
 PROV_Irkutsk;Irkutsk;x
 PROV_Irondekoit;Irondekoit;x
 PROV_Irrawady;Irrawady;x
-PROV_Irrawady_delta;Irrawady delta;x
+PROV_Irrawady_delta;Irrawady Delta;x
 PROV_Irtych;Irtych;x
 PROV_Irtych_River;Irtych River;x
 PROV_Isfahan;Isfahan;x
@@ -631,7 +591,6 @@ PROV_Jamaica;Jamaica;x
 PROV_Jamaican_Sea;Jamaican Sea;x
 PROV_Jambi;Jambi;x
 PROV_James_River;James River;x
-PROV_Jämtland;Jämtland;x
 PROV_Jan_Mayen_Sea;Jan Mayen Sea;x
 PROV_Japura;Japura;x
 PROV_Java_Sea;Java Sea;x
@@ -648,6 +607,7 @@ PROV_Juan_Fernandez_Islands;Juan Fernandez Islands;x
 PROV_Judea;Judea;x
 PROV_Jujuy;Jujuy;x
 PROV_Jylland;Jylland;x
+PROV_Jämtland;Jämtland;x
 PROV_Kabul;Kabul;x
 PROV_Kabylia;Kabylia;x
 PROV_Kachin;Kachin;x
@@ -702,7 +662,6 @@ PROV_Koch;Koch;x
 PROV_Kola;Kola;x
 PROV_Kolepom_Bay;Kolepom Bay;x
 PROV_Kolkhis;Kolkhis;x
-PROV_Köln;Köln;x
 PROV_Kolyma;Kolyma;x
 PROV_Komandorski_Islands;Komandorski Islands;x
 PROV_Kondinsk;Kondinsk;x
@@ -721,17 +680,16 @@ PROV_Kunlun;Kunlun;x
 PROV_Kurgan;Kurgan;x
 PROV_Kurland;Kurland;x
 PROV_Kuro_Siwo_Current;Kuro Siwo Current;x
-PROV_Kuro_Siwo_Current;Kuro Siwo Current;x
-PROV_Kuro_Siwo_Current;Kuro Siwo Current;x
 PROV_Kursk;Kursk;x
 PROV_Kushka;Kushka;x
 PROV_Kustanai;Kustanai;x
-PROV_Küstrin;Küstrin;x
 PROV_Kutch;Kutch;x
 PROV_Kwai;Kwai;x
 PROV_Kyongju;Kyongju;x
 PROV_Kyushu;Kyushu;x
 PROV_Kyzylkum;Kyzylkum;x
+PROV_Köln;Köln;x
+PROV_Küstrin;Küstrin;x
 PROV_Lacquedive_Islands;Lacquedive Islands;x
 PROV_Lake_Baikal_&_Selenga_River;Lake Baikal & Selenga River;x
 PROV_Lake_Constance;Lake Constance;x
@@ -760,7 +718,7 @@ PROV_Leinster;Leinster;x
 PROV_Leon;Leon;x
 PROV_Leone;Leone;x
 PROV_Les_Cayes;Les Cayes;x
-PROV_Lesser_Antillas;Lesser Antillas;x
+PROV_Lesser_Antillas;Lesser Antilles;x
 PROV_Lhasa;Lhasa;x
 PROV_Liaoning;Liaoning;x
 PROV_Liaotung;Liaotung;x
@@ -806,7 +764,6 @@ PROV_Maine;Maine;x
 PROV_Mainz;Mainz;x
 PROV_Makassar;Makassar;x
 PROV_Malacca;Malacca;x
-PROV_Mälaren;Mälaren;x
 PROV_Malayan_Sea;Malayan Sea;x
 PROV_Malindi;Malindi;x
 PROV_Malta;Malta;x
@@ -856,7 +813,6 @@ PROV_Megantic;Megantic;x
 PROV_Mekkah;Mekkah;x
 PROV_Mekong;Mekong;x
 PROV_Mekong_Delta;Mekong Delta;x
-PROV_Mekong_Delta;Mekong Delta;x
 PROV_Mekong_River;Mekong River;x
 PROV_Mekran;Mekran;x
 PROV_Melanesia;Melanesia;x
@@ -898,23 +854,25 @@ PROV_Moravia;Moravia;x
 PROV_Moray_Firth;Moray Firth;x
 PROV_Morbihan;Morbihan;x
 PROV_Morea;Morea;x
+PROV_Moro_Gulf;Moro Gulf;x
 PROV_Morogoro;Morogoro;x
 PROV_Moron;Moron;x
 PROV_Moscow;Moscow;x
 PROV_Mosquitos;Mosquitos;x
 PROV_Mosquitos_Coast;Mosquitos Coast;x
 PROV_Mossi;Mossi;x
-PROV_Mozambica_Channel;Mozambica Channel;x
+PROV_Mozambica_Channel;Mozambique Channel;x
 PROV_Mozyr;Mozyr;x
 PROV_Mtawa;Mtawa;x
 PROV_Mudugh;Mudugh;x
 PROV_Muni;Muni;x
 PROV_Munster;Munster;x
-PROV_Münster;Münster;x
 PROV_Murcia;Murcia;x
 PROV_Murray_River;Murray River;x
 PROV_Murumbidgee;Murumbidgee;x
 PROV_Mysore;Mysore;x
+PROV_Mälaren;Mälaren;x
+PROV_Münster;Münster;x
 PROV_Nagorje;Nagorje;x
 PROV_Nain;Nain;x
 PROV_Nakhodka;Nakhodka;x
@@ -959,43 +917,17 @@ PROV_Nizhgorod;Nizhgorod;x
 PROV_Normandie;Normandie;x
 PROV_Norsk;Norsk;x
 PROV_North_Atlantic_Drift;North Atlantic Drift;x
-PROV_North_Atlantic_Drift;North Atlantic Drift;x
-PROV_North_Atlantic_Drift;North Atlantic Drift;x
-PROV_North_Atlantic_Drift;North Atlantic Drift;x
-PROV_North_Atlantic_Drift;North Atlantic Drift;x
-PROV_North_Atlantic_Drift;North Atlantic Drift;x
 PROV_North_Cape;North Cape;x
 PROV_North_Korean_Sea;North Korean Sea;x
 PROV_North_Pacific_Drift;North Pacific Drift;x
-PROV_North_Pacific_Drift;North Pacific Drift;x
-PROV_North_Pacific_Drift;North Pacific Drift;x
-PROV_North_Pacific_Drift;North Pacific Drift;x
-PROV_North_Pacific_Drift;North Pacific Drift;x
-PROV_North_Pacific_Drift;North Pacific Drift;x
 PROV_North_West_Cape;North West Cape;x
 PROV_Northeastern_Pacific_Ocean;Northeastern Pacific Ocean;x
-PROV_Northeastern_Pacific_Ocean;Northeastern Pacific Ocean;x
-PROV_Northeastern_Pacific_Ocean;Northeastern Pacific Ocean;x
-PROV_Northeastern_Pacific_Ocean;Northeastern Pacific Ocean;x
-PROV_Northern_Atlantic_Ocean;Northern Atlantic Ocean;x
 PROV_Northern_Atlantic_Ocean;Northern Atlantic Ocean;x
 PROV_Northern_Bay_of_Bengale;Northern Bay of Bengale;x
 PROV_Northern_Caspian_Sea;Northern Caspian Sea;x
 PROV_Northern_Japan_Sea;Northern Japan Sea;x
 PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
-PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
-PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
-PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
-PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
-PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
-PROV_Northern_Pacific_Ocean;Northern Pacific Ocean;x
 PROV_Northumberland;Northumberland;x
-PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
-PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
-PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
-PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
-PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
-PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
 PROV_Northwestern_Pacific_Ocean;Northwestern Pacific Ocean;x
 PROV_Norwegian_Sea;Norwegian Sea;x
 PROV_Nouadibuh;Nouadibuh;x
@@ -1012,12 +944,8 @@ PROV_Nyland;Nyland;x
 PROV_Oahu;Oahu;x
 PROV_Ob;Ob;x
 PROV_Ob_River;Ob River;x
-PROV_Ob_River;Ob River;x
 PROV_Obdorsk;Obdorsk;x
 PROV_Obskaja_Guba;Obskaja Guba;x
-PROV_Ocean;Ocean;x
-PROV_Ocean;Ocean;x
-PROV_Ocean;Ocean;x
 PROV_Ocean;Ocean;x
 PROV_Odenburg;Odenburg;x
 PROV_Oder_River;Oder River;x
@@ -1044,8 +972,6 @@ PROV_Orléanais;Orléanais;x
 PROV_Orsk;Orsk;x
 PROV_Oshawa;Oshawa;x
 PROV_Oskosh;Oskosh;x
-PROV_Österbotten;Österbotten;x
-PROV_Østlandet;Østlandet;x
 PROV_Ostmarch;Ostmarch;x
 PROV_Oswego;Oswego;x
 PROV_Ottawa;Ottawa;x
@@ -1053,27 +979,6 @@ PROV_Ougawe_River;Ougawe River;x
 PROV_Ovambo;Ovambo;x
 PROV_Oye;Oye;x
 PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Countercurrent;Pacific Countercurrent;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
-PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
 PROV_Pacific_Equatorial_Current;Pacific Equatorial Current;x
 PROV_Palakimedi;Palakimedi;x
 PROV_Palana;Palana;x
@@ -1101,7 +1006,7 @@ PROV_Pernambuc;Pernambuc;x
 PROV_Persian_Gulf;Persian Gulf;x
 PROV_Pest;Pest;x
 PROV_Pfalz;Pfalz;x
-PROV_Philippine_Sea;Philippine Sea;x
+PROV_Philippine_Sea;Bohol Sea;x
 PROV_Phuket;Phuket;x
 PROV_Picardie;Picardie;x
 PROV_Piemonte;Piemonte;x
@@ -1215,7 +1120,6 @@ PROV_Sea_of_Bergen;Sea of Bergen;x
 PROV_Sea_of_Celebes;Sea of Celebes;x
 PROV_Sea_of_Japan;Sea of Japan;x
 PROV_Sea_of_Java;Sea of Java;x
-PROV_Sea_of_Java;Sea of Java;x
 PROV_Sea_of_Labrador;Sea of Labrador;x
 PROV_Sea_of_Marmara;Sea of Marmara;x
 PROV_Sea_of_Palawan;Sea of Palawan;x
@@ -1261,9 +1165,9 @@ PROV_Sitka;Sitka;x
 PROV_Sivas;Sivas;x
 PROV_Sjælland;Sjælland;x
 PROV_Skåne;Skåne;x
-PROV_Småland;Småland;x
 PROV_Smolensk;Smolensk;x
 PROV_Smyrna;Smyrna;x
+PROV_Småland;Småland;x
 PROV_Society_Islands;Society Islands;x
 PROV_Socotra;Socotra;x
 PROV_Socotra_Island;Socotra Island;x
@@ -1275,87 +1179,16 @@ PROV_Sorong;Sorong;x
 PROV_Sorong_Strait;Sorong Strait;x
 PROV_South_Aleutian_Sea;South Aleutian Sea;x
 PROV_South_Atlantic_Ocean;South Atlantic Ocean;x
-PROV_South_Atlantic_Ocean;South Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
-PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
 PROV_South_Central_Atlantic_Ocean;South Central Atlantic Ocean;x
 PROV_South_Chilean_Coast;South Chilean Coast;x
 PROV_South_China_Sea;South China Sea;x
-PROV_South_China_Sea;South China Sea;x
-PROV_South_Coral_Sea;South Coral Sea;x
-PROV_South_Coral_Sea;South Coral Sea;x
-PROV_South_Coral_Sea;South Coral Sea;x
 PROV_South_Coral_Sea;South Coral Sea;x
 PROV_South_Indian_Ocean;South Indian Ocean;x
 PROV_South_Korean_Sea;South Korean Sea;x
 PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
-PROV_South_Pacific_Ocean;South Pacific Ocean;x
 PROV_South_Timor_Sea;South Timor Sea;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Atlantic_Ocean;Southern  Atlantic Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern__Indian_Ocean;Southern  Indian Ocean;x
-PROV_Southern_Atlantic_Ocean;Southern Atlantic Ocean;x
-PROV_Southern_Atlantic_Ocean;Southern Atlantic Ocean;x
-PROV_Southern_Atlantic_Ocean;Southern Atlantic Ocean;x
+PROV_Southern__Atlantic_Ocean;Southern Atlantic Ocean;x
+PROV_Southern__Indian_Ocean;Southern Indian Ocean;x
 PROV_Southern_Atlantic_Ocean;Southern Atlantic Ocean;x
 PROV_Southern_Caspian_Sea;Southern Caspian Sea;x
 PROV_Soya_Strait;Soya Strait;x
@@ -1381,8 +1214,8 @@ PROV_Straits_of_Johore;Straits of Johore;x
 PROV_Straits_of_Lombok;Straits of Lombok;x
 PROV_Straits_of_Malacca;Straits of Malacca;x
 PROV_Straits_of_Messina;Straits of Messina;x
-PROV_Straits_of_Obock;Straits of Obock;x
-PROV_Straits_of_Ormuz;Straits of Ormuz;x
+PROV_Straits_of_Obock;Bab el-Mandeb;x
+PROV_Straits_of_Ormuz;Straits of Hormuz;x
 PROV_Straits_of_Otranto;Straits of Otranto;x
 PROV_Straits_of_Puerto_Rico;Straits of Puerto Rico;x
 PROV_Straits_of_Sunda;Straits of Sunda;x
@@ -1430,9 +1263,6 @@ PROV_Taqari;Taqari;x
 PROV_Tarakan;Tarakan;x
 PROV_Taranaki;Taranaki;x
 PROV_Tasman_Sea;Tasman Sea;x
-PROV_Tasman_Sea;Tasman Sea;x
-PROV_Tasman_Sea;Tasman Sea;x
-PROV_Tasman_Sea;Tasman Sea;x
 PROV_Tassaret;Tassaret;x
 PROV_Tatar_Straits;Tatar Straits;x
 PROV_Taurus;Taurus;x
@@ -1455,7 +1285,7 @@ PROV_The_Baleares;The Baleares;x
 PROV_The_Bermudas;The Bermudas;x
 PROV_The_Canary_Islands;The Canary Islands;x
 PROV_The_Channel;The Channel;x
-PROV_The_Comores;The Comores;x
+PROV_The_Comores;The Comoros;x
 PROV_The_Cyclades;The Cyclades;x
 PROV_The_Dodecanese;The Dodecanese;x
 PROV_The_Falklands;The Falklands;x
@@ -1465,10 +1295,10 @@ PROV_The_Lofotens;The Lofotens;x
 PROV_The_Maldives;The Maldives;x
 PROV_The_Mascareignes;The Mascareignes;x
 PROV_The_Moluccas;The Moluccas;x
-PROV_The_North_Sea;The North Sea;x
+PROV_The_North_Sea;North Sea;x
 PROV_The_Roaring_Forties;The Roaring Forties;x
 PROV_The_Skagerack;The Skagerack;x
-PROV_The_Solomons;The Solomons;x
+PROV_The_Solomons;Solomon Islands;x
 PROV_The_Sund;The Sund;x
 PROV_Thrace;Thrace;x
 PROV_Throndheim_Fjord;Throndheim Fjord;x
@@ -1478,8 +1308,6 @@ PROV_Tierra_del_Fuego;Tierra del Fuego;x
 PROV_Timaru;Timaru;x
 PROV_Timbuktu;Timbuktu;x
 PROV_Timor;Timor;x
-PROV_Timor_Sea;Timor Sea;x
-PROV_Timor_Sea;Timor Sea;x
 PROV_Timor_Sea;Timor Sea;x
 PROV_Tindore;Tindore;x
 PROV_Tiracambu;Tiracambu;x
@@ -1537,8 +1365,6 @@ PROV_Vakhovska;Vakhovska;x
 PROV_Valencia;Valencia;x
 PROV_Valparaiso;Valparaiso;x
 PROV_Vanin;Vanin;x
-PROV_Västerbotten;Västerbotten;x
-PROV_Västergötland;Västergötland;x
 PROV_Vendée;Vendée;x
 PROV_Veneto;Veneto;x
 PROV_Venezuelan_Sea;Venezuelan Sea;x
@@ -1554,6 +1380,8 @@ PROV_Vologda;Vologda;x
 PROV_Volyn;Volyn;x
 PROV_Vorones;Vorones;x
 PROV_Vorpommern;Vorpommern;x
+PROV_Västerbotten;Västerbotten;x
+PROV_Västergötland;Västergötland;x
 PROV_Wabana;Wabana;x
 PROV_Wagga;Wagga;x
 PROV_Wairoa;Wairoa;x
@@ -1615,8 +1443,11 @@ PROV_Zeeland;Zeeland;x
 PROV_Zhejiang;Zhejiang;x
 PROV_Zima;Zima;x
 PROV_Zimbabwe;Zimbabwe;x
+PROV_Åland_Sea;Åland Sea;x
+PROV_Österbotten;Österbotten;x
+PROV_Østlandet;Østlandet;x
 #;x
-PROV_Terra_incognita;Terra incognita;x
+PROV_Terra_incognita;Terra Incognita;x
 #;x
 #-----------------------------------------------------------------------------------------------;x
 #;x
@@ -1726,7 +1557,6 @@ CITY_Bastar;Jagdalpur;x
 CITY_Batn_al_Hajar;Dongola;x
 CITY_Bayern;München;x
 CITY_Bayou;Bayou;x
-CITY_Béarn;Pau;x
 CITY_Begho;Abomey;x
 CITY_Belarus;Minsk;x
 CITY_Belgorod;Kursk;x
@@ -1766,10 +1596,11 @@ CITY_Bujak;Chilia;x
 CITY_Bukhara;Bukhara;x
 CITY_Bulgaria;Sofia;x
 CITY_Bundelkhand;Jhansi;x
-CITY_Buré;Buré;x
 CITY_Buriat;Buriat;x
 CITY_Buru;Buru;x
+CITY_Buré;Buré;x
 CITY_Bushman;Bushman;x
+CITY_Béarn;Pau;x
 CITY_Cabinda;Cabinda;x
 CITY_Cajamarca;Cajamarca;x
 CITY_Calais;Calais;x
@@ -1795,7 +1626,6 @@ CITY_Catawba;Catawba;x
 CITY_Catskill;Catskill;x
 CITY_Caux;Rouen;x
 CITY_Ceram;Ceram;x
-CITY_Cévennes;Aurillac;x
 CITY_Chagatai;Kara Shahr;x
 CITY_Champagne;Reims;x
 CITY_Chandigarh;Chandigarh;x
@@ -1838,6 +1668,7 @@ CITY_Cuyuni;Cuyuni;x
 CITY_Cuzco;Cuzco;x
 CITY_Cyprus;Famagusta;x
 CITY_Cyrenaica;Benghazi;x
+CITY_Cévennes;Aurillac;x
 CITY_Da_Lat;Da Lat;x
 CITY_Da_Nang;Hue;x
 CITY_Daghestan;Baku;x
@@ -1903,7 +1734,6 @@ CITY_Ganges;Calcutta;x
 CITY_Gao;Gao;x
 CITY_Gascogne;Bordeaux;x
 CITY_Gaspésie;Gaspésie;x
-CITY_Gästrikland;Gävle;x
 CITY_Geldre;Arnhem;x
 CITY_Gerona;Gerona;x
 CITY_Gibraltar;Gibraltar;x
@@ -1925,6 +1755,7 @@ CITY_Guizhou;Guiyang;x
 CITY_Gujarat;Cambay;x
 CITY_Guyana;Guyana;x
 CITY_Guyenne;Toulouse;x
+CITY_Gästrikland;Gävle;x
 CITY_Hadramut;Habban;x
 CITY_Hainan;Qiongzhou;x
 CITY_Hamadan;Hamadan;x
@@ -1985,7 +1816,6 @@ CITY_Jalisco;Jalisco;x
 CITY_Jalutorovsk;Jalutorovsk;x
 CITY_Jamaica;Jamaica;x
 CITY_Jambi;Jambi;x
-CITY_Jämtland;Östersund;x
 CITY_Japura;Japura;x
 CITY_Jedisan;Ochakov;x
 CITY_Jehol;Bayisingtu;x
@@ -1998,6 +1828,7 @@ CITY_Jordan;Amman;x
 CITY_Judea;Jerusalem;x
 CITY_Jujuy;Jujuy;x
 CITY_Jylland;Aalborg;x
+CITY_Jämtland;Östersund;x
 CITY_Kabul;Kabul;x
 CITY_Kabylia;Bûna;x
 CITY_Kachin;Dali;x
@@ -2044,7 +1875,6 @@ CITY_Kleves;Düsseldorf;x
 CITY_Koch;Koch Bihar;x
 CITY_Kola;Kola;x
 CITY_Kolkhis;Kutaisi;x
-CITY_Köln;Köln;x
 CITY_Kolyma;Kolyma;x
 CITY_Kondinsk;Kondinsk;x
 CITY_Konya;Konya;x
@@ -2063,12 +1893,13 @@ CITY_Kurland;Mittau;x
 CITY_Kursk;Tula;x
 CITY_Kushka;Farah;x
 CITY_Kustanai;Kustanai;x
-CITY_Küstrin;Landsberg;x
 CITY_Kutch;Rajkot;x
 CITY_Kwai;Moulmein;x
 CITY_Kyongju;Pusan;x
 CITY_Kyushu;Nagasaki;x
 CITY_Kyzylkum;Sygnak;x
+CITY_Köln;Köln;x
+CITY_Küstrin;Landsberg;x
 CITY_Lampang;Lam pang;x
 CITY_Lancashire;Lancaster;x
 CITY_Languedoc;Montpellier;x
@@ -2199,10 +2030,10 @@ CITY_Mtawa;Mtawa;x
 CITY_Mudugh;Obbia;x
 CITY_Muni;Muni;x
 CITY_Munster;Cork;x
-CITY_Münster;Kleve;x
 CITY_Murcia;Murcia;x
 CITY_Murumbidgee;Murumbidgee;x
 CITY_Mysore;Mysore;x
+CITY_Münster;Kleve;x
 CITY_Nagorje;Nagorje;x
 CITY_Nain;Nain;x
 CITY_Nakhodka;Nakhodka;x
@@ -2273,8 +2104,6 @@ CITY_Orléanais;Orléans;x
 CITY_Orsk;Orsk;x
 CITY_Oshawa;Oshawa;x
 CITY_Oskosh;Oskosh;x
-CITY_Österbotten;Vasa;x
-CITY_Østlandet;Oslo;x
 CITY_Ostmarch;Budweis;x
 CITY_Oswego;Oswego;x
 CITY_Ottawa;Ottawa;x
@@ -2394,7 +2223,7 @@ CITY_Shawinigan;Shawinigan;x
 CITY_Shenandoah;Shenandoah;x
 CITY_Shewa;Axum;x
 CITY_Shikoku;Matsuyama;x
-CITY_Sichuan;Sichuan;x
+CITY_Sichuan;Turpan;x
 CITY_Sichuan_Pendi;Chengdu;x
 CITY_Sicily;Palermo;x
 CITY_Siena;Siena;x
@@ -2408,9 +2237,9 @@ CITY_Sitka;Sitka;x
 CITY_Sivas;Sivas;x
 CITY_Sjælland;København;x
 CITY_Skåne;Lund;x
-CITY_Småland;Kalmar;x
 CITY_Smolensk;Smolensk;x
 CITY_Smyrna;Izmir;x
+CITY_Småland;Kalmar;x
 CITY_Socotra;Socotra;x
 CITY_Sofala;Sofala;x
 CITY_Sofiisk;Sofiisk;x
@@ -2532,8 +2361,6 @@ CITY_Vakhovska;Vakhovska;x
 CITY_Valencia;Valencia;x
 CITY_Valparaiso;Valparaiso;x
 CITY_Vanin;Vanin;x
-CITY_Västerbotten;Umeå;x
-CITY_Västergötland;Älvsborg;x
 CITY_Vendée;Sables d'Olonne;x
 CITY_Veneto;Veniexia;x
 CITY_Vestbygden;Lusyfjord;x
@@ -2545,6 +2372,8 @@ CITY_Vologda;Vologda;x
 CITY_Volyn;Brest Litovsk;x
 CITY_Vorones;Ryazan;x
 CITY_Vorpommern;Stettin;x
+CITY_Västerbotten;Umeå;x
+CITY_Västergötland;Älvsborg;x
 CITY_Wabana;Wabana;x
 CITY_Wagga;Wagga;x
 CITY_Wairoa;Wairoa;x
@@ -2565,7 +2394,7 @@ CITY_Wollongong;Wollongong;x
 CITY_Württemberg;Stuttgart;x
 CITY_Würzburg;Bayreuth;x
 CITY_Xining;Xining;x
-CITY_Xinjiang;Turpan;x
+CITY_Xinjiang;Jiuquan;x
 CITY_Yalu;Seoul;x
 CITY_Yanam;Yanam;x
 CITY_Yaraguay;Yaraguay;x
@@ -2587,6 +2416,8 @@ CITY_Zeeland;Vlissingen;x
 CITY_Zhejiang;Hangzhou;x
 CITY_Zima;Zima;x
 CITY_Zimbabwe;Zimbabwe;x
+CITY_Österbotten;Vasa;x
+CITY_Østlandet;Oslo;x
 #;x
 #-----------------------------------------------------------------------------------------------;x
 #EOF;x

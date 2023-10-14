@@ -3198,7 +3198,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME164265A" #I am Lord Protector!
 		command = { type = stability value = 1 }
-		command = { type = sleepevent which = 164268 } #ENG: The Court of King Edward
+		command = { type = sleepevent which = 164268 } #ENG: The Court of King Edward -I-
 	}
 	action_b = {
 		name = "ACTIONNAME164265B" #Let Rivers run the show...
@@ -3213,12 +3213,16 @@ event = {
 		command = { type = revoltrisk which = 24 value = 3 }
 		command = { type = sleepevent which = 164266 } #ENG: The Great Betrayal
 		command = { type = sleepevent which = 21110 } #ENG: To Kill a King
+		command = { type = sleepevent which = 164274 } #ENG: The Court of King Edward -II-
 	}
 }
 
 #(1483) The Great Betrayal
 event = {
 	id = 164266
+	trigger = {
+		monarch = 046006 #Richard Plantagenet (Edward V)
+	}
 	random = no
 	country = ENG
 	name = "EVENTNAME164266" #The Great Betrayal
@@ -3229,7 +3233,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME164266A" #If he's not with me, he's against me!
-		command = { type = stability value = -1 }
+		command = { type = stability value = -2 }
 		command = { type = revoltrisk which = 24 value = 6 }
 		command = { type = sleepevent which = 164267 } #ENG: Hastings' Rebellion
 	}
@@ -3237,7 +3241,6 @@ event = {
 		name = "ACTIONNAME164266B" #Not poor Hastings, the most loyal son of York...
 		command = { type = stability value = -1 }
 		command = { type = revoltrisk which = 24 value = 3 }
-		#command = { type = wakeleader which = XXXXX } #Lord Hastings (ENG)
 	}
 }
 
@@ -3259,6 +3262,7 @@ event = {
 		name = "ACTIONNAME21110A" #King Richard, eh?
 		command = { type = wakemonarch which = 046046 } #Richard III
 		command = { type = wakeleader which = 046314 } #Richard III (ENG)
+		command = { type = sleepleader which = 046313 } #Gloucester (ENG)
 		command = { type = relation which = FRA value = -25 }
 		command = { type = relation which = SCO value = -25 }
 		command = { type = relation which = BRI value = -25 }
@@ -3317,7 +3321,7 @@ event = {
 event = {
 	id = 164269
 	trigger = {
-		monarch = 046006 #Richard III
+		monarch = 046046 #Richard III
 	}
 	random = no
 	country = ENG
@@ -3459,7 +3463,7 @@ event = {
 event = {
 	id = 164267
 	trigger = {
-		monarch = 046006 #Richard III
+		monarch = 046046 #Richard III
 		event = 164266 #ENG: The Great Betrayal
 	}
 	random = no
@@ -3506,11 +3510,12 @@ event = {
 	}
 }
 
-#(1485) The Court of King Edward - Ahistorical
+#(1485) The Court of King Edward -I- - Ahistorical
 event = {
 	id = 164268
 	trigger = {
 		monarch = 046049 #Anthony Woodville (Edward V) °
+		event = 164265 #ENG: Stony Stratford
 	}
 	random = no
 	country = ENG
@@ -3518,7 +3523,7 @@ event = {
 	desc = "EVENTHIST164268"
 	#-#After the events of Stony Stratford, Earl Rivers' domination of the young King Edward V was complete. His only major rival had been Richard of Gloucester, the King's uncle, who had, rather surprisingly, decided to concede the Protectorate to Rivers on hearing the King's pleas to do so. On submitting to the young King's will, Gloucester retired to his powerbase in the North, which he would continue to rule on behalf of his nephew with great diligence and popularity until his death. From 1483 until Edward declared his majority in 1490, Rivers and the rest of the Woodville family ruled over an increasingly prosperous and stable kingdom. By 1490 the throne of England had been ruled by two Yorkist kings, the transition between the two being both undisputed and peaceful: a first since the death of Henry V in 1422. Richard of Gloucester never quite forgave the Queen and her family's increasing influence of his nephews, but not once after Stony Stratford did he mention the subject again, instead choosing to accept political defeat and remain a loyal - if embittered - subject of the King.
 
-	date = { day = 24 month = december year = 1485 }
+	date = { day = 22 month = august year = 1485 }
 
 	action_a = {
 		name = "ACTIONNAME164268A" #All is safe in our glorious kingdom of York!
@@ -3537,6 +3542,43 @@ event = {
 		command = { type = domestic which = serfdom value = -1 }
 		command = { type = domestic which = centralization value = -1 }
 		command = { type = domestic which = innovative value = 1 }
+		command = { type = revoltrisk which = 24 value = -10 }
+		command = { type = stability value = 3 }
+	}
+}
+
+#(1485) The Court of King Edward -II- - Ahistorical
+event = {
+	id = 164274
+	trigger = {
+		monarch = 046006 #Richard Plantagenet (Edward V)
+		event = 164265 #ENG: Stony Stratford
+	}
+	random = no
+	country = ENG
+	name = "EVENTNAME164274" #The Court of King Edward
+	desc = "EVENTHIST164274"
+	#-#After the events of Stony Stratford, Gloucester's domination of the young King Edward V was complete. His only major rival had been his brother-in-law Anthony Woodville, Earl Rivers, a vain and ineffectual man whose ambition far exceeded his guile or usefulness. Having proven himself time and again for the Yorkist cause, Gloucester had ultimately faced little resistance in supplanting Rivers as the King's primary influence at court, and in turn Rivers - knowing his cause to be lost - had agreed to concede the Protectorate to Gloucester on hearing the King's pleas to do so. On submitting to the young King's will, Rivers retired to his powerbase in Northamptonshire, where he would continue to sulk and plot until he succumbed to the sweating sickness. From 1483 until Edward declared his majority in 1490, Gloucester ruled over an increasingly prosperous and stable kingdom whilst the Woodvilles' influence only further diminished. By 1490 the throne of England had been ruled by two Yorkist kings, the transition between the two being both undisputed and peaceful: a first since the death of Henry V in 1422. Gloucester and Rivers never made peace with one another, and the Dowager Queen strongly resented Gloucester's powerful influence over her sons. However, even she begrudgingly accepted Gloucester's abilities and effective rule of the North, whilst few at court could even remember why her peacock of a brother Rivers had ever been considered a suitable candidate for Protector to begin with.
+
+	date = { day = 22 month = august year = 1485 }
+
+	action_a = {
+		name = "ACTIONNAME164274A" #All is safe in our glorious kingdom of York!
+		command = { type = provincetax which = 240 value = 1 } #Northumberland
+		command = { type = provincetax which = 241 value = 1 } #Yorkshire
+		command = { type = provincetax which = 242 value = 1 } #Lancashire
+		command = { type = provincetax which = 243 value = 1 } #Wales
+		command = { type = provincetax which = 244 value = 1 } #Midlands
+		command = { type = provincetax which = 245 value = 1 } #Lincoln
+		command = { type = provincetax which = 246 value = 1 } #Bristol
+		command = { type = provincetax which = 247 value = 1 } #Anglia
+		command = { type = provincetax which = 248 value = 1 } #Kent
+		command = { type = provincetax which = 249 value = 1 } #Wessex
+		command = { type = provincetax which = 250 value = 1 } #Cornwall
+		command = { type = domestic which = aristocracy value = -1 }
+		command = { type = domestic which = serfdom value = 1 }
+		command = { type = domestic which = centralization value = 1 }
+		command = { type = domestic which = innovative value = -1 }
 		command = { type = revoltrisk which = 24 value = -10 }
 		command = { type = stability value = 3 }
 	}
@@ -8844,6 +8886,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME3037A" #We are Great Britain
 		command = { type = flagname which = "Lambert" }
+		command = { type = countryname value = "GBR" }
 		command = { type = domestic which = CENTRALIZATION value = 1 }
 		command = { type = stability value = 1 }
 		command = { type = inherit which = SCO }
@@ -9689,7 +9732,8 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME3037A" #We are Great Britain
-		command = { type = flagname which = "UK" }
+		command = { type = flagname which = "GBR" }
+		command = { type = countryname value = "GBR" }
 		command = { type = provinceculture which = 238 value = english } #Lothian
 		command = { type = provinceculture which = 239 value = english } #Strathclyde
 		command = { type = provinceculture which = 237 value = english } #The Grampians
@@ -14301,6 +14345,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME164140A" #A new Union Flag
 		command = { type = flagname which = "Modern" }
+		command = { type = countryname value = "UNK" }
 	}
 }
 
@@ -15183,4 +15228,4 @@ event = {
 
 #Reserved: 164245-164246 - 164256-164259
 
-#First free id: 164274
+#First free id: 164275

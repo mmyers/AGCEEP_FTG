@@ -80,7 +80,7 @@ event = {
 	trigger = {
 		OR = {
 			event = 338445 #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Muslim or Buddhist)
-			event = 338449 #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu)
+			event = 338449 #ProvinceSpec*573: Portuguese aid the rebellious Raja of Cochin (Hindu, Sikh or Jain)
 		}
 		NOT = {
 			event = 364001 #CLC: The Treachery of Cochin

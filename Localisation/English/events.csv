@@ -767,7 +767,7 @@ EVENTHIST337834;After the instauration of tariffs and the construction of intern
 ACTIONNAME337834A;We now gain control of our own finances;x
 #;x
 EVENTNAME337835;Livorno: Porto franco, Free Port;x
-EVENTHIST337835;In the late 1580s, Ferdinando I de Medici declared Livorno a ''porto Franco'', which meant that the goods traded here were duty free. The "Leggi Livornine" were laws which ruled between 1590 and 1603. These laws helped the trading activities of the merchant, freedom of religion and amnesty for some penance. Thanks to these laws, Livorno became a cosmopolitan city and one of the most important ports of the entire Mediterranean area. Many foreigners moved to Livorno, Armenians, Dutch, English, Greeks, and Jews, were among those who relocated to live and trade. Some Moriscos also moved to Livorno. On the 19th of March 1606, the Granduca di Toscana Ferdinando I de' Medici, in the Fortezza Vecchia Chapel of Saint Francis of Assisi elevated Livorno at the rank of city. During the Napoleonic Wars, trade with England was prohibited and the economy of Livorno suffered greatly.;x
+EVENTHIST337835;In the late 1580s, Ferdinando I de Medici declared Livorno a ''porto Franco'', which meant that the goods traded here were duty free. The 'Leggi Livornine' were laws which ruled between 1590 and 1603. These laws helped the trading activities of the merchant, freedom of religion and amnesty for some penance. Thanks to these laws, Livorno became a cosmopolitan city and one of the most important ports of the entire Mediterranean area. Many foreigners moved to Livorno, Armenians, Dutch, English, Greeks, and Jews, were among those who relocated to live and trade. Some Moriscos also moved to Livorno. On the 19th of March 1606, the Granduca di Toscana Ferdinando I de' Medici, in the Fortezza Vecchia Chapel of Saint Francis of Assisi elevated Livorno at the rank of city. During the Napoleonic Wars, trade with England was prohibited and the economy of Livorno suffered greatly.;x
 #;x
 EVENTNAME337836;Closure of Livorno Centre of Trade;x
 EVENTHIST337836;Ferdinando I de' Medici, Grand Duke of Tuscany, foreign policy, attempted to free Tuscany from Spanish domination. While Spain's interest was to direct all trade from northern Europe to Spanish ports and not Italian ports.;x
@@ -2158,7 +2158,7 @@ EVENTHIST338497;St. Joseph was very moved by the misery of the poor children of 
 ACTIONNAME338497A;Educate our youth;x
 #;x
 EVENTNAME338498;Growing Manchu trouble in Liaoning;x
-EVENTHIST338498;In 1582, the father, Taksi, and grandfather, Giocangga, of future Manchu khan Nurhaci were killed in an attack on Gure (Liaoning province) by a rival Jurchen chieftain Nikan Wailan ("Nikan Wailan" means "Secretary of Chinese people" in Jurchen language, thus his existence is suspected by some historians.) while being led by Li Chengliang. The following year, Nurhaci began to unify the Jurchen bands around his area. In 1584, when he was 25, he attacked Nikan Wailan at Tulun (village in Liaoning too) to avenge the deaths of his father and grandfather, who are said to have left him nothing but thirteen suits of armor. Nikan Wailan fled away to Erhun, which got attacked by Nurhaci again in 1587. Nikan Wailan this time fled to Li Chengliang's territory. Later, as a way to build relationship, Li gave Nikan Wailan to Nurhaci, who beheaded Nikan Wailan immediately. With Li's support, Nurhaci gradually grew his strength in the following years.;x
+EVENTHIST338498;In 1582, the father, Taksi, and grandfather, Giocangga, of future Manchu khan Nurhaci were killed in an attack on Gure (Liaoning province) by a rival Jurchen chieftain Nikan Wailan ('Nikan Wailan' means 'Secretary of Chinese people' in Jurchen language, thus his existence is suspected by some historians.) while being led by Li Chengliang. The following year, Nurhaci began to unify the Jurchen bands around his area. In 1584, when he was 25, he attacked Nikan Wailan at Tulun (village in Liaoning too) to avenge the deaths of his father and grandfather, who are said to have left him nothing but thirteen suits of armor. Nikan Wailan fled away to Erhun, which got attacked by Nurhaci again in 1587. Nikan Wailan this time fled to Li Chengliang's territory. Later, as a way to build relationship, Li gave Nikan Wailan to Nurhaci, who beheaded Nikan Wailan immediately. With Li's support, Nurhaci gradually grew his strength in the following years.;x
 #;x
 EVENTNAME338499;Sikhism in Panjab;x
 EVENTHIST338499;The Sikh religion was founded in the 15th century by Nanak Dev Ji. Son of an accountant, Nanak was interested in religion and the mysteries of life. At the age of thirty, Nanak is supposed to have proclaimed, 'There is no Hindu, there is no Muslim' and thus begun the Sikh faith. He is said to have preached all over India and by the mid-16th century, Sikhism became rooted in the Punjab.;x
@@ -2865,16 +2865,16 @@ EVENTHIST20000;At a young age Joan of Arc began to hear voices - those of St. Mi
 ACTIONNAME20000A;The Rebels Must be Crushed;x
 #;x
 EVENTNAME20002;The League of the Public Weal;x
-EVENTHIST20002;With England distracted by the War of the Roses, ambitious French nobleman plotted to throw off English rule and crown Louis of Valois King of France as Louis XI. A League of the Public Weal was formed, and it mobilized support for a rising against the English.;x
+EVENTHIST20002;With England distracted by the Wars of the Roses, ambitious French nobleman plotted to throw off English rule and crown Louis of Valois King of France as Louis XI. A League of the Public Weal was formed, and it mobilized support for a rising against the English.;x
 ACTIONNAME20002A;Destroy the Nobles;x
 ACTIONNAME20002B;Appease the Nobles;x
 #;x
-EVENTNAME20005;The War of the Roses in France;x
-EVENTHIST20005;The War of the Roses were as much about the crown of France as they were about that of England, so it should come as no surprise that much of the most vicious fighting was in the larger of the two Kingdoms. Both the Lancastrians and the Yorkists saw France as an important battleground and recruitment centre. The situation was further complicated by attempts by some members of the French nobility to restore the House of Valois to the French throne.;x
+EVENTNAME20005;The Wars of the Roses in France;x
+EVENTHIST20005;The Wars of the Roses were as much about the crown of France as they were about that of England, so it should come as no surprise that much of the most vicious fighting was in the larger of the two Kingdoms. Both the Lancastrians and the Yorkists saw France as an important battleground and recruitment centre. The situation was further complicated by attempts by some members of the French nobility to restore the House of Valois to the French throne.;x
 ACTIONNAME20005A;The Battles Spread to France;x
 #;x
 EVENTNAME20006;The End of the Wars of the Roses in France;x
-EVENTHIST20006;With the War of the Roses at an end, the English were able to concentrate on restoring their authority in France.;x
+EVENTHIST20006;With the Wars of the Roses at an end, the English were able to concentrate on restoring their authority in France.;x
 ACTIONNAME20006A;The War Ends in France;x
 #;x
 EVENTNAME20008;France Rises Again;x
@@ -3616,6 +3616,11 @@ EVENTNAME_RANDOM128;Commissioning of a great Gurdwara;x
 EVENTHIST_RANDOM128;Our Masands recommend that we commission a new Gurdwara in honor of a recently named guru. Should we heed their advice?;x
 ACTIONNAME_RANDOM128A;No, there are enough gurdwaras already;x
 ACTIONNAME_RANDOM128B;Yes! We should honor this new guru!;x
+#;x
+EVENTNAME_RANDOM129;Commissioning of a Jain Temple;x
+EVENTHIST_RANDOM129;Our Acharyas recommend that we commission a new Jain Temple in honor of the Devas. Should we heed their advice?;x
+ACTIONNAME_RANDOM129A;No, there are enough temples already;x
+ACTIONNAME_RANDOM129B;Yes! We should honor the Devas!;x
 #;x
 #;x
 #####################################
@@ -5501,7 +5506,7 @@ EVENTHIST82001;The people of Tlaxcala have decided to join us in overthrowing th
 ACTIONNAME82001A;This means war!;x
 #;x
 EVENTNAME82004;The Fall of Tenochtitlan;x
-EVENTHIST82004;The foreign invaders have taken our capitol. Our soldiers cannot withstand their magical weapons! What will we do?;x
+EVENTHIST82004;The foreign invaders have taken our capital. Our soldiers cannot withstand their magical weapons! What will we do?;x
 ACTIONNAME82004A;Reject Christianity and be burned at the stake (End Game);x
 ACTIONNAME82004B;Escape disguised as a scullery maid;x
 #;x
@@ -10206,7 +10211,7 @@ EVENTHIST21109;Even after his betrayal in 1470, Edward pardoned his brother Clar
 ACTIONNAME21109A;Malmsey?;x
 #;x
 EVENTNAME21110;To Kill a King;x
-EVENTHIST21110;After the success of his political coup at Stony Stratford, Gloucester had a free reign in the everyday upbringing of the King, not to mention an unparalleled level of influence over his decisions. Having pleaded with the Queen to release the ten year-old Duke of York from his sanctuary at Westminster, the royal brothers were inturned in the Tower, the traditional residence of a king before his coronation, and in no way sinister or against the ordinary. From here, Gloucester's decisions proved fatal. He was undisputed ruler of the kingdom. According to legend, like de Montfort before him and Cromwell after, Gloucester was asked numerous times to take the crown so as to ensure stability . Eventually, he accepted, though it would of course be naïve to suggest his actions had never taken this into account from at least Hastings' execution, if not right from Stony Stratford. June 1483 was forever the month that  blackened the name of Richard of Gloucester and ultimately sealed the fate of his dynasty. The actions of the man known unto history as King Richard III were at no point a foregone conclusion. On the one hand, Gloucester was a skilled administrator with a proven record of military success, in particular during the Anglo-Scottish war. His arguments for claiming the throne were simple, . Moreover, argued Richard, his nephews were both bastards by virtue of their father's alleged pre-marriage contract. he could provide England with firm and stable leadership. The young Edward was undeniably his father's eldest son, legitimate or not. Could Richard rule as Lord Protector until King Edward came of age, or murder his own flesh & blood and take the throne for himself, risking rebellion, anarchy and complete diplomatic isolation in the process. Not until the days of Oliver Cromwell would an Englishman wield so much power with such devastating results.;x
+EVENTHIST21110;After the success of his political coup at Stony Stratford, Gloucester had a free reign in the everyday upbringing of the King, not to mention an unparalleled level of influence over his decisions. Having pleaded with the Queen to release the ten year-old Duke of York from his sanctuary at Westminster, the royal brothers were inturned in the Tower, the traditional residence of a king before his coronation, and in no way sinister or against the ordinary. From here, Gloucester's decisions proved fatal. He was undisputed ruler of the kingdom. According to legend, like de Montfort before him and Cromwell after, Gloucester was asked numerous times to take the crown so as to ensure stability . Eventually, he accepted, though it would of course be naïve to suggest his actions had never taken this into account from at least Hastings' execution, if not right from Stony Stratford. June 1483 was forever the month that blackened the name of Richard of Gloucester and ultimately sealed the fate of his dynasty. The actions of the man known unto history as King Richard III were at no point a foregone conclusion. On the one hand, Gloucester was a skilled administrator with a proven record of military success, in particular during the Anglo-Scottish war. His arguments for claiming the throne were simple, . Moreover, argued Richard, his nephews were both bastards by virtue of their father's alleged pre-marriage contract. he could provide England with firm and stable leadership. The young Edward was undeniably his father's eldest son, legitimate or not. Could Richard rule as Lord Protector until King Edward came of age, or murder his own flesh & blood and take the throne for himself, risking rebellion, anarchy and complete diplomatic isolation in the process. Not until the days of Oliver Cromwell would an Englishman wield so much power with such devastating results.;x
 ACTIONNAME21110A;King Richard, eh?;x
 ACTIONNAME21110B;There is already a King of England!;x
 #;x
@@ -11053,7 +11058,7 @@ ACTIONNAME164263B;Adhere to King Edward's will;x
 EVENTHIST164264;After Queen Jane's successful usurpation and coronation in 1553, Mary's chances of ascending her half-brother's throne became slimmer by the day. Despite several low-key revolts in her name, successive miscarriages by various Catholic nobles and a failed marriage proposal to the future King of Spain resulted only in Mary further alienating herself from the people of England. Living in almost complete isolation in the royal apartments at Windsor, Mary - guarded at all times by fervent Puritans hand-picked by the Queen - was given few diplomatic options, with letters to and from anyone known to be in anyway pro-Catholic being burnt before reaching her. For both Queens, however, the situation was a difficult one for as long as both of them lived. Despite being deeply unpopular amongst the majority of the English, Mary was the true heir to the throne, being both the eldest sister of Edward VI and daughter of Henry VIII. Jane, though firmly established as Queen and recognised as such among the Protestant powers of Europe, was a usurper, and as well as being excommunicated by the Pope, there were rumours that plans were being made to replace Jane with Mary's half-sister, the Protestant Elizabeth - a most dangerous proposition for Jane, as hitherto her one unwavering strength had been Mary's rabid Catholicism. To Parliament, the true maker and breaker of kings, the choice was a lot simpler: Jane would reign for as long as Mary lived, the crown being offered to the Princess Elizabeth upon her half-sister's death. None of the parties involved with this arrangement were particularly happy about it, but to Parliament it ensured both the Protestant Succession and the continuation of the Tudor dynasty in the male line. Legally and constitutionally the Protestant Succession of 1558 was sound - it was also considered acceptable by the majority of the English people, not to mention undoubtedly avoiding the inevitable civil war had either side taken power by force.;x
 #;x
 EVENTNAME164265;Stony Stratford;x
-EVENTHIST164265;The rise of Richard of Gloucester to the throne of England was never an immediately obvious one. Gloucester had been exemplary in his continued loyalty and support towards King Edward during his lifetime, especially in stark contrast to their other brother, Clarence, who time and time again had rebelled against Edward's rule, and paid the ultimate price for it. Though the will of Edward IV no longer survives, historians generally believe that Gloucester was to be appointed Lord Protector during his nephew's minority. Afterall, Gloucester, along with Lord Hastings, was the single most loyal and experienced man in the Yorkist camp. Moreover, after Edward's issue he was heir to the throne. At Stony Stratford on the night of April 30th, 1483, Gloucester had Earl Rivers and Sir Richard Grey, the King's half-brother,  arrested for treason and sent to Pontefract Castle, one of Gloucester's northern strongholds. The securing of the young King's person was seen as an effective way of preserving the continuity and stability of the realm under those whom it was considered were best-placed to look after him, and at the time was certainly never perceived as a move against the King himself. Earl Rivers, the Queen's brother, was seen by the Woodville faction as an alternative to Gloucester as Lord Protector, and indeed, it is said that King Edward pleaded with his uncle not to arrest his Woodville favourites. Lord Hastings enthusiastically backed Gloucester's coup at Stony Stratford. Gloucester was simply protecting his nephew from the what was seen as the largely negative and highly suspicious influence of the Queen and her family. For as long as he commanded Hastings' loyalty and support, Gloucester's actions were vindicated.;x
+EVENTHIST164265;The rise of Richard of Gloucester to the throne of England was never an immediately obvious one. Gloucester had been exemplary in his continued loyalty and support towards King Edward during his lifetime, especially in stark contrast to their other brother, Clarence, who time and time again had rebelled against Edward's rule, and paid the ultimate price for it. Though the will of Edward IV no longer survives, historians generally believe that Gloucester was to be appointed Lord Protector during his nephew's minority. Afterall, Gloucester, along with Lord Hastings, was the single most loyal and experienced man in the Yorkist camp. Moreover, after Edward's issue he was heir to the throne. At Stony Stratford on the night of April 30th, 1483, Gloucester had Earl Rivers and Sir Richard Grey, the King's half-brother, arrested for treason and sent to Pontefract Castle, one of Gloucester's northern strongholds. The securing of the young King's person was seen as an effective way of preserving the continuity and stability of the realm under those whom it was considered were best-placed to look after him, and at the time was certainly never perceived as a move against the King himself. Earl Rivers, the Queen's brother, was seen by the Woodville faction as an alternative to Gloucester as Lord Protector, and indeed, it is said that King Edward pleaded with his uncle not to arrest his Woodville favourites. Lord Hastings enthusiastically backed Gloucester's coup at Stony Stratford. Gloucester was simply protecting his nephew from the what was seen as the largely negative and highly suspicious influence of the Queen and her family. For as long as he commanded Hastings' loyalty and support, Gloucester's actions were vindicated.;x
 ACTIONNAME164265A;I am Lord Protector!;x
 ACTIONNAME164265B;Let Rivers run the show...;x
 #;x
@@ -11068,6 +11073,7 @@ ACTIONNAME164267A;Is there not a man in this kingdom I can trust!?;x
 #;x
 EVENTNAME164268;The Court of King Edward;x
 EVENTHIST164268;After the events of Stony Stratford, Earl Rivers' domination of the young King Edward V was complete. His only major rival had been Richard of Gloucester, the King's uncle, who had, rather surprisingly, decided to concede the Protectorate to Rivers on hearing the King's pleas to do so. On submitting to the young King's will, Gloucester retired to his powerbase in the North, which he would continue to rule on behalf of his nephew with great diligence and popularity until his death. From 1483 until Edward declared his majority in 1490, Rivers and the rest of the Woodville family ruled over an increasingly prosperous and stable kingdom. By 1490 the throne of England had been ruled by two Yorkist kings, the transition between the two being both undisputed and peaceful: a first since the death of Henry V in 1422. Richard of Gloucester never quite forgave the Queen and her family's increasing influence of his nephews, but not once after Stony Stratford did he mention the subject again, instead choosing to accept political defeat and remain a loyal - if embittered - subject of the King.;x
+ACTIONNAME164268A;All is safe in our glorious kingdom of York!;x
 #;x
 EVENTNAME164269;Titulus Regius;x
 EVENTHIST164269;Titulus Regius was an Act of Parliament passed during Richard III's one and only parliament held in 1484, setting out in detail his claim to the throne. It is generally accepted that Titulus Regius incorporates the text of the petition presented by the Duke of Buckingham to the assembly of the Lords and Commons which met on June 25th 1483 at the Guildhall in London and which was presented to, and accepted by, the Duke of Gloucester on the following day, from which date he thereafter considered to be the beginning of his reign as Richard III. The Act makes a number of claims, the primary one being that Edward IV's childen were illegitimate. As it was the intention of Henry VII to marry Elizabeth of York, the eldest daughter of Edward IV and thereby 'unite' the divided houses of York and Lancaster, he did not want any doubts expressed regarding his future wife's status - the Act was therefore repealed and Henry ordered all copies of Titulus Regius destroyed. The text has only survived because it was copied into a work known as the Croyland Chronicle, a single copy of which survived and was discovered in 1619 by Sir George Buck, a noted Stuart historian. The Act goes on to confirm Richard's other brother Clarence's status as a traitor, and thus he (though already dead) and his successors were also barred from the throne. As such, Richard wished simply to tie up any loose ends as to the validity of his claim to the throne and the facts surrounding his nephews' illegitimacy.;x
@@ -11084,6 +11090,10 @@ ACTIONNAME164271A;Then we shall leave them to their fate...;x
 EVENTNAME164273;York, Lieutenant of Ireland;x
 ACTIONNAME164273A;Secure York's indenture;x
 EVENTHIST164273;At the end of his appointment as Lieutenant of France, York returned to England with reasonable expectations. But since he was also Earl of Ulster and had considerable estates in Ireland, King Henry VI understood that York would be well-received there and by issuing a Royal patent he appointed him Lieutenant of Ireland. Although York's assignment was a blatant attempt to politically isolate him, his efforts in Ireland would prove to be effective. Once York established himself in Meath, he received the submission of forty-two Irish leaders, and restored a fair degree of stability.;x 
+#;x
+EVENTNAME164274;The Court of King Edward;x
+EVENTHIST164274;After the events of Stony Stratford, Gloucester's domination of the young King Edward V was complete. His only major rival had been his brother-in-law Anthony Woodville, Earl Rivers, a vain and ineffectual man whose ambition far exceeded his guile or usefulness. Having proven himself time and again for the Yorkist cause, Gloucester had ultimately faced little resistance in supplanting Rivers as the King's primary influence at court, and in turn Rivers - knowing his cause to be lost - had agreed to concede the Protectorate to Gloucester on hearing the King's pleas to do so. On submitting to the young King's will, Rivers retired to his powerbase in Northamptonshire, where he would continue to sulk and plot until he succumbed to the sweating sickness. From 1483 until Edward declared his majority in 1490, Gloucester ruled over an increasingly prosperous and stable kingdom whilst the Woodvilles' influence only further diminished. By 1490 the throne of England had been ruled by two Yorkist kings, the transition between the two being both undisputed and peaceful: a first since the death of Henry V in 1422. Gloucester and Rivers never made peace with one another, and the Dowager Queen strongly resented Gloucester's powerful influence over her sons. However, even she begrudgingly accepted Gloucester's abilities and effective rule of the North, whilst few at court could even remember why her peacock of a brother Rivers had ever been considered a suitable candidate for Protector to begin with.;x
+ACTIONNAME164274A;All is safe in our glorious kingdom of York!;x
 #;x
 EVENTNAME164500;Jan Pieterszoon Coen burnt Jepara;x
 EVENTHIST164500;Jan Pieterszoon Coen passed through Jepara, and burnt down the city again, including the English trading post.;x
@@ -11374,7 +11384,7 @@ EVENTHIST167000;While few people in the 18th and early 19th centuries entertaine
 ACTIONNAME167000A;We are Finland!;x
 #;x
 EVENTNAME167001;Finnish Rule Over Karelians;x
-EVENTHIST167001;The Finnish and Karelian people are very close ethnically and especially linguistically. Some writers and ethnologists think that the Karelian people of the East have preserved the "crucial Finnish element" which has been lost among the Finns after centuries of Western rule.;x
+EVENTHIST167001;The Finnish and Karelian people are very close ethnically and especially linguistically. Some writers and ethnologists think that the Karelian people of the East have preserved the 'crucial Finnish element' which has been lost among the Finns after centuries of Western rule.;x
 #;x
 #;x
 ##################################
@@ -18289,8 +18299,8 @@ EVENTNAME230026;Bâburnâma;x
 EVENTHIST230026;The 'Book of Babur' are memoirs of Zahir-ud-din Muhammad Bâbur (r.1494-1530), founder of the Mughal Empire and descendant of Tamerlane. An autobiographical work, it recalls Bâbur's experiences of the life and times he lived in. Encompassing subjects including nature, society, politics, economics, geography and history, it has since been widely translated and used as a textbook throughout Central, Western and Southern Asia. His successors left similar works.;x
 #;x
 EVENTNAME230027;Fatehpur Sikri;x
-EVENTHIST230027;Located 26 miles west of Agra, its regarded as Akbar I's crowning architectural legacy. Numerous structures here illustrate a fusion of Muslim, Hindu and Jain influences reflecting Mughal impulses of creativity and aestheticism. Its layout is likened to Akbar's moveable imperial encampments whilst attempting to reproduce rich spatial effects of nomadic life via strategic placement of buildings and squares. Some of Akbar's most innovative reforms was during Fatehpur Sikri's tenure as capitol but a lack of water led to its abandonment in 1585.;x
-ACTIONNAME230027A;Build a new Capitol;x
+EVENTHIST230027;Located 26 miles west of Agra, its regarded as Akbar I's crowning architectural legacy. Numerous structures here illustrate a fusion of Muslim, Hindu and Jain influences reflecting Mughal impulses of creativity and aestheticism. Its layout is likened to Akbar's moveable imperial encampments whilst attempting to reproduce rich spatial effects of nomadic life via strategic placement of buildings and squares. Some of Akbar's most innovative reforms was during Fatehpur Sikri's tenure as capital but a lack of water led to its abandonment in 1585.;x
+ACTIONNAME230027A;Build a new capital;x
 ACTIONNAME230027B;We are comfortable at Agra;x
 #;x
 EVENTNAME230028;Shahi Qila Citadel;x
@@ -22721,7 +22731,7 @@ ACTIONNAME260150A;Favor Count of Castelo Melhor;x
 ACTIONNAME260150B;Favor Luisa of Medina-Sidonia;x
 #;x
 EVENTNAME260151;Inconfidência Mineira;x
-EVENTHIST260151;The Inconfidência Mineira, or Minas Conspiracy, was the first major separatist movement in Brazil, with the objective of forming a Republic, clearly influenced by the American Independence and the French Enlightenment ideals, but before its planned revolt, it was betrayed by one of its members, Joaquim Silvério dos Reis, and all its members, including intellectuals, poets and officials from the army were arrested, with most of them hanged or exiled. Its motto, "Libertas quæ sera tamen", translated as "Freedom, even though late", became a major symbol of resistance in the Captaincy of Minas Gerais.;x
+EVENTHIST260151;The Inconfidência Mineira, or Minas Conspiracy, was the first major separatist movement in Brazil, with the objective of forming a Republic, clearly influenced by the American Independence and the French Enlightenment ideals, but before its planned revolt, it was betrayed by one of its members, Joaquim Silvério dos Reis, and all its members, including intellectuals, poets and officials from the army were arrested, with most of them hanged or exiled. Its motto, 'Libertas quæ sera tamen', translated as 'Freedom, even though late', became a major symbol of resistance in the Captaincy of Minas Gerais.;x
 ACTIONNAME260151A;Damn those mineiros;x
 #;x
 EVENTNAME260152;Settlement at Hitu;x
@@ -27250,7 +27260,7 @@ EVENTHIST291038;Since the 13th century the Karelians have lived in the tension b
 ACTIONNAME291038A;Accept the Karelians;x
 #;x
 EVENTNAME291039;Swedish migration in Österbotten;x
-EVENTHIST291039;Korsholm has a history that can be dated back to 1348. Thanks to the sea connections with Stockholm, ship building and trade became the main export, Österbotten flourished and attracted Swedish migration. On October 2, 1606 during  the reign of Charles IX of Sweden the town was grated city status and renamed to Vaasa, the new capital of the area was near the old harbour and trade point close to the Korsholm church. In 1611 the city was chartered and renamed after the Royal House of Vasa. The municipality since the Karelian migration was bilingual, with a majority from 17th century,  being Swedish and a minority being Finnish speakers. Religiously by 1606, both Swedes and Finns in Österbotten had the same religion.;x
+EVENTHIST291039;Korsholm has a history that can be dated back to 1348. Thanks to the sea connections with Stockholm, ship building and trade became the main export, Österbotten flourished and attracted Swedish migration. On October 2, 1606 during the reign of Charles IX of Sweden the town was grated city status and renamed to Vaasa, the new capital of the area was near the old harbour and trade point close to the Korsholm church. In 1611 the city was chartered and renamed after the Royal House of Vasa. The municipality since the Karelian migration was bilingual, with a majority from 17th century, being Swedish and a minority being Finnish speakers. Religiously by 1606, both Swedes and Finns in Österbotten had the same religion.;x
 ACTIONNAME291039A;Colonize and arm;x
 #;x
 EVENTNAME291040;The loss of the Baltic Provinces;x
@@ -27542,7 +27552,7 @@ EVENTHIST196001;In light of Issakios Saichos's pro-Ottoman stance, Stefan III of
 ACTIONNAME196001A;Proclaim Alexandros Prince;x
 #;x
 EVENTNAME196002;Fortress of Mangup-Kale;x
-EVENTHIST196002;Built by the Byzantine Emperors during the VI and VII centuries, it was associated with the mysterious fortress of Doros - serving as bastion of imperial might in the Crimea. Under the stewardship of Prinkeps Alexios (r.1403-47) the site was renovated as capitol of the Principality. The basilica and citadel were restored with an additonal palace while the city benefitted from three lines of fortifications that exploited the terrain. Taken by the Ottomans in 1475, they used it as an outpost in the Crimea until the XVIII century.;x
+EVENTHIST196002;Built by the Byzantine Emperors during the VI and VII centuries, it was associated with the mysterious fortress of Doros - serving as bastion of imperial might in the Crimea. Under the stewardship of Prinkeps Alexios (r.1403-47) the site was renovated as capital of the Principality. The basilica and citadel were restored with an additonal palace while the city benefitted from three lines of fortifications that exploited the terrain. Taken by the Ottomans in 1475, they used it as an outpost in the Crimea until the XVIII century.;x
 ACTIONNAME196002A;Make it fit for a Prince;x
 ACTIONNAME196002B;Leave the ruins alone;x
 #;x
@@ -27848,7 +27858,7 @@ ACTIONNAME298013A;Refuse to pay;x
 ACTIONNAME298013B;Settle outstanding debts;x
 #;x
 EVENTNAME298014;Turkoman Raids;x
-EVENTHIST298014;Throughout Ioannes IV's reign, the neighbouring Turkomans grew increasingly hostile towards Trapezountas. In 1442 Sultan Murad II attacked the Empire's dependancies in the Crimea but it was saved by a sudden storm. Meanwhile various Turkish Emirs besieged the capitol before being bought off, or simply tired of a lengthy siege.;x
+EVENTHIST298014;Throughout Ioannes IV's reign, the neighbouring Turkomans grew increasingly hostile towards Trapezountas. In 1442 Sultan Murad II attacked the Empire's dependancies in the Crimea but it was saved by a sudden storm. Meanwhile various Turkish Emirs besieged the capital before being bought off, or simply tired of a lengthy siege.;x
 ACTIONNAME298014A;Close the gates!;x
 ACTIONNAME298014B;Buy them off;x
 #;x
@@ -27897,7 +27907,7 @@ ACTIONNAME282005A;Resign our throne;x
 ACTIONNAME282005B;Remain Voivode;x
 #;x
 EVENTNAME282006;Báthory's Last Stand;x
-EVENTHIST282006;When Zsigmond Báthory resigned in favour of his cousin András Báthory, Transylvania fell under the Polish sphere of influence as Cardinal András was already a Polish vassal. Báthory's decision ultimately turned his allies against him. Beginning on October 5 1599, Mihály II Vitéz of Wallachia and György Básta (an Austrian general), launched a campaign against the Principality. On October 18 Mihály defeated András at the Battle of Selimbar - giving him control of the Capitol Gyulafehérvár. Zsigmond Báthory hastened to reclaim his throne with a force of Cossacks and Poles, only to be defeated at Suceava. Still Romanian peasants and nobles alike hated Vitéz, despite his attempts at endearing himself to them. Who shall be our Prince?;x
+EVENTHIST282006;When Zsigmond Báthory resigned in favour of his cousin András Báthory, Transylvania fell under the Polish sphere of influence as Cardinal András was already a Polish vassal. Báthory's decision ultimately turned his allies against him. Beginning on October 5 1599, Mihály II Vitéz of Wallachia and György Básta (an Austrian general), launched a campaign against the Principality. On October 18 Mihály defeated András at the Battle of Selimbar - giving him control of the capital Gyulafehérvár. Zsigmond Báthory hastened to reclaim his throne with a force of Cossacks and Poles, only to be defeated at Suceava. Still Romanian peasants and nobles alike hated Vitéz, despite his attempts at endearing himself to them. Who shall be our Prince?;x
 ACTIONNAME282006A;Zsigmond Báthory;x
 ACTIONNAME282006B;Mihály Vitéz (possibly End Game);x
 #;x
@@ -29310,7 +29320,7 @@ ACTIONNAME19005A;Support Radu;x
 ACTIONNAME19005B;Support Dracula;x
 #;x
 EVENTNAME329000;Union of Transylvania;x
-EVENTHIST329000;In 1599 Mihai II Viteazul crossed the Carpathians and defeated the Transylvanian Prince András Báthory at Selimbar (18 October 1599). Entering the Capitol Gyulafehérvár (Alba Julia) in impressive pomp, he proclaimed himself 'Imperial Governor of Transylvania' in the name of Rudolf II of Austria. In reality, he ruled like an independent prince.;x
+EVENTHIST329000;In 1599 Mihai II Viteazul crossed the Carpathians and defeated the Transylvanian Prince András Báthory at Selimbar (18 October 1599). Entering the capital Gyulafehérvár (Alba Julia) in impressive pomp, he proclaimed himself 'Imperial Governor of Transylvania' in the name of Rudolf II of Austria. In reality, he ruled like an independent prince.;x
 ACTIONNAME329000A;Personal Union;x
 ACTIONNAME329000B;Annex it;x
 ACTIONNAME329000C;A vassal;x
@@ -29667,7 +29677,7 @@ ACTIONNAME82002A;Let us crush our enemies together;x
 ACTIONNAME82002B;Are you mad? The foreigners are more dangerous than any of our neighbors;x
 #;x
 EVENTNAME82007;The Fall of Atlixco;x
-EVENTHIST82007;The foreign invaders have taken our capitol. Our soldiers cannot withstand their magical weapons! What will we do?;x
+EVENTHIST82007;The foreign invaders have taken our capital. Our soldiers cannot withstand their magical weapons! What will we do?;x
 ACTIONNAME82007A;Reject Christianity and be burned at the stake (End Game);x
 ACTIONNAME82007B;Escape disguised as a scullery maid;x
 #;x

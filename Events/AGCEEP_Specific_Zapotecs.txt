@@ -50,7 +50,7 @@ event = {
 	country = ZAP
 	name = "EVENTNAME82007" #The Fall of Atlixco
 	desc = "EVENTHIST82007"
-	#-#The foreign invaders have taken our capitol. Our soldiers cannot withstand their magical weapons! What will we do?
+	#-#The foreign invaders have taken our capital. Our soldiers cannot withstand their magical weapons! What will we do?
 
 	date = { day = 1 month = january year = 1419 }
 	offset = 1

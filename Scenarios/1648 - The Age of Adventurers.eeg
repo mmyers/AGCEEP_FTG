@@ -30,6 +30,10 @@ header = {
 		SPA = "Saltire"
 	}
 
+	countryname = {
+		POL = "PLI"
+	}
+
 	SPA = {
 		countrydifficulty = 5
 		countryeconomy = 5

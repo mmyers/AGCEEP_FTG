@@ -1,4 +1,4 @@
-#Pirats - Leaders
+#Pirates - Leaders
 
 #-----------------------------------------------------------------------------------------------
 #XVII century
@@ -13,13 +13,13 @@ historicalleader = {
 	deathdate = {
 		year = 1650
 	}
-	location = 1044 #Carribean Sea
+	location = 1044 #Caribbean Sea
 	rank = 25
 	movement = 6
 	fire = 5
 	shock = 5
 	siege = 3
-	remark = "Carribean Sea"
+	remark = "Caribbean Sea"
 }
 historicalleader = {
 	id = { type = 6 id = 0107303 }
@@ -37,7 +37,7 @@ historicalleader = {
 	fire = 5
 	shock = 5
 	siege = 0
-	remark = "Carribean Sea"
+	remark = "Caribbean Sea"
 }
 historicalleader = {
 	id = { type = 6 id = 0107300 }
@@ -55,7 +55,7 @@ historicalleader = {
 	fire = 4
 	shock = 4
 	siege = 1
-	remark = "Carribean Sea"
+	remark = "Caribbean Sea"
 }
 historicalleader = {
 	id = { type = 6 id = 0107304 }
@@ -73,7 +73,7 @@ historicalleader = {
 	fire = 4
 	shock = 4
 	siege = 0
-	remark = "Carribean Sea"
+	remark = "Caribbean Sea"
 }
 historicalleader = {
 	id = { type = 6 id = 0107305 }
@@ -91,7 +91,7 @@ historicalleader = {
 	fire = 6
 	shock = 6
 	siege = 0
-	remark = "Carribean Sea"
+	remark = "Caribbean Sea"
 }
 historicalleader = {
 	id = { type = 6 id = 0107306 }
@@ -109,7 +109,7 @@ historicalleader = {
 	fire = 4
 	shock = 5
 	siege = 0
-	remark = "Carribean Sea"
+	remark = "Caribbean Sea"
 }
 historicalleader = {
 	id = { type = 6 id = 0107307 }

@@ -131,10 +131,10 @@ event = {
 }
 
 #-----------------------------------------------------------------------------------------------
-#The War of the Roses in France Sequence
+#The Wars of the Roses in France Sequence
 #Created by Lambert Simnel - Edited by Johnny Canuck
 
-#(1455-1485) The War of the Roses in France
+#(1455-1485) The Wars of the Roses in France
 event = {
 	id = 20005
 	trigger = {
@@ -148,9 +148,9 @@ event = {
 	}
 	random = no
 	country = ENG
-	name = "EVENTNAME20005" #The War of the Roses in France
+	name = "EVENTNAME20005" #The Wars of the Roses in France
 	desc = "EVENTHIST20005"
-	#-#The War of the Roses were as much about the crown of France as they were about that of England, so it should come as no surprise that much of the most vicious fighting was in the larger of the two Kingdoms. Both the Lancastrians and the Yorkists saw France as an important battleground and recruitment centre. The situation was further complicated by attempts by some members of the French nobility to restore the House of Valois to the French throne.
+	#-#The Wars of the Roses were as much about the crown of France as they were about that of England, so it should come as no surprise that much of the most vicious fighting was in the larger of the two Kingdoms. Both the Lancastrians and the Yorkists saw France as an important battleground and recruitment centre. The situation was further complicated by attempts by some members of the French nobility to restore the House of Valois to the French throne.
 
 	date = { day = 1 month = january year = 1455 }
 	offset = 360
@@ -190,7 +190,7 @@ event = {
 		command = { type = province_revoltrisk which = 426 value = 5 } #Roussillon
 	}
 }
-#(1485) The End of the War of the Roses in France
+#(1485) The End of the Wars of the Roses in France
 event = {
 	id = 20006
 	trigger = {
@@ -198,13 +198,15 @@ event = {
 		OR = {
 			event = 21111 #Lancastrian Succession
 			event = 21112 #Bosworth Field
+			event = 164268 #The Court of King Edward -I-
+			event = 164274 #The Court of King Edward -II-
 		}
 	}
 	random = no
 	country = ENG
 	name = "EVENTNAME20006" #The End of the Wars of the Roses in France
 	desc = "EVENTHIST20006"
-	#-#With the War of the Roses at an end, the English were able to concentrate on restoring their authority in France.
+	#-#With the Wars of the Roses at an end, the English were able to concentrate on restoring their authority in France.
 
 	date = { day = 23 month = august year = 1485 }
 
@@ -242,7 +244,7 @@ event = {
 		command = { type = province_revoltrisk which = 426 value = -5 } #Roussillon
 	}
 }
-#End of The War of the Roses in France Sequence
+#End of The Wars of the Roses in France Sequence
 #-----------------------------------------------------------------------------------------------
 
 #(1461-1820) France Rises Again
@@ -432,7 +434,7 @@ event = {
 	country = ENG
 	name = "EVENTNAME20002" #The League of the Public Weal
 	desc = "EVENTHIST20002"
-	#-#With England distracted by the War of the Roses, ambitious French nobleman plotted to throw off English rule and crown Louis of Valois King of France as Louis XI. A League of the Public Weal was formed, and it mobilized support for a rising against the English.
+	#-#With England distracted by the Wars of the Roses, ambitious French nobleman plotted to throw off English rule and crown Louis of Valois King of France as Louis XI. A League of the Public Weal was formed, and it mobilized support for a rising against the English.
 
 	date = { day = 1 month = january year = 1465 }
 	offset = 1000

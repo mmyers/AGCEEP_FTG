@@ -79,7 +79,7 @@ event = {
 	country = THO
 	name = "EVENTNAME196002" #Fortress of Mangup-Kale
 	desc = "EVENTHIST196002"
-	#-#Built by the Byzantine Emperors during the VI and VII centuries, it was associated with the mysterious fortress of Doros - serving as bastion of imperial might in the Crimea. Under the stewardship of Prinkeps Alexios (r.1403-47) the site was renovated as capitol of the Principality. The basilica and citadel were restored with an additonal palace while the city benefitted from three lines of fortifications that exploited the terrain. Taken by the Ottomans in 1475, they used it as an outpost in the Crimea until the XVIII century.
+	#-#Built by the Byzantine Emperors during the VI and VII centuries, it was associated with the mysterious fortress of Doros - serving as bastion of imperial might in the Crimea. Under the stewardship of Prinkeps Alexios (r.1403-47) the site was renovated as capital of the Principality. The basilica and citadel were restored with an additonal palace while the city benefitted from three lines of fortifications that exploited the terrain. Taken by the Ottomans in 1475, they used it as an outpost in the Crimea until the XVIII century.
 
 	date = { day = 0 month = january year = 1420 }
 	offset = 120

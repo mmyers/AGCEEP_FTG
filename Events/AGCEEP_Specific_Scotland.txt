@@ -2527,6 +2527,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME276000A" #We Are Great Britain!
 		command = { type = flagname which = "UK" }
+		command = { type = countryname value = "GBR" }
 		command = { type = domestic which = centralization value = 1 }
 		command = { type = stability value = 1 }
 		command = { type = addcore which = 247 } #London

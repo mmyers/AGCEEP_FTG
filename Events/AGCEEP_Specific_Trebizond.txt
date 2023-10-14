@@ -204,7 +204,7 @@ event = {
 #	country = TRE
 #	name = "EVENTNAME298014" #Turkoman Raids
 #	desc = "EVENTHIST298014"
-#	#-#Throughout Ioannes IV's reign, the neighbouring Turkomans grew increasingly hostile towards Trapezountas. In 1442 Sultan Murad II attacked the Empire's dependancies in the Crimea but it was saved by a sudden storm. Meanwhile various Turkish Emirs besieged the capitol before being bought off, or simply tired of a lengthy siege.
+#	#-#Throughout Ioannes IV's reign, the neighbouring Turkomans grew increasingly hostile towards Trapezountas. In 1442 Sultan Murad II attacked the Empire's dependancies in the Crimea but it was saved by a sudden storm. Meanwhile various Turkish Emirs besieged the capital before being bought off, or simply tired of a lengthy siege.
 #
 #	date = { day = 0 month = january year = 1440 }
 #	offset = 360
