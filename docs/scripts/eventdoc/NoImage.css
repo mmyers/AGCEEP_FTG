@@ -90,8 +90,7 @@ ul.trigger {
 
 .index {
 	background-color: #030E13;
-	border: thin ridge gold;
-	border-radius: 5px;
+	border: medium ridge gold;
 	margin-left: 7.5%;
 	margin-right: 7.5%;
 	margin-bottom: 20px;
@@ -172,4 +171,25 @@ hr {
 
 .date {
 	color: lightskyblue;
+}
+
+.table-wrapper {
+	height: 60em;
+	overflow-y: scroll;
+}
+
+th {
+	cursor: pointer;
+	top: 0;
+	z-index: 2;
+	position: sticky;
+	background-color: #030E13; /* same as .index */
+}
+
+td {
+	text-align: center;
+}
+
+table tr:hover td {
+	background-color: #062938; /* same as .body */
 }
