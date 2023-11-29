@@ -544,7 +544,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME82005A" #Thanks be to God
-		command = { type = inherit which = ZAP }
+		command = { type = annex which = ZAP }
 	}
 }
 #(1519-1600) The conquest of Mexico, AI version
@@ -625,7 +625,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME285157A" #An Empire is won
-		command = { type = inherit which = AZT }
+		command = { type = annex which = AZT }
 	}
 }
 #(1419-1600) The Zapotecs become our clients
@@ -1713,7 +1713,7 @@ event = {
 		name = "ACTIONNAME285132B" #Leave the Mediterranean to the Ottomans
 		command = { type = relation which = PAP value = -10 }
 		command = { type = relation which = KNI value = -50 }
-		command = { type = breakvassal which = TLE } #Tlemcen
+		command = { type = breakoverlord which = TLE } #Tlemcen
 		command = { type = trigger which = 301040} #TUR: Tlemcen submits to the Ottoman Empire
 		command = { type = sleepevent which = 332002 } #TLE: Between Spanish and Ottomans
 		command = { type = sleepevent which = 332003 } #TLE: Between Spanish and Ottomans
@@ -4013,7 +4013,7 @@ event = {
 
 	action_a = {
 		name = "GREAT"
-		command = { type = inherit which = INC }
+		command = { type = annex which = INC }
 		command = { type = addcore which = 193 } #Titicaca
 		command = { type = addcore which = 192 } #Taqari
 		command = { type = addcore which = 163 } #Azuay
@@ -4059,7 +4059,7 @@ event = {
 
 	action_a = {
 		name = "GREAT"
-		command = { type = inherit which = INC }
+		command = { type = annex which = INC }
 		command = { type = addcore which = 193 } #Titicaca
 		command = { type = addcore which = 192 } #Taqari
 		command = { type = addcore which = 163 } #Azuay
@@ -6372,7 +6372,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME3163" #The Portuguese Succession
 	desc = "EVENTHIST3163"
-	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. In 1580, several people had claims to the throne: Felipe II of Spain, son of D. Isabel (daugther of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an ilegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Although Catarina's claim was the strongest, the Portuguese were not happy with the idea of an independent Queen. Felipe II had long desired to add the Portuguese Kingdom to his empire and this was a perfect opportunity.
+	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. In 1580, several people had claims to the throne: Felipe II of Spain, son of D. Isabel (daughter of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an ilegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Although Catarina's claim was the strongest, the Portuguese were not happy with the idea of an independent Queen. Felipe II had long desired to add the Portuguese Kingdom to his empire and this was a perfect opportunity.
 
 	date = { day = 29 month = january year = 1580 }
 	offset = 10
@@ -6406,7 +6406,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME3163" #The Portuguese Succession
 	desc = "EVENTHIST285276"
-	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. In 1580, several people had claims to the throne: Felipe II of Spain, son of D. Isabel (daugther of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an ilegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Although Catarina's claim was the strongest, the Portuguese were not happy with the idea of an independent Queen. The weakness of the Portuguese state all but ensured that was Felipe to press his claim, the Kingdom would be his.
+	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. In 1580, several people had claims to the throne: Felipe II of Spain, son of D. Isabel (daughter of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an ilegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Although Catarina's claim was the strongest, the Portuguese were not happy with the idea of an independent Queen. The weakness of the Portuguese state all but ensured that was Felipe to press his claim, the Kingdom would be his.
 
 	date = { day = 29 month = january year = 1580 }
 	offset = 10
@@ -7400,7 +7400,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285169" #Invasion of Ternate
 	desc = "EVENTHIST285169"
-	#-#When Felipe II became also the King of Portugal, orders were given to the military governor of the Philippines to support the Portuguese in the area, specially in the Spice Islands, as the Portuguese had just been expelled from Ternate. In 1606, an expedition led by governor Pedro de Acuña captured the island of Ternate, deporting the sultan to Manila. They also militarily occupied Tindore, whose sultan supported Spain as his vassal. The Ternatans sought help from the Dutch Indian company (VOC), starting a war between VOC and Ternate against Spain and Tindore.
+	#-#When Felipe II became also the King of Portugal, orders were given to the military governor of the Philippines to support the Portuguese in the area, specially in the Spice Islands, as the Portuguese had just been expelled from Ternate. In 1606, an expedition led by governor Pedro de Acuña captured the island of Ternate, deporting the sultan to Manila. They also militarily occupied Tidore, whose sultan supported Spain as his vassal. The Ternatans sought help from the Dutch Indian company (VOC), starting a war between VOC and Ternate against Spain and Tidore.
 
 	date = { day = 0 month = january year = 1606 }
 	offset = 100
@@ -7435,7 +7435,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285169" #Invasion of Ternate
 	desc = "EVENTHIST285169"
-	#-#When Felipe II became also the King of Portugal, orders were given to the military governor of the Philippines to support the Portuguese in the area, specially in the Spice Islands, as the Portuguese had just been expelled from Ternate. In 1606, an expedition led by governor Pedro de Acuña captured the island of Ternate, deporting the sultan to Manila. They also militarily occupied Tindore, whose sultan supported Spain as his vassal. The Ternatans sought help from the Dutch Indian company (VOC), starting a war between VOC and Ternate against Spain and Tindore.
+	#-#When Felipe II became also the King of Portugal, orders were given to the military governor of the Philippines to support the Portuguese in the area, specially in the Spice Islands, as the Portuguese had just been expelled from Ternate. In 1606, an expedition led by governor Pedro de Acuña captured the island of Ternate, deporting the sultan to Manila. They also militarily occupied Tidore, whose sultan supported Spain as his vassal. The Ternatans sought help from the Dutch Indian company (VOC), starting a war between VOC and Ternate against Spain and Tidore.
 
 	date = { day = 0 month = january year = 1606 }
 	offset = 100
@@ -7465,7 +7465,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285171" #War in Ternate
 	desc = "EVENTHIST285171"
-	#-#For 57 years the Spaniards fought a difficult war in Ternate. The Dutch had sea superiority and the garrisons fought a defensive war often under shortage of food, supplies and ammunitions, that were brought by yearly shipments from Philippines that not always arrived. Despite these difficulties, they held control of Tindore and most of Ternate, although they lost the small islands. Due to the war, no crops could be raised in Ternate.
+	#-#For 57 years the Spaniards fought a difficult war in Ternate. The Dutch had sea superiority and the garrisons fought a defensive war often under shortage of food, supplies and ammunitions, that were brought by yearly shipments from Philippines that not always arrived. Despite these difficulties, they held control of Tidore and most of Ternate, although they lost the small islands. Due to the war, no crops could be raised in Ternate.
 
 	date = { day = 0 month = january year = 1606 }
 	offset = 100
@@ -7489,7 +7489,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285172" #Retreat from Moluccas
 	desc = "EVENTHIST285172"
-	#-#After 57 years of difficult fights in Ternate, and once the Portuguese had gone their way, Spain found no reason to continue fighting in the Moluccas. In 1663, Manrique de Lara, governor of the Philippines, gave the order to abandon Ternate and Tindore.
+	#-#After 57 years of difficult fights in Ternate, and once the Portuguese had gone their way, Spain found no reason to continue fighting in the Moluccas. In 1663, Manrique de Lara, governor of the Philippines, gave the order to abandon Ternate and Tidore.
 
 	date = { day = 0 month = january year = 1663 }
 	offset = 100
@@ -7707,7 +7707,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285186" #An exchange between two continents
 	desc = "EVENTHIST285186"
-	#-#The return to the Status Quo Ante situation in the region between Rio de la Plata and Brazil imposed by the Treaty of Paris of 1763 was unsatisfactory to both parts. Colonia de Sacramento continuous contraband was a thorn in Spanish colonial monopoly, and Portugal ambitioned the San Pedro region, not recognizing the Spanish right to it. Spain blockaded Sacramento to reduce contraband, further infuriating the Luso-Brazilians. In 1767 they attacked Rio Grande de San Pedro, expelling the Spaniards from the area. Tensions mounted for several years as the Portuguese established numerous ranches in the seized area with stock stolen from the mission estancias. This lead to military build up in the region. But while Spain was trying to reach a diplomatic agreement, the Marquis of Pombal was betting on a military victory. While negotiations were being conducted in 1776, the Portuguese attacked and further pushed the Spaniards South at the disputed border. This deception was the last straw for Spain. A great fleet was assambled, formed by 116 ships and 19,000 men, under command of Pedro Ceballos. To better cope with Portuguese ambitions, the Viceroyalty of La Plata was created, and Pedro Ceballos named first Viceroy. The Ceballos campaign of 1777 was a complete success. He soon conquered the island of Santa Catalina and Colonia de Sacramento, where the Portuguese bastion was leveled. He was going to continue with the conquest of San Pedro when orders arrived from Madrid to stop the offensive. With the death of José I of Portugal, his daughter María had fired the Marquis of Pombal, and desired peace with her uncle, King Carlos III of Spain. The Spanish prime minister, Floridablanca, also wanted a free hand to take advantage of the American Revolution, so a peace treaty was signed at San Ildefonso on October 1, 1777, and confirmed in the Treaty of El Pardo in 1778. Portugal ceded Colonia del Sacramento to Spain, but retained Santa Catalina and San Pedro in exchange for the African island of Fernando Po (now Bioko) and full commercial rights in the African coast between the Niger and Ogoue rivers. Furthermore, for the first time since the separation of Portugal, relations between the Iberians became excellent until Napoleon interfered.
+	#-#The return to the Status Quo Ante situation in the region between Rio de la Plata and Brazil imposed by the Treaty of Paris of 1763 was unsatisfactory to both parts. Colonia de Sacramento continuous contraband was a thorn in Spanish colonial monopoly, and Portugal ambitioned the San Pedro region, not recognizing the Spanish right to it. Spain blockaded Sacramento to reduce contraband, further infuriating the Luso-Brazilians. In 1767 they attacked Rio Grande de San Pedro, expelling the Spaniards from the area. Tensions mounted for several years as the Portuguese established numerous ranches in the seized area with stock stolen from the mission estancias. This lead to military build up in the region. But while Spain was trying to reach a diplomatic agreement, the Marquis of Pombal was betting on a military victory. While negotiations were being conducted in 1776, the Portuguese attacked and further pushed the Spaniards South at the disputed border. This deception was the last straw for Spain. A great fleet was assembled, formed by 116 ships and 19,000 men, under command of Pedro Ceballos. To better cope with Portuguese ambitions, the Viceroyalty of La Plata was created, and Pedro Ceballos named first Viceroy. The Ceballos campaign of 1777 was a complete success. He soon conquered the island of Santa Catalina and Colonia de Sacramento, where the Portuguese bastion was leveled. He was going to continue with the conquest of San Pedro when orders arrived from Madrid to stop the offensive. With the death of José I of Portugal, his daughter María had fired the Marquis of Pombal, and desired peace with her uncle, King Carlos III of Spain. The Spanish prime minister, Floridablanca, also wanted a free hand to take advantage of the American Revolution, so a peace treaty was signed at San Ildefonso on October 1, 1777, and confirmed in the Treaty of El Pardo in 1778. Portugal ceded Colonia del Sacramento to Spain, but retained Santa Catalina and San Pedro in exchange for the African island of Fernando Po (now Bioko) and full commercial rights in the African coast between the Niger and Ogoue rivers. Furthermore, for the first time since the separation of Portugal, relations between the Iberians became excellent until Napoleon interfered.
 
 	action_a = {
 		name = "ACTIONNAME285186A" #Sign the agreement
@@ -7733,7 +7733,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285187" #Portugal refuses a peaceful solution over Brazil-La Plata
 	desc = "EVENTHIST285187"
-	#-#The return to the Status Quo Ante situation in the region between Rio de la Plata and Brazil imposed by the Treaty of Paris of 1763 was unsatisfactory to both parts. Colonia de Sacramento continuous contraband was a thorn in Spanish colonial monopoly, and Portugal ambitioned the San Pedro region, not recognizing the Spanish right to it. Spain blockaded Sacramento to reduce contraband, further infuriating the Luso-Brazilians. In 1767 they attacked Rio Grande de San Pedro, expelling the Spaniards from the area. Tensions mounted for several years as the Portuguese established numerous ranches in the seized area with stock stolen from the mission estancias. This lead to military build up in the region. But while Spain was trying to reach a diplomatic agreement, the Marquis of Pombal was betting on a military victory. While negotiations were being conducted in 1776, the Portuguese attacked and further pushed the Spaniards South at the disputed border. The deception was the last straw for Spain. A great fleet was assambled, formed by 116 ships and 19,000 men, under command of Pedro Ceballos. To better cope with Portuguese ambitions, the Viceroyalty of La Plata was created, and Pedro Ceballos named first Viceroy. The Ceballos campaign of 1777 was a complete success. He soon conquered the island of Santa Catalina and Colonia de Sacramento, where the Portuguese bastion was leveled. He was going to continue with the conquest of San Pedro when orders arrived from Madrid to stop the offensive. With the death of José I of Portugal, his daughter María had fired the Marquis of Pombal, and desired peace with her uncle, King Carlos III of Spain. The Spanish prime minister, Floridablanca, also wanted a free hand to take advantage of the American revolution, so a peace treaty was signed at San Ildefonso on October 1, 1777, and confirmed in the Treaty of El Pardo in 1778. But this time Portugal has refused a peaceful solution. Let's retake what it is ours by force.
+	#-#The return to the Status Quo Ante situation in the region between Rio de la Plata and Brazil imposed by the Treaty of Paris of 1763 was unsatisfactory to both parts. Colonia de Sacramento continuous contraband was a thorn in Spanish colonial monopoly, and Portugal ambitioned the San Pedro region, not recognizing the Spanish right to it. Spain blockaded Sacramento to reduce contraband, further infuriating the Luso-Brazilians. In 1767 they attacked Rio Grande de San Pedro, expelling the Spaniards from the area. Tensions mounted for several years as the Portuguese established numerous ranches in the seized area with stock stolen from the mission estancias. This lead to military build up in the region. But while Spain was trying to reach a diplomatic agreement, the Marquis of Pombal was betting on a military victory. While negotiations were being conducted in 1776, the Portuguese attacked and further pushed the Spaniards South at the disputed border. The deception was the last straw for Spain. A great fleet was assembled, formed by 116 ships and 19,000 men, under command of Pedro Ceballos. To better cope with Portuguese ambitions, the Viceroyalty of La Plata was created, and Pedro Ceballos named first Viceroy. The Ceballos campaign of 1777 was a complete success. He soon conquered the island of Santa Catalina and Colonia de Sacramento, where the Portuguese bastion was leveled. He was going to continue with the conquest of San Pedro when orders arrived from Madrid to stop the offensive. With the death of José I of Portugal, his daughter María had fired the Marquis of Pombal, and desired peace with her uncle, King Carlos III of Spain. The Spanish prime minister, Floridablanca, also wanted a free hand to take advantage of the American revolution, so a peace treaty was signed at San Ildefonso on October 1, 1777, and confirmed in the Treaty of El Pardo in 1778. But this time Portugal has refused a peaceful solution. Let's retake what it is ours by force.
 
 	action_a = {
 		name = "ACTIONNAME285187A" #Continue military operations in the region
@@ -10604,6 +10604,7 @@ event = {
 		command = { type = relation which = FRA value = 200 }
 		command = { type = removecore which = 379 } #Artois
 		command = { type = removecore which = 387 } #Franche-Comté
+		command = { type = removecore which = 409 } #Bourgogne
 		command = { type = removecore which = 426 } #Roussillon
 		command = { type = cedeprovince which = FRA value = 376 } #Champagne
 		command = { type = cedeprovince which = FRA value = 379 } #Artois
@@ -11402,7 +11403,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME285097" #Bourbon Restoration in Parma
 	desc = "EVENTHIST285097"
-	#-#A Farnese on his mother's side Don Carlo di Borbon succeeded his great-uncle Antonio Farnese in 1731, becoming Carlo I of Parma. In 1735 Parma was ceded to Emperor Karl VI for the Two Sicilies. It remained in Habsburg hands till the Treaty of Aix-la-Chapelle in 1748, when it was ceded back to Don Carlo's brother, Don Filippo. His line (Bourbon-Parma) governed the Duchy till being displaced by Napoléon in 1802. In 1814 the Congress of Vienna granted Parma to Napoléon's Austrian wife Marie-Louise, who ruled as Duchess till her death in 1847, when it was restored again to the Bourbons.
+	#-#A Farnese on his mother's side Don Carlo di Borbon succeeded his great-uncle Antonio Farnese in 1731, becoming Carlo I of Parma. In 1735 Parma was ceded to Emperor Charles VI for the Two Sicilies. It remained in Habsburg hands till the Treaty of Aix-la-Chapelle in 1748, when it was ceded back to Don Carlo's brother, Don Filippo. His line (Bourbon-Parma) governed the Duchy till being displaced by Napoléon in 1802. In 1814 the Congress of Vienna granted Parma to Napoléon's Austrian wife Marie-Louise, who ruled as Duchess till her death in 1847, when it was restored again to the Bourbons.
 
 	date = { day = 18 month = october year = 1748 }
 	offset = 250
@@ -11740,7 +11741,7 @@ event = {
 	country = SPA
 	name = "EVENTNAME12099" #The American Revolution
 	desc = "EVENTHIST285240"
-	#-#To the Spanish monarchy, the American war of independence was an opportunity to recover the losses to Britain in the Seven Years War. However opposition to the war within the government and concerns in supporting a colonial rebellion, delayed the entrance of Spain in the war. Cautiously, Spain decided to support the rebels under cover, providing guns, supplies and money. The money was provided through the French government, who conveniently forgot to inform about its origin to the rebels. Meanwhile, preparations for a likely war proceed and Bernardo de Gálvez assambled an army in Louisiana.
+	#-#To the Spanish monarchy, the American war of independence was an opportunity to recover the losses to Britain in the Seven Years War. However opposition to the war within the government and concerns in supporting a colonial rebellion, delayed the entrance of Spain in the war. Cautiously, Spain decided to support the rebels under cover, providing guns, supplies and money. The money was provided through the French government, who conveniently forgot to inform about its origin to the rebels. Meanwhile, preparations for a likely war proceed and Bernardo de Gálvez assembled an army in Louisiana.
 
 	date = { day = 1 month = january year = 1774 }
 	offset = 30

@@ -167,7 +167,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 436 }
-		name = "Eire Army"
+		name = "Irish Army"
 		location = 233
 		infantry = 8000
 		cavalry = 2000

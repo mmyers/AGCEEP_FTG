@@ -64,6 +64,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Dai Viet Army"
 		id = { type = 9423 id = 1127 }
 		location = 662
 		infantry = 14000

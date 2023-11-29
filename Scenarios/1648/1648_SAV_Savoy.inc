@@ -75,6 +75,7 @@ country = {
 		fortress = { level = 2 }
 	}
 	landunit = {
+		name = "Savoyard Army"
 		id = { type = 9423 id = 1201 }
 		location = 405
 		infantry = 25000

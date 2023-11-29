@@ -1822,7 +1822,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME301022A" #Install a Beglerbeg for Africa
 		command = { type = add_countryculture which = arabic }
-		command = { type = inherit which = MAM }
+		command = { type = annex which = MAM }
 		command = { type = domestic which = centralization value = -2 }
 		command = { type = stability value = 1 }
 	}
@@ -1830,7 +1830,7 @@ event = {
 		name = "ACTIONNAME301022B" #Administrate Egypt from Constantinople
 		command = { type = add_countryculture which = arabic }
 		command = { type = domestic which = centralization value = 1 }
-		command = { type = inherit which = MAM }
+		command = { type = annex which = MAM }
 		command = { type = stability value = -1 }
 	}
 }
@@ -4799,7 +4799,7 @@ event = {
 		command = { type = domestic which = ARISTOCRACY value = 2 }
 		command = { type = domestic which = SERFDOM value = 2 }
 		command = { type = stability value = 2 }
-		command = { type = technology which = Muslim }
+		command = { type = technology which = muslim }
 	}
 	action_b = {
 		name = "ACTIONNAME3379B" #Limit the concessions
@@ -4814,7 +4814,7 @@ event = {
 		command = { type = domestic which = quality value = -1 }
 		command = { type = revoltrisk which = 12 value = 6 }
 		command = { type = stability value = -1 }
-		command = { type = technology which = Muslim }
+		command = { type = technology which = muslim }
 	}
 	action_c = {
 		name = "ACTIONNAME3379C" #Rein them in
@@ -6257,7 +6257,7 @@ event = {
 
 	action_a = {
 		name = "GOOD"
-		command = { type = inherit which = SER }
+		command = { type = annex which = SER }
 	}
 }
 

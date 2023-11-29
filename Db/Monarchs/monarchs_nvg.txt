@@ -332,28 +332,24 @@ historicalmonarch = {
 	MIL = 5
 	dormant = no
 }
-
-#-----------------------------------------------------------------------------------------------
-
 historicalmonarch = {
 	id = { type = 6 id = 099518 }
 	startdate = {
-		day = 7
-		month = january
-		year = 1649
+		day = 17
+		month = december
+		year = 1634
 	}
 	deathdate = {
 		day = 25
 		month = june
 		year = 1835
 	}
-	name = "Novgorod Republic *"
+	name = "Archbishops of Novgorod *"
 	DIP = 5
 	ADM = 6
 	MIL = 4
 	dormant = no
 }
-
 
 #-----------------------------------------------------------------------------------------------
 

@@ -142,7 +142,7 @@ historicalmonarch = {
 		month = june
 		year = 1505
 	}
-	name = "Hongchi"
+	name = "Hongzhi"
 	DIP = 6
 	ADM = 4
 	MIL = 7

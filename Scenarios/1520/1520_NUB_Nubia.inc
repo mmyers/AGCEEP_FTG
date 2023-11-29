@@ -1,4 +1,4 @@
-#Nubia / Funj
+#Nubia/Funj
 
 #-----------------------------------------------------------------------------------------------
 
@@ -43,12 +43,12 @@ country = {
 		population = 3500
 		location = 750
 		bailiff = yes
-		capital = yes
 	}
 	city = {
 		fortress = { level = 1 }
 		population = 3000
 		location = 751
+		capital = yes
 		bailiff = yes
 	}
 	city = {
@@ -59,7 +59,7 @@ country = {
 	landunit = {
 		id = { type = 9423 id = 549 }
 		name = "Nubian Army"
-		location = 750
+		location = 751
 		infantry = 20000
 		cavalry = 10000
 		artillery = 0
@@ -70,6 +70,7 @@ country = {
 		trade = { level = 1 value = 20 }
 		land = { level = 3 value = 50 }
 		naval = { level = 1 value = 0 }
+		group = asian
 	}
 }
 

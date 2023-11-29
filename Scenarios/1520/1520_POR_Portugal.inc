@@ -43,6 +43,8 @@ country = {
 		relation = { tag = MLC value = -100 }
 		relation = { tag = ATJ value = -100 }
 		relation = { tag = KIL value = -70 casusbelli = { type = permanent expirydate = { year = 1575 month = january day = 1 } } }
+		relation = { tag = ADA value = -150 }
+		relation = { tag = AJU value = -100 }
 		relation = { tag = MOM value = -200 refusetrade = no casusbelli = { type = permanent expirydate = { year = 1575 month = january day = 1 } } }
 		relation = { tag = MLI value = 100 refusetrade = no }
 		relation = { tag = BEN value = 150 }
@@ -211,7 +213,7 @@ country = {
 		location = 715
 	}
 	city = {
-		name= "El Mina"
+		name= "São Jorge da Mina"
 		fortress = { level = 1 }
 		population = 5000
 		location = 795

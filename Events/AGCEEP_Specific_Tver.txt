@@ -99,7 +99,7 @@ event = {
 	country = TVE
 	name = "EVENTNAME40088" #Submission to Muscovy
 	desc = "EVENTHIST40079"
-	#-#After defeating Shemiaka and finally disposing of him in 1453, Vasily II turned his attention to principalities of Ryazan and Tver. Grand Prince of Tver submitted without much urging, by marrying his daugther to future Russian czar Ivan III and recognizing Muscovy Grand Duke as his suzerene. Grand Prince of Ryazan sent his 8 year old son to be brought up at Muscovy court, while Muscovian governors were sent to rule Ryazan in his place in 1456.
+	#-#After defeating Shemiaka and finally disposing of him in 1453, Vasily II turned his attention to principalities of Ryazan and Tver. Grand Prince of Tver submitted without much urging, by marrying his daughter to future Russian Tsar Ivan III and recognizing Muscovy Grand Duke as his suzerene. Grand Prince of Ryazan sent his 8 year old son to be brought up at Muscovy court, while Muscovian governors were sent to rule Ryazan in his place in 1456.
 
 	action_a = {
 		name = "ACTIONNAME40080A" #Agree to become vassal
@@ -133,10 +133,15 @@ event = {
 		OR = {
 			owned = { province = 274 data = -1 } #Novgorod
 			owned = { province = 277 data = -1 } #Pskov
-			owned = { province = 448 data = -1 } #Ryazan
+			owned = { province = 449 data = -1 } #Ryazan
+		}
+		OR = {
+			NOT = { exists = BYZ }
+			BYZ = { flag = [Fantasy_BYZ] }
 		}
 		NOT = { exists = RUS }
 		atwar = no
+		isvassal = no
 	}
 	random = no
 	country = TVE

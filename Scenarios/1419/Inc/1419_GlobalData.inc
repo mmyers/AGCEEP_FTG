@@ -183,6 +183,12 @@ globaldata = {
 		participant = { DLH RAJ }
 	}
 	alliance = {
+		id = { type = 6000 id = 11 }
+		type = vassalization
+		expirydate = { year = 1820 }
+		participant = { AJU MGU }
+	}
+	alliance = {
 		id = { type = 6000 id = 12 }
 		type = vassalization
 		expirydate = { year = 1820 }

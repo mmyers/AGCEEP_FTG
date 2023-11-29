@@ -126,6 +126,7 @@ country = {
 		cityrights = yes
 	}
 	landunit = {
+		name = "Saadi Army"
 		id = { type = 9423 id = 1135 }
 		location = 733
 		infantry = 9000

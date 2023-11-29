@@ -196,7 +196,6 @@ province = { id = 697 religion = sunni } #Sarawak
 province = { id = 699 religion = sunni } #Selatan
 province = { id = 700 religion = sunni } #Kalimantan
 province = { id = 701 religion = sunni } #Sunda
-province = { id = 709 religion = sunni } #Salabanka
 province = { id = 710 religion = sunni } #Sumbawa
 
 #Oromo invasions
@@ -208,8 +207,8 @@ province = { id = 578 religion = sunni } #Ichim
 province = { id = 691 religion = catholic } #Mindoro
 province = { id = 86 religion = protestant culture = "scandinavian" } #Delaware
 province = { id = 145 religion = protestant culture = "scandinavian" } #St. Thomas
-province = { id = 664 religion = confucian } #Da Nang
-province = { id = 665 religion = confucian } #Da Lat
+province = { id = 664 religion = confucian culture = "vietnamese" } #Da Nang
+province = { id = 665 religion = confucian culture = "vietnamese" } #Da Lat
 province = { id = 1520 religion = sikh } #Chandigahr
 province = { id = 1521 religion = sikh } #Panjab
 

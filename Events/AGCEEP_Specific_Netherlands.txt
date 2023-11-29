@@ -935,7 +935,7 @@ event = {
 		flag = [VOC]
 		OR = {
 			discovered = 87 #Manhattan
-			discovered = 862 #Cheasapeake Bay
+			discovered = 862 #Chesapeake Bay
 		}
 	}
 	random = no

@@ -22,13 +22,13 @@ country = {
 		1551 1552 1553 1554 1555 1556 1557 1558 1559 1560 1563 1603 1604 1605 1606 1607 1608 
 	}
 	ownedprovinces = {
-		1539 1540 1541 1542 1543
+		1540 1541 1542 1543
 	}
 	controlledprovinces = {
-		1539 1540 1541 1542 1543
+		1540 1541 1542 1543
 	}
 	nationalprovinces = {
-		1539 1540 1541 1542 1543 1544 1605 1607
+		1540 1541 1542 1543 1544 1605 1607
 	}
 	city = {
 		fortress = { level = 1 }
@@ -36,12 +36,6 @@ country = {
 		location = 1543
 		capital = yes
 		bailiff = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 4000
-		bailiff = yes
-		location = 1539
 	}
 	city = {
 		fortress = { level = 1 }

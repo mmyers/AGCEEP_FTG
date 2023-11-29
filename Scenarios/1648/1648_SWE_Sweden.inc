@@ -240,7 +240,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1037 }
-		name = "1st Swedish Army"
+		name = "Swedish Army"
 		location = 254
 		infantry = 20000
 		cavalry = 5000
@@ -248,7 +248,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1038 }
-		name = "Finland Army"
+		name = "Finnish Army"
 		location = 265
 		infantry = 15000
 		cavalry = 5000

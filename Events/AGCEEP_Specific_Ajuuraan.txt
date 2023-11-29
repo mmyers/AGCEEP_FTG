@@ -1,0 +1,41 @@
+#Ajuuraan (AJU)
+
+#-----------------------------------------------------------------------------------------------
+
+#(1540-1580) Mogadishu requests annexation
+#by mandead - based on an event by zacharym87
+event = {
+	id = 340000 #triggered by MGU_160002 A
+	random = no
+	country = AJU
+	name = "EVENTNAME340000" #Mogadishu requests annexation
+	desc = "EVENTHIST340000"
+	#-#Our erstwhile vassal the Sultan of Mogadishu has requested his domain be annexed into Ajuuraan.
+
+	action_a = {
+		name = "PROSPERITY"
+		command = { type = inherit which = MGU }
+		command = { type = addcore which = 760 } #Mogadiscio
+	}
+}
+
+#(1540-1580) Mogadishu rejects our suzerainty
+#by mandead - based on an event by zacharym87
+event = {
+	id = 340001 #triggered by MGU_160002 B
+	random = no
+	country = AJU
+	name = "EVENTNAME340001" #Mogadishu rejects our suzerainty
+	desc = "EVENTHIST340001"
+	#-#Our erstwhile vassal the Sultan of Mogadishu has declared himself independent of our suzerainty, and no longer bound as a vassal of Ajuuraan.
+
+	action_a = {
+		name = "CURSES"
+		command = { type = casusbelli which = MGU value = 60 }
+		command = { type = relation which = MGU value = -100 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------
+
+#First free id: 340002

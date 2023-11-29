@@ -229,7 +229,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME121011A" #Let us build a magnificent empire
-		command = { type = technology which = china }
+		command = { type = technology which = asian }
 		command = { type = add_countryculture which = zapotec }
 		command = { type = treasury value = -1000 }
 		command = { type = addcore which = 12 } #Ensenada
@@ -272,7 +272,7 @@ event = {
 	}
 	action_b = {
 		name = "ACTIONNAME121011B" #Let us build a lesser empire
-		command = { type = technology which = china }
+		command = { type = technology which = asian }
 		command = { type = add_countryculture which = zapotec }
 		command = { type = treasury value = -500 }
 		command = { type = addcore which = 20 } #Chihuahua
@@ -306,7 +306,7 @@ event = {
 	}
 	action_c = {
 		name = "ACTIONNAME121011C" #Forget about empires
-		command = { type = technology which = china }
+		command = { type = technology which = asian }
 		command = { type = add_countryculture which = zapotec }
 		command = { type = addcore which = 28 } #Tampico
 		command = { type = addcore which = 29 } #Tlaxcala

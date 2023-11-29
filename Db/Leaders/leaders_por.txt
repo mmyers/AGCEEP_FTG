@@ -436,7 +436,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110812 }
 	category = explorer
-	name = "G. de Corte-Real" #Gaspar de Corte-Real
+	name = "G. Corte-Real" #Gaspar de Corte-Real
 	startdate = {
 		year = 1500
 	}
@@ -571,7 +571,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110928 }
 	category = explorer
-	name = "Jorge Alvares"
+	name = "Jorge Álvares"
 	startdate = {
 		month = may
 		year = 1512
@@ -610,7 +610,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110922 }
 	category = explorer
-	name = "Joao Alvares Fagundes"
+	name = "João Álvares Fagundes"
 	startdate = {
 		month = june
 		year = 1520
@@ -649,7 +649,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110817 }
 	category = conquistador
-	name = "Martim de Sousa"
+	name = "Martim Afonso de Sousa"
 	startdate = {
 		year = 1531
 	}
@@ -668,7 +668,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110926 }
 	category = explorer
-	name = "Antonio de Faria de Sousa"
+	name = "António de Faria de Sousa"
 	startdate = {
 		month = july
 		year = 1534
@@ -688,7 +688,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110927 }
 	category = explorer
-	name = "Antonio de Mota"
+	name = "António de Mota"
 	startdate = {
 		month = june
 		year = 1540
@@ -1025,7 +1025,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110822 }
 	category = general
-	name = "von Schönberg"
+	name = "F.A. de Schomberg"
 	startdate = {
 		year = 1659
 	}
@@ -1297,7 +1297,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110856 }
 	category = general
-	name = "Antonio de Leiva"
+	name = "António de Leiva"
 	startdate = {
 		year = 1522
 	}
@@ -1432,7 +1432,7 @@ historicalleader = {
 	shock = 5
 	siege = 0
 	dormant = yes
-	remark = "Alvaro de Bazán, Marques de Santa Cruz. Malta 1565. Lepanto 1571. Tunnis 1573. Azores 1582"
+	remark = "Álvaro de Bazán, Marques de Santa Cruz. Malta 1565. Lepanto 1571. Tunnis 1573. Azores 1582"
 }
 historicalleader = {
 	id = { type = 6 id = 0110889 }
@@ -1457,7 +1457,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110890 }
 	category = admiral
-	name = "Luis Fajardo"
+	name = "Luís Fajardo"
 	startdate = {
 		year = 1598
 	}
@@ -1477,7 +1477,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110891 }
 	category = admiral
-	name = "Antonio de Oquendo"
+	name = "António de Oquendo"
 	startdate = {
 		year = 1607
 	}
@@ -1668,7 +1668,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110899 }
 	category = admiral
-	name = "Antonio Barceló"
+	name = "António Barceló"
 	startdate = {
 		year = 1761
 		}
@@ -1688,7 +1688,7 @@ historicalleader = {
 historicalleader = {
 	id = { type = 6 id = 0110900 }
 	category = general
-	name = "Antonio Ricardos"
+	name = "António Ricardos"
 	startdate = {
 		year = 1764
 		}

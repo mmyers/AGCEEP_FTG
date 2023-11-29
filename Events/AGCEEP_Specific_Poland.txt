@@ -3384,7 +3384,7 @@ event = {
 
 
 	action_a = {
-		name = "ACTIONNAME3478A" #Vladimir Wasa, Czar of all Russians
+		name = "ACTIONNAME3478A" #Vladimir Wasa, Tsar of all Russians
 		command = { type = casusbelli which = RUS value = 6 }
 		command = { type = relation which = RUS value = -150 }
 		command = { type = relation which = SWE value = -100 }
@@ -5560,7 +5560,7 @@ event = {
 	country = POL
 	name = "EVENTNAME3491" #The Great Northern Conflict
 	desc = "EVENTHIST3491"
-	#-#In 1697, the 15 years old Charles XII ascended the Swedish throne. Seeing the opportunity, the Russian Czar Peter I allied with Denmark and Poland-Saxony in 1699. However, with British and Dutch naval assistance, Charles XII landed on Zealand and promptly defeated the Danes, then moved to Estland where his badly outnumbered Swedes (1 to 5) won a crushing victory over the Russians. Instead of finishing the Russians, Charles moved against August II of Poland-Saxony and drove him out of Poland in 1704 (having the pro-Swedish Stanislas Leszinski elected King), then subjugating Saxony in 1706. While the Russians started the construction of St-Petersburg (1703) and rebuilt their armies, they also took parts of Estland (1704-1706). Charles then decided to march to Moscow via the Ukraine where the Cossacks under Mazeppa had again risen in revolt (1708). The harsh winter and Russian raids decimated his army and he was finally beaten at the battle of Poltava in 1709. The wounded King escaped to the Ottomans. The Russians were encircled by the Ottomans on the Prut River, but Peter succeeded through bribery to obtain a safe conduct in exchange for Azov. While Charles was still exiled in Turkey, Russian, Danish, Hanoverian and even Prussian troops captured most of the Swedish territory around the Baltic. Having emerged from Turkish internment, Charles got killed in 1718 in front of the Norwegian fortress of Frederickshald. The peace treaties that followed Sweden lost most of her Baltic empire.
+	#-#In 1697, the 15 years old Charles XII ascended the Swedish throne. Seeing the opportunity, the Russian Tsar Peter I allied with Denmark and Poland-Saxony in 1699. However, with British and Dutch naval assistance, Charles XII landed on Zealand and promptly defeated the Danes, then moved to Estland where his badly outnumbered Swedes (1 to 5) won a crushing victory over the Russians. Instead of finishing the Russians, Charles moved against August II of Poland-Saxony and drove him out of Poland in 1704 (having the pro-Swedish Stanislas Leszinski elected King), then subjugating Saxony in 1706. While the Russians started the construction of St-Petersburg (1703) and rebuilt their armies, they also took parts of Estland (1704-1706). Charles then decided to march to Moscow via the Ukraine where the Cossacks under Mazeppa had again risen in revolt (1708). The harsh winter and Russian raids decimated his army and he was finally beaten at the battle of Poltava in 1709. The wounded King escaped to the Ottomans. The Russians were encircled by the Ottomans on the Prut River, but Peter succeeded through bribery to obtain a safe conduct in exchange for Azov. While Charles was still exiled in Turkey, Russian, Danish, Hanoverian and even Prussian troops captured most of the Swedish territory around the Baltic. Having emerged from Turkish internment, Charles got killed in 1718 in front of the Norwegian fortress of Frederickshald. The peace treaties that followed Sweden lost most of her Baltic empire.
 
 	date = { day = 27 month = june year = 1697 }
 	offset = 10
@@ -5716,7 +5716,7 @@ event = {
 	country = POL
 	name = "EVENTNAME3496" #The Kurland Succession of 1726
 	desc = "EVENTHIST3496"
-	#-#The death of the last Duke of Kurland, Frederick William, in 1711, left no heirs to the Duchy except the weak and ill Ferdinand, and a lot of contenders in Russia and Poland. In 1726, the Polish Sejm managed to impose Maurice of Saxony, the bastard son of the current Polish King, as Duke, but only to change her mind and ask his withdrawal. At the same time, Russia was pushing for her own candidate, the Duke of Holstein-Gottorp, son-in-law of the Czarina Catherine I. After much bribing, negotiation and behind the scene diplomacy, Maurice was summoned to either leave or suffer war. It started in 1727, with Russia firmly committed and sending 8,000 troops to conquer the Duchy within 8 days. The war did not last long enough to embrace all of Europe and Maurice fled to France where he then had a brilliant military career.
+	#-#The death of the last Duke of Kurland, Frederick William, in 1711, left no heirs to the Duchy except the weak and ill Ferdinand, and a lot of contenders in Russia and Poland. In 1726, the Polish Sejm managed to impose Maurice of Saxony, the bastard son of the current Polish King, as Duke, but only to change her mind and ask his withdrawal. At the same time, Russia was pushing for her own candidate, the Duke of Holstein-Gottorp, son-in-law of the Tsarina Catherine I. After much bribing, negotiation and behind the scene diplomacy, Maurice was summoned to either leave or suffer war. It started in 1727, with Russia firmly committed and sending 8,000 troops to conquer the Duchy within 8 days. The war did not last long enough to embrace all of Europe and Maurice fled to France where he then had a brilliant military career.
 
 	date = { day = 13 month = january year = 1726 }
 
@@ -5826,7 +5826,7 @@ event = {
 	country = POL
 	name = "EVENTNAME3487" #Friedrich Augustus Wettin backs down
 	desc = "EVENTHIST3487"
-	#-#The political sickness of the Polish body manifested itself fully after the death of Jan III Sobieski in 1696. The election that followed was one of the most dismal episodes in Polish parliamentary history. The primary candidates were the King's son Jakub Sobieski.
+	#-#The political sickness of the Polish body manifested itself fully after the death of Jan III Sobieski in 1696. The election that followed was one of the most dismal episodes in Polish parliamentary history. The primary candidates were the King's son Jakub Sobieski, and Stanislas Leczinski, the heir to the Palatinate of Poznan.
 
 	action_a = {
 		name = "ACTIONNAME3487A" #Elect Stanislaw Leszczynski
@@ -6305,7 +6305,7 @@ event = {
 	country = POL
 	name = "EVENTNAME271020" #Alexander becomes King of Poland
 	desc = "EVENTHIST170284"
-	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Czar as Poland's lord - they were not represented on the Congress. Russian Czar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
+	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Tsar as Poland's lord - they were not represented on the Congress. Russian Tsar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
 
 	action_a = {
 		name = "OK"
@@ -6327,7 +6327,7 @@ event = {
 	country = POL
 	name = "EVENTNAME170284" #The restoration of the Kingdom of Poland
 	desc = "EVENTHIST170284"
-	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Czar as Poland's lord - they were not represented on the Congress. Russian Czar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
+	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Tsar as Poland's lord - they were not represented on the Congress. Russian Tsar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
 
 	action_a = {
 		name = "OK"
@@ -6397,7 +6397,7 @@ event = {
 	country = POL
 	name = "EVENTNAME258092" #The Kingdom of Poland and Prussia
 	desc = "EVENTHIST170284"
-	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Czar as Poland's lord - they were not represented on the Congress. Russian Czar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
+	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Tsar as Poland's lord - they were not represented on the Congress. Russian Tsar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
 
 	action_a = {
 		name = "OK"
@@ -6423,7 +6423,7 @@ event = {
 	country = POL
 	name = "EVENTNAME258093" #The Kingdom of Poland and Austria
 	desc = "EVENTHIST170284"
-	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Czar as Poland's lord - they were not represented on the Congress. Russian Czar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
+	#-#In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Tsar as Poland's lord - they were not represented on the Congress. Russian Tsar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.
 
 	action_a = {
 		name = "OK"

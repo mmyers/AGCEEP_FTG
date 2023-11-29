@@ -106,7 +106,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1100 }
-		name = "Lanze Spezzate"
+		name = "Doge's Guard"
 		location = 370
 		infantry = 25000
 		cavalry = 5000
@@ -114,7 +114,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 1101 }
-		name = "Capitano in Colfo"
+		name = "Doge's Fleet"
 		location = 370
 		warships = 20
 		galleys = 10
@@ -122,7 +122,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 1102 }
-		name = "Capitano della Guardia di Candia"
+		name = "Mediterranean Squadron"
 		location = 480
 		warships = 8
 		galleys = 8

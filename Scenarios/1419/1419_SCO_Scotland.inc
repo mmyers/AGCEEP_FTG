@@ -75,7 +75,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 941 }
-		name = "Royal Scottish Army"
+		name = "Royal Army"
 		location = 238
 		infantry = 10000
 		cavalry = 5000
@@ -91,7 +91,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 946 }
-		name = "1st Scottish Fleet"
+		name = "Royal Fleet"
 		location = 237
 		warships = 5
 		galleys = 0

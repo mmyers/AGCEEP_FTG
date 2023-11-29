@@ -1,4 +1,4 @@
-#Order of Saint John
+#Order of St. John
 
 #-----------------------------------------------------------------------------------------------
 
@@ -64,7 +64,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 469 }
-		name = "The Knights of St. John"
+		name = "Knights of St. John"
 		location = 481
 		infantry = 9000
 		cavalry = 1000

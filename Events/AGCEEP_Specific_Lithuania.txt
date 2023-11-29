@@ -7,6 +7,7 @@ event = {
 	id = 210012
 	trigger = {
 		atwar = no
+		isvassal = no
 		religion = orthodox
 		NOT = {
 			exists = MOS
@@ -30,7 +31,7 @@ event = {
 		}
 		owned = { province = 279 data = -1 } #Tula
 		control = { province = 279 data = -1 } #Tula
-		owned = { province = 448 data = -1 } #Ryazan
+		owned = { province = 449 data = -1 } #Ryazan
 		owned = { province = 270 data = -1 } #Moscow
 	}
 	random = no
@@ -836,7 +837,7 @@ event = {
 	country = LIT
 	name = "EVENTNAME40209" #Murder of Zygmantas
 	desc = "EVENTHIST40209"
-	#-#Due to his decision to become effectively a Polish vassal, Zygmantas had next to nothing support among the nobility. In 1440, two Ruthenian nobles, brothers Chartoryskis killed Zygmantas in his castle in Trakai, and started the second phase of instability in Lithuania. The candidates to take over the Duchy were Mikhail, son of Zygmantas, Svitrigaila, and Wladyslaw. The latter was elected King of Hungary, and was unable to be in Lithuania, so the Sejm decided to send Wladyslaw brother, Casimir, as a Polish governor of Lithuania. Lithuanian nobles could not take such an indignation, and proclaimed Casimir as Grand Duke.
+	#-#Due to his decision to become effectively a Polish vassal, Zygmantas had next to nothing support among the nobility. In 1440, two Ruthenian nobles, the brothers Czartoryski, killed Zygmantas in his castle in Trakai, and started the second phase of instability in Lithuania. The candidates to take over the Duchy were Mikhail, son of Zygmantas, Svitrigaila, and Wladyslaw. The latter was elected King of Hungary, and was unable to be in Lithuania, so the Sejm decided to send Wladyslaw brother, Casimir, as a Polish governor of Lithuania. Lithuanian nobles could not take such an indignation, and proclaimed Casimir as Grand Duke.
 
 	date = { day = 19 month = march year = 1440 }
 

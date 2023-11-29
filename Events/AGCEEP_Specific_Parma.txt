@@ -213,7 +213,7 @@ event = {
 	country = PAR
 	name = "EVENTNAME390018" #Assassination of Pier Luigi
 	desc = "EVENTHIST390018"
-	#-#Illegitimate son of Alessandro Farnese (aka Pope Paul III), Pier Luigi was created Duke of Parma and Piacenza in 1545 by his father the Pope. Ruling with an iron fist, he incurred the wrath of the local nobility who hung him from a window in his palace. Piacenza was occupied by Imperial troops, whilst Pope Paul III tried reclaiming Parma for the Church, ignoring his grandson Ottavio's right to the succession. In the ensuing civil war, Ottavio ultimately emerged victorious outwitting his grandfather the Pope and his father-in-law Holy Roman Emperor Karl V to become Duke of Parma.
+	#-#Illegitimate son of Alessandro Farnese (aka Pope Paul III), Pier Luigi was created Duke of Parma and Piacenza in 1545 by his father the Pope. Ruling with an iron fist, he incurred the wrath of the local nobility who hung him from a window in his palace. Piacenza was occupied by Imperial troops, whilst Pope Paul III tried reclaiming Parma for the Church, ignoring his grandson Ottavio's right to the succession. In the ensuing civil war, Ottavio ultimately emerged victorious outwitting his grandfather the Pope and his father-in-law Holy Roman Emperor Charles V to become Duke of Parma.
 
 	date = { day = 10 month = september year = 1547 }
 	offset = 1095
@@ -242,7 +242,7 @@ event = {
 	country = PAR
 	name = "EVENTNAME390019" #Family Ties
 	desc = "EVENTHIST390019"
-	#-#In 1536, Ottavio Farnese married Margaret de Austria, natural daughter of Emperor Karl V. Their son Alessandro would marry Infanta Maria of Portugal in 1565. Whilst both marriages helped establish the dynasty among the elite of Europe, it also made them virtual vassals of the Spanish Habsburgs.
+	#-#In 1536, Ottavio Farnese married Margaret de Austria, natural daughter of Emperor Charles V. Their son Alessandro would marry Infanta Maria of Portugal in 1565. Whilst both marriages helped establish the dynasty among the elite of Europe, it also made them virtual vassals of the Spanish Habsburgs.
 
 	date = { day = 1 month = january year = 1552 }
 	offset = 3650
@@ -554,7 +554,7 @@ event = {
 	country = PAR
 	name = "EVENTNAME390025" #Regno delle Due Sicilie
 	desc = "EVENTHIST390025"
-	#-#On December 1 1734, Carlo I wrested control of Naples and Sicily from the Holy Roman Emperor Karl VI. Now styling himself 'King of the Two Sicilies' he moved the Court from Parma to Naples. In 1735, Carlo resigned Parma to Karl VI in exchange for the Emperor's recognition of his conquest of the Two Sicilies. The terms were formally ratified in the Treaty of Vienna 1738, confirmed at the Treaty of Aix-la-Chapelle 1748.
+	#-#On December 1 1734, Carlo I wrested control of Naples and Sicily from the Holy Roman Emperor Charles VI. Now styling himself 'King of the Two Sicilies' he moved the Court from Parma to Naples. In 1735, Carlo resigned Parma to Charles VI in exchange for the Emperor's recognition of his conquest of the Two Sicilies. The terms were formally ratified in the Treaty of Vienna 1738, confirmed at the Treaty of Aix-la-Chapelle 1748.
 
 	date = { day = 13 month = september year = 1733 }
 	offset = 20

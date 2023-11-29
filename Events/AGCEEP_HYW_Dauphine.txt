@@ -19,7 +19,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME12001A" #New Allies!
 		command = { type = wakeleader which = 042803 } #Earl of Buchan (DAU)
-		command = { type = INF which = 410 value = 5000 } #Berri
+		command = { type = INF which = 410 value = 6000 } #Berri
 	}
 }
 
@@ -339,18 +339,11 @@ event = {
 		command = { type = INF which = -1 value = 5000 }
 		command = { type = CAV which = -3 value = 2500 }
 		command = { type = addcore which = 376 } #Champagne
-		command = { type = addcore_claim which = 379 } #Artois
-		command = { type = addcore_claim which = 380 } #Flandern
-		command = { type = addcore_claim which = 382 } #Calais
-		command = { type = addcore_claim which = 383 } #Picardie
 		command = { type = addcore which = 385 } #Ile de France
 		command = { type = addcore which = 386 } #Nivernais
-		command = { type = addcore_claim which = 409 } #Bourgogne
 		command = { type = addcore which = 411 } #Orleanais
-		command = { type = addcore_claim which = 412 } #Maine
 		command = { type = addcore which = 420 } #Auvergne
 		command = { type = addcore which = 421 } #Cévennes
-		command = { type = addcore_claim which = 425 } #Béarn
 	}
 }
 #(1422) King Charles VI is dead (without Treaty of Orleans)
@@ -373,21 +366,14 @@ event = {
 		command = { type = INF which = -1 value = 5000 }
 		command = { type = CAV which = -3 value = 2500 }
 		command = { type = addcore which = 376 } #Champagne
-		command = { type = addcore_claim which = 379 } #Artois
-		command = { type = addcore_claim which = 380 } #Flandern
-		command = { type = addcore_claim which = 382 } #Calais
-		command = { type = addcore_claim which = 383 } #Picardie
 		command = { type = addcore_claim which = 384 } #Caux
 		command = { type = addcore which = 385 } #Ile de France
 		command = { type = addcore which = 386 } #Nivernais
-		command = { type = addcore_claim which = 409 } #Bourgogne
 		command = { type = addcore which = 411 } #Orleanais
-		command = { type = addcore_claim which = 412 } #Maine
 		command = { type = addcore_claim which = 413 } #Normandie
 		command = { type = addcore which = 420 } #Auvergne
 		command = { type = addcore which = 421 } #Cévennes
 		command = { type = addcore_claim which = 424 } #Gascogne
-		command = { type = addcore_claim which = 425 } #Béarn
 	}
 }
 

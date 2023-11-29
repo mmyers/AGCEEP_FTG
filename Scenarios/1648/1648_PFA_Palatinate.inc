@@ -66,7 +66,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1023 }
-		name = "Count's Regiment"
+		name = "Palatine Guard"
 		location = 345
 		infantry = 12000
 		cavalry = 2000

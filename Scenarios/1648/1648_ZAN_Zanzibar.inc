@@ -18,7 +18,7 @@ country = {
 	culture = { type = swahili }
 	diplomacy = {
 		relation = { tag = MLI value = 155 refusetrade = no }
-		relation = { tag = MGU value = 125 refusetrade = no }
+		relation = { tag = AJU value = 125 refusetrade = no }
 		relation = { tag = KIL value = 125 refusetrade = no }
 		relation = { tag = ANG value = 125 refusetrade = no }
 	}

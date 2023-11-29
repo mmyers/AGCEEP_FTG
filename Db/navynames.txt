@@ -1,4 +1,4 @@
-#Navy names
+#AGCEEP - Navy names
 
 #-----------------------------------------------------------------------------------------------
 
@@ -421,7 +421,7 @@ QUE = {
 RUS = {
 	"Baltijskaja Eskadra"
 	"Chernomorskaja Eskadra"
-	"Czarskiy Standart"
+	"Tsarskiy Standart"
 	"Dal'nevostochniy Otrjad"
 	"Dneprovskaya Flotilija"
 	"Dunajskaya Flotilija"

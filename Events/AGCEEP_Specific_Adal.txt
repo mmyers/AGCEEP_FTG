@@ -24,7 +24,7 @@ event = {
 		name = "ACTIONNAME155001A" #A great ruler
 		command = { type = relation which = ETH value = -75 }
 		command = { type = casusbelli which = ETH value = 24 }
-		command = { type = addcore which = 1590 } #Bale
+		command = { type = addcore_claim which = 1590 } #Bale
 		command = { type = domestic which = CENTRALIZATION value = 2 }
 		command = { type = domestic which = ARISTOCRACY value = -1 }
 		command = { type = provincetax which = 754 value = -1 } #Issas
@@ -39,7 +39,7 @@ event = {
 	id = 155000
 	trigger = {
 		exists = TUR
-		exists = ETH
+		neighbour = ETH
 		NOT = { war = { country = TUR country = ADA } }
 	}
 	random = no
@@ -56,6 +56,7 @@ event = {
 		name = "ACTIONNAME155000A" #Make friends With the Turk
 		command = { type = land value = 750 }
 		command = { type = ART which = -1 value = 20 }
+		command = { type = giveaccess which = TUR }
 		command = { type = relation which = TUR value = 100 }
 		command = { type = relation which = ETH value = -300 }
 		command = { type = casusbelli which = ETH value = 120 }
@@ -76,7 +77,7 @@ event = {
 	desc = "EVENTHIST155002"
 	#-#Despite its dynastic troubles, Adal was becoming rich through slave-trade at the port of Saylac. Increased power meant also increased needs, and a new base was created at Harar, near the border of the Great Rift, within easy reach of the Christian Northern Highlands and the Afar Delta to raid for slaves. This military base created by then candidate Abu Bakr in 1520, soon expanded, and when finally Abu Bakr rose to power in 1525, he decided to move his capital to Harar. Although it constituted a superb place to launch attacks on Ethiopia, it was a strategic mistake, because it further removed Adal from its real source of wealth, Saylac.
 
-	date = { day = 1 month = january year = 1525 }
+	date = { day = 1 month = january year = 1526 }
 	offset = 150
 	deathdate = { day = 1 month = december year = 1576 }
 
@@ -120,7 +121,7 @@ event = {
 event = {
 	id = 155004
 	trigger = {
-		exists = ETH
+		neighbour = ETH
 	}
 	random = no
 	country = ADA
@@ -135,6 +136,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME155004A" #Allah demands it
 		command = { type = relation which = ETH value = -75 }
+		command = { type = relation which = AJU value = 100 }
 		command = { type = domestic which = offensive value = 2 }
 		command = { type = domestic which = quality value = 1 }
 		command = { type = land value = 8000 }
@@ -154,7 +156,7 @@ event = {
 event = {
 	id = 155005
 	trigger = {
-		exists = ETH
+		neighbour = ETH
 	}
 	random = no
 	country = ADA
@@ -177,7 +179,7 @@ event = {
 event = {
 	id = 155006
 	trigger = {
-		exists = ETH
+		neighbour = ETH
 	}
 	random = no
 	country = ADA
@@ -204,7 +206,7 @@ event = {
 event = {
 	id = 155007
 	trigger = {
-		exists = ETH
+		neighbour = ETH
 		owned = { province = 755 data = -1 } #Afars
 		control = { province = 755 data = -1 } #Afars
 		event = 155002 #ADA: A new capital in Harar
@@ -232,10 +234,10 @@ event = {
 		command = { type = desertion which = -1 value = 10000 }
 		command = { type = desertion which = -1 value = 10000 }
 		command = { type = desertion which = -1 value = 10000 }
+		command = { type = independence which = AJU } #Ajuuraan
 		command = { type = independence which = MGU } #Mogadishu
 		command = { type = cedeprovince which = ETH value = 752 } #Massawa
 		command = { type = cedeprovince which = ETH value = 753 } #Keren
-		command = { type = cedeprovince which = ETH value = 758 } #Ogaden
 		command = { type = cedeprovince which = ETH value = 1516 } #Welo
 		command = { type = cedeprovince which = ETH value = 1517 } #Shewa
 		command = { type = cedeprovince which = ETH value = 1518 } #Arsi
@@ -244,8 +246,9 @@ event = {
 		command = { type = cedeprovince which = ETH value = 1589 } #Kefa
 		command = { type = cedeprovince which = ETH value = 1590 } #Bale
 		command = { type = cedeprovince which = TUR value = 754 } #Issas
-		command = { type = cedeprovince which = MGU value = 757 } #Somalia
-		command = { type = cedeprovince which = MGU value = 759 } #Mudugh
+		command = { type = cedeprovince which = AJU value = 757 } #Somalia
+		command = { type = cedeprovince which = AJU value = 758 } #Ogaden
+		command = { type = cedeprovince which = AJU value = 759 } #Mudugh
 		command = { type = cedeprovince which = MGU value = 760 } #Mogadiscio
 		command = { type = trigger which = 165020 } #ETH: The disintegration of Adal
 		command = { type = trigger which = 301052 } #TUR: The end of Adal
@@ -256,32 +259,32 @@ event = {
 		command = { type = desertion which = -1 value = 10000 }
 		command = { type = desertion which = -1 value = 10000 }
 		command = { type = desertion which = -1 value = 10000 }
+		command = { type = independence which = AJU } #Ajuuraan
 		command = { type = independence which = MGU } #Mogadishu
 		command = { type = cedeprovince which = ETH value = 752 } #Massawa
 		command = { type = cedeprovince which = ETH value = 753 } #Keren
-		command = { type = cedeprovince which = ETH value = 755 } #Afars
-		command = { type = cedeprovince which = ETH value = 758 } #Ogaden
 		command = { type = cedeprovince which = ETH value = 1516 } #Welo
 		command = { type = cedeprovince which = ETH value = 1517 } #Shewa
-		command = { type = cedeprovince which = ETH value = 1519 } #Harerge
 		command = { type = cedeprovince which = ETH value = 1588 } #Gonder
 		command = { type = cedeprovince which = ETH value = 1589 } #Kefa
 		command = { type = cedeprovince which = ETH value = 1590 } #Bale
 		command = { type = cedeprovince which = TUR value = 754 } #Issas
-		command = { type = cedeprovince which = MGU value = 757 } #Somalia
-		command = { type = cedeprovince which = MGU value = 759 } #Mudugh
+		command = { type = cedeprovince which = AJU value = 757 } #Somalia
+		command = { type = cedeprovince which = AJU value = 758 } #Ogaden
+		command = { type = cedeprovince which = AJU value = 759 } #Mudugh
 		command = { type = cedeprovince which = MGU value = 760 } #Mogadiscio
 		command = { type = war which = ETH }
 		command = { type = trigger which = 165020 } #ETH: The disintegration of Adal
 		command = { type = trigger which = 301052 } #TUR: The end of Adal
 	}
 }
+
 #(1577) The end of Adal (Afars not owned)
 #by Fodoron
 event = {
 	id = 155008
 	trigger = {
-		exists = ETH
+		neighbour = ETH
 		event = 155002 #ADA: A new capital in Harar
 		NOT = {
 			owned = { province = 755 data = -1 } #Afars
@@ -304,20 +307,19 @@ event = {
 		command = { type = desertion which = -1 value = 10000 }
 		command = { type = desertion which = -1 value = 10000 }
 		command = { type = desertion which = -1 value = 10000 }
+		command = { type = independence which = AJU } #Ajuuraan
 		command = { type = independence which = MGU } #Mogadishu
 		command = { type = cedeprovince which = ETH value = 752 } #Massawa
 		command = { type = cedeprovince which = ETH value = 753 } #Keren
-		command = { type = cedeprovince which = ETH value = 755 } #Afars
-		command = { type = cedeprovince which = ETH value = 758 } #Ogaden
 		command = { type = cedeprovince which = ETH value = 1516 } #Welo
 		command = { type = cedeprovince which = ETH value = 1517 } #Shewa
-		command = { type = cedeprovince which = ETH value = 1519 } #Harerge
 		command = { type = cedeprovince which = ETH value = 1588 } #Gonder
 		command = { type = cedeprovince which = ETH value = 1589 } #Kefa
 		command = { type = cedeprovince which = ETH value = 1590 } #Bale
 		command = { type = cedeprovince which = TUR value = 754 } #Issas
-		command = { type = cedeprovince which = MGU value = 757 } #Somalia
-		command = { type = cedeprovince which = MGU value = 759 } #Mudugh
+		command = { type = cedeprovince which = AJU value = 757 } #Somalia
+		command = { type = cedeprovince which = AJU value = 758 } #Ogaden
+		command = { type = cedeprovince which = AJU value = 759 } #Mudugh
 		command = { type = cedeprovince which = MGU value = 760 } #Mogadiscio
 		command = { type = war which = ETH }
 		command = { type = trigger which = 165020 } #ETH: The disintegration of Adal

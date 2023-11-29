@@ -12,6 +12,8 @@ event = {
 		NOT = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	country = MND

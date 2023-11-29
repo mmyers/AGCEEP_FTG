@@ -72,7 +72,21 @@ historicalmonarch = {
 	ADM = 5
 	dormant = no
 }
+historicalmonarch = {
+	id = { type = 6 id = 080505 }
+	startdate = {
+		year = 1536
+	}
+	deathdate = {
+		year = 1820
+	}
+	name = "Mayan Nobles *"
+	DIP = 3
+	MIL = 4
+	ADM = 3
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 080505
+#First free id: 080506

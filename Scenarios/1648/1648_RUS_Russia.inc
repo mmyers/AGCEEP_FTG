@@ -231,6 +231,7 @@ country = {
 		courthouse = yes
 	}
 	city = {
+		name = "Tsarityn"
 		fortress = { level = 1 }
 		population = 12000
 		location = 458

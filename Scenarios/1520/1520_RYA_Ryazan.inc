@@ -17,7 +17,6 @@ country = {
 	religion = { type = orthodox }
 	culture = {
 		type = russian
-		type = tatar
 	}
 	diplomacy = {
 		relation = { tag = RUS value = 150 refusetrade = no }

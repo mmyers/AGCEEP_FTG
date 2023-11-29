@@ -4,7 +4,7 @@ PLEASE HELP OUT WITH THINGS HERE:
 
 ---------------------------------------------------------------------
 Things to do list:
-
+---------------------------------------------------------------------
 - add additional/re-add previously removed tags in line with the fact there are no longer tag limits
 - similarly, re-add additional 'native' cultures from 1.3 vanilla
 - update religions in line with vanilla (e.g. lollard)
@@ -14,19 +14,31 @@ Things to do list:
 - finish updating AGCEEP website with recent changes and additions
 - tidy up the Americas and ocean borders in provinces.txt (geography mapmode)
 - update rebels.txt with new regional rebel and pirate types
-
+- script new ENG events following a HYW victory, as WotR events are now disabled in that scenario
+---------------------------------------------------------------------
+IMPORTANT: when adding a new tag, make sure to include monarchs_tag.txt and leaders_tag.txt files (even if empty)
+This allows us to avoid potential ID conflict issues with the vanilla file structure
+---------------------------------------------------------------------
 
 Bugs to fix list:
 
-Incoherencies in 1.58 events
+Incoherencies in 1.60 events
+- list them here
 
 Empty monarchs files:
 monarchs_ang.txt
+monarchs_brz.txt
+monarchs_bth.txt
+monarchs_gin.txt
 monarchs_gon.txt
-monarchs_mli.txt
-
-Missing monarch files:
 monarchs_got.txt
+monarchs_gre.txt
+monarchs_hya.txt
+monarchs_ikk.txt
+monarchs_mad.txt
+monarchs_mer.txt
+monarchs_mli.txt
+monarchs_pir.txt
 
 Events with commands for non existing monarchs:
 367000 in AGCEEP_Specific_Gotland.txt awakes 053501 - commented out
@@ -65,13 +77,18 @@ Bugs in 1.42:
 http://forum.paradoxplaza.com/forum/showpost.php?p=6775610&postcount=68
 
 
+Bugs in 1.58:
+https://forum.paradoxplaza.com/forum/threads/agceep-bug-list.444459/
+
+
 Some remaining questions here:
 http://forum.paradoxplaza.com/forum/showpost.php?p=5444552&postcount=75
 
 
 Major issues that need resolving:
-- Setup and events for Butung are all messed up.
-- Gotland needs a monarch file, and its event file is broken/unfinished.
+- Gotland's event file is broken/unfinished (and therefore currently unlinked)
+- Possibly some minor issues with ENG WotR sequence (but hopefully now resolved)
+- Napoleonic Spain sequence
 
 
 Dormant and never awakened monarchs/leaders (future use):

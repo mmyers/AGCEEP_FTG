@@ -2,6 +2,11 @@
 
 country = {
 	tag = BYZ
+	ai = {
+		flags = {
+			[Fantasy_BYZ] = yes
+		}
+	}
 	ai = "SmallTrade1.txt"
 	leadertable = "scenarios\Fantasy\Fantasy_Byzantium\db\leaders\leaders_byz.txt"
 	monarchtable = "scenarios\Fantasy\Fantasy_Byzantium\db\monarchs\monarchs_byz.txt"

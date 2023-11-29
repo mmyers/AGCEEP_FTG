@@ -73,7 +73,7 @@ event = {
 	country = MAS
 	name = "EVENTNAME225002" #Prince Janusz II and the Teutonic Order
 	desc = "EVENTHIST225002"
-	#-#In late XV century Masovia was facing threats of being incorporated to Poland, despite of this Janusz II, the prince of Ciechanow and Plock duchies in Mazovia was very active in politics. One of results of his policy was normalizing and improving relations with the Teutonic Order. In 1489 as only Polish he was invited by the Teutonic Order Grandmaster, Johann von Tieffen to become member of the Order.
+	#-#In late XV century Masovia was facing threats of being incorporated to Poland, despite of this Janusz II, the prince of Ciechanow and Plock duchies in Masovia was very active in politics. One of results of his policy was normalizing and improving relations with the Teutonic Order. In 1489 as only Polish he was invited by the Teutonic Order Grandmaster, Johann von Tieffen to become member of the Order.
 
 	date = { day = 1 month = january year = 1489 }
 	offset = 360

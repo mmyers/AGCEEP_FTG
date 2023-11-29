@@ -103,7 +103,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 617 }
-		name = "1st Army"
+		name = "Sultan's Army"
 		location = 358
 		infantry = 25000
 		cavalry = 20000

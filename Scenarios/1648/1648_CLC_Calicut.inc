@@ -48,7 +48,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1042 }
-		name = "Samoothiri Amry"
+		name = "Samoothiri Army"
 		location = 569
 		infantry = 10000
 		cavalry = 5000

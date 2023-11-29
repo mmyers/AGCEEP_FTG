@@ -650,7 +650,7 @@ event = {
 	country = MOS
 	name = "EVENTNAME40079" #Submission of Tver
 	desc = "EVENTHIST40079"
-	#-#After defeating Shemiaka and finally disposing of him in 1453, Vasily II turned his attention to principalities of Ryazan and Tver. Grand Prince of Tver submitted without much urging, by marrying his daugther to future Russian czar Ivan III and recognizing Muscovy Grand Duke as his suzerene. Grand Prince of Ryazan sent his 8 year old son to be brought up at Muscovy court, while Muscovian governors were sent to rule Ryazan in his place in 1456.
+	#-#After defeating Shemiaka and finally disposing of him in 1453, Vasily II turned his attention to principalities of Ryazan and Tver. Grand Prince of Tver submitted without much urging, by marrying his daughter to future Russian Tsar Ivan III and recognizing Muscovy Grand Duke as his suzerene. Grand Prince of Ryazan sent his 8 year old son to be brought up at Muscovy court, while Muscovian governors were sent to rule Ryazan in his place in 1456.
 
 	date = { day = 1 month = january year = 1452 }
 	offset = 100
@@ -754,7 +754,7 @@ event = {
 	country = MOS
 	name = "EVENTNAME40083" #Submission of Ryazan
 	desc = "EVENTHIST40079"
-	#-#After defeating Shemiaka and finally disposing of him in 1453, Vasily II turned his attention to principalities of Ryazan and Tver. Grand Prince of Tver submitted without much urging, by marrying his daugther to future Russian czar Ivan III and recognizing Muscovy Grand Duke as his suzerene. Grand Prince of Ryazan sent his 8 year old son to be brought up at Muscovy court, while Muscovian governors were sent to rule Ryazan in his place in 1456.
+	#-#After defeating Shemiaka and finally disposing of him in 1453, Vasily II turned his attention to principalities of Ryazan and Tver. Grand Prince of Tver submitted without much urging, by marrying his daughter to future Russian Tsar Ivan III and recognizing Muscovy Grand Duke as his suzerene. Grand Prince of Ryazan sent his 8 year old son to be brought up at Muscovy court, while Muscovian governors were sent to rule Ryazan in his place in 1456.
 
 	date = { day = 1 month = january year = 1455 }
 	offset = 400
@@ -954,10 +954,10 @@ event = {
 		OR = {
 			owned = { province = 274 data = -1 } #Novgorod
 			owned = { province = 278 data = -1 } #Tver
-			owned = { province = 448 data = -1 } #Ryazan
+			owned = { province = 449 data = -1 } #Ryazan
 		}
 		NOT = { 
-				exists = RUS 
+			exists = RUS
 		}
 		OR = { 
 			NOT = { exists = BYZ } #historical situation
@@ -985,7 +985,7 @@ event = {
 	country = MOS
 	name = "EVENTNAME40010" #The Empire of Russia
 	desc = "EVENTHIST40010"
-	#-#Historically, following his marriage to Zoe Paleologus in 1472 and throwing off the Mongol yoke in 1480, Ivan III proclaimed himself czar of all Russians shortly thereafter.
+	#-#Historically, following his marriage to Zoe Paleologus in 1472 and throwing off the Mongol yoke in 1480, Ivan III proclaimed himself Tsar of all Russians shortly thereafter.
 
 	date = { day = 1 month = january year = 1480 }
 	offset = 30

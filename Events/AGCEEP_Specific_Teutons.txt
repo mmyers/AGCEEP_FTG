@@ -70,7 +70,7 @@ event = {
 	#-#The Medieval province of Danzig belonged to Poland on similar terms as the Marches belonged to HRE. In 1309, the Teutonic Order, feigning that it wanted to help against Brandenburgians who sieged the city, grabbed the land. Poland never recognized this fact. Both countries found themselves in continuous warfare which culminated in the Battle of Grunwald. The defeated Teutonic Order never regained its position. The population of Danzig was about 90 percent Polish. About 5 percent were Dutch who started to migrate to the delta of Vistula in the 16th century. The cities of Danzig, Thorn, and others were mainly settled by Germans who were definitely more interested in trade than in politics. The Teutonic Order had problems with Danzig, since the political aims of the Order were in contradiction to the policy of the city and province. Had the Teutonic Order encouraged more rustic people from Germany to settle in Danzig, then it may have been easier to rule.
 
 	date = { day = 1 month = january year = 1419 }
-	offset = 5000
+	offset = 50
 	deathdate = { day = 1 month = january year = 1600 }
 
 	action_a = {
@@ -80,6 +80,7 @@ event = {
 	}
 	action_b = {
 		name = "ACTIONNAME20123B" #Let the German population be dominant
+		command = { type = cityname which = 301 value = "Danzig" } #Danzig
 		command = { type = provinceculture which = 301 value = german } # Middle German #Danzig
 		command = { type = domestic which = CENTRALIZATION value = 1 }
 		command = { type = provincetax which = 301 value = 1 } #Danzig
@@ -127,6 +128,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME20124A" #Yes, we can make money on it
+		command = { type = cityname which = 301 value = "Danzig" } #Danzig
 		command = { type = provinceculture which = 301 value = german } #Middle German #Danzig
 		command = { type = population which = 301 value = 5000 } #Danzig
 		command = { type = provincetax which = 301 value = 3 } #Danzig

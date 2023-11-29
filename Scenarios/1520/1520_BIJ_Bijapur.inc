@@ -50,6 +50,9 @@ country = {
 	nationalprovinces = {
 		550
 	}
+	claimedprovinces = {
+		549 567 568
+	}
 	city = {
 		fortress = { level = 1 }
 		population = 22000

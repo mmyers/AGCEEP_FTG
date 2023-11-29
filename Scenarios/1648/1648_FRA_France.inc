@@ -376,6 +376,7 @@ country = {
 		location = 116
 	}
 	landunit = {
+		name = "Royal Army"
 		id = { type = 9423 id = 1078 }
 		location = 385
 		infantry = 25000
@@ -383,6 +384,7 @@ country = {
 		artillery = 50
 	}
 	landunit = {
+		name = "Québécois Militia"
 		id = { type = 9423 id = 1079 }
 		location = 110
 		infantry = 5000
@@ -390,6 +392,7 @@ country = {
 		artillery = 0
 	}
 	landunit = {
+		name = "Army of the Languedoc"
 		id = { type = 9423 id = 1080 }
 		location = 422
 		infantry = 20000
@@ -397,6 +400,7 @@ country = {
 		artillery = 30
 	}
 	landunit = {
+		name = "Reserve Army"
 		id = { type = 9423 id = 1081 }
 		location = 386
 		infantry = 10000
@@ -404,6 +408,7 @@ country = {
 		artillery = 10
 	}
 	navalunit = {
+		name = "Atlantic Fleet"
 		id = { type = 9423 id = 1082 }
 		location = 415
 		warships = 20
@@ -411,6 +416,7 @@ country = {
 		transports = 10
 	}
 	navalunit = {
+		name = "Mediterranean Fleet"
 		id = { type = 9423 id = 1083 }
 		location = 406
 		warships = 15
@@ -418,6 +424,7 @@ country = {
 		transports = 5
 	}
 	navalunit = {
+		name = "Americas Squadron"
 		id = { type = 9423 id = 1084 }
 		location = 117
 		warships = 6

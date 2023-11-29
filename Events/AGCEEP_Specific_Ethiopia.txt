@@ -337,6 +337,8 @@ event = {
 		name = "ACTIONNAME165019A" #Undertake the campaign for our glory
 		command = { type = revolt which = 1516 } #Welo
 		command = { type = revolt which = 1516 } #Welo
+		command = { type = addcore_claim which = 1518 } #Arsi
+		command = { type = addcore_claim which = 1519 } #Harerge
 		command = { type = domestic which = CENTRALIZATION value = 1 }
 		command = { type = setflag which = [dobea_campaigns] }
 		#the vassals and governors are rallied around the Emperor
@@ -1047,9 +1049,17 @@ event = {
 	date = { day = 14 month = june year = 1632 }
 
 	action_a = {
-		name = "ACTIONNAME165029A" #End of a failed experiment
+		name = "ACTIONNAME165029A" #Put an end to this failed experiment
 		command = { type = religion which = miaphysite }
 		command = { type = stability value = 1 }
+	}
+	action_b = {
+		name = "ACTIONNAME165029B" #It is too soon to give up on our reforms
+		command = { type = missionaries value = 4 }
+		command = { type = religiousrevolt which = -1 }
+		command = { type = religiousrevolt which = -4 }
+		command = { type = religiousrevolt which = -4 }
+		command = { type = stability value = -3 }
 	}
 }
 
@@ -1137,6 +1147,12 @@ event = {
 #by Fodoron
 event = {
 	id = 165033
+	trigger = {
+		NOT = {
+			religion = catholic
+			religion = counterreform
+		}
+	}
 	random = no
 	country = ETH
 	name = "EVENTNAME165033" #Expulsion of Catholics

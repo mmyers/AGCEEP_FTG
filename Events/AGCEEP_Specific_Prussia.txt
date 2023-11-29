@@ -102,6 +102,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME20125A" #The German population is dominant
+		command = { type = cityname which = 301 value = "Danzig" } #Danzig
 		command = { type = provinceculture which = 301 value = german } #Middle German #Danzig
 		command = { type = domestic which = CENTRALIZATION value = 1 }
 		command = { type = treasury value = -50 }
@@ -533,7 +534,7 @@ event = {
 	country = PRU
 	name = "EVENTNAME3529" #The Kurland Succession of 1726
 	desc = "EVENTHIST3529"
-	#-#The death of the last Duke of Kurland, Frederick William, in 1711, left no heirs to the Duchy except the weak and ill Ferdinand, and a lot of contenders in Russia and Poland. In 1726, the Polish Sejm managed to impose Maurice of Saxony, the bastard son of the current Polish King, as Duke, but only to change her mind and ask his withdrawal. At the same time, Russia was pushing for her own candidate, the Duke of Holstein-Gottorp, son-in-law of the Czarina Catherine I. After much bribing, negotiation and behind the scene diplomacy, Maurice was summoned to either leave or suffer war. It started in 1727, with Russia firmly committed and sending 8,000 troops to conquer the Duchy within 8 days. The war did not last long enough to embrace all of Europe and Maurice fled to France where he then had a brilliant military career.
+	#-#The death of the last Duke of Kurland, Frederick William, in 1711, left no heirs to the Duchy except the weak and ill Ferdinand, and a lot of contenders in Russia and Poland. In 1726, the Polish Sejm managed to impose Maurice of Saxony, the bastard son of the current Polish King, as Duke, but only to change her mind and ask his withdrawal. At the same time, Russia was pushing for her own candidate, the Duke of Holstein-Gottorp, son-in-law of the Tsarina Catherine I. After much bribing, negotiation and behind the scene diplomacy, Maurice was summoned to either leave or suffer war. It started in 1727, with Russia firmly committed and sending 8,000 troops to conquer the Duchy within 8 days. The war did not last long enough to embrace all of Europe and Maurice fled to France where he then had a brilliant military career.
 
 	date = { day = 13 month = january year = 1726 }
 

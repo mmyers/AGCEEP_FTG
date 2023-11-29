@@ -696,7 +696,7 @@ event = {
 	action_a = {
 		name = "GREAT"
 		command = { type = sleepevent which = 147005 } #CHI: Failure to pacify An Nam after 2nd invasion
-		command = { type = inherit which = DAI }
+		command = { type = annex which = DAI }
 		command = { type = setflag which = [win2ndwarvietnam] }
 	}
 }
@@ -1072,7 +1072,7 @@ event = {
 	country = CHI
 	name = "EVENTNAME10000" #The Move to Beijing
 	desc = "EVENTHIST10000"
-	#-#The Ming Emperor Ming Cheng Zu siezed the throne from his nephew by starting a rebellion from his fiefdom in Bei Ping. His armies entered the imperial capital in Jian Wen year 4, month 6 (July, AD 1402). As the place of origin of his prosperity, Bei Ping was given the title Bei Jing (meaning northern capital) and Cheng Zu ordered the construction of Bei Jing in Yong Le year 4, leap month 7 (Aug-Sep, AD 1406). Cheng Zu was more comfortable in Bei Jing, where many of his loyal generals, soldiers and their families came from. Also moving the capital to the north strengthens the ability to defend and attack the Mongols from northern China, which had been a major concern.\n \n The construction of Bei Jing took 200 000 artisans, craftsmans, blacksmiths, carpenters, etc and 1 million civilian labourers. Materials such as bricks, gold, stones and timber were extracted, manufactured in and transported from all over the Empire. The Bei Jing city was rectangular in shape, 7 km east-west by 5.7 km north-south, surrounded by a moat and walls 12 m high and close to 20 m thick. In the centre of the City, occupying one-sixth its area, is the square shaped, similarly walled, Royal City - forbidden to civilians. The Royal City in Bei Jing was similar to the Royal City in the imperial capital. Inside the Royal City are lakes, small islands, hills, pavillions, terraces and a 720000 square metres rectangular walled compound called the Purple Forbidden City. The Purple Forbidden City consisted of around 1000 buildings including over 9000 rooms, antechamers and halls. The front part is where the Emperor handed down imperial decrees, receive audience of officials to administer the Empire, interview the best imperial examinees, receive foreign ambassadors, conduct cermonies, hold banquets, and study books. The rear of the Purple Forbidden City is where the Emperor, his family and servants reside.\n \n After 14 years of intermittent effort, the Royal City was basically completed. In Yong Le year 18, month 11, day 4 (8th December AD 1420), Cheng Zu decreed the capital be moved to Bei Jing, the original capital was to be called Nan Jing (southern capital).
+	#-#The Ming Emperor Ming Cheng Zu seized the throne from his nephew by starting a rebellion from his fiefdom in Bei Ping. His armies entered the imperial capital in Jian Wen year 4, month 6 (July, AD 1402). As the place of origin of his prosperity, Bei Ping was given the title Bei Jing (meaning northern capital) and Cheng Zu ordered the construction of Bei Jing in Yong Le year 4, leap month 7 (Aug-Sep, AD 1406). Cheng Zu was more comfortable in Bei Jing, where many of his loyal generals, soldiers and their families came from. Also moving the capital to the north strengthens the ability to defend and attack the Mongols from northern China, which had been a major concern.\n \n The construction of Bei Jing took 200 000 artisans, craftsmans, blacksmiths, carpenters, etc and 1 million civilian labourers. Materials such as bricks, gold, stones and timber were extracted, manufactured in and transported from all over the Empire. The Bei Jing city was rectangular in shape, 7 km east-west by 5.7 km north-south, surrounded by a moat and walls 12 m high and close to 20 m thick. In the centre of the City, occupying one-sixth its area, is the square shaped, similarly walled, Royal City - forbidden to civilians. The Royal City in Bei Jing was similar to the Royal City in the imperial capital. Inside the Royal City are lakes, small islands, hills, pavillions, terraces and a 720000 square metres rectangular walled compound called the Purple Forbidden City. The Purple Forbidden City consisted of around 1000 buildings including over 9000 rooms, antechamers and halls. The front part is where the Emperor handed down imperial decrees, receive audience of officials to administer the Empire, interview the best imperial examinees, receive foreign ambassadors, conduct cermonies, hold banquets, and study books. The rear of the Purple Forbidden City is where the Emperor, his family and servants reside.\n \n After 14 years of intermittent effort, the Royal City was basically completed. In Yong Le year 18, month 11, day 4 (8th December AD 1420), Cheng Zu decreed the capital be moved to Bei Jing, the original capital was to be called Nan Jing (southern capital).
 
 	date = { day = 15 month = October year = 1420 }
 	offset = 120
@@ -1121,7 +1121,7 @@ event = {
 	country = CHI
 	name = "EVENTNAME147023" #Rebellion of the Lord of Han
 	desc = "EVENTHIST147023"
-	#-#Cheng Zu did not favour his eldest son, Zhu Gao Chi, who was quiet, obese and had trouble moving around. However, Zhu Gao Chi had a benevolent personality, and attracted the support of many Confucian officials. In contrast, Cheng Zu's second son, Zhu Gao Xu, took part in many battles when his father started the rebellion to sieze the throne. He was known to be ambitious, brave and fierce and had the loyalty of those generals and officials who contributed to secure Cheng Zu's throne. However, as time passed, Cheng Zu found that Zhu Gao Chi's eldest son, Zhu Zhan Ji, was brave and intelligent. This caused Cheng Zu to confirm the tradition of making eldest son, Zhu Gao Chi, the heir.\n \n Despite this many still petitioned Cheng Zu to make Zhu Gao Xu move to an assigned fiefdom so as to end any remaining factioning amongst officials in the imperial capital. Cheng Zu declined and punished those officials who interfered with the issue of succession. Finally, in Yong Le year 13 (AD 1415), Cheng Zu ordered Zhu Gao Xu to go to his newly assigned fiefdom in Shan Dong province. However, some of Zhu Gao Xu's loyalists remained in the capital.\n \n After Cheng Zu died, Zhu Gao Chi succeeded as Ren Zong, but died less than 1 year later. His son, Zhu Zhan Ji succeeded as Xuan Zong, as Cheng Zu had earlier wished. By this time, Zhu Gao Xu, Lord of Han, decided to rebel against his nephew to seize the throne, just like Cheng Zu had done before.
+	#-#Cheng Zu did not favour his eldest son, Zhu Gao Chi, who was quiet, obese and had trouble moving around. However, Zhu Gao Chi had a benevolent personality, and attracted the support of many Confucian officials. In contrast, Cheng Zu's second son, Zhu Gao Xu, took part in many battles when his father started the rebellion to seize the throne. He was known to be ambitious, brave and fierce and had the loyalty of those generals and officials who contributed to secure Cheng Zu's throne. However, as time passed, Cheng Zu found that Zhu Gao Chi's eldest son, Zhu Zhan Ji, was brave and intelligent. This caused Cheng Zu to confirm the tradition of making eldest son, Zhu Gao Chi, the heir.\n \n Despite this many still petitioned Cheng Zu to make Zhu Gao Xu move to an assigned fiefdom so as to end any remaining factioning amongst officials in the imperial capital. Cheng Zu declined and punished those officials who interfered with the issue of succession. Finally, in Yong Le year 13 (AD 1415), Cheng Zu ordered Zhu Gao Xu to go to his newly assigned fiefdom in Shan Dong province. However, some of Zhu Gao Xu's loyalists remained in the capital.\n \n After Cheng Zu died, Zhu Gao Chi succeeded as Ren Zong, but died less than 1 year later. His son, Zhu Zhan Ji succeeded as Xuan Zong, as Cheng Zu had earlier wished. By this time, Zhu Gao Xu, Lord of Han, decided to rebel against his nephew to seize the throne, just like Cheng Zu had done before.
 
 	date = { day = 2 month = may year = 1426 }
 	offset = 30
@@ -1152,7 +1152,7 @@ event = {
 	country = CHI
 	name = "EVENTNAME147024" #Rebellion of the Lord of Han
 	desc = "EVENTHIST147023"
-	#-#Cheng Zu did not favour his eldest son, Zhu Gao Chi, who was quiet, obese and had trouble moving around. However, Zhu Gao Chi had a benevolent personality, and attracted the support of many Confucian officials. In contrast, Cheng Zu's second son, Zhu Gao Xu, took part in many battles when his father started the rebellion to sieze the throne. He was known to be ambitious, brave and fierce and had the loyalty of those generals and officials who contributed to secure Cheng Zu's throne. However, as time passed, Cheng Zu found that Zhu Gao Chi's eldest son, Zhu Zhan Ji, was brave and intelligent. This caused Cheng Zu to confirm the tradition of making eldest son, Zhu Gao Chi, the heir.\n \n Despite this many still petitioned Cheng Zu to make Zhu Gao Xu move to an assigned fiefdom so as to end any remaining factioning amongst officials in the imperial capital. Cheng Zu declined and punished those officials who interfered with the issue of succession. Finally, in Yong Le year 13 (AD 1415), Cheng Zu ordered Zhu Gao Xu to go to his newly assigned fiefdom in Shan Dong province. However, some of Zhu Gao Xu's loyalists remained in the capital.\n \n After Cheng Zu died, Zhu Gao Chi succeeded as Ren Zong, but died less than 1 year later. His son, Zhu Zhan Ji succeeded as Xuan Zong, as Cheng Zu had earlier wished. By this time, Zhu Gao Xu, Lord of Han, decided to rebel against his nephew to seize the throne, just like Cheng Zu had done before.
+	#-#Cheng Zu did not favour his eldest son, Zhu Gao Chi, who was quiet, obese and had trouble moving around. However, Zhu Gao Chi had a benevolent personality, and attracted the support of many Confucian officials. In contrast, Cheng Zu's second son, Zhu Gao Xu, took part in many battles when his father started the rebellion to seize the throne. He was known to be ambitious, brave and fierce and had the loyalty of those generals and officials who contributed to secure Cheng Zu's throne. However, as time passed, Cheng Zu found that Zhu Gao Chi's eldest son, Zhu Zhan Ji, was brave and intelligent. This caused Cheng Zu to confirm the tradition of making eldest son, Zhu Gao Chi, the heir.\n \n Despite this many still petitioned Cheng Zu to make Zhu Gao Xu move to an assigned fiefdom so as to end any remaining factioning amongst officials in the imperial capital. Cheng Zu declined and punished those officials who interfered with the issue of succession. Finally, in Yong Le year 13 (AD 1415), Cheng Zu ordered Zhu Gao Xu to go to his newly assigned fiefdom in Shan Dong province. However, some of Zhu Gao Xu's loyalists remained in the capital.\n \n After Cheng Zu died, Zhu Gao Chi succeeded as Ren Zong, but died less than 1 year later. His son, Zhu Zhan Ji succeeded as Xuan Zong, as Cheng Zu had earlier wished. By this time, Zhu Gao Xu, Lord of Han, decided to rebel against his nephew to seize the throne, just like Cheng Zu had done before.
 
 	date = { day = 2 month = may year = 1426 }
 	offset = 30
@@ -1207,9 +1207,9 @@ event = {
 	}
 	random = no
 	country = CHI
-	name = "EVENTNAME147026" #The Lord of Han siezed the throne
+	name = "EVENTNAME147026" #The Lord of Han seized the throne
 	desc = "EVENTHIST147026"
-	#-#Lord of Han, Zhu Gao Yu's armies have entered the capital and siezed the throne. Order has to be restored in the Empire...
+	#-#Lord of Han, Zhu Gao Yu's armies have entered the capital and seized the throne. Order has to be restored in the Empire...
 
 	date = { day = 2 month = may year = 1426 }
 	offset = 1
@@ -1253,7 +1253,7 @@ event = {
 	action_a = {
 		name = "OK"
 		command = { type = province_revoltrisk which = 650 value = -800 } #Shandong
-		command = { type = sleepevent which = 147026 } #CHI: The Lord of Han siezed the throne
+		command = { type = sleepevent which = 147026 } #CHI: The Lord of Han seized the throne
 		command = { type = sleepevent which = 147028 } #CHI: The Lord of Han has died
 	}
 }
@@ -1276,7 +1276,7 @@ event = {
 	action_a = {
 		name = "OK"
 		command = { type = province_revoltrisk which = 650 value = -800 } #Shandong
-		command = { type = sleepevent which = 147026 } #CHI: The Lord of Han siezed the throne
+		command = { type = sleepevent which = 147026 } #CHI: The Lord of Han seized the throne
 		command = { type = sleepevent which = 147027 } #CHI: Qingdao under control
 	}
 }
@@ -1370,7 +1370,7 @@ event = {
 	country = CHI
 	name = "EVENTNAME147031" #Lu Chuan Rebellion
 	desc = "EVENTHIST147031"
-	#-#In Zheng Tong year 1 (AD 1436), the Emperor granted permission to write off Lu Chuan's large amounts of overdue tribute to the Ming Emperor. The Emperor had been persuaded by Lu Chuan's chief administrator, Si Ren Fa, that he was unable to pay because his land had been invaded by Mu Bang and few people were left on his land to be taxed. However, soon after making this excuse, Si Ren Fa launched attacks across large areas in Sout West Yun Nan, and siezed the land of other tribes which were loyal to Ming. By Zheng Tong year 3, month 7 (August, AD 1438), Si Ren Fa declared himself King. Mu Cheng (Duke of Qian) and general Fang Zheng were ordered to crush the rebellion. However, the two generals were at odds about the strategy which led to disaster by the next year. Fang Zheng led an army by himself and pursued deep into enemy territory but was killed in an ambush. Shocked by this news, Mu Cheng died suddenly in the army. His brother Mu Ang replaced him as commander but by Zheng Tong year 6, month 1, day 17 (8th february, AD 1441), Wang Zhen, the powerful eunuch in Ming government, decided to send 150,000 men, led by general Jiang Gui and commanded by military secretary Wang Ji, to eliminate the rebellion.
+	#-#In Zheng Tong year 1 (AD 1436), the Emperor granted permission to write off Lu Chuan's large amounts of overdue tribute to the Ming Emperor. The Emperor had been persuaded by Lu Chuan's chief administrator, Si Ren Fa, that he was unable to pay because his land had been invaded by Mu Bang and few people were left on his land to be taxed. However, soon after making this excuse, Si Ren Fa launched attacks across large areas in Sout West Yun Nan, and seized the land of other tribes which were loyal to Ming. By Zheng Tong year 3, month 7 (August, AD 1438), Si Ren Fa declared himself King. Mu Cheng (Duke of Qian) and general Fang Zheng were ordered to crush the rebellion. However, the two generals were at odds about the strategy which led to disaster by the next year. Fang Zheng led an army by himself and pursued deep into enemy territory but was killed in an ambush. Shocked by this news, Mu Cheng died suddenly in the army. His brother Mu Ang replaced him as commander but by Zheng Tong year 6, month 1, day 17 (8th february, AD 1441), Wang Zhen, the powerful eunuch in Ming government, decided to send 150,000 men, led by general Jiang Gui and commanded by military secretary Wang Ji, to eliminate the rebellion.
 
 	date = { day = 1 month = October year = 1436 }
 	offset = 120
@@ -1457,7 +1457,7 @@ event = {
 	country = CHI
 	name = "EVENTNAME147032" #Another Rebellion in Lu Chuan
 	desc = "EVENTHIST147034"
-	#-#The second invasion of Lu Chuan ended after the defeat of Si Ji Fa. Si Ji Fa fled to Meng Yang, and siezed control of the area. The Ming government made failed attempts to capture him.
+	#-#The second invasion of Lu Chuan ended after the defeat of Si Ji Fa. Si Ji Fa fled to Meng Yang, and seized control of the area. The Ming government made failed attempts to capture him.
 
 	date = { day = 1 month = july year = 1443 }
 	offset = 180
@@ -1466,7 +1466,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME147034A" #This is frustrating
 		command = { type = independence which = MYG }
-		command = { type = inherit which = LCH }
+		command = { type = annex which = LCH }
 		command = { type = trigger which = 384000 } #MYG: Another Rebellion in Lu Chuan
 	}
 }
@@ -2020,14 +2020,14 @@ event = {
 	country = CHI
 	name = "EVENTNAME3704" #The Closure of China
 	desc = "EVENTHIST3704"
-	#-#European traders seemingly can be found everywhere in China. They are draining the profits away from our own traders and driving them into bankruptcy, causing us much lost revenue in taxes and tariffs. Perhaps we should ban them altogether or confine them to a single city in order to better control them and make it easier to impose trade tariffs. Our experts believe that giving the city of Macao to the Portuguese and only allowing the Europeans to trade there might be the best solution. This will also give us the benefit of expanding trade in our southern regions around Canton. Then again, we could chose to shun outside trade altogether or to open our shores to free and unhindered trade by all. What shall be our policy?
+	#-#European traders seemingly can be found everywhere in China. They are draining the profits away from our own traders and driving them into bankruptcy, causing us much lost revenue in taxes and tariffs. Perhaps we should ban them altogether or confine them to a single city in order to better control them and make it easier to impose trade tariffs. Our experts believe that giving the city of Macau to the Portuguese and only allowing the Europeans to trade there might be the best solution. This will also give us the benefit of expanding trade in our southern regions around Canton. Then again, we could chose to shun outside trade altogether or to open our shores to free and unhindered trade by all. What shall be our policy?
 
 	date = { day = 1 month = january year = 1557 }
 	offset = 300
 	deathdate = { day = 1 month = january year = 1558 }
 
 	action_a = {
-		name = "ACTIONNAME3704A" #Hold a small breathing hole open in Macao
+		name = "ACTIONNAME3704A" #Hold a small breathing hole open in Macau
 		command = { type = domestic which = innovative value = -2 }
 		command = { type = domestic which = mercantilism value = 3 }
 		command = { type = domestic which = centralization value = 1 }
@@ -2872,7 +2872,7 @@ event = {
 
 	action_a = {
 		name = "YES"
-		command = { type = treasury value = -50 }
+		command = { type = treasury value = -150 }
 		command = { type = wakeleader which = 032315 } #Koxinga
 		command = { type = sleepevent which = 147061 } #CHI: The Coastal Evacuation
 	}
@@ -3066,7 +3066,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME10036A" #Expel them!
-		command = { type = technology which = exotic }
+		command = { type = technology which = african }
 		command = { type = infra value = -1000 }
 		command = { type = trade value = -1000 }
 		command = { type = domestic which = innovative value = -3 }
@@ -3397,7 +3397,7 @@ event = {
 	country = CHI
 	name = "EVENTNAME10044" #Treasure Fleet policy debate
 	desc = "EVENTHIST3703"
-	#-#From 1405-1424, the Ming Emperor, Ming Cheng Zu, sent out a massive treasure fleet, under the command of the famed eunuch admiral Zheng He, for a total of 6 voyages to the Western Ocean (Indian Ocean). Construction started in AD 1403 with an order to produce over 500 ships. Timber and other materials, as well as carpenters, sailmakers, and shipwrights and labourers were transported from all over the Empire to Port Liu Jia. At its height 20,000 to 30,000 people worked and lived at the yards in Port Liu Jia.\n \n The ships were built for their grandeur. The largest of these enormous treasure ships were thought to be 400 feet long and 166 feet wide (compare Columbus's St. Maria of 85 ft and Cook's the Resolution of 111 ft). Once completed the fleet consisted of 317 ships with a crew of over 27,000 men, including soldiers, doctors, astronomers, and translators. The ships were beautifully painted and carved, fitted with bronze cannons, and contained grand cabins, and elaborate antechambers that were festooned with balconies and railings. Expensive treasures were loaded on the ships as gifts to impress foreign governments. The ships also utilised the latest technology, such as improved navigation equipment, watertight bulwark compartments, and the balanced rudder.\n \n The ships were built primarily to pursue Cheng Zu's missing nephew from whom Cheng Zu siezed the throne, and to strengthen China's influence over its neighbours. The fleet explored Indonesia, India, Arabia, Persia and East Africa, making diplomatic contact and sometimes intervening in the affairs of foreign countries. Large numbers of embassadors with gifts and tributes were brought to China.\n \n However, a dramatic turn around in policy occurred after Ren Zong succeeded the throne. Ren Zong was a conservative and influenced by Confucian beliefs. He thought that the enormous cost of supply and maintainence of the ships, crew, labourers and treasures created a heavy burden on the ordinary people. He ordered the suspension of treasure fleet voyages.
+	#-#From 1405-1424, the Ming Emperor, Ming Cheng Zu, sent out a massive treasure fleet, under the command of the famed eunuch admiral Zheng He, for a total of 6 voyages to the Western Ocean (Indian Ocean). Construction started in AD 1403 with an order to produce over 500 ships. Timber and other materials, as well as carpenters, sailmakers, and shipwrights and labourers were transported from all over the Empire to Port Liu Jia. At its height 20,000 to 30,000 people worked and lived at the yards in Port Liu Jia.\n \n The ships were built for their grandeur. The largest of these enormous treasure ships were thought to be 400 feet long and 166 feet wide (compare Columbus's St. Maria of 85 ft and Cook's the Resolution of 111 ft). Once completed the fleet consisted of 317 ships with a crew of over 27,000 men, including soldiers, doctors, astronomers, and translators. The ships were beautifully painted and carved, fitted with bronze cannons, and contained grand cabins, and elaborate antechambers that were festooned with balconies and railings. Expensive treasures were loaded on the ships as gifts to impress foreign governments. The ships also utilised the latest technology, such as improved navigation equipment, watertight bulwark compartments, and the balanced rudder.\n \n The ships were built primarily to pursue Cheng Zu's missing nephew from whom Cheng Zu seized the throne, and to strengthen China's influence over its neighbours. The fleet explored Indonesia, India, Arabia, Persia and East Africa, making diplomatic contact and sometimes intervening in the affairs of foreign countries. Large numbers of embassadors with gifts and tributes were brought to China.\n \n However, a dramatic turn around in policy occurred after Ren Zong succeeded the throne. Ren Zong was a conservative and influenced by Confucian beliefs. He thought that the enormous cost of supply and maintainence of the ships, crew, labourers and treasures created a heavy burden on the ordinary people. He ordered the suspension of treasure fleet voyages.
 
 	date = { day = 13 month = august year = 1424 }
 	offset = 40
@@ -5457,7 +5457,7 @@ event = {
 		}
 		discovered = 757 #Somalia
 		flag = [treasure_fleet_voyages]
-		owned = { province = 757 data = MGU }
+		owned = { province = 757 data = AJU }
 	}
 	random = no
 	country = CHI
@@ -5472,7 +5472,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME147064A" #Tribute Received
 		command = { type = treasury value = 10 }
-		command = { type = relation which = MGU value = 15 }
+		command = { type = relation which = AJU value = 15 }
 	}
 }
 #(1419-1450) Zheng He Treasure Fleet Tribute Receiving Events - newly discovered lands
@@ -5490,7 +5490,7 @@ event = {
 		}
 		discovered = 759 #Mudugh
 		flag = [treasure_fleet_voyages]
-		owned = { province = 759 data = MGU }
+		owned = { province = 759 data = AJU }
 	}
 	random = no
 	country = CHI
@@ -5505,7 +5505,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME147064A" #Tribute Received
 		command = { type = treasury value = 10 }
-		command = { type = relation which = MGU value = 15 }
+		command = { type = relation which = AJU value = 15 }
 	}
 }
 #(1419-1450) Zheng He Treasure Fleet Tribute Receiving Events - newly discovered lands

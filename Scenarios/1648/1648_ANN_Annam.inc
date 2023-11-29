@@ -43,6 +43,7 @@ country = {
 		663 664 665
 	}
 	city = {
+		name = "Hue"
 		fortress = { level = 2 }
 		population = 17000
 		location = 664
@@ -51,6 +52,7 @@ country = {
 		capital = yes
 	}
 	city = {
+		name = "Da Lat"
 		fortress = { level = 2 }
 		population = 14000
 		location = 665
@@ -58,6 +60,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Annam Army"
 		id = { type = 9423 id = 1129 }
 		location = 664
 		infantry = 17000

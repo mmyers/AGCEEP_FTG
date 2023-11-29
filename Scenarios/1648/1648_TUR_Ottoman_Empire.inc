@@ -633,14 +633,15 @@ country = {
 		cityrights = yes
 	}
 	landunit = {
+		name = "Imperial Army"
 		id = { type = 9423 id = 1103 }
-		name = "Janissaries"
 		location = 357
 		infantry = 30000
 		cavalry = 10000
 		artillery = 60
 	}
 	landunit = {
+		name = "Hungarian Army"
 		id = { type = 9423 id = 1104 }
 		location = 353
 		infantry = 12000
@@ -648,6 +649,7 @@ country = {
 		artillery = 20
 	}
 	landunit = {
+		name = "Army of Mesopotamia"
 		id = { type = 9423 id = 1105 }
 		location = 489
 		infantry = 18000
@@ -655,6 +657,7 @@ country = {
 		artillery = 30
 	}
 	landunit = {
+		name = "Army of Anatolia"
 		id = { type = 9423 id = 1106 }
 		location = 746
 		infantry = 10000
@@ -662,6 +665,7 @@ country = {
 		artillery = 15
 	}
 	landunit = {
+		name = "Army of Crete"
 		id = { type = 9423 id = 1111 }
 		location = 480
 		infantry = 16000
@@ -669,6 +673,7 @@ country = {
 		artillery = 40
 	}
 	landunit = {
+		name = "Army of North Africa"
 		id = { type = 9423 id = 1107 }
 		location = 739
 		infantry = 10000
@@ -676,14 +681,15 @@ country = {
 		artillery = 15
 	}
 	navalunit = {
-		id = { type = 9423 id = 1108 }
 		name = "Barbary Corsairs"
+		id = { type = 9423 id = 1108 }
 		location = 737
 		warships = 18
 		galleys = 10
 		transports = 5
 	}
 	navalunit = {
+		name = "Imperial Fleet"
 		id = { type = 9423 id = 1109 }
 		location = 357
 		warships = 30
@@ -691,6 +697,7 @@ country = {
 		transports = 10
 	}
 	navalunit = {
+		name = "Aegean Squadron"
 		id = { type = 9423 id = 1110 }
 		location = 481
 		warships = 10

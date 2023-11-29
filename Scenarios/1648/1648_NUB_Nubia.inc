@@ -1,4 +1,4 @@
-#Sennar/Nubia
+#Nubia/Funj
 
 #-----------------------------------------------------------------------------------------------
 
@@ -50,6 +50,7 @@ country = {
 		bailiff = yes
 	}
 	landunit = {
+		name = "Nubian Army"
 		id = { type = 9423 id = 1097 }
 		location = 751
 		infantry = 0
@@ -62,6 +63,7 @@ country = {
 		trade = { level = 3 value = 200 }
 		land = { level = 15 value = 700 }
 		naval = { level = 6 value = 800 }
+		group = asian
 	}
 }
 

@@ -34,7 +34,7 @@ historicalmonarch = {
 		month = june
 		year = 1478
 	}
-	name = "Lodovico III il Turco"
+	name = "Ludovico III il Turco"
 	DIP = 7
 	ADM = 9
 	MIL = 6

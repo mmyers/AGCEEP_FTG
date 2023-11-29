@@ -28,7 +28,7 @@ country = {
 		752 753 1516 1517 1588 1589 1590
 	}
 	nationalprovinces = {
-		752 753 758 1516 1517 1518 1519 1588 1589 1590
+		752 753 1516 1517 1588 1589 1590
 	}
 	city = {
 		fortress = { level = 1 }
@@ -44,7 +44,6 @@ country = {
 		fortress = { level = 1 }
 		population = 8000
 		location = 1517
-		capital = yes
 	}
 	city = {
 		fortress = { level = 1 }
@@ -55,6 +54,7 @@ country = {
 		fortress = { level = 1 }
 		population = 5000
 		location = 1588
+		capital = yes
 	}
 	city = {
 		fortress = { level = 1 }

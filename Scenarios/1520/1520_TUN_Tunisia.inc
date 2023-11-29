@@ -73,7 +73,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 559 }
-		name = "Tunisian Fleet"
+		name = "Hafsid Fleet"
 		location = 739
 		warships = 0
 		galleys = 15

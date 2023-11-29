@@ -13,7 +13,7 @@ event = {
 	country = ATJ
 	name = "EVENTNAME65100" #Settlement of Sumatra
 	desc = "EVENTHIST65100"
-	#-#The sultanate of Atjeh rose to prominence in the late 15th and early 16th centuries. After the capture of Melaka by the Portuguese in 1511, Atjeh would become a dominant power in the region until its near collapse in the mid-1630s.
+	#-#The sultanate of Atjeh rose to prominence in the late 15th and early 16th centuries. After the capture of Malacca by the Portuguese in 1511, Atjeh would become a dominant power in the region until its near collapse in the mid-1630s.
 
 	date = { day = 1 month = january year = 1419 }
 	offset = 60
@@ -34,7 +34,7 @@ event = {
 	country = ATJ
 	name = "EVENTNAME65101" #Centralization efforts of Ali Mughayat Shah
 	desc = "EVENTHIST65101"
-	#-#Following a long period of Melaka domination, a patchwork of Atjeh trading centres was united in 1520-1524 by Ali Mughayat Shah as a counter to clumsy Portuguese efforts to monopolize the trade in the region.
+	#-#Following a long period of Malacca domination, a patchwork of Atjeh trading centres was united in 1520-1524 by Ali Mughayat Shah as a counter to clumsy Portuguese efforts to monopolize the trade in the region.
 
 	date = { day = 1 month = january year = 1520 }
 	offset = 60
@@ -58,7 +58,7 @@ event = {
 	country = ATJ
 	name = "EVENTNAME65102" #Crusade of Ala-ud-Din Ri'ayat Shah al-Qahhar
 	desc = "EVENTHIST65102"
-	#-#Under Ala-ud-Din Ri'ayat Shah al-Qahhar Atjeh promptly rose to power by catering to the merchants exiled by the Portuguese takeover of Melaka. During his reign, however, a merchant aristocracy gained significant political influence, which would eventually bring Atjeh down from its heights.
+	#-#Under Ala-ud-Din Ri'ayat Shah al-Qahhar Atjeh promptly rose to power by catering to the merchants exiled by the Portuguese takeover of Malacca. During his reign, however, a merchant aristocracy gained significant political influence, which would eventually bring Atjeh down from its heights.
 
 	date = { day = 1 month = january year = 1539 }
 	offset = 6000
@@ -115,7 +115,7 @@ event = {
 	country = ATJ
 	name = "EVENTNAME260019" #Decline of the Malaccan trade
 	desc = "EVENTHIST260019"
-	#-#By the late 16th century Malacca had ceased to be the premier trade emporium of South East Asia and the Moluccas. This was a result of excessive piracy from Atjeh and Johore and because of frequent attacks at sea and seiges of Malacca by Atjeh, Portugal's primary rival in the region. Atjeh by this time became the premier trade emporium instead, as Muslim merchants prefered to trade at a port controlled by their co-religionists.
+	#-#By the late 16th century Malacca had ceased to be the premier trade emporium of South East Asia and the Moluccas. This was a result of excessive piracy from Atjeh and Johor and because of frequent attacks at sea and seiges of Malacca by Atjeh, Portugal's primary rival in the region. Atjeh by this time became the premier trade emporium instead, as Muslim merchants prefered to trade at a port controlled by their co-religionists.
 
 	action_a = {
 		name = "EXCELLENT"

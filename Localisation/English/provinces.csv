@@ -1210,7 +1210,7 @@ PROV_Strait_of_Luzon;Strait of Luzon;x
 PROV_Strait_of_Makassar;Strait of Makassar;x
 PROV_Straits_of_Dover;Straits of Dover;x
 PROV_Straits_of_Gibraltar;Straits of Gibraltar;x
-PROV_Straits_of_Johore;Straits of Johore;x
+PROV_Straits_of_Johore;Straits of Johor;x
 PROV_Straits_of_Lombok;Straits of Lombok;x
 PROV_Straits_of_Malacca;Straits of Malacca;x
 PROV_Straits_of_Messina;Straits of Messina;x
@@ -1309,7 +1309,7 @@ PROV_Timaru;Timaru;x
 PROV_Timbuktu;Timbuktu;x
 PROV_Timor;Timor;x
 PROV_Timor_Sea;Timor Sea;x
-PROV_Tindore;Tindore;x
+PROV_Tindore;Tidore;x
 PROV_Tiracambu;Tiracambu;x
 PROV_Tirhut;Tirhut;x
 PROV_Tirol;Tirol;x
@@ -1669,15 +1669,15 @@ CITY_Cuzco;Cuzco;x
 CITY_Cyprus;Famagusta;x
 CITY_Cyrenaica;Benghazi;x
 CITY_Cévennes;Aurillac;x
-CITY_Da_Lat;Da Lat;x
-CITY_Da_Nang;Hue;x
+CITY_Da_Lat;Panduranga;x
+CITY_Da_Nang;Vijaya;x
 CITY_Daghestan;Baku;x
 CITY_Dakar;Dakar;x
 CITY_Dalmatia;Spalato;x
 CITY_Damara;Damara;x
 CITY_Damman;Damman;x
 CITY_Dangla;Chamdo;x
-CITY_Danzig;Danzig;x
+CITY_Danzig;Gdansk;x
 CITY_Dauphiné;Grenoble;x
 CITY_Delaware;Delaware;x
 CITY_Delhi;Delhi;x
@@ -1721,7 +1721,7 @@ CITY_Firenze;Firenze;x
 CITY_Flandern;Antwerpen;x
 CITY_Flores;Flores;x
 CITY_Fox;Fox;x
-CITY_Franche-Comté;Besancon;x
+CITY_Franche-Comté;Dole;x
 CITY_Friesen;Ljouwert;x
 CITY_Fujian;Fuzhou;x
 CITY_Galana;Galana;x
@@ -1951,7 +1951,7 @@ CITY_Mainz;Mainz;x
 CITY_Makassar;Makassar;x
 CITY_Malacca;Malacca;x
 CITY_Malindi;Kismayu;x
-CITY_Malta;Valletta;x
+CITY_Malta;Mdina;x
 CITY_Malwa;Ujjain;x
 CITY_Manado;Manado;x
 CITY_Manaus;Manaus;x
@@ -2052,7 +2052,7 @@ CITY_Nefedova;Nefedova;x
 CITY_Nehalem;Nehalem;x
 CITY_Nelma;Nelma;x
 CITY_Nembire;Tete;x
-CITY_Nepal;Darjeeling;x
+CITY_Nepal;Kathmandu;x
 CITY_Nerchiinsk;Nerchiinsk;x
 CITY_Ngoyo;Ngoyo;x
 CITY_Niagara;Niagara;x
@@ -2096,7 +2096,7 @@ CITY_Olonets;Kargopor;x
 CITY_Olympia;Olympia;x
 CITY_Omsk;Omsk;x
 CITY_Onondaga;Onondaga;x
-CITY_Oporto;Pôrto;x
+CITY_Oporto;Porto;x
 CITY_Orania;Oran;x
 CITY_Oregon;Oregon;x
 CITY_Orenburg;Sarapol;x
@@ -2255,7 +2255,7 @@ CITY_Stadacone;Kebec;x
 CITY_Stanovoe;Stanovoe;x
 CITY_Steiermark;Graz;x
 CITY_Strathclyde;Glasgow;x
-CITY_Sudan;Khartoum;x
+CITY_Sudan;Kassala;x
 CITY_Sudeten;Plzen;x
 CITY_Sulawesi;Palu;x
 CITY_Sumbawa;Sumbawa;x
@@ -2314,7 +2314,7 @@ CITY_Tierra_del_Fuego;Tierra del Fuego;x
 CITY_Timaru;Timaru;x
 CITY_Timbuktu;Timbuktu;x
 CITY_Timor;Timor;x
-CITY_Tindore;Tindore;x
+CITY_Tindore;Tidore;x
 CITY_Tiracambu;Tiracambu;x
 CITY_Tirhut;Mithila;x
 CITY_Tirol;Innsbruck;x
@@ -2367,7 +2367,7 @@ CITY_Vestbygden;Lusyfjord;x
 CITY_Viazemski;Viazemski;x
 CITY_Viti_Levu;Viti Levu;x
 CITY_Vladimir;Viatka;x
-CITY_Volgograd;Tsaritsyn;x
+CITY_Volgograd;Sarai;x
 CITY_Vologda;Vologda;x
 CITY_Volyn;Brest Litovsk;x
 CITY_Vorones;Ryazan;x

@@ -9505,7 +9505,7 @@ province = {
 	culture = ugric
 	manpower = 1
 	income = 1
-	goods = iron
+	goods = fur
 	city_name = "CITY_Lappland"
 	cot_modifier = -1
 	colonization_difficulty = 0
@@ -12390,7 +12390,7 @@ province = {
 	culture = scandinavian
 	manpower = 1
 	income = 1
-	goods = naval_supplies
+	goods = fish
 	city_name = "CITY_Västerbotten"
 	cot_modifier = 2
 	colonization_difficulty = 0
@@ -27314,15 +27314,15 @@ province = {
 	continent = "Africa"
 	region = "East Africa"
 	area = "Somalia"
-	type = inland
-	sea_adjacency = 0
+	type = coastal
+	sea_adjacency = 1134
 	terrain = desert
 	size_modifier = 0.00
 	climate = desertic
 	religion = sunni
 	culture = somali
 	manpower = 1
-	income = 1
+	income = 2
 	goods = slaves
 	city_name = "CITY_Mudugh"
 	cot_modifier = -3
@@ -27337,6 +27337,7 @@ province = {
 	gfx = {
 		city = { x = 12028 y = 4432 }
 		army = { x = 11956 y = 4538 }
+		port = { x = 12070 y = 4490 }
 		manufactory = { x = 12000 y = 4500 }
 		terrain1 = { x = 12011 y = 4536 variant = 2 }
 		terrain2 = { x = 11977 y = 4428 variant = 4 }
@@ -40291,8 +40292,8 @@ province = {
 	terrain = mountain
 	size_modifier = 0.00
 	climate = arctic
-	religion = buddhist
-	culture = tibetan
+	religion = hindu
+	culture = nepali
 	manpower = 1
 	income = 2
 	goods = wool
@@ -40307,8 +40308,8 @@ province = {
 		tolerance = 0
 	}
 	gfx = {
-		city = { x = 14191 y = 3259 }
-		army = { x = 14258 y = 3211 }
+		city = { x = 14240 y = 3190 }
+		army = { x = 14260 y = 3300 }
 		manufactory = { x = 14104 y = 3242 }
 	}
 	history = { }

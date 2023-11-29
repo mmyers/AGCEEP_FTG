@@ -29,7 +29,7 @@ historicalleader = {
 	category = general
 	name = "Earl of Buchan"
 	startdate = {
-		year = 1421
+		year = 1419
 	}
 	deathdate = {
 		year = 1424

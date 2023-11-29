@@ -44,7 +44,7 @@ country = {
 		trade = { level = 0 value = 0 }
 		land = { level = 0 value = 0 }
 		naval = { level = 0 value = 0 }
-		group = exotic
+		group = pagan
 	}
 }
 

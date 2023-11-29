@@ -30,32 +30,20 @@ country = {
 		1067 1068 1069 1070 1071 1133 1134 1135 1136 1138 1185 1186 1512 1513 1514 1515 1359 1363 1592
 	}
 	ownedprovinces = {
-		757 759 760
+		760
 	}
 	controlledprovinces = {
-		757 759 760
+		760
 	}
 	nationalprovinces = {
-		757 759 760
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 2000
-		location = 757
-		bailiff = yes
+		760
 	}
 	city = {
 		fortress = { level = 1 }
 		population = 8000
-		location = 759
-		bailiff = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 8000
+		location = 760
 		capital = yes
 		bailiff = yes
-		location = 760
 	}
 	technology = {
 		stability = { level = 2 value = 42 }

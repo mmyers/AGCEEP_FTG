@@ -88,7 +88,7 @@ country = {
 		trade = { level = 3 value = 350 }
 		land = { level = 18 value = 100 }
 		naval = { level = 0 value = 0 }
-		group = china
+		group = asian
 	}
 }
 

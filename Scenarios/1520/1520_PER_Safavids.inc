@@ -195,6 +195,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 509 }
+		name = "Army of Mesopotamia"
 		location = 489
 		infantry = 5000
 		cavalry = 10000
@@ -202,7 +203,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 510 }
-		name = "Persian Army"
+		name = "Safavid Army"
 		location = 533
 		infantry = 10000
 		cavalry = 20000

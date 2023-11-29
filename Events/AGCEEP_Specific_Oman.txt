@@ -104,8 +104,8 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME248003A" #We will aid them
-		command = { type = add_countryculture which = Swahili }
-		command = { type = add_countryculture which = Somali }
+		command = { type = add_countryculture which = swahili }
+		command = { type = add_countryculture which = somali }
 		command = { type = addcore which = 760 } #Mogadiscio
 		command = { type = addcore which = 761 } #Malindi
 		command = { type = addcore which = 762 } #Kenya
@@ -115,6 +115,7 @@ event = {
 		command = { type = addcore which = 766 } #Rufiji
 		command = { type = relation which = POR value = -300 }
 		command = { type = relation which = ADA value = 200 }
+		command = { type = relation which = AJU value = 200 }
 		command = { type = relation which = MGU value = 200 }
 		command = { type = relation which = MLI value = 200 }
 		command = { type = relation which = KIL value = 200 }
@@ -124,6 +125,7 @@ event = {
 	action_b = {
 		name = "ACTIONNAME248003B" #It's not our fight
 		command = { type = relation which = ADA value = -100 }
+		command = { type = relation which = AJU value = -100 }
 		command = { type = relation which = MGU value = -100 }
 		command = { type = relation which = MLI value = -100 }
 		command = { type = relation which = KIL value = -100 }

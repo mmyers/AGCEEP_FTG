@@ -851,7 +851,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1069 }
-		name = "Lowlands Regiment"
+		name = "Army of Flanders"
 		location = 380
 		infantry = 25000
 		cavalry = 12000
@@ -859,7 +859,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1070 }
-		name = "Pyrennes Regiment"
+		name = "Army of the Pyrenees"
 		location = 428
 		infantry = 17000
 		cavalry = 4000
@@ -867,7 +867,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1071 }
-		name = "Granada Regiment"
+		name = "Army of Andalusia"
 		location = 444
 		infantry = 22000
 		cavalry = 11000
@@ -899,7 +899,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 1075 }
-		name = "Atlantic Navy"
+		name = "Atlantic Fleet"
 		location = 433
 		warships = 24
 		galleys = 0
@@ -907,7 +907,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 1076 }
-		name = "Mediterranean Navy"
+		name = "Mediterranean Fleet"
 		location = 734
 		warships = 20
 		galleys = 12

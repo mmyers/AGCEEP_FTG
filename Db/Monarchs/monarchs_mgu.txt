@@ -12,7 +12,7 @@ historicalmonarch = {
 		month = april
 		year = 1830
 	}
-	name = "Mogadishu Chiefs"
+	name = "Mogadishu Sultans"
 	DIP = 4
 	MIL = 4
 	ADM = 4

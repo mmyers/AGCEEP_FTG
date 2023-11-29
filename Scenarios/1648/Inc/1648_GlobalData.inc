@@ -518,7 +518,6 @@ history = {
 	3550
 	3551
 	3553
-	3555 #Aragon Inheritance of Napoli
 	3556 #Viva Espana
 	3557 #Civil War in Castile
 	3559
@@ -538,7 +537,6 @@ history = {
 	3652
 	3654
 	3657
-	3660 #Aragon Inheritance of Napoli
 	3675
 	3688
 	3689
@@ -1167,6 +1165,7 @@ history = {
 	106001
 	106003
 	106004
+	111014 #ARG: The Aragonese Kingdom of Naples
 	115030 #Effect of Russian Occupation in Eastern Siberia (AI only)
 	115031
 	115032
@@ -1206,6 +1205,7 @@ history = {
 	140004
 	140005
 	140006
+	144000 #CHA: Islam in Champa
 	147010
 	147011
 	147012
@@ -1219,10 +1219,12 @@ history = {
 	159028 #DAN: Trial of Trolle
 	159038 #DAN: Fate of the Kalmar Union
 	159042 #DAN: The northern lion rears its ugly head
+	160002 #MGU: Mogadishu and the Ajuuraan Sultanate
 	164098 #ENG: The Indian Scam
 	164600 #ENG: An Opportunity in India
 	164136 #ENG: Formation of North Carolina
 	165016 #ETH: War of extermination
+	165018 #ETH: The loss of Massawa
 	170016
 	170038 #FRA: Bourbon White Flag
 	170114 #FRA: Josquin Desprez
@@ -1709,6 +1711,8 @@ history = {
 	338496 #Swiss expansion - 405 #Savoie
 	338499 #Sikhism in Panjab
 	338500 #Sikhism in Chandigahr
+	338501 #Vietnamese settlers in Da Nang
+	338502 #Vietnamese settlers in Da Lat
 	338900 #Mongolia Depopulation Events
 	338901
 	338902

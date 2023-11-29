@@ -1,4 +1,4 @@
-#Makassar
+#Makassar/Gowa
 
 #-----------------------------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ country = {
 	treasury = 100
 	inflation = 0
 	merchants = 0
-	religion = { type = eastern_sunni }
+	religion = { type = pagan }
 	culture = { type = indonesian }
 	diplomacy = { }
 	knownprovinces = {

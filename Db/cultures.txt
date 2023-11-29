@@ -39,7 +39,7 @@ albanian = {
 }
 
 altai = {
-	city = MUS
+	city = STE
 	buildings = MUS
 	color = LightGray
 }
@@ -417,7 +417,7 @@ mon = { # was melanese
 }
 
 mongol = {
-	city = MUS
+	city = STE
 	buildings = MUS
 	color = Purple
 }
@@ -432,6 +432,12 @@ navajo = {
 	city = OHI
 	buildings = OHI
 	color = Green
+}
+
+nepali = {
+	city = CHI
+	buildings = CHI
+	color = LightGray
 }
 
 nubian = {

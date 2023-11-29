@@ -64,7 +64,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 6001 id = 228 }
-		name = "Candar Navy"
+		name = "Candar Fleet"
 		location = 1609
 		warships = 0
 		galleys = 0

@@ -33,35 +33,32 @@ country = {
 		relation = { tag = ETH value = -150 }
 	}
 	knownprovinces = {
-		357 743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 1516 1517 1518 1519 1588 1589 1590
+		357 492 493 494 495 496 497 498 499 500 501 743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 1060 1061 1062 1064 1516 1517 1518 1519 1588 1589 1590
 	}
 	ownedprovinces = {
-		754 755 758 1518 1519
+		754 755 1518 1519
 	}
 	controlledprovinces = {
-		754 755 758 1518 1519
+		754 755 1518 1519
 	}
 	nationalprovinces = {
-		754 755 758 1517 1518 1519 1590
+		754 755 1518 1519
+	}
+	claimedprovinces = {
+		1590
 	}
 	city = {
 		fortress = { level = 1 }
 		population = 15000
 		location = 754
 		bailiff = yes
-		capital = yes
 	}
 	city = {
 		fortress = { level = 1 }
-		population = 1500
+		population = 5000
 		location = 755
 		bailiff = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 300
-		location = 758
-		bailiff = yes
+		capital = yes
 	}
 	city = {
 		fortress = { level = 1 }

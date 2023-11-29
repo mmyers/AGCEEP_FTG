@@ -18,6 +18,7 @@ country = {
 	culture = { type = ethiopian }
 	diplomacy = {
 		relation = { tag = ADA value = -150 }
+		relation = { tag = AJU value = -50 }
 	}
 	knownprovinces = {
 		743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 1516 1517 1518 1519 1059 1060 1061 1062 1588 1589 1590
@@ -29,7 +30,10 @@ country = {
 		753 1516 1517 1588 1589 1590
 	}
 	nationalprovinces = {
-		752 753 758 1516 1517 1518 1519 1588 1589 1590
+		752 753 1516 1517 1588 1589 1590
+	}
+	claimedprovinces = {
+		1518 1519
 	}
 	city = {
 		fortress = { level = 1 }

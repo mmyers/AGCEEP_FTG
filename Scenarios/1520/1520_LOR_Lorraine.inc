@@ -60,7 +60,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 477 }
-		name = "Lorraine Defender"
+		name = "Lorraine Defenders"
 		location = 375
 		infantry = 9000
 		cavalry = 1000
