@@ -107,7 +107,23 @@ historicalmonarch = {
 	dormant = no
 	remark = "of Moscow"
 }
+historicalmonarch = {
+	id = { type = 6 id = 0139506 }
+	startdate = {
+		day = 7
+		month = march
+		year = 1490
+	}
+	deathdate = {
+		year = 1820
+	}
+	name = "Russian Princes *"
+	DIP = 4
+	ADM = 4
+	MIL = 4
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 0139506
+#First free id: 0139507

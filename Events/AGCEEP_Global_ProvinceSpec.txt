@@ -266,6 +266,7 @@ event = {
 
 	action_a = {
 		name = "GREAT"
+		command = { type = cityname which = 301 value = "Gdansk" }
 		command = { type = provinceculture which = 301 value = polish }
 		command = { type = vp value = 5 }
 	}
@@ -6049,7 +6050,7 @@ event = {
 	province = 1589 #Kefa
 	name = "EVENTNAME338127" #Galla raids in Kefa
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1560 }
 	offset = 600
@@ -6078,7 +6079,7 @@ event = {
 	province = 1590 #Bale
 	name = "EVENTNAME338128" #Galla raids in Bale
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1561 }
 	offset = 600
@@ -6107,7 +6108,7 @@ event = {
 	province = 1588 #Gonder
 	name = "EVENTNAME338129" #Galla raids in Damot
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1562 }
 	offset = 600
@@ -6136,7 +6137,7 @@ event = {
 	province = 1517 #Shewa
 	name = "EVENTNAME338130" #Galla raids in Shewa
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1563 }
 	offset = 600
@@ -6165,7 +6166,7 @@ event = {
 	province = 1518 #Arsi
 	name = "EVENTNAME338131" #Galla raids in Harar
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1563 }
 	offset = 600
@@ -6194,7 +6195,7 @@ event = {
 	province = 1519 #Harerge
 	name = "EVENTNAME338132" #Galla raids in Harerge
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1563 }
 	offset = 600
@@ -6223,7 +6224,7 @@ event = {
 	province = 758 #Ogaden
 	name = "EVENTNAME338133" #Galla raids in Ogaden
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1564 }
 	offset = 600
@@ -6252,7 +6253,7 @@ event = {
 	province = 1516 #Welo
 	name = "EVENTNAME338134" #Galla raids in Gonder
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1564 }
 	offset = 600
@@ -6281,7 +6282,7 @@ event = {
 	province = 753 #Keren
 	name = "EVENTNAME338135" #Galla raids in Tigray
 	desc = "EVENTHIST338127"
-	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundeing of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
+	#-#The profound damage caused by the war between Ethiopia and Adal left most of the provinces defenceless and depopulated. The opportunity was seized by a large group living in Kenya, that had a strong population pressure. They called themselves the Oromo, but were called Galla by the Ethiopians. Their society was based on an age-set system known as gada, by which all males born within an 8 year period were grouped together for the rest of their lives. This system, together with the luba, or warrior class, gave them a great military advantage, and neither Ethiopia, nor Adal were in conditions of presenting an effective defense against such threat. The Oromo, thus, completely wrecked both states, and their plundering of crops and cattle caused yet another depopulation. However, the Oromo were profoundly divided in clans that fought each other, and were not concerned with establishing an empire or imposing their pagan beliefs.
 
 	date = { day = 0 month = january year = 1565 }
 	offset = 600
@@ -7816,7 +7817,7 @@ event = {
 	}
 }
 
-#(1610-1820) Buddhism spread in Kalmykia
+#(1610-1820) Kalmyk Migration
 event = {
 	id = 338495
 	trigger = {
@@ -8593,7 +8594,7 @@ event = {
 	province = 1589 #Kefa
 	name = "EVENTNAME338154" #Oromo assimilated in Kefa
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1640 }
 	offset = 600
@@ -8621,7 +8622,7 @@ event = {
 	province = 1590 #Bale
 	name = "EVENTNAME338155" #Oromo assimilated in Bale
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1641 }
 	offset = 600
@@ -8650,7 +8651,7 @@ event = {
 	province = 1588 #Gonder
 	name = "EVENTNAME338156" #Oromo assimilated in Damot
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1642 }
 	offset = 600
@@ -8679,7 +8680,7 @@ event = {
 	province = 1517 #Shewa
 	name = "EVENTNAME338157" #Oromo assimilated in Shewa
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1643 }
 	offset = 600
@@ -8706,7 +8707,7 @@ event = {
 	province = 1518 #Arsi
 	name = "EVENTNAME338158" #Oromo assimilated in Harar
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1643 }
 	offset = 600
@@ -8735,7 +8736,7 @@ event = {
 	province = 1519 #Harerge
 	name = "EVENTNAME338159" #Oromo assimilated in Harerge
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1643 }
 	offset = 600
@@ -8764,7 +8765,7 @@ event = {
 	province = 758 #Ogaden
 	name = "EVENTNAME338160" #Oromo assimilated in Ogaden
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1644 }
 	offset = 600
@@ -8793,7 +8794,7 @@ event = {
 	province = 1516 #Welo
 	name = "EVENTNAME338161" #Oromo assimilated in Gonder
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1644 }
 	offset = 600
@@ -8820,7 +8821,7 @@ event = {
 	province = 753 #Keren
 	name = "EVENTNAME338162" #Oromo assimilated in Tigray
 	desc = "EVENTHIST338154"
-	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. While the conversion was mostly voluntarily, as a way of advancing socially, the Oromo surrounding Harar (Arsi), were converted by the military expeditions of the Emir Ali Ibn Dawoud, while the military campaigns of several Ethiopian emperors also contributed to religious conversion to Christian Orthodox faith. The Oromo thus become subjects of Ethiopia, although in the perifery they formed their own Kingoms, sometimes not even nominally tributaries of the Neguse Negest.
+	#-#80 years after they invaded Ethiopia, the Oromo started to be seen more as a different kind of natives to the land, than as foreigners. Many of them mixed with locals, and although others kept their culture and language, they all took the religion of the land. Whilst conversion was mostly voluntary, as a way of advancing socially, the Oromo surrounding Harar (Arsi) were converted by the military expeditions of the Emir Ali ibn Dawoud, whilst the military campaigns of several Ethiopian emperors also contributed to religious conversion to Ethiopian Orthodoxy. The Oromo thus became subjects of Ethiopia, although in the periphery they formed their own Kingdoms, sometimes not even nominally tributaries of the Neguse Negest.
 
 	date = { day = 0 month = january year = 1645 }
 	offset = 600
@@ -13920,6 +13921,87 @@ event = {
 }
 
 #-----------------------------------------------------------------------------------------------
+#(1550-1820) Vietnamese settlers
+#by mandead
+#should only happen to Annam or Dai Viet
+
+#Da Nang
+event = {
+	id = 338501
+	trigger = {
+		OR = {
+			AND = {
+				core = { province = 664 data = ANN }
+				owned = { province = 664 data = ANN }
+				control = { province = 664 data = ANN }
+			}
+			AND = {
+				core = { province = 664 data = DAI }
+				owned = { province = 664 data = DAI }
+				control = { province = 664 data = DAI }
+			}
+		}
+		atwar = no
+		NOT = { exists = CHA }
+	}
+	random = no
+	province = 664 #Da Nang
+	name = "EVENTNAME338501" #Vietnamese settlers in Da Nang
+	desc = "EVENTHIST338501"
+	#-#The destruction of the ancient Champa kingdom in 1471 led to settlers from Annam and Dai Viet migrating south in order to colonize the fertile valleys, eventually moving as far as the Mekong Delta. By the 19th century, the Cham people had been scattered to the periphery of their former lands, being almost entirely displaced by the Vietnamese.
+
+	date = { day = 0 month = january year = 1550 }
+	offset = 1000
+	deathdate = { year = 1820 }
+
+	action_a = {
+		name = "ACTIONNAME338501A" #Our culture spreads!
+		command = { type = cityname which = 664 value = "Hue" }
+		command = { type = provinceculture which = 664 value = vietnamese }
+		command = { type = infra value = 50 }
+		command = { type = vp value = 5 }
+	}
+}
+
+#Da Lat
+event = {
+	id = 338502
+	trigger = {
+		OR = {
+			AND = {
+				core = { province = 665 data = ANN }
+				owned = { province = 665 data = ANN }
+				control = { province = 665 data = ANN }
+			}
+			AND = {
+				core = { province = 665 data = DAI }
+				owned = { province = 665 data = DAI }
+				control = { province = 665 data = DAI }
+			}
+		}
+		atwar = no
+		NOT = { exists = CHA }
+	}
+	random = no
+	province = 665 #Da Lat
+	name = "EVENTNAME338502" #Vietnamese settlers in Da Lat
+	desc = "EVENTHIST338501"
+	#-#The destruction of the ancient Champa kingdom in 1471 led to settlers from Annam and Dai Viet migrating south in order to colonize the fertile valleys, eventually moving as far as the Mekong Delta. By the 19th century, the Cham people had been scattered to the periphery of their former lands, being almost entirely displaced by the Vietnamese.
+
+	date = { day = 0 month = january year = 1550 }
+	offset = 1000
+	deathdate = { year = 1820 }
+
+	action_a = {
+		name = "ACTIONNAME338501A" #Our culture spreads!
+		command = { type = cityname which = 665 value = "Da Lat" }
+		command = { type = provinceculture which = 665 value = vietnamese }
+		command = { type = infra value = 50 }
+		command = { type = vp value = 5 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------
 #Random events
 #-----------------------------------------------------------------------------------------------
 
@@ -13972,4 +14054,4 @@ event = {
 
 #Reserved: 338352-338399
 
-#First free id: 338501
+#First free id: 338503

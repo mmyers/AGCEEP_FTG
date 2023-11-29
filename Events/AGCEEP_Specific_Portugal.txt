@@ -1098,7 +1098,7 @@ event = {
 
 	action_a = {
 		name = "GOOD_NEWS"
-		command = { type = inherit which = MLC }
+		command = { type = annex which = MLC }
 		command = { type = sleepevent which = 18104 } #POR: Sultan has bowed to our demands
 		command = { type = sleepevent which = 18105 } #POR: Malacca is ours
 	}
@@ -1564,7 +1564,7 @@ event = {
 
 	action_a = {
 		name = "EXCELLENT"
-		command = { type = inherit which = ADE }
+		command = { type = annex which = ADE }
 	}
 }
 #(1545) We have failed to retain Aden
@@ -1782,7 +1782,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME260103A" #We must defend what is now ours
-		command = { type = inherit which = COC }
+		command = { type = annex which = COC }
 		command = { type = addcore which = 573 } #Cochin
 		command = { type = removecot which = 547 } #Gujarat
 		command = { type = removecot which = 569 } #Kerala
@@ -2070,7 +2070,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME260116B" #We must hold Mombasa for ourselves
-		command = { type = inherit which = MOM }
+		command = { type = annex which = MOM }
 		command = { type = treasury value = 25 }
 		command = { type = addcore which = 763 } #Mombasa
 	}
@@ -2396,7 +2396,7 @@ event = {
 	country = POR
 	name = "EVENTNAME260951" #Da Breu expedition
 	desc = "EVENTHIST260951"
-	#-#On December 1511 Albuquerque sent three ships under da Breu from Melaka to explore eastwards. Da Breu expedition traveled from Malacca to Madura, Bali, Lombok, Aru and Banda. Two ships were wrecked at Banda. Da Breu returned to Malacca. Francisco Serrão repaired ship and continued to Ambon, Ternate, and Tidore. Serrão offered support to Ternate in a dispute with Tidore. His men built a Portuguese post at Ternate.
+	#-#On December 1511 Albuquerque sent three ships under da Breu from Malacca to explore eastwards. Da Breu expedition traveled from Malacca to Madura, Bali, Lombok, Aru and Banda. Two ships were wrecked at Banda. Da Breu returned to Malacca. Francisco Serrão repaired ship and continued to Ambon, Ternate, and Tidore. Serrão offered support to Ternate in a dispute with Tidore. His men built a Portuguese post at Ternate.
 
 	date = { day = 1 month = december year = 1511 }
 	offset = 30
@@ -2427,7 +2427,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME260106A" #This place costs more than it is worth
-		command = { type = breakvassal which = KIL }
+		command = { type = breakoverlord which = KIL }
 	}
 }
 
@@ -2825,7 +2825,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME260116B" #We must hold Mombasa for ourselves
-		command = { type = inherit which = MOM }
+		command = { type = annex which = MOM }
 		command = { type = treasury value = 25 }
 		command = { type = addcore which = 763 } #Mombasa
 	}
@@ -3331,7 +3331,7 @@ event = {
 	country = POR
 	name = "EVENTNAME260019" #Decline of the Malaccan trade
 	desc = "EVENTHIST260019"
-	#-#By the late 16th century Malacca had ceased to be the premier trade emporium of South East Asia and the Moluccas. This was a result of excessive piracy from Atjeh and Johore and because of frequent attacks at sea and seiges of Malacca by Atjeh, Portugal's primary rival in the region. Atjeh by this time became the premier trade emporium instead, as Muslim merchants prefered to trade at a port controlled by their co-religionists.
+	#-#By the late 16th century Malacca had ceased to be the premier trade emporium of South East Asia and the Moluccas. This was a result of excessive piracy from Atjeh and Johor and because of frequent attacks at sea and seiges of Malacca by Atjeh, Portugal's primary rival in the region. Atjeh by this time became the premier trade emporium instead, as Muslim merchants prefered to trade at a port controlled by their co-religionists.
 
 	date = { day = 1 month = january year = 1568 }
 	offset = 360
@@ -3738,7 +3738,7 @@ event = {
 	country = POR
 	name = "EVENTNAME3274" #Filipe II's Claim to the Throne
 	desc = "EVENTHIST3274"
-	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. In 1580, several people had claims to the throne: Filipe II of Spain, son of D. Isabel (daugther of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an illegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Duchess Catarina Bragança had the best claim to the throne but the nobles were unwilling to overlook her gender. Dismissing her claims left the nobles to either appeal to a foreign power, the claims of Filipe II of Spain, or accept Dom Antonio, illegitimate son of D. Luis. Filipe II sent diplomats to Lisbon to convince the aristocracy that he was the ideal heir for Portugal. If the Kingdom entered into a personal union with Spain, Filipe II would allow Portugal to keep its own laws and Cortes. Such a union would also be highly profitable at a time when the Portuguese economy was failing as no longer would the Spanish Kingdom fight against its trading interests. Lacking a suitable alternative, the nobles joined forces with the Spanish.
+	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. In 1580, several people had claims to the throne: Filipe II of Spain, son of D. Isabel (daughter of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an illegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Duchess Catarina Bragança had the best claim to the throne but the nobles were unwilling to overlook her gender. Dismissing her claims left the nobles to either appeal to a foreign power, the claims of Filipe II of Spain, or accept Dom Antonio, illegitimate son of D. Luis. Filipe II sent diplomats to Lisbon to convince the aristocracy that he was the ideal heir for Portugal. If the Kingdom entered into a personal union with Spain, Filipe II would allow Portugal to keep its own laws and Cortes. Such a union would also be highly profitable at a time when the Portuguese economy was failing as no longer would the Spanish Kingdom fight against its trading interests. Lacking a suitable alternative, the nobles joined forces with the Spanish.
 
 	action_a = {
 		name = "ACTIONNAME3274A" #Support Filipe II
@@ -3891,7 +3891,7 @@ event = {
 	country = POR
 	name = "EVENTNAME18015" #Triumph of Aviz
 	desc = "EVENTHIST18015"
-	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. Several people had claims to the throne: Filipe II of Spain, son of D. Isabel (daugther of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an ilegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Duchess Catarina Bragança had the best claim to the throne but the nobles were unwilling to overlook her gender. Dismissing her claims left the nobles to either appeal to a foreign power, the claims of Filipe II of Spain, or accept Dom Antonio, illegitimate son of D. Luis. Filipe II expressed a lack of interest in the throne of Portugal, which left D. Antonio as the only acceptable choice. Although there were a few attempts to muster support for D. Catarina, eventually the claims of D. Antonio were accepted. Through an illegitimate branch, the house of Aviz lived on.
+	#-#In 1580, a regency council convened in Portugal to settle the succession. With the death of Sebastião I, Portugal was left with no clear heir. Several people had claims to the throne: Filipe II of Spain, son of D. Isabel (daughter of D. Manuel I) who had a large support of the nobles but lacked peasant support, D. Antonio, despised by the nobles because he was an ilegitimate son of D. Luis (son of D. Manuel I) but had great support from the lower classes, and finally, D. Catarina, the Duchess of Bragança. She was the legitimate daughter of D. Duarte (son of D. Manuel I). Duchess Catarina Bragança had the best claim to the throne but the nobles were unwilling to overlook her gender. Dismissing her claims left the nobles to either appeal to a foreign power, the claims of Filipe II of Spain, or accept Dom Antonio, illegitimate son of D. Luis. Filipe II expressed a lack of interest in the throne of Portugal, which left D. Antonio as the only acceptable choice. Although there were a few attempts to muster support for D. Catarina, eventually the claims of D. Antonio were accepted. Through an illegitimate branch, the house of Aviz lived on.
 
 	date = { day = 1 month = january year = 1581 }
 	offset = 1
@@ -4128,7 +4128,7 @@ event = {
 
 	action_a = {
 		name = "GREAT"
-		command = { type = inherit which = LNK }
+		command = { type = annex which = LNK }
 		command = { type = addcore which = 576 } #Colombo
 	}
 }
@@ -4286,7 +4286,7 @@ event = {
 	country = POR
 	name = "EVENTNAME260136" #Gatse Lucere requests aid
 	desc = "EVENTHIST260136"
-	#-#In 1607 Gatse Lucere, the Paramount Chief of Monomotapa, requested aid to put down a series of rebellions. He offered title to all the silver mines in Karangaland in recompense. The Portugese would spend decades trying to find the non-existent mines, but they did increase their influence over Monomotapa during this time.
+	#-#In 1607 Gatse Lucere, the Paramount Chief of Monomotapa, requested aid to put down a series of rebellions. He offered title to all the silver mines in Karangaland in recompense. The Portuguese would spend decades trying to find the non-existent mines, but they did increase their influence over Monomotapa during this time.
 
 	action_a = {
 		name = "ACTIONNAME260136A" #Render assistance
@@ -5208,7 +5208,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME260124A" #We must hold Zanzibar for ourselves
-		command = { type = inherit which = ZAN }
+		command = { type = annex which = ZAN }
 		command = { type = treasury value = 25 }
 	}
 	action_b = {

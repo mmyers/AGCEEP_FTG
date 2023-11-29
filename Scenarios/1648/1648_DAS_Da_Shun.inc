@@ -62,6 +62,7 @@ country = {
 		capital = yes
 	}
 	landunit = {
+		name = "Da Shun Army"
 		id = { type = 9423 id = 1114 }
 		location = 1563
 		infantry = 15000

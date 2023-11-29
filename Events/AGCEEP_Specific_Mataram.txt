@@ -9,6 +9,8 @@ event = {
 		NOT = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	random = no
@@ -22,7 +24,7 @@ event = {
 	deathdate = { day = 1 month = january year = 1448 }
 
 	action_a = {
-		name = "ACTIONNAME65151A" #Convert to one true faith
+		name = "ACTIONNAME65151A" #Convert to the one true faith
 		command = { type = provincetax which = 703 value = 2 } #Bandung
 		command = { type = religion which = eastern_sunni }
 		command = { type = stability value = -3 }
@@ -32,7 +34,7 @@ event = {
 		command = { type = missionaries value = 2 }
 	}
 	action_b = {
-		name = "ACTIONNAME65151B" #Retain the faith of grandfathers
+		name = "ACTIONNAME65151B" #Retain the faith of our grandfathers
 		command = { type = provincetax which = 703 value = -1 } #Bandung
 		command = { type = stability value = 1 }
 		command = { type = domestic which = centralization value = -1 }
@@ -46,6 +48,8 @@ event = {
 		NOT = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	random = no
@@ -86,6 +90,8 @@ event = {
 		OR = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 		NOT = { event = 234226 } #MTR: The reign of Rajasavardhana
 	}
@@ -146,6 +152,8 @@ event = {
 		NOT = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	country = MTR
@@ -210,13 +218,15 @@ event = {
 		OR = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	random = no
 	country = MTR
 	name = "EVENTNAME234228" #Demak attacks Portuguese in Malacca
 	desc = "EVENTHIST234228"
-	#-#Yunus (Pangeran Sabrang Lor) led fleet from Demak and Cirebon against the Portuguese in Melaka. Yunus was killed in battle.
+	#-#Yunus (Pangeran Sabrang Lor) led fleet from Demak and Cirebon against the Portuguese in Malacca. Yunus was killed in battle.
 
 	date = { day = 1 month = january year = 1518 }
 	offset = 50
@@ -275,6 +285,8 @@ event = {
 		OR = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	random = no
@@ -289,8 +301,8 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME65156A" #Convert the heathens to one true faith
-		command = { type = provincereligion which = -1 value = sunni }
 		command = { type = stability value = -1 }
+		command = { type = conversion which = -1 }
 		command = { type = provincemanpower which = -3 value = 1 }
 		command = { type = missionaries value = 2 }
 	}
@@ -495,7 +507,7 @@ event = {
 	country = MTR
 	name = "EVENTNAME234205" #Cooperation treaty between VOC and Mataram
 	desc = "EVENTHIST234205"
-	#-#Cooperation treaty between VOC and Mataram, involving promises of mutual assistance against enemies and extradition of runaway debtors, among other things. Ships of Mataram may trade at any VOC port except Ambon, Ternate or Banda, but must apply for a pass at Batavia if they are sailing for Melaka or points beyond.
+	#-#Cooperation treaty between VOC and Mataram, involving promises of mutual assistance against enemies and extradition of runaway debtors, among other things. Ships of Mataram may trade at any VOC port except Ambon, Ternate or Banda, but must apply for a pass at Batavia if they are sailing for Malacca or points beyond.
 
 	date = { day = 24 month = september year = 1646 }
 

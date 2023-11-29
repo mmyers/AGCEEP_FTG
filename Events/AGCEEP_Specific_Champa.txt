@@ -1,0 +1,53 @@
+#Champa (CHA)
+
+#-----------------------------------------------------------------------------------------------
+
+#(1580-1820) Islam in Champa
+#by mandead
+event = {
+	id = 144000
+	trigger = {
+		NOT = {
+			religion = sunni
+			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
+		}
+	}
+	random = no
+	country = CHA
+	name = "EVENTNAME144000" #Islam in Champa
+	desc = "EVENTHIST144000"
+	#-#Champa was a traditionally tolerant kingdom that, like many realms in South East Asia, had long practiced a hybrid Hindu-Buddhist religion interlaced with native animist ideas such as ancestor worship and veneration of the dead. The two main Cham socio-cultural groups were the Balamon, who were mostly Hindu but later came to adopt Sunni Islam, and the Bani, who followed a syncretic faith that combined elements of Hinduism and Shi'a Islam. As per the caste system, the Balamon and Bani were often segregated, and marriage between the two groups was prohibited. Though a deeply isolated kingdom with little direct diplomacy with neighbouring states, both main branches of Islam permeated Champa during the mid-16th century, and by the 17th century its rulers had adopted Islam.
+
+	date = { day = 1 month = january year = 1580 }
+	offset = 400
+	deathdate = { day = 1 month = january year = 1820 }
+
+	action_a = {
+		name = "ACTIONNAME144000A" #Adopt the faith of the Bani
+		command = { type = religion which = eastern_shia }
+		command = { type = domestic which = centralization value = 1 }
+		command = { type = domestic which = serfdom value = 1 }
+		command = { type = missionaries value = 2 }
+		command = { type = stability value = -2 }
+	}
+	action_b = {
+		name = "ACTIONNAME144000B" #Adhere to the teachings of the Balamon
+		command = { type = religion which = eastern_sunni }
+		command = { type = domestic which = aristocracy value = -1 }
+		command = { type = domestic which = mercantilism value = -1 }
+		command = { type = missionaries value = 2 }
+		command = { type = stability value = -2 }
+	}
+	action_c = {
+		name = "ACTIONNAME144000C" #Reject these foreign ideas
+		command = { type = domestic which = innovative value = -1 }
+		command = { type = domestic which = offensive value = -1 }
+		command = { type = stability value = 1 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------
+
+#First free id: 144001

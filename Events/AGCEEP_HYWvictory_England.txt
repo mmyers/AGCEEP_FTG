@@ -591,7 +591,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME20072A" #Their Insolence Must be Punished
-		command = { type = breakvassal which = BRI }
+		command = { type = breakoverlord which = BRI }
 		command = { type = relation which = BRI value = -150 }
 		command = { type = relation which = HAB value = -50 }
 		command = { type = casusbelli which = BRI value = 4800 }

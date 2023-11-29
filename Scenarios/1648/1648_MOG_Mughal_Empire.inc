@@ -306,6 +306,7 @@ country = {
 		artillery = 10
 	}
 	landunit = {
+		name = "Reserve Army"
 		id = { type = 9423 id = 1064 }
 		location = 542
 		infantry = 6000

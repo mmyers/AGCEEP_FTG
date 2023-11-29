@@ -856,7 +856,35 @@ historicalmonarch = {
 	ADM = 6
 	dormant = no
 }
+historicalmonarch = {
+	id = { type = 6 id = 037559 }
+	startdate = {
+		year = 1793
+	}
+	deathdate = {
+		year = 1801
+	}
+	name = "Baht Giray °"
+	DIP = 5
+	ADM = 4
+	MIL = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 037560 }
+	startdate = {
+		year = 1801
+	}
+	deathdate = {
+		year = 1821
+	}
+	name = "Selim Giray IV °"
+	DIP = 3
+	ADM = 4
+	MIL = 3
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 037559
+#First free id: 037561

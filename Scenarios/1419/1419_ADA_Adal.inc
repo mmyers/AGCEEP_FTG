@@ -21,16 +21,16 @@ country = {
 	}
 	diplomacy = { }
 	knownprovinces = {
-		743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 1516 1517 1518 1519 1588 1589 1590
+		497 498 499 500 501 743 744 745 746 747 748 749 750 751 752 753 754 755 757 758 759 760 761 1060 1061 1062 1064 1516 1517 1518 1519 1588 1589 1590
 	}
 	ownedprovinces = {
-		754 755 758 1518 1519
+		754 755 1518 1519
 	}
 	controlledprovinces = {
-		754 755 758 1518 1519
+		754 755 1518 1519
 	}
 	nationalprovinces = {
-		754 755 758 1517 1518 1519
+		754 755 1518 1519
 	}
 	city = {
 		fortress = { level = 1 }
@@ -42,11 +42,6 @@ country = {
 		fortress = { level = 1 }
 		population = 1500
 		location = 755
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 300
-		location = 758
 	}
 	city = {
 		fortress = { level = 1 }

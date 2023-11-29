@@ -311,6 +311,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Reserve Army"
 		id = { type = 9423 id = 1120 }
 		location = 649
 		infantry = 20000
@@ -318,6 +319,7 @@ country = {
 		artillery = 30
 	}
 	landunit = {
+		name = "Qing Army"
 		id = { type = 9423 id = 1121 }
 		location = 655
 		infantry = 25000
@@ -325,6 +327,7 @@ country = {
 		artillery = 50
 	}
 	landunit = {
+		name = "Army of Fujian"
 		id = { type = 9423 id = 1122 }
 		location = 656
 		infantry = 10000

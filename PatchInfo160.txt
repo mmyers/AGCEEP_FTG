@@ -1,4 +1,113 @@
 
+-Version 1.60, additional changes since October 2023 beta
+
+-updated ToDo file
+
+-added Ajuuraan (AJU) as a new country
+-added Nepal (NEP) as a new country
+-added nepali as a new culture for prov #1539 (Nepal); changed province religion to hindu
+-added AGCEEP_Specific_Ajuuraan.txt
+-added AGCEEP_Specific_Champa.txt
+-added new ENG events 164245 'Richard of York and the Dowager Duchess' and 164246 'Perkin Warbeck's Cornish Uprising'
+-added new AJU events 340000 'Mogadishu requests annexation' and 340001 'Mogadishu rejects our suzerainty'
+-added new MGU event 160002 'Mogadishu and the Ajuuraan Sultanate'
+-added new CHA event 144000 'Islam in Champa'
+-added new province events 338501 and 338502 for the spread of Vietnamese culture in Da Nang and Da Lat after the fall of the Champa Kingdom
+-added leadername list for NEP
+-added new monarch list for BUT
+-added new monarch list for CHA
+-added monarch file for AJU
+-added monarch file for NEP
+-added "Indravarman VI" (030800) as a leader for CHA
+-added "Prithvi Narayan" (339500) as a leader for NEP
+-added AJU to all scenarios and revolt.txt
+-added NEP to all scenarios and revolt.txt
+-added a port in Mudugh (759) to represent Hobyo, and increased province income by +1 (for 2 total)
+-updated various events for CHI/MGU/MLI/OMA/ADA with references to AJU
+-renamed Butung to Buton and AGCEEP_Specific_Butung.txt to AGCEEP_Specific_Buton.txt
+-improved ADA known provinces so it's aware of the Red Sea and some Arab peninsula states
+-removed MGU in 1648
+-removed prov #1539 (Nepal) as a core for TIB in all scenarios and revolt.txt
+-tweaked ADA, ETH and MGU entries in revolt.txt
+-added a number of blank placeholder leader and monarch files so as to avoid possible ID clash issues with vanilla
+-changed the colour of Irak (IRA) to blue so it isn't the same colour as neighbouring QAR
+-changed the minimum time to diploannex a vassal from 10 years to 50 years (as per vanilla change)
+-added late-game placeholder monarchs for AZT/CHM/MAA/ZAP/RYA/TVE/TIM/FRG/BLK/STE/CRI/AST/KAZ/SIB/CHG/DLH for if they hang around
+-added the [Fantasy_BYZ] flag to BYZ in the Fantasy Byzantium scenario in order to resolve some potential issues with the formation of RUS
+-moved ETH capital to prov #1588 (Gonder) in 1419 so later capital move events make more sense
+-moved ADA capital to prov #755 (Afars) in 1520 (as per event #155001 'The return of the Walashma')
+-moved ADA capital to prov #1518 (Arsi) in 1648 (as per event #155002 'A new capital in Harar') and reduced stability to -3
+-moved NUB capital to prov #751 (Bisharin) in 1520 (as Sennar was the capital of Funj)
+-removed tatar culture from MOS/RUS/RYA in 1419 and 1520 (added with event 271030 'Russia claims the mantle of the Khans' after 1546)
+-removed ADA starting core on prov #1517 (Shewa)
+-removed ETH starting cores on provs #758 (Ogaden), #1518 (Arsi) and #1519 (Harerge)
+-added BIJ starting claims on provs #549 (Goa), #567 (Bangalore) and #568 (Mangalore) in 1520 (as per revolt.txt)
+-downgraded ETH cores on provs #1518 (Arsi) and #1519 (Harerge) to claims in 1520 and 1648; removed #758 (Ogaden) as it's now part of AJU and too far east for ETH before the 19th century
+-downgraded CHI cores on provs #1553 (Yunnan) and #1557 (Sichuan Pendi) to claims in 1419
+-reduced the offset on LAT event 20123 'Teutonic Order and Danzig'
+-increased the cost of the bribe in option A of CHI event 147060 'Bribe Koxinga' from 50 to 150 ducats to offset the advantages
+-added ARG event 111014 'The Aragonese Kingdom of Naples' to the history log in 1520 and 1648; removed prior incorrect versions
+-added CHA event 144000 'Islam in Champa' to the history log in 1648
+-added MGU event 160002 'Mogadishu and the Ajuuraan Sultanate' to the history log in 1648
+-added ETH event 165018 'The loss of Massawa' to the history log in 1648
+-added province events 338501 and 338502 to the history log in 1648
+-implemented 'african' tech group for various Muslim-influenced tags in Africa so as to provide a better compromise between 'asian' and 'pagan' tech
+-removed superfluous event text for ARG_3555 (an event deleted a long time ago)
+-removed superfluous YEM gfx as these are now in vanilla
+-removed superfluous ASS city sprite gfx as the same set is in vanilla as STE
+-updated the triggers for the NVG/TVE/RYA/PSK versions of 'The Empire of Russia' event to be slightly more in line with the default MOS version
+-updated ROM events 398011/398012 with the [Hussites_suppressed] flag command
+-updated BOH event 129040 'Death of Ladislaus Postumus - Ahistorical' with the [Hussites_suppressed] flag as a trigger
+-updated ENG event 164064 'King Henry's Illness' with a trigger; the WotR happening is now conditional on English Final Victory, Treaty of Orleans OR Generous Peace NOT happening
+-updated ENG event 21113 'Stoke Field' with a new description; also updated the trigger to require event 21112 'Bosworth Field' to have happened
+-updated ETH event 165019 'Dobe'a Campaigns' option A to grant claims on provs #1518 (Arsi) and #1519 (Harerge)
+-updated ETH event 165029 'Back to Orthodoxy' with an option B to remain catholic
+-updated ETH event 165033 'Expulsion of Catholics' with a trigger so the event doesn't fire if catholic/CRC
+-updated KON event 203004 'Kongo converts to Christianity' with a command to change to 'african' tech group with options A and B (and applied to KON in 1520/1648)
+-updated NUB event 289000 'The fall of Alodia' with a command to change to 'asian' tech group and move the capital to prov #751 (Bisharin) with option A (and applied to NUB in 1520/1648)
+-updated SIB event 280000 'The Formation of the Sibir Khanate' with a command to change to 'muslim' tech group (which SIB already has in 1520)
+-updated STE event 287000 'Independence of the Uzbeks' with a trigger that UZB is STE's neighbour; added an option B to refuse to cede the lands in Sibir
+-updated DAU events 361014/361015 'King Charles VI is dead' to remove some superfluous claims that DAU shouldn't be focusing on
+-updated KNI event 3541 'Jean Parisot de la Valette' to rename the province capital of prov #819 to Valletta (also changed the city name in 1648)
+-updated events 20123/20124/20125/366818 to rename the province capital of prov #301 to Danzig
+-updated global event 338195 'Recovery of Danzig' to rename the province capital of prov #301 to Gdansk
+-updated RUS event 271042 'Russian settlement in Volgograd' to rename the province capital of prov #458 to Tsarityn (also changed the city name in 1648)
+-updated random event 684 'Muslim influence in South East Asia' to now only target Indonesia; reshuffled the default options; now also fires for jain and buddhist countries
+-updated various SE Asian event triggers relating to Islam with shia/eastern_shia
+-updated defines.txt with new tech base factors
+-updated altai and mongol culture with STE city sprite gfx
+-changed various instances of 'inherit' to 'annex' where most appropriate (e.g. AZT, INC, MAM)
+-changed all instances of 'exotic' to 'pagan' and 'china' to 'asian' for tech groups (consistency with vanilla; no gameplay change)
+-changed the tech group-related events for CHI/NIP/SMI/MCH to move back to 'african' rather than 'pagan' tech
+-changed goods for prov #260 (Lappland) to fur (iron not relevant until modern era)
+-changed goods for prov #341 (Västerbotten) to fish (naval supplies not relevant until modern era)
+-changed the culture for provs #664 (Da Nang) and #665 (Da Lat) to vietnamese in 1648
+-changed the province and city name for prov #713 (Tindore) to Tidore
+-changed the city name for prov #301 (Danzig) to Gdansk (as it is polish culture by default; now renamed by event)
+-changed the city name for prov #387 (Franche-Comté) to Dole (Besançon wasn't important until the 1680s)
+-changed the city name for prov #458 (Volgograd) to Sarai (as it is tatar culture by default; now renamed by event)
+-changed the city name for prov #664 (Da Nang) to Vijaya (as it is cham culture by default; now renamed by event)
+-changed the city name for prov #665 (Da Lat) to Panduranga (as it is cham culture by default; now renamed by event)
+-changed the city name for prov #750 (Sudan) to Kassala (as Khartoum wasn't founded until 1821)
+-changed the city name for prov #819 (Malta) to Mdina (as Valletta wasn't founded until 1571; now renamed by event)
+-changed the city name for prov #1539 (Nepal) to Kathmandu (more useful for Nepal, and Darjeeling wasn't founded until the 1800s)
+-standardized tech groups for all tags between countries.txt and revolt.txt (barring exceptions such as POL and TUR)
+-moved the startdate for COR to 1419 in revolt.txt so it doesn't stay rebel-held indefinitely
+-slept duplicate SPA leader "L. van Egmond" (0127909)
+-added some missing text to POL event 3487 'Friedrich Augustus Wettin backs down'
+-corrected BUT to eastern_sunni in 1520 (converted to Islam c1500)
+-corrected MKS to pagan in 1520 (converted to Islam 1605)
+-corrected a load of colony and leader names for POR
+-corrected the name of CHI monarch Hongchi to Hongzhi
+-corrected several instances of breakvassal that should be breakoverlord
+-fixed BRZ not being assigned its leadername list
+-fixed various starting armies and navies not being assigned names (mostly in 1648)
+-fixed a couple of ENG WotR events being able to fire out of context (they should now all be chained together)
+-fixed DAU leader "Earl of Buchan" (042803) not being woken until 1421 with event 12001 'The Scots assist the Dauphin'
+-fixed the Ryazan capital province ID being 448 instead of 449 in all events to form RUS
+-fixed *lots* of grammar and spelling errors
+
+
 -Version 1.60, additional changes since June 2023 beta
 
 -added new random events 92000080 and 93000080 for the commissioning of a Jain Temple

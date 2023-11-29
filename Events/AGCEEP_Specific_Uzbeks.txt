@@ -5,7 +5,7 @@
 
 #(1428) Independence of the Uzbeks
 event = {
-	id = 325004 #triggered by STE_287000
+	id = 325004 #triggered by STE_287000A
 	random = no
 	country = UZB
 	name = "EVENTNAME325004" #Independence of the Uzbeks
@@ -709,7 +709,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME254025A" #We win
-		command = { type = inherit which = KHO }
+		command = { type = annex which = KHO }
 		command = { type = stability value = 1 }
 		command = { type = relation which = PER value = -200 }
 	}
@@ -963,7 +963,7 @@ event = {
 	country = UZB
 	name = "EVENTNAME65012" #Anthony Jenkinson travels to Bukhara
 	desc = "EVENTHIST65012"
-	#-#Anthony Jenkinson has travelled to Bukhara on behalf of both Czar Ivan IV and Muscovy Trading Company in 1558. Ivan was very interested in establishing trade contacts with Bukhara, as Muscovy served as a stopover for the goods from India and China into Western Europe.
+	#-#Anthony Jenkinson has travelled to Bukhara on behalf of both Tsar Ivan IV and Muscovy Trading Company in 1558. Ivan was very interested in establishing trade contacts with Bukhara, as Muscovy served as a stopover for the goods from India and China into Western Europe.
 
 	date = { day = 1 month = april year = 1558 }
 	offset = 23

@@ -216,6 +216,7 @@ country = {
 		cityrights = yes
 	}
 	landunit = {
+		name = "Safavid Army"
 		id = { type = 9423 id = 1123 }
 		location = 530
 		infantry = 18000
@@ -223,6 +224,7 @@ country = {
 		artillery = 30
 	}
 	landunit = {
+		name = "Army of Khorasan"
 		id = { type = 9423 id = 1124 }
 		location = 1530
 		infantry = 10000
@@ -230,6 +232,7 @@ country = {
 		artillery = 0
 	}
 	landunit = {
+		name = "Army of Afghanistan"
 		id = { type = 9423 id = 1125 }
 		location = 1525
 		infantry = 15000

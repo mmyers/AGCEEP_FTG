@@ -58,6 +58,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Shan Army"
 		id = { type = 9423 id = 1131 }
 		location = 1546
 		infantry = 8000

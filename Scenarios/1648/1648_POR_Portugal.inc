@@ -163,7 +163,7 @@ country = {
 		cityrights = yes
 	}
 	city = {
-		name = "São Luis"
+		name = "São Luís"
 		fortress = { level = 1 }
 		population = 1100
 		location = 200
@@ -186,7 +186,7 @@ country = {
 		cityrights = yes
 	}
 	city = {
-		name = "Salvador"
+		name = "São Salvador"
 		fortress = { level = 1 }
 		population = 8500
 		location = 205
@@ -336,7 +336,7 @@ country = {
 		cityrights = yes
 	}
 	city = {
-		name= "Fort Larantula"
+		name= "Forte Larantula"
 		population = 300
 		location = 711
 	}
@@ -366,7 +366,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1028 }
-		name = "Brazilian Guard"
+		name = "Brazil Regiment"
 		location = 205
 		infantry = 5000
 		cavalry = 0
@@ -406,7 +406,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 1033 }
-		name = "African Fleet"
+		name = "Africa Fleet"
 		location = 818
 		warships = 6
 		galleys = 0

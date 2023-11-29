@@ -105,7 +105,7 @@ historicalmonarch = {
 	name = "Council of Fars *"
 	DIP = 4
 	ADM = 4
-	MIL = 5
+	MIL = 4
 	dormant = no
 }
 

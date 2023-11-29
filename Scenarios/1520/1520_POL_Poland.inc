@@ -111,7 +111,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 513 }
-		name = "1st Polish Army"
+		name = "Army of Krakow"
 		location = 299
 		infantry = 7000
 		cavalry = 8000
@@ -119,7 +119,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 514 }
-		name = "2nd Polish Army"
+		name = "Army of Poznan"
 		location = 303
 		infantry = 7000
 		cavalry = 8000

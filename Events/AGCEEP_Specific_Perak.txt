@@ -12,7 +12,7 @@ event = {
 	country = PAK
 	name = "EVENTNAME437000" #Independence of Perak
 	desc = "EVENTHIST437000"
-	#-#Following the capture of Malacca by Portuguese in 1511, and their subsequent defeat of Mahmud Shah in 1526, once powerful Empire of Mallacca collapsed. Mahmud Shah was forced to retreat far South to Johor where he founded his new capital, while the former possessions of Empire north of Malacca became independent in 1528, when an exiled son of Mahmud Shah, Muzaffar, was invited by a ruler of Perak, Sultan Mughal, to ascend the throne and form a new dynasty.
+	#-#Following the capture of Malacca by the Portuguese in 1511, and their subsequent defeat of Mahmud Shah in 1526, the once powerful Empire of Malacca collapsed. Mahmud Shah was forced to retreat far South to Johor where he founded his new capital, while the former possessions of Empire north of Malacca became independent in 1528, when an exiled son of Mahmud Shah, Muzaffar, was invited by a ruler of Perak, Sultan Mughal, to ascend the throne and form a new dynasty.
 
 	date = { day = 1 month = january year = 1500 }
 	offset = 360

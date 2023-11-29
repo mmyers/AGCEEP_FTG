@@ -1148,6 +1148,8 @@ event = {
 		NOT = {
 			religion = sunni
 			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
 		}
 	}
 	random = no
@@ -1165,7 +1167,7 @@ event = {
 		command = { type = stability value = 1 }
 		command = { type = religion which = eastern_sunni }
 		command = { type = provincereligion which = 543 value = sunni } #Delhi
-		command = { type = technology which = Muslim }
+		command = { type = technology which = muslim }
 		command = { type = domestic which = innovative value = -1 }
 	}
 	action_b = {
@@ -1173,7 +1175,7 @@ event = {
 		command = { type = stability value = -1 }
 		command = { type = religion which = eastern_shia }
 		command = { type = provincereligion which = 543 value = shia } #Delhi
-		command = { type = technology which = Muslim }
+		command = { type = technology which = muslim }
 		command = { type = domestic which = innovative value = -2 }
 	}
 	action_c = {

@@ -85,6 +85,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME203004A" #Convert to Christianity and receive help from the Portuguese
+		command = { type = technology which = african }
 		command = { type = relation which = POR value = 50 }
 		command = { type = infra value = 150 }
 		command = { type = religion which = catholic }
@@ -176,6 +177,7 @@ event = {
 	}
 	action_b = {
 		name = "ACTIONNAME203004B" #Convert to Christianity but refuse help from the Portuguese
+		command = { type = technology which = african }
 		command = { type = stability value = -1 }
 		command = { type = religion which = catholic }
 		command = { type = provincereligion which = 785 value = catholic } #Zaire

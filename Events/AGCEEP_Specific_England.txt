@@ -469,7 +469,7 @@ event = {
 	country = ENG
 	name = "EVENTNAME164227" #Beaufort and Gloucester Feud
 	desc = "EVENTHIST164227"
-	#-#By the end of 1425, Gloucester was stirring up more trouble in England. Although he was the titular Protector of the Realm of England, and the King's Chief Councilor, the Council, led by his uncle, Henry Beaufort, quarreled with him daily over domestic and foreign policy. Beaufort, bishop of Winchester, had been offered a Cardinal's hat during Henry V's reign, though the King had refused to allow Beaufort to accept, requiring the Bishop's services during those critical years. He was in high favour during Henry V's and Henry IV's reigns, serving as Chancellor on more than one occasion. Gloucester remained a staunch supporter of the war in France, but more importantly, had harboured ill feelings towards his uncle for excluding him from assuming control of King Henry VI's Regency after Henry V's death. Although Beaufort held a majority of support among the councillors in England, Gloucester's popularity in the Commons tended to balance the two court parties. In several instanes, the two had come to bitter words, heated exchanges and blows. On this occasion, however, Beaufort felt his life was in danger. Gloucester had already incited several mobs protesting Beaufort's actions, and was now threatening to forecfully remove Beaufort himself. The bishop frantically wrote to the Duke of Bedford, begging him to return to the Council in order to straighten out the valiant Duke's irate younger brother. Thus Bedford was obliged to return to England, in order to soothe the two parties. He remained there, personally administrating England until the two parties had been somewhat reconsiled the situation had stabilized, temporarily abandoning his personal war efforts in France.
+	#-#By the end of 1425, Gloucester was stirring up more trouble in England. Although he was the titular Protector of the Realm of England, and the King's Chief Councilor, the Council, led by his uncle, Henry Beaufort, quarreled with him daily over domestic and foreign policy. Beaufort, bishop of Winchester, had been offered a Cardinal's hat during Henry V's reign, though the King had refused to allow Beaufort to accept, requiring the Bishop's services during those critical years. He was in high favour during Henry V's and Henry IV's reigns, serving as Chancellor on more than one occasion. Gloucester remained a staunch supporter of the war in France, but more importantly, had harboured ill feelings towards his uncle for excluding him from assuming control of King Henry VI's Regency after Henry V's death. Although Beaufort held a majority of support among the councillors in England, Gloucester's popularity in the Commons tended to balance the two court parties. In several instanes, the two had come to bitter words, heated exchanges and blows. On this occasion, however, Beaufort felt his life was in danger. Gloucester had already incited several mobs protesting Beaufort's actions, and was now threatening to forecfully remove Beaufort himself. The bishop frantically wrote to the Duke of Bedford, begging him to return to the Council in order to straighten out the valiant Duke's irate younger brother. Thus Bedford was obliged to return to England, in order to soothe the two parties. He remained there, personally administrating England until the two parties had been somewhat reconciled the situation had stabilized, temporarily abandoning his personal war efforts in France.
 
 	date = { day = 1 month = november year = 1425 }
 	offset = 30
@@ -1631,7 +1631,7 @@ event = {
 		command = { type = revoltrisk which = 12 value = 4 }
 	}
 	action_c = {
-		name = "ACTIONNAME164062C" #Sieze Somerset instead!
+		name = "ACTIONNAME164062C" #Seize Somerset instead!
 		command = { type = stability value = -2 }
 		command = { type = revolt which = -1 }
 		command = { type = revoltrisk which = 36 value = 1 }
@@ -1645,6 +1645,9 @@ event = {
 #(1449-1453) The Reading Parliament
 event = {
 	id = 164063
+	trigger = {
+		event = 164062 #ENG: Dartford
+	}
 	random = no
 	country = ENG
 	name = "EVENTNAME164063" #The Reading Parliament
@@ -1683,9 +1686,23 @@ event = {
 	}
 }
 
+#-----------------------------------------------------------------------------------------------
+#The Wars of the Roses Sequence
+
+#mandead note: broadly speaking, the WotR only make sense if English failure in the HYW contributes to Henry VI's mental breakdown
+#thus, we sleep this sequence (and go straight to Henry VII/Tudors) if England either wins the HYW or makes a favourable peace with France
+#alternatively, we are left with numerous events that lack context against a backdrop of failure in France, when that never happened
+
 #(1453-1454) King Henry's Illness
 event = {
 	id = 164064
+	trigger = {
+		NOT = {
+			event = 164180 #ENG: English Final Victory
+			event = 170290 #FRA: The Treaty of Orleans
+			event = 170291 #FRA: The Generous Peace of Henry V
+		}
+	}
 	random = no
 	country = ENG
 	name = "EVENTNAME164064" #King Henry's Illness
@@ -1949,6 +1966,9 @@ event = {
 #(1458-1460) The Duke of Buckingham is slain
 event = {
 	id = 164072
+	trigger = {
+		event = 164069 #ENG: The Parliament of Devils
+	}
 	random = no
 	country = ENG
 	name = "EVENTNAME164072" #The Duke of Buckingham is slain
@@ -2038,6 +2058,7 @@ event = {
 		command = { type = province_revoltrisk which = 250 value = 4 } #Cornwall
 	}
 }
+
 #(1458-1460) Scottish Refusal
 event = {
 	id = 164118 #triggered by SCO_276018 B
@@ -2172,9 +2193,10 @@ event = {
 		command = { type = sleepevent which = 21108 } #ENG: Battle of Tewkesbury
 		command = { type = sleepevent which = 21109 } #ENG: Trial of George Duke of Clarence
 		command = { type = sleepevent which = 21112 } #ENG: Bosworth Field
-		command = { type = sleepevent which = 21113 } #ENG: Battle of Stoke
+		command = { type = sleepevent which = 21113 } #ENG: Stoke Field
 	}
 }
+
 #(1461-1462) Protecting Scotland
 event = {
 	id = 164031
@@ -2200,6 +2222,7 @@ event = {
 		command = { type = alliance which = SCO }
 	}
 }
+
 #(1461-1462) Protecting Connaught
 event = {
 	id = 164149
@@ -2225,6 +2248,7 @@ event = {
 		command = { type = alliance which = CON }
 	}
 }
+
 #(1461-1462) Protecting Leinster
 event = {
 	id = 164150
@@ -2250,6 +2274,7 @@ event = {
 		command = { type = alliance which = LEI }
 	}
 }
+
 #(1461-1462) Protecting Desmond
 event = {
 	id = 164151
@@ -2275,6 +2300,7 @@ event = {
 		command = { type = alliance which = DES }
 	}
 }
+
 #(1461-1462) Protecting Ulster
 event = {
 	id = 164152
@@ -2305,6 +2331,7 @@ event = {
 event = {
 	id = 164077
 	trigger = {
+		monarch = 046002 #Edward IV
 		event = 21105 #ENG: Battle of Towton
 	}
 	random = no
@@ -2642,11 +2669,12 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME164092A" #A Happy Occasion!
+		command = { type = dynastic which = BUR }
+		command = { type = relation which = BUR value = 50 }
 		command = { type = provincetax which = 245 value = 1 } #Lincoln
 		command = { type = provincetax which = 247 value = 1 } #Anglia
 		command = { type = provincetax which = 248 value = 1 } #Kent
 		command = { type = provincetax which = 249 value = 1 } #Wessex
-		command = { type = relation which = BUR value = 50 }
 	}
 }
 
@@ -2712,7 +2740,7 @@ event = {
 	country = ENG
 	name = "EVENTNAME164085" #Warwick's Betrayal
 	desc = "EVENTHIST164085"
-	#-#Relations between Richard Earl of Warwick and King Edward IV had never been poorer. The dislike both men shared for each other had become painfully obvious to those who had taken even the slightest note. The earl had refused to attend Council meetings, obey Royal summons, and had even been suspected of dealings with the exiled Lancastrian Queen, Margaret. There had been several minor disturbances, and Warwick's agents had been implicated as participants. Nevertheless, Edward refused to believe that Richard of Warwick who had for so long fought for the House of York could possibly be conspiring against him. In reality, Warwick had sought a special dispensation from Pope Pius II to allow the marriage of Edward's brother, George, to Warwick's daughter, Isabelle. The Duke of Clarence and George Neville, Archbishop of York was summoned from London and rode hard for Dover to set sail to France. There, the Archbishop joined George and Isabel in Holy Matrimony. A second rebellion was incited by Robin of Redesdale, this time in the Midlands, where his forces were to be combined with Warwick's and Clarence's. The Earl of Devon and Earl of Pembroke had raised troops for King Edward, but on the eve of battle a quarrel between the two resulted in Devon abondoning Pembroke. In the ensuing struggle, Pembroke's army was defeated and he and his son were taken prisoner by Warwick and summarily beheaded along with Richard Woodville and his son John. Devon was eventually caught and executed as well. Warwick at the head of his army now advanced to sieze King Edward.
+	#-#Relations between Richard Earl of Warwick and King Edward IV had never been poorer. The dislike both men shared for each other had become painfully obvious to those who had taken even the slightest note. The earl had refused to attend Council meetings, obey Royal summons, and had even been suspected of dealings with the exiled Lancastrian Queen, Margaret. There had been several minor disturbances, and Warwick's agents had been implicated as participants. Nevertheless, Edward refused to believe that Richard of Warwick who had for so long fought for the House of York could possibly be conspiring against him. In reality, Warwick had sought a special dispensation from Pope Pius II to allow the marriage of Edward's brother, George, to Warwick's daughter, Isabelle. The Duke of Clarence and George Neville, Archbishop of York was summoned from London and rode hard for Dover to set sail to France. There, the Archbishop joined George and Isabel in Holy Matrimony. A second rebellion was incited by Robin of Redesdale, this time in the Midlands, where his forces were to be combined with Warwick's and Clarence's. The Earl of Devon and Earl of Pembroke had raised troops for King Edward, but on the eve of battle a quarrel between the two resulted in Devon abondoning Pembroke. In the ensuing struggle, Pembroke's army was defeated and he and his son were taken prisoner by Warwick and summarily beheaded along with Richard Woodville and his son John. Devon was eventually caught and executed as well. Warwick at the head of his army now advanced to seize King Edward.
 
 	date = { day = 1 month = july year = 1469 }
 	offset = 15
@@ -2789,7 +2817,7 @@ event = {
 	country = ENG
 	name = "EVENTNAME164088" #Warwick's landing and Montagu's Betrayal
 	desc = "EVENTHIST164088"
-	#-#King Louis XI of France had orchestrated a reconsiliation and allaince between the disgruntled Yorkists and the exiled Lancastrians led by the unrelenting though aged Lancastrian Queen, Margaret, and her seventeen year old son, Edward. This paradoxical alliance was bent on restoring Henry VI to power. Priot to Warwick's landing, Henry, Baron Fitz-Hugh, at Warwick's urging, began a rebellion in the North. The Fitz-Hughes were known Lancastrians, and Henry had fought for Lancaster at the second battle of St Albans not too many years ago. King Edward decided to take his men north to stamp out the rebellion, and thus invite Warwick to land. The King planned to subsequently raise troops in the north at York and along his way south to meet Warwick on the field and destroy the traitorous magnate once and for all. Instead, once Edward supressed the rebellion, he found himself an exile at Duke Charles's court. The key difference was John Neville Marquess of Montagu, Richard Earl of Warwick's brother, who had lost the Earldom of Northumberland to Henry Percy. Despite Montagu's exemplary service to the House of York, even in the face of Warwick's rebellions, Edward found he could trust the Nevilles no longer and had deprived John of the Earldom not too many months before. Although Edward had seemingly compensated John for his loss with a promotion to Marquess and estates in Devonshire, John's new estates and offices paled in comparison to what he had enjoyed before in the north. And so the Marquess had decided to support Warwick's bid to reinstate Henry VI as King of England. Edward's men learned of John's plan, and compelled their King to flee abroad.
+	#-#King Louis XI of France had orchestrated a reconciliation and allaince between the disgruntled Yorkists and the exiled Lancastrians led by the unrelenting though aged Lancastrian Queen, Margaret, and her seventeen year old son, Edward. This paradoxical alliance was bent on restoring Henry VI to power. Priot to Warwick's landing, Henry, Baron Fitz-Hugh, at Warwick's urging, began a rebellion in the North. The Fitz-Hughes were known Lancastrians, and Henry had fought for Lancaster at the second battle of St Albans not too many years ago. King Edward decided to take his men north to stamp out the rebellion, and thus invite Warwick to land. The King planned to subsequently raise troops in the north at York and along his way south to meet Warwick on the field and destroy the traitorous magnate once and for all. Instead, once Edward supressed the rebellion, he found himself an exile at Duke Charles's court. The key difference was John Neville Marquess of Montagu, Richard Earl of Warwick's brother, who had lost the Earldom of Northumberland to Henry Percy. Despite Montagu's exemplary service to the House of York, even in the face of Warwick's rebellions, Edward found he could trust the Nevilles no longer and had deprived John of the Earldom not too many months before. Although Edward had seemingly compensated John for his loss with a promotion to Marquess and estates in Devonshire, John's new estates and offices paled in comparison to what he had enjoyed before in the north. And so the Marquess had decided to support Warwick's bid to reinstate Henry VI as King of England. Edward's men learned of John's plan, and compelled their King to flee abroad.
 
 	date = { day = 1 month = september year = 1470 }
 	offset = 20
@@ -2953,6 +2981,7 @@ event = {
 		command = { type = revolt which = -1 }
 	}
 }
+
 #(1471-1477) Treaty of Picquigny
 event = {
 	id = 164248 #triggered by FRA_170321 A
@@ -2969,6 +2998,7 @@ event = {
 		command = { type = vp value = 10 }
 	}
 }
+
 #(1471-1477) The Spider and The Boar
 event = {
 	id = 164250 #triggered by FRA_170321 B
@@ -2988,6 +3018,7 @@ event = {
 		command = { type = trigger which = 134018 } #BRI: Divide and Conquer
 	}
 }
+
 #(1471-1477) Then who shall defend you now?
 event = {
 	id = 164251 #triggered by BUR_137080 A
@@ -3016,6 +3047,7 @@ event = {
 		command = { type = stability value = -1 }
 	}
 }
+
 #(1471-1477) A Letter from Duke Francis
 event = {
 	id = 164271 #triggered by BRI_134018 A
@@ -3035,6 +3067,7 @@ event = {
 		command = { type = stability value = -1 }
 	}
 }
+
 #(1471-1477) Treaty of Picquigny - Ahistorical
 event = {
 	id = 164249 #triggered by FRA_170321 C
@@ -3191,7 +3224,7 @@ event = {
 	country = ENG
 	name = "EVENTNAME164265" #Stony Stratford
 	desc = "EVENTHIST164265"
-	#-#The rise of Richard of Gloucester to the throne of England was never an immediately obvious one. Gloucester had been exemplary in his continued loyalty and support towards King Edward during his lifetime, especially in stark contrast to their other brother, Clarence, who time and time again had rebelled against Edward's rule, and paid the ultimate price for it. Though the will of Edward IV no longer survives, historians generally believe that Gloucester was to be appointed Lord Protector during his nephew's minority. Afterall, Gloucester, along with Lord Hastings, was the single most loyal and experienced man in the Yorkist camp. Moreover, after Edward's issue he was heir to the throne. At Stony Stratford on the night of April 30th, 1483, Gloucester had Earl Rivers and Sir Richard Grey, the King's half-brother,  arrested for treason and sent to Pontefract Castle, one of Gloucester's northern strongholds. The securing of the young King's person was seen as an effective way of preserving the continuity and stability of the realm under those whom it was considered were best-placed to look after him, and at the time was certainly never perceived as a move against the King himself. Earl Rivers, the Queen's brother, was seen by the Woodville faction as an alternative to Gloucester as Lord Protector, and indeed, it is said that King Edward pleaded with his uncle not to arrest his Woodville favourites. Lord Hastings enthusiastically backed Gloucester's coup at Stony Stratford. Gloucester was simply protecting his nephew from the what was seen as the largely negative and highly suspicious influence of the Queen and her family. For as long as he commanded Hastings' loyalty and support, Gloucester's actions were vindicated.
+	#-#The rise of Richard of Gloucester to the throne of England was never an immediately obvious one. Gloucester had been exemplary in his continued loyalty and support towards King Edward during his lifetime, especially in stark contrast to their other brother, Clarence, who time and time again had rebelled against Edward's rule, and paid the ultimate price for it. Though the will of Edward IV no longer survives, historians generally believe that Gloucester was to be appointed Lord Protector during his nephew's minority. Afterall, Gloucester, along with Lord Hastings, was the single most loyal and experienced man in the Yorkist camp. Moreover, after Edward's issue he was heir to the throne. At Stony Stratford on the night of April 30th, 1483, Gloucester had Earl Rivers and Sir Richard Grey, the King's half-brother, arrested for treason and sent to Pontefract Castle, one of Gloucester's northern strongholds. The securing of the young King's person was seen as an effective way of preserving the continuity and stability of the realm under those whom it was considered were best-placed to look after him, and at the time was certainly never perceived as a move against the King himself. Earl Rivers, the Queen's brother, was seen by the Woodville faction as an alternative to Gloucester as Lord Protector, and indeed, it is said that King Edward pleaded with his uncle not to arrest his Woodville favourites. Lord Hastings enthusiastically backed Gloucester's coup at Stony Stratford. Gloucester was simply protecting his nephew from the what was seen as the largely negative and highly suspicious influence of the Queen and her family. For as long as he commanded Hastings' loyalty and support, Gloucester's actions were vindicated.
 
 	date = { day = 30 month = april year = 1483 }
 
@@ -3254,7 +3287,7 @@ event = {
 	country = ENG
 	name = "EVENTNAME21110" #To Kill a King
 	desc = "EVENTHIST21110"
-	#-#After the success of his political coup at Stony Stratford, Gloucester had a free reign in the everyday upbringing of the King, not to mention an unparalleled level of influence over his decisions. Having pleaded with the Queen to release the ten year-old Duke of York from his sanctuary at Westminster, the royal brothers were inturned in the Tower, the traditional residence of a king before his coronation, and in no way sinister or against the ordinary. From here, Gloucester's decisions proved fatal. He was undisputed ruler of the kingdom. According to legend, like de Montfort before him and Cromwell after, Gloucester was asked numerous times to take the crown so as to ensure stability . Eventually, he accepted, though it would of course be naïve to suggest his actions had never taken this into account from at least Hastings' execution, if not right from Stony Stratford. June 1483 was forever the month that  blackened the name of Richard of Gloucester and ultimately sealed the fate of his dynasty. The actions of the man known unto history as King Richard III were at no point a foregone conclusion. On the one hand, Gloucester was a skilled administrator with a proven record of military success, in particular during the Anglo-Scottish war. His arguments for claiming the throne were simple, . Moreover, argued Richard, his nephews were both bastards by virtue of their father's alleged pre-marriage contract. he could provide England with firm and stable leadership. The young Edward was undeniably his father's eldest son, legitimate or not. Could Richard rule as Lord Protector until King Edward came of age, or murder his own flesh & blood and take the throne for himself, risking rebellion, anarchy and complete diplomatic isolation in the process. Not until the days of Oliver Cromwell would an Englishman wield so much power with such devastating results.
+	#-#After the success of his political coup at Stony Stratford, Gloucester had a free reign in the everyday upbringing of the King, not to mention an unparalleled level of influence over his decisions. Having pleaded with the Queen to release the ten year-old Duke of York from his sanctuary at Westminster, the royal brothers were inturned in the Tower, the traditional residence of a king before his coronation, and in no way sinister or against the ordinary. From here, Gloucester's decisions proved fatal. He was undisputed ruler of the kingdom. According to legend, like de Montfort before him and Cromwell after, Gloucester was asked numerous times to take the crown so as to ensure stability. Eventually, he accepted, though it would of course be naïve to suggest his actions had never taken this into account from at least Hastings' execution, if not right from Stony Stratford. June 1483 was forever the month that blackened the name of Richard of Gloucester and ultimately sealed the fate of his dynasty. The actions of the man known unto history as King Richard III were at no point a foregone conclusion. On the one hand, Gloucester was a skilled administrator with a proven record of military success, in particular during the Anglo-Scottish war. His arguments for claiming the throne were simple. Moreover, argued Richard, his nephews were both bastards by virtue of their father's alleged pre-marriage contract. he could provide England with firm and stable leadership. The young Edward was undeniably his father's eldest son, legitimate or not. Could Richard rule as Lord Protector until King Edward came of age, or murder his own flesh & blood and take the throne for himself, risking rebellion, anarchy and complete diplomatic isolation in the process. Not until the days of Oliver Cromwell would an Englishman wield so much power with such devastating results.
 
 	date = { day = 20 month = june year = 1483 }
 
@@ -3288,6 +3321,7 @@ event = {
 		command = { type = revolt which = -1 } #Gloucester's supporters
 		command = { type = stability value = -1 }
 		command = { type = sleepevent which = 164269 } #ENG: Titulus Regius
+		command = { type = sleepevent which = 164245 } #ENG: Richard of York and the Dowager Duchess
 	}
 }
 
@@ -3335,127 +3369,6 @@ event = {
 		name = "ACTIONNAME164269A" #They are both bastards, fit not to reign o'er us!
 		command = { type = stability value = -1 }
 		command = { type = ADM which = -2 value = 24 } #6 --> 4
-	}
-}
-
-#(1485-1509) The Justices of Peace
-#Edited by Johnny Canuck and mandead
-event = {
-	id = 3005
-	trigger = {
-		monarch = 046008 #Henry VII
-	}
-	random = no
-	country = ENG
-	name = "EVENTNAME3005" #The Justices of Peace
-	desc = "EVENTHIST3005"
-	#-#The position of Justice of the Peace (JP) originated in England in about the 12th Century AD, believed to be from a Royal Edict issued by King Richard I (the Lionheart) and the Archbishop of Canterbury in the year 1195 AD. The title was first known as Custodes Pacis (Custodians of the Peace), but was later changed to Justices of the Peace. An act concerning Justices of the Peace was passed in 1489. It required that justices devote part of every quarter session to acknowledgment of the areas in which they themselves are particularly weak. The same act provided the general populace with the right to complain about the actions of justices directly to the monarch or his council. The appointment of the justices by the Lord Chancellor at irregular annual intervals allowed for the possible removal of uncooperative gentlemen at the next annual re-issue of the commissions.
-
-	date = { day = 1 month = january year = 1485 }
-	offset = 30
-	deathdate = { day = 1 month = january year = 1509 }
-
-	action_a = {
-		name = "ACTIONNAME3005A" #Yes we need them
-		command = { type = domestic which = CENTRALIZATION value = 1 }
-		command = { type = provincetax which = 240 value = 1 } #Northumberland
-		command = { type = provincetax which = 241 value = 1 } #Yorkshire
-		command = { type = provincetax which = 242 value = 1 } #Lancashire
-		command = { type = provincetax which = 243 value = 1 } #Wales
-		command = { type = provincetax which = 244 value = 1 } #Midlands
-		command = { type = provincetax which = 245 value = 1 } #Lincoln
-		command = { type = provincetax which = 246 value = 1 } #Bristol
-		command = { type = provincetax which = 247 value = 1 } #Anglia
-		command = { type = provincetax which = 248 value = 1 } #Kent
-		command = { type = provincetax which = 249 value = 1 } #Wessex
-		command = { type = provincetax which = 250 value = 1 } #Cornwall
-		command = { type = gainbuilding which = 240 value = bailiff }
-		command = { type = gainbuilding which = 241 value = bailiff }
-		command = { type = gainbuilding which = 242 value = bailiff }
-		command = { type = gainbuilding which = 243 value = bailiff }
-		command = { type = gainbuilding which = 244 value = bailiff }
-		command = { type = gainbuilding which = 245 value = bailiff }
-		command = { type = gainbuilding which = 246 value = bailiff }
-		command = { type = gainbuilding which = 247 value = bailiff }
-		command = { type = gainbuilding which = 248 value = bailiff }
-		command = { type = gainbuilding which = 249 value = bailiff }
-		command = { type = gainbuilding which = 250 value = bailiff }
-		command = { type = treasury value = -200 }
-		command = { type = stability value = -2 }
-	}
-	action_b = {
-		name = "ACTIONNAME3005B" #No that is the Noblemen's job
-		command = { type = domestic which = SERFDOM value = 1 }
-		command = { type = domestic which = ARISTOCRACY value = 1 }
-		command = { type = stability value = 1 }
-		command = { type = treasury value = 100 }
-	}
-}
-
-#(1485-1509) Support Middle-class Bureaucrats
-#Edited by Johnny Canuck
-event = {
-	id = 3006
-	trigger = {
-		monarch = 046008 #Henry VII
-	}
-	random = no
-	country = ENG
-	name = "EVENTNAME3006" #Support Middle-class Bureaucrats
-	desc = "EVENTHIST3006"
-	#-#King Henry did continue the Yorkist tradition of promoting government officers from the middle class (primarily clerics and lawyers.) But he did not create the middle class government that many historians propose
-
-	date = { day = 1 month = january year = 1485 }
-	offset = 30
-	deathdate = { day = 1 month = january year = 1509 }
-
-	action_a = {
-		name = "ACTIONNAME3006A" #Give them our support
-		command = { type = domestic which = INNOVATIVE value = 1 } #Removed -1 Land
-		command = { type = domestic which = ARISTOCRACY value = -1 }
-		command = { type = domestic which = MERCANTILISM value = -2 } #-2 from -1
-		command = { type = stability value = -1 }
-	}
-	action_b = {
-		name = "ACTIONNAME3006B" #Prohibit them from working in the Government
-		command = { type = domestic which = INNOVATIVE value = -1 }
-		command = { type = domestic which = ARISTOCRACY value = 1 }
-		command = { type = domestic which = SERFDOM value = 1 }
-		command = { type = domestic which = LAND value = 2 }
-		command = { type = stability value = 1 }
-		command = { type = treasury value = 100 }
-	}
-}
-
-#(1485-1509) Court of the Star Chamber
-#Edited by Johnny Canuck
-event = {
-	id = 3007
-	trigger = {
-		monarch = 046008 #Henry VII
-	}
-	random = no
-	country = ENG
-	name = "EVENTNAME3007" #Court of the Star Chamber
-	desc = "EVENTHIST3007"
-	#-#The Court of Star Chamber was a court of law which evolved from meetings of the King's royal council. Although its roots go back to the medieval period, the court only became powerful as a separate entity during the reign of Henry VII. In 1487 the court became a judicial body separate from the King's council, with a mandate to hear petitions of redress. The Court of Star Chamber was named for the star pattern painted on the ceiling of the room at Westminster Palace where its meetings were held. In a sense the court was a supervisory body.
-
-	date = { day = 1 month = january year = 1485 }
-	offset = 30
-	deathdate = { day = 1 month = january year = 1509 }
-
-	action_a = {
-		name = "ACTIONNAME3007A" #Yes we need one
-		command = { type = domestic which = CENTRALIZATION value = 2 } #Removed +2 Innov.#
-		command = { type = stability value = 1 }
-		command = { type = revoltrisk which = 60 value = 3 }
-	}
-	action_b = {
-		name = "ACTIONNAME3007B" #No we don't
-		command = { type = domestic which = ARISTOCRACY value = 2 }
-		command = { type = domestic which = CENTRALIZATION value = -1 }
-		command = { type = domestic which = INNOVATIVE value = -1 }
-		command = { type = stability value = 1 }
 	}
 }
 
@@ -3584,23 +3497,24 @@ event = {
 	}
 }
 
-#(1487) Battle of Stoke
-#by Count Six
+#(1487) Stoke Field
+#by Count Six and mandead
 event = {
 	id = 21113
 	trigger = {
 		monarch = 046008 #Henry VII
+		event = 21112 #ENG: Bosworth Field
 	}
 	random = no
 	country = ENG
-	name = "EVENTNAME21113" #Battle of Stoke
+	name = "EVENTNAME21113" #Stoke Field
 	desc = "EVENTHIST21113"
-	#-#Two years after Bosworth, a last Yorkist attempt was made to unseat Henry Tudor.
+	#-#Two years after Bosworth, a last Yorkist attempt was made to unseat Henry Tudor by force of arms. The rebels were led by John de la Pole, the Earl of Lincoln, who had briefly been considered his uncle Richard III's heir following the death of the latter's son Edward of Middleham in 1484. Since Richard's death at Bosworth, the chief Yorkist claimant had been his nephew Edward, Earl of Warwick, who was confined to the Tower of London by Henry VII for fear of him being used as a pawn by the Yorkist nobility. After several years of imprisonment, a rumour spread that Warwick had died in captivity, which led Lincoln and other Yorkist exiles to proclaim a tradesman's son, Lambert Simnel, as none other than the surviving Warwick, and have him duly crowned as King Edward VI in Dublin by the Bishop of Meath on May 24th 1487. Upon hearing news of the coronation of Simnel, whose age and appearance were a match for Warwick's, King Henry marched the Lancastrian army westward, where he intercepted Lincoln's smaller Yorkist force at the village of East Stoke in Nottinghamshire. The battle was hard-fought and considerably bloodier than Bosworth had been, with Henry's professional knights and trained archers butchering the confused ad-hoc force of Irish kerns and German mercenaries in Lincoln's pay. Most of the Yorkist leaders, including Lincoln himself, were killed in the battle, and Simnel - who as a boy of ten was likely not even present - was spared by Henry, who saw that he had been little more than an empty figurehead in Lincoln's machinations and, being an obvious fraud, posed no serious threat to Henry's rule. Stoke Field was the final battle of the Wars of the Roses, and the last serious challenge to Henry's legitimacy until the emergence of Perkin Warbeck.
 
 	date = { day = 16 month = june year = 1487 }
 
 	action_a = {
-		name = "ACTIONNAME21113A" #Lambert Simnel, eh? Put Him to Work in my Scullery
+		name = "ACTIONNAME21113A" #Lambert Simnel, eh? Put him to work in my scullery
 		command = { type = revolt which = 241 } #Yorkshire
 		command = { type = revolt which = 241 } #Yorkshire
 		command = { type = revolt which = 242 } #Lancashire
@@ -3612,6 +3526,129 @@ event = {
 		command = { type = relation which = LEI value = -50 }
 		command = { type = relation which = DES value = -50 }
 		command = { type = relation which = ULS value = -50 }
+	}
+}
+#End of The Wars of the Roses Sequence
+#-----------------------------------------------------------------------------------------------
+
+#(1487-1509) The Justices of Peace
+#Edited by Johnny Canuck and mandead
+event = {
+	id = 3005
+	trigger = {
+		monarch = 046008 #Henry VII
+	}
+	random = no
+	country = ENG
+	name = "EVENTNAME3005" #The Justices of Peace
+	desc = "EVENTHIST3005"
+	#-#The position of Justice of the Peace (JP) originated in England in about the 12th Century AD, believed to be from a Royal Edict issued by King Richard I (the Lionheart) and the Archbishop of Canterbury in the year 1195 AD. The title was first known as Custodes Pacis (Custodians of the Peace), but was later changed to Justices of the Peace. An act concerning Justices of the Peace was passed in 1489. It required that justices devote part of every quarter session to acknowledgment of the areas in which they themselves are particularly weak. The same act provided the general populace with the right to complain about the actions of justices directly to the monarch or his council. The appointment of the justices by the Lord Chancellor at irregular annual intervals allowed for the possible removal of uncooperative gentlemen at the next annual re-issue of the commissions.
+
+	date = { day = 1 month = january year = 1487 }
+	offset = 30
+	deathdate = { day = 1 month = january year = 1509 }
+
+	action_a = {
+		name = "ACTIONNAME3005A" #Yes we need them
+		command = { type = domestic which = CENTRALIZATION value = 1 }
+		command = { type = provincetax which = 240 value = 1 } #Northumberland
+		command = { type = provincetax which = 241 value = 1 } #Yorkshire
+		command = { type = provincetax which = 242 value = 1 } #Lancashire
+		command = { type = provincetax which = 243 value = 1 } #Wales
+		command = { type = provincetax which = 244 value = 1 } #Midlands
+		command = { type = provincetax which = 245 value = 1 } #Lincoln
+		command = { type = provincetax which = 246 value = 1 } #Bristol
+		command = { type = provincetax which = 247 value = 1 } #Anglia
+		command = { type = provincetax which = 248 value = 1 } #Kent
+		command = { type = provincetax which = 249 value = 1 } #Wessex
+		command = { type = provincetax which = 250 value = 1 } #Cornwall
+		command = { type = gainbuilding which = 240 value = bailiff }
+		command = { type = gainbuilding which = 241 value = bailiff }
+		command = { type = gainbuilding which = 242 value = bailiff }
+		command = { type = gainbuilding which = 243 value = bailiff }
+		command = { type = gainbuilding which = 244 value = bailiff }
+		command = { type = gainbuilding which = 245 value = bailiff }
+		command = { type = gainbuilding which = 246 value = bailiff }
+		command = { type = gainbuilding which = 247 value = bailiff }
+		command = { type = gainbuilding which = 248 value = bailiff }
+		command = { type = gainbuilding which = 249 value = bailiff }
+		command = { type = gainbuilding which = 250 value = bailiff }
+		command = { type = treasury value = -200 }
+		command = { type = stability value = -2 }
+	}
+	action_b = {
+		name = "ACTIONNAME3005B" #No that is the Noblemen's job
+		command = { type = domestic which = SERFDOM value = 1 }
+		command = { type = domestic which = ARISTOCRACY value = 1 }
+		command = { type = stability value = 1 }
+		command = { type = treasury value = 100 }
+	}
+}
+
+#(1487-1509) Support Middle-class Bureaucrats
+#Edited by Johnny Canuck
+event = {
+	id = 3006
+	trigger = {
+		monarch = 046008 #Henry VII
+	}
+	random = no
+	country = ENG
+	name = "EVENTNAME3006" #Support Middle-class Bureaucrats
+	desc = "EVENTHIST3006"
+	#-#King Henry did continue the Yorkist tradition of promoting government officers from the middle class (primarily clerics and lawyers.) But he did not create the middle class government that many historians propose
+
+	date = { day = 1 month = january year = 1487 }
+	offset = 30
+	deathdate = { day = 1 month = january year = 1509 }
+
+	action_a = {
+		name = "ACTIONNAME3006A" #Give them our support
+		command = { type = domestic which = INNOVATIVE value = 1 } #Removed -1 Land
+		command = { type = domestic which = ARISTOCRACY value = -1 }
+		command = { type = domestic which = MERCANTILISM value = -2 } #-2 from -1
+		command = { type = stability value = -1 }
+	}
+	action_b = {
+		name = "ACTIONNAME3006B" #Prohibit them from working in the Government
+		command = { type = domestic which = INNOVATIVE value = -1 }
+		command = { type = domestic which = ARISTOCRACY value = 1 }
+		command = { type = domestic which = SERFDOM value = 1 }
+		command = { type = domestic which = LAND value = 2 }
+		command = { type = stability value = 1 }
+		command = { type = treasury value = 100 }
+	}
+}
+
+#(1487-1509) Court of the Star Chamber
+#Edited by Johnny Canuck
+event = {
+	id = 3007
+	trigger = {
+		monarch = 046008 #Henry VII
+	}
+	random = no
+	country = ENG
+	name = "EVENTNAME3007" #Court of the Star Chamber
+	desc = "EVENTHIST3007"
+	#-#The Court of Star Chamber was a court of law which evolved from meetings of the King's royal council. Although its roots go back to the medieval period, the court only became powerful as a separate entity during the reign of Henry VII. In 1487 the court became a judicial body separate from the King's council, with a mandate to hear petitions of redress. The Court of Star Chamber was named for the star pattern painted on the ceiling of the room at Westminster Palace where its meetings were held. In a sense the court was a supervisory body.
+
+	date = { day = 1 month = january year = 1487 }
+	offset = 30
+	deathdate = { day = 1 month = january year = 1509 }
+
+	action_a = {
+		name = "ACTIONNAME3007A" #Yes we need one
+		command = { type = domestic which = CENTRALIZATION value = 2 } #Removed +2 Innov.#
+		command = { type = stability value = 1 }
+		command = { type = revoltrisk which = 60 value = 3 }
+	}
+	action_b = {
+		name = "ACTIONNAME3007B" #No we don't
+		command = { type = domestic which = ARISTOCRACY value = 2 }
+		command = { type = domestic which = CENTRALIZATION value = -1 }
+		command = { type = domestic which = INNOVATIVE value = -1 }
+		command = { type = stability value = 1 }
 	}
 }
 
@@ -3680,6 +3717,84 @@ event = {
 	}
 }
 #End of Brittany Inheritance Sequence
+#-----------------------------------------------------------------------------------------------
+
+#-----------------------------------------------------------------------------------------------
+#Perkin Warbeck Sequence
+#by mandead
+
+#(1490) Richard of York and the Dowager Duchess
+#by mandead - based on an event by Lambert Simnel
+event = {
+	id = 164245
+	trigger = {
+		monarch = 046008 #Henry VII
+		event = 164092 #ENG: Margaret of York and Charles Duke of Burgundy
+		event = 21110 #ENG: To Kill a King
+	}
+	random = no
+	country = ENG
+	name = "EVENTNAME164245" #Richard of York and the Dowager Duchess
+	desc = "EVENTHIST164245"
+	#-#In the years following his decisive victories at Bosworth and Stoke, Henry VII's position seemed secure. His wife, Elizabeth of York, had given birth to a healthy son, Prince Arthur, and the remaining male line Yorkist claimant - Elizabeth's cousin Edward, Earl of Warwick - had been confined to the Tower of London since Henry's usurpation. As far as is known, Henry (and everyone else) believed his wife's brothers Edward V and Richard of York were dead - so it doubtless came as some surprise when a man purporting to be the latter turned up at the court of Elizabeth's aunt Margaret, Dowager Duchess of Burgundy, in 1490. The man, who bore a striking resemblance to Edward IV and supposedly had similar birthmarks to Richard, caused a stir in several European courts and was supported not only by his 'aunt' Margaret, but by an array of rulers ranging from the Duke of Saxony and King of Scots to Emperor Maximilian himself. Richard claimed that he had fled England following the murder of his elder brother Edward V in the autumn of 1483 and had been in the company of Yorkist exiles on the continent ever since. When his primary guardian, Sir Edward Brampton, had returned to England in 1490, Richard had been released from Brampton's charge and was at last able to reveal his true identity and make his claim to the throne. The news of Richard's apparent survival and the fact he and a band of Yorkist exiles were being hosted by Margaret of Burgundy in the Low Countries caused a serious crisis in Henry's court, as Richard's claim to the throne was far stronger than Henry's own, and there were still those in England (and abroad) who saw the Tudors as illegitimate upstarts. For Henry, both his options were marred with risk: find out more about this man who claimed to be his wife's dead brother, and risk his claim being genuine, or have him killed before he is able to return to England and undermine Henry's own legitimacy.
+
+	date = { day = 1 month = june year = 1490 }
+	offset = 15
+	deathdate = { day = 29 month = december year = 1490 }
+
+	action_a = {
+		name = "ACTIONNAME164245A" #Find out if his story is credible
+		command = { type = revoltrisk which = 60 value = 2 }
+		command = { type = relation which = BUR value = -50 }
+		command = { type = relation which = HAB value = -50 }
+		command = { type = relation which = BRI value = -25 }
+		command = { type = relation which = FRA value = -25 }
+		command = { type = relation which = SCO value = -25 }
+		command = { type = stability value = -1 }
+	}
+	action_b = {
+		name = "ACTIONNAME164245B" #Make all this go away...
+		command = { type = treasury value = -150 }
+		command = { type = DIP which = -1 value = 60 }
+		command = { type = breakdynastic which = BUR }
+		command = { type = breakdynastic which = HAB }
+		command = { type = relation which = BUR value = -150 }
+		command = { type = relation which = HAB value = -150 }
+		command = { type = relation which = BRI value = -50 }
+		command = { type = relation which = FRA value = -50 }
+		command = { type = relation which = SCO value = -50 }
+		command = { type = badboy value = 2 }
+		command = { type = sleepevent which = 164246 } #ENG: Perkin Warbeck's Cornish Uprising
+	}
+}
+
+#(1497) Perkin Warbeck's Cornish Uprising
+#by mandead - based on an event by Lambert Simnel
+event = {
+	id = 164246
+	trigger = {
+		monarch = 046008 #Henry VII
+		event = 164245 #ENG: Richard of York and the Dowager Duchess
+	}
+	random = no
+	country = ENG
+	name = "EVENTNAME164246" #Perkin Warbeck's Cornish Uprising
+	desc = "EVENTHIST164246"
+	#-#The 1490s proved to be a turbulent decade for Henry VII, in which his primary goals of providing for the succession (his second son, the future Henry VIII, was born in 1491) and securing the legitimacy of the new Tudor dynasty abroad were largely achieved. The emergence of the man claiming to be Richard of York upended this sense of progress and threw the Tudor court unto disarray, not only externally in terms of Richard's support from numerous foreign courts, but internally as the Yorkist cause still had underlying support, and proof of the Princes' demise had never been provided. Having received funding and military support from Margaret of Burgundy (who either genuinely believed Richard was her nephew, or simply pretended to in order to embarrass Henry) and been provided a wife by James IV of Scotland, Richard and his retainers landed in Kent in July 1495 in what turned out to be a short and wholly unsuccessful venture in which the first wave of Yorkists were killed on the beach and Richard fled before even getting off his boat. The following year, a Scots army led by Richard and James IV raided Northumberland but made little progress when the local populace failed to rally to their cause. Finally, on September 7th 1497, Richard came ashore near Land's End in Cornwall and was proclaimed King Richard IV. His army of some 6,000 peasant militia may well have proven an obstacle to Henry, but as soon as Richard realised that he'd have to fight Henry's forces in a pitched battle he lost his nerve and deserted the Cornishmen. Swiftly captured and handed over to Henry, Richard was tortured and savagely beaten (reportedly beyond recognition) until he gave a full confession, admitting that he was a Flemish imposter named Perkin Warbeck, the son of a local official from Tournai. Like Lambert Simnel before him, Warbeck was pardoned by Henry and may well have lived out his days in quiet obscurity, but following a failed escape attempt from the Tower of London he was hanged at Tyburn on November 23rd 1499. It has been speculated that Warbeck's performance was so captivating that not only did Henry have his doubts about whether the man was an imposter, but even Queen Elizabeth believed him to be her missing brother. Whatever the truth, with the death of the man who was either Richard of York, Perkin Warbeck, or perhaps someone else entirely, Henry VII had finally put an end to the Yorkist threat that had always blighted his reign.
+
+	date = { day = 7 month = september year = 1497 }
+
+	action_a = {
+		name = "ACTIONNAME164246A" #He'll hang for this
+		command = { type = casusbelli which = SCO value = 6 }
+		command = { type = desertion which = -1 value = 3000 }
+		command = { type = revolt which = 240 } #Northumberland
+		command = { type = revolt which = 250 } #Cornwall
+		command = { type = revolt which = 250 } #Cornwall
+		command = { type = stability value = -2 }
+	}
+}
+#End of Perkin Warbeck Sequence
 #-----------------------------------------------------------------------------------------------
 
 #(1495-1515) The Admiralty
@@ -4001,6 +4116,7 @@ event = {
 		command = { type = addcore which = 133 } #Athabaska
 	}
 }
+
 #-----------------------------------------------------------------------------------------------
 #(1607-1624) Formation of Virginia
 event = {
@@ -5328,7 +5444,7 @@ event = {
 	desc = "EVENTHIST164270"
 	#-#According to John Foxe's legendary account of his death, Edward VI's last words were: ''I am faint, Lord have mercy upon me, and take my spirit.'' The premature end of the life of England's first Protestant king had been foreseen by many, and with the martyrdom of that other great Protestant zealot, Thomas Cranmer, in 1556, the short-lived Anglican experiment seemed forever at an end, hastened by the ascension of the staunchly-Catholic Princess Mary in July 1553. In many ways, Mary Tudor was a complete disaster as Queen - not only did her failed marriage to the King of Spain result in many Englishmen beginning to view their ancient kingdom as nothing more than the northernmore outpost of the Habsburg empire, but the domestic policies of 'Bloody Mary' resulted in hundreds of innocent Protestants being burnt at the stake. Despite Mary's indisputable claim to the throne as Henry VIII's eldest legitimate child, many people had wondered whether 'Queen Jane' had not been a better idea afterall. In the end, however, the one thing which threatened to thrust the people of England further into darkness had, in fact, brought them back into the light: the apparent birth of a child in November 1558 - the heir to a combined Anglo-Spanish empire - turned out to be a fatal tumour. Mary died on the 17th of the month, the throne passing to the last-surviving child of Henry VIII, the Protestant Elizabeth: England's Golden Age had begun.
 
-	date = { day = 17 month =  november year = 1558 }
+	date = { day = 17 month = november year = 1558 }
 
 	action_a = {
 		name = "ACTIONNAME164270A" #God Save Queen Elizabeth!
@@ -5349,7 +5465,7 @@ event = {
 	desc = "EVENTHIST164264"
 	#-#After Queen Jane's successful usurpation and coronation in 1553, Mary's chances of ascending her half-brother's throne became slimmer by the day. Despite several low-key revolts in her name, successive miscarriages by various Catholic nobles and a failed marriage proposal to the future King of Spain resulted only in Mary further alienating herself from the people of England. Living in almost complete isolation in the royal apartments at Windsor, Mary - guarded at all times by fervent Puritans hand-picked by the Queen - was given few diplomatic options, with letters to and from anyone known to be in anyway pro-Catholic being burnt before reaching her. For both Queens, however, the situation was a difficult one for as long as both of them lived. Despite being deeply unpopular amongst the majority of the English, Mary was the true heir to the throne, being both the eldest sister of Edward VI and daughter of Henry VIII. Jane, though firmly established as Queen and recognised as such among the Protestant powers of Europe, was a usurper, and as well as being excommunicated by the Pope, there were rumours that plans were being made to replace Jane with Mary's half-sister, the Protestant Elizabeth - a most dangerous proposition for Jane, as hitherto her one unwavering strength had been Mary's rabid Catholicism. To Parliament, the true maker and breaker of kings, the choice was a lot simpler: Jane would reign for as long as Mary lived, the crown being offered to the Princess Elizabeth upon her half-sister's death. None of the parties involved with this arrangement were particularly happy about it, but to Parliament it ensured both the Protestant Succession and the continuation of the Tudor dynasty in the male line. Legally and constitutionally the Protestant Succession of 1558 was sound - it was also considered acceptable by the majority of the English people, not to mention undoubtedly avoiding the inevitable civil war had either side taken power by force.
 
-	date = { day = 17 month =  november year = 1558 }
+	date = { day = 17 month = november year = 1558 }
 
 	action_a = {
 		name = "ACTIONNAME164270A" #God Save Queen Elizabeth!
@@ -6194,7 +6310,7 @@ event = {
 				AND = {	
 					NOT = { exists = SCO }
 					OR = {
-				   		owned = { province = 236 data = -1 } #Highlands
+						owned = { province = 236 data = -1 } #Highlands
 						owned = { province = 237 data = -1 } #Grampians
 						owned = { province = 238 data = -1 } #Lothian
 						owned = { province = 239 data = -1 } #Strathclyde
@@ -6229,7 +6345,7 @@ event = {
 				AND = {	
 					NOT = { exists = SCO }
 					OR = {
-				   		owned = { province = 236 data = -1 } #Highlands
+						owned = { province = 236 data = -1 } #Highlands
 						owned = { province = 237 data = -1 } #Grampians
 						owned = { province = 238 data = -1 } #Lothian
 						owned = { province = 239 data = -1 } #Strathclyde
@@ -7428,14 +7544,14 @@ event = {
 	}
 }
 
-#(1628) The Petition of Rights
+#(1628) The Petition of Right
 event = {
 	id = 3023
 	random = no
 	country = ENG
-	name = "EVENTNAME3023" #The Petition of Rights
+	name = "EVENTNAME3023" #The Petition of Right
 	desc = "EVENTHIST3023"
-	#-#In 1628 the English Parliament passed the Petition of Rights. Under its terms the King could not levy any new taxes without the consent of Parliament. Furthermore soldiers could not be billeted in private homes. Martial law could not be imposed in time of peace. Finally, the Petition of Rights forbids the imprisonment of individuals without cause.
+	#-#In 1628 the English Parliament passed the Petition of Right. Under its terms the King could not levy any new taxes without the consent of Parliament. Furthermore soldiers could not be billeted in private homes. Martial law could not be imposed in time of peace. Finally, the Petition of Right forbids the imprisonment of individuals without cause.
 
 	date = { day = 1 month = january year = 1628 }
 	offset = 10
@@ -7901,7 +8017,7 @@ event = {
 				AND = {	
 					NOT = { exists = SCO }
 					OR = {
-				   		owned = { province = 236 data = -1 } #Highlands
+						owned = { province = 236 data = -1 } #Highlands
 						owned = { province = 237 data = -1 } #Grampians
 						owned = { province = 238 data = -1 } #Lothian
 						owned = { province = 239 data = -1 } #Strathclyde
@@ -15226,6 +15342,4 @@ event = {
 
 #-----------------------------------------------------------------------------------------------
 
-#Reserved: 164245-164246 - 164256-164259
-
-#First free id: 164275
+#First free id: 164256-164259 - next: 164275

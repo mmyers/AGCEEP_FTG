@@ -214,7 +214,21 @@ historicalmonarch = {
 	ADM = 4
 	dormant = no
 }
+historicalmonarch = {
+	id = { type = 6 id = 067515 }
+	startdate = {
+		year = 1565
+	}
+	deathdate = {
+		year = 1820
+	}
+	name = "Local Khans *"
+	DIP = 4
+	ADM = 4
+	MIL = 4
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 067515
+#First free id: 067516

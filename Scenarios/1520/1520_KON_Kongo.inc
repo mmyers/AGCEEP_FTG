@@ -66,7 +66,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 472 }
-		name = "Jungle Army"
+		name = "Kongolese Army"
 		location = 1506
 		infantry = 10000
 		cavalry = 0
@@ -78,6 +78,7 @@ country = {
 		trade = { level = 1 value = 120 }
 		land = { level = 4 value = 50 }
 		naval = { level = 2 value = 0 }
+		group = african
 	}
 }
 

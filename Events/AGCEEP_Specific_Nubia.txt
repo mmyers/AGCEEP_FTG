@@ -7,6 +7,10 @@
 #(1504-1699) The fall of Alodia
 event = {
 	id = 289000
+	trigger = {
+		owned = { province = 751 data = -1 } #Bisharin
+		control = { province = 751 data = -1 } #Bisharin
+	}
 	random = no
 	country = NUB
 	name = "EVENTNAME289000" #The fall of Alodia
@@ -21,7 +25,9 @@ event = {
 		name = "ACTIONNAME289000A" #Ancient Nubia came to an end
 		command = { type = religion which = sunni }
 		command = { type = add_countryculture which = arabic }
+		command = { type = capital which = 751 } #Bisharin
 		command = { type = conversion which = -2 }
+		command = { type = technology which = asian }
 		#command = { type = trigger which = xxx } #event for ETH that will be added later
 	}
 	action_b = {

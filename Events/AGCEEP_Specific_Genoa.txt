@@ -820,14 +820,14 @@ event = {
 	id = 174044
 	trigger = {
 		event = 174043 #GEN: The League of Pisa
-		monarch = 052009 #Lodovico da Campofregoso
+		monarch = 052009 #Ludovico da Campofregoso
 		owned = { province = 398 data = -1 } #Corsica
 	}
 	random = no
 	country = GEN
 	name = "EVENTNAME174044" #Tomassino da Campofregoso
 	desc = "EVENTHIST174044"
-	#-#Lodovico's nephew was freed in june 1462 by his uncle. He went to Corsica immediately to be elected Count by his many supporters. He then endeavoured to reduce the last Genoese holdings in the island.
+	#-#Ludovico's nephew was freed in june 1462 by his uncle. He went to Corsica immediately to be elected Count by his many supporters. He then endeavoured to reduce the last Genoese holdings in the island.
 
 	date = { day = 0 month = june year = 1462 }
 	offset = 150

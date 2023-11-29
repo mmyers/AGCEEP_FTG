@@ -549,7 +549,7 @@ event = {
 	deathdate = { day = 29 month = december year = 1424 }
 
 	action_a = {
-		name = "ACTIONNAME20449A" #Sieze the Earl and his adherents!
+		name = "ACTIONNAME20449A" #Seize the Earl and his adherents!
 		command = { type = revolt which = 239 } #Strathclyde
 		command = { type = province_revoltrisk which = 239 value = 1 } #Strathclyde
 	}
@@ -718,7 +718,7 @@ event = {
 	country = SCO
 	name = "EVENTNAME20455" #Rebellion in the North
 	desc = "EVENTHIST20455"
-	#-#After the arrest of Alexander Lord of the Isles, and his mother, Countess of Ross, James sought means to replace Alexander. To this end, he turned to Alexander's uncle and heir, John Mor. The King's messenger, James Campbell, was sent to meet with John Mor and offer him Kign James's terms. Mor was to usurp the Lordship from his nephew, Alexander. In return, James 'the fat' was to be neutralized while Mor would act as James's ally in the north. Mor, however, refused to negotiate until his nephew was released. Campbell was ordered to sieze Mor if Mor should resist James's offer. In the ensuing struggle, Mor was killed. News of Mor's death brough fresh outrage among Highlanders who now viewed James's promises of peace and just rule to be worthless. James attempted to distance himself from the whole affair and thus Campbell was executed. Nevertheless, the damage was done and the Highlander's rebelled.
+	#-#After the arrest of Alexander Lord of the Isles, and his mother, Countess of Ross, James sought means to replace Alexander. To this end, he turned to Alexander's uncle and heir, John Mor. The King's messenger, James Campbell, was sent to meet with John Mor and offer him Kign James's terms. Mor was to usurp the Lordship from his nephew, Alexander. In return, James 'the fat' was to be neutralized while Mor would act as James's ally in the north. Mor, however, refused to negotiate until his nephew was released. Campbell was ordered to seize Mor if Mor should resist James's offer. In the ensuing struggle, Mor was killed. News of Mor's death brough fresh outrage among Highlanders who now viewed James's promises of peace and just rule to be worthless. James attempted to distance himself from the whole affair and thus Campbell was executed. Nevertheless, the damage was done and the Highlander's rebelled.
 
 	date = { day = 1 month = january year = 1429 }
 	offset = 120

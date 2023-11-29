@@ -946,7 +946,7 @@ event = {
 	country = MOD
 	name = "EVENTNAME252034" #Enlightened Reforms
 	desc = "EVENTHIST252034"
-	#-#Under Francesco III (r.1737-80) and Ercole III (r.1780-97) Modena underwent much urban renovation. The father introduced numeration to housing, engaged in public works (in particular the 'Via Vandelli' that connected Modena to Tuscany) and revised the law. Ercole continued his work by contructing bridges at Rubiera and St.Ambrogio along the Via Emilia and more road works connecting Modena to its neighbours. In 1785 he founded the Atestina Academy of Fine Arts which encouraged artistic and cultural development - discovering the likes of Lazzaro Spallanzani, Gaimbattista Venturi, Girolamo Tiraboschi and Lodovico Ricci.
+	#-#Under Francesco III (r.1737-80) and Ercole III (r.1780-97) Modena underwent much urban renovation. The father introduced numeration to housing, engaged in public works (in particular the 'Via Vandelli' that connected Modena to Tuscany) and revised the law. Ercole continued his work by contructing bridges at Rubiera and St.Ambrogio along the Via Emilia and more road works connecting Modena to its neighbours. In 1785 he founded the Atestina Academy of Fine Arts which encouraged artistic and cultural development - discovering the likes of Lazzaro Spallanzani, Gaimbattista Venturi, Girolamo Tiraboschi and Ludovico Ricci.
 
 	date = { day = 1 month = january year = 1760 }
 	offset = 3600

@@ -6722,6 +6722,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME366818A" #Support the German settlements in the East
+		command = { type = cityname which = 301 value = "Danzig" } #Danzig
 		command = { type = provinceculture which = 301 value = german } #Middle German #Danzig
 		command = { type = provinceculture which = 289 value = german } #Middle German #Memel
 		command = { type = provinceculture which = 290 value = german } #Middle German #Prussia

@@ -14,6 +14,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME280000A" #Go Sibir!
+		command = { type = technology which = muslim }
 		command = { type = add_countryculture which = tatar }
 		command = { type = remove_countryculture which = altai }
 		command = { type = provinceculture which = 1575 value = tatar } #Sergino

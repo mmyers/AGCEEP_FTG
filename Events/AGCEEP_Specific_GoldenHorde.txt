@@ -173,6 +173,7 @@ event = {
 #(1428) Independence of the Uzbeks
 event = {
 	id = 287000
+	trigger = { neighbour = UZB }
 	random = no
 	country = STE
 	name = "EVENTNAME287000" #Independence of the Uzbeks
@@ -183,7 +184,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME287000A" #Our hands are bound
-		command = { type = breakvassal which = UZB }
+		command = { type = breakoverlord which = UZB }
 		command = { type = dynastic which = UZB }
 		command = { type = cedeprovince which = UZB value = 1573 } #Tobolsk
 		command = { type = cedeprovince which = UZB value = 1571 } #Jalutorovsk
@@ -191,6 +192,12 @@ event = {
 		command = { type = cedeprovince which = UZB value = 512 } #Tenghiz
 		command = { type = relation which = UZB value = -100 }
 		command = { type = trigger which = 325004 } #UZB: Independence of the Uzbeks
+	}
+	action_b = {
+		name = "ACTIONNAME287000B" #We cannot fracture further
+		command = { type = relation which = UZB value = -50 }
+		command = { type = treasury value = -150 }
+		command = { type = stability value = -3 }
 	}
 }
 
@@ -388,7 +395,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME287001A" #And so we lose all remainders of the White Horde
 		command = { type = independence which = SIB }
-		command = { type = breakvassal which = SIB }
+		command = { type = breakoverlord which = SIB }
 		command = { type = dynastic which = SIB }
 		command = { type = cedeprovince which = SIB value = 1570 } #Sadrinsk
 		command = { type = cedeprovince which = SIB value = 511 } #Kustanai

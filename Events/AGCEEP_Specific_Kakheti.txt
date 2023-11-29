@@ -294,7 +294,7 @@ event = {
 		name = "ACTIONNAME349050B" #Let us praise Allah
 		command = { type = stability value = -3 }
 		command = { type = religion which = shia }
-		command = { type = technology which = Muslim }
+		command = { type = technology which = muslim }
 		command = { type = domestic which = INNOVATIVE value = -2 }
 		command = { type = add_countryculture which = persian }
 		command = { type = remove_countryculture which = georgian } #avoiding an easy conversion

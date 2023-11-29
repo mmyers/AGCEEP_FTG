@@ -241,7 +241,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME254025A" #We win
-		command = { type = inherit which = KHO }
+		command = { type = annex which = KHO }
 		command = { type = stability value = 1 }
 		command = { type = relation which = UZB value = -200 }
 	}
@@ -258,7 +258,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME254024A" #Our realm is strong
-		command = { type = inherit which = FAR }
+		command = { type = annex which = FAR }
 	}
 }
 
@@ -395,7 +395,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME254302A" #We shall teach them a lesson!
-		command = { type = inherit which = IRA }
+		command = { type = annex which = IRA }
 		command = { type = vp value = 50 }
 		command = { type = population which = 489 value = -3000 } #Iraq
 	}
@@ -784,7 +784,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME254014A" #Imprison the Kings and take their lands
-		command = { type = inherit which = KAK }
+		command = { type = annex which = KAK }
 		command = { type = badboy value = 1 }
 	}
 	action_b = {

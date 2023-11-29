@@ -126,7 +126,7 @@ historicalmonarch = {
 		month = september
 		year = 1450
 	}
-	name = "Lodovico Fregoso" #from de Campofregosa
+	name = "Ludovico Fregoso" #from de Campofregosa
 	DIP = 5
 	MIL = 7
 	ADM = 6
@@ -197,7 +197,7 @@ historicalmonarch = {
 		month = january
 		year = 1463
 	}
-	name = "Lodovico Fregoso"
+	name = "Ludovico Fregoso"
 	DIP = 5
 	MIL = 7
 	ADM = 6

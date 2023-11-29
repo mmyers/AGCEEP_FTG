@@ -79,10 +79,15 @@ event = {
 		OR = {
 			owned = { province = 274 data = -1 } #Novgorod
 			owned = { province = 271 data = -1 } #Vladimir
-			owned = { province = 448 data = -1 } #Ryazan
+			owned = { province = 449 data = -1 } #Ryazan
+		}
+		OR = {
+			NOT = { exists = BYZ }
+			BYZ = { flag = [Fantasy_BYZ] }
 		}
 		NOT = { exists = RUS }
 		atwar = no
+		isvassal = no
 	}
 	random = no
 	country = PSK

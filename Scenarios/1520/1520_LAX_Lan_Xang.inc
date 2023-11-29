@@ -61,7 +61,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 579 }
-		name = "Vientiane Army"
+		name = "Lan Xang Army"
 		location = 1552
 		infantry = 7000
 		cavalry = 2000

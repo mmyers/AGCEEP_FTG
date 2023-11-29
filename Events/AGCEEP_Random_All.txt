@@ -15926,8 +15926,8 @@ event = {
 	action_b = {
 		name = "ACTIONNAME_RANDOM112B" #Support his claim
 		command = { type = war which = -3 }
-		command = { type = badboy value = -2 }
 		command = { type = relation which = -3 value = -35 }
+		command = { type = badboy value = -2 }
 		command = { type = treasury value = -150 }
 		command = { type = INF which = -2 value = 5000 }
 		command = { type = CAV which = -2 value = 2000 }

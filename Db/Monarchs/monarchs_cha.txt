@@ -1,30 +1,30 @@
-#Champa - Monarchs
+#Champa - Monarchs (vanilla 1.3 list using AGCEEP ID sequence)
 
 #-----------------------------------------------------------------------------------------------
 
 historicalmonarch = {
 	id = { type = 6 id = 030500 }
+	name = "Indravarman VI"
 	startdate = {
 		year = 1400
 	}
 	deathdate = {
 		year = 1441
 	}
-	name = "Jaya Sinhavaraman V"
-	DIP = 8
-	ADM = 6
-	MIL = 4
+	DIP = 6
+	ADM = 5
+	MIL = 8
 	dormant = no
 }
 historicalmonarch = {
 	id = { type = 6 id = 030501 }
+	name = "Maha Vijaya"
 	startdate = {
 		year = 1441
 	}
 	deathdate = {
 		year = 1446
 	}
-	name = "Maha Vijaya"
 	DIP = 3
 	ADM = 3
 	MIL = 3
@@ -32,13 +32,13 @@ historicalmonarch = {
 }
 historicalmonarch = {
 	id = { type = 6 id = 030502 }
+	name = "Maha Kui Lai"
 	startdate = {
 		year = 1446
 	}
 	deathdate = {
 		year = 1449
 	}
-	name = "Maha Kui Lai"
 	DIP = 4
 	ADM = 3
 	MIL = 3
@@ -46,13 +46,13 @@ historicalmonarch = {
 }
 historicalmonarch = {
 	id = { type = 6 id = 030503 }
+	name = "Maha Kui Yu"
 	startdate = {
 		year = 1449
 	}
 	deathdate = {
 		year = 1458
 	}
-	name = "Maha Kui Yu"
 	DIP = 4
 	ADM = 5
 	MIL = 5
@@ -60,13 +60,13 @@ historicalmonarch = {
 }
 historicalmonarch = {
 	id = { type = 6 id = 030504 }
+	name = "Maha P'an-lo-yue"
 	startdate = {
 		year = 1458
 	}
 	deathdate = {
 		year = 1460
 	}
-	name = "Maha P'an-lo-yue"
 	DIP = 4
 	ADM = 2
 	MIL = 2
@@ -74,13 +74,13 @@ historicalmonarch = {
 }
 historicalmonarch = {
 	id = { type = 6 id = 030505 }
+	name = "P'an-lo T'u-ts'uan"
 	startdate = {
 		year = 1460
 	}
 	deathdate = {
 		year = 1471
 	}
-	name = "P'an-lo T'u-ts'uan"
 	DIP = 3
 	ADM = 3
 	MIL = 1
@@ -88,9 +88,389 @@ historicalmonarch = {
 }
 
 #-----------------------------------------------------------------------------------------------
-#Most of Champa conquered by Dai Viet.
+#Most of Champa conquered by Dai Viet; below are the kings of Panduranga (a Champa splinter state)
 #-----------------------------------------------------------------------------------------------
+
+historicalmonarch = {
+	id = { type = 6 id = 030506 }
+	name = "Po Kabrah"
+	startdate = {
+		year = 1471
+	}
+	deathdate = {
+		year = 1494
+	}
+	DIP = 4
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030507 }
+	name = "Po Kabih"
+	startdate = {
+		year = 1494
+	}
+	deathdate = {
+		year = 1530
+	}
+	DIP = 5
+	MIL = 3
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030508 }
+	name = "Po Karutdrak"
+	startdate = {
+		year = 1530
+	}
+	deathdate = {
+		year = 1536
+	}
+	DIP = 4
+	MIL = 4
+	ADM = 6
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030509 }
+	name = "Maha Sarak"
+	startdate = {
+		year = 1536
+	}
+	deathdate = {
+		year = 1541
+	}
+	DIP = 4
+	MIL = 5
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030510 }
+	name = "Po Kunarai"
+	startdate = {
+		year = 1541
+	}
+	deathdate = {
+		year = 1553
+	}
+	DIP = 4
+	MIL = 5
+	ADM = 6
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030511 }
+	name = "Po At"
+	startdate = {
+		year = 1553
+	}
+	deathdate = {
+		year = 1579
+	}
+	DIP = 5
+	MIL = 4
+	ADM = 6
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030512 }
+	name = "Po Klong Halau"
+	startdate = {
+		year = 1579
+	}
+	deathdate = {
+		year = 1603
+	}
+	DIP = 6
+	MIL = 3
+	ADM = 6
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030513 }
+	name = "Po Nit"
+	startdate = {
+		year = 1603
+	}
+	deathdate = {
+		year = 1613
+	}
+	DIP = 4
+	MIL = 3
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030514 }
+	name = "Po Jai Paran"
+	startdate = {
+		year = 1613
+	}
+	deathdate = {
+		year = 1618
+	}
+	DIP = 3
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030515 }
+	name = "Po Aih Khang"
+	startdate = {
+		year = 1618
+	}
+	deathdate = {
+		year = 1622
+	}
+	DIP = 4
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030516 }
+	name = "Po Klong M'hnai"
+	startdate = {
+		year = 1622
+	}
+	deathdate = {
+		year = 1627
+	}
+	DIP = 6
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030517 }
+	name = "Po Rome"
+	startdate = {
+		year = 1627
+	}
+	deathdate = {
+		year = 1651
+	}
+	DIP = 5
+	MIL = 6
+	ADM = 7
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030518 }
+	name = "Po Nraop"
+	startdate = {
+		year = 1651
+	}
+	deathdate = {
+		year = 1653
+	}
+	DIP = 5
+	MIL = 5
+	ADM = 6
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030519 }
+	name = "Po Saktiraydapaghoh"
+	startdate = {
+		year = 1653
+	}
+	deathdate = {
+		year = 1657
+	}
+	DIP = 4
+	MIL = 5
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030520 }
+	name = "Po Jatamah"
+	startdate = {
+		year = 1657
+	}
+	deathdate = {
+		year = 1659
+	}
+	DIP = 4
+	MIL = 5
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030521 }
+	name = "Po Saot"
+	startdate = {
+		year = 1659
+	}
+	deathdate = {
+		year = 1692
+	}
+	DIP = 5
+	MIL = 6
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030522 }
+	name = "Po Saktiraydapatih"
+	startdate = {
+		year = 1692
+	}
+	deathdate = {
+		year = 1727
+	}
+	DIP = 3
+	MIL = 4
+	ADM = 3
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030523 }
+	name = "Po Ganuhpatih"
+	startdate = {
+		year = 1727
+	}
+	deathdate = {
+		year = 1730
+	}
+	DIP = 3
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030524 }
+	name = "Po Thuntiraidaputih"
+	startdate = {
+		year = 1730
+	}
+	deathdate = {
+		year = 1732
+	}
+	DIP = 5
+	MIL = 4
+	ADM = 3
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030525 }
+	name = "Po Rattiraydaputao"
+	startdate = {
+		year = 1732
+	}
+	deathdate = {
+		year = 1763
+	}
+	DIP = 4
+	MIL = 5
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030526 }
+	name = "Po Tisundimahrai"
+	startdate = {
+		year = 1763
+	}
+	deathdate = {
+		year = 1765
+	}
+	DIP = 3
+	MIL = 4
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030527 }
+	name = "Po Tisuntiraydapaghoh"
+	startdate = {
+		year = 1765
+	}
+	deathdate = {
+		year = 1780
+	}
+	DIP = 5
+	MIL = 6
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030528 }
+	name = "Po Tisuntiraydapuran"
+	startdate = {
+		year = 1780
+	}
+	deathdate = {
+		year = 1783
+	}
+	DIP = 3
+	MIL = 5
+	ADM = 4
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030529 }
+	name = "Cei Brei"
+	startdate = {
+		year = 1783
+	}
+	deathdate = {
+		year = 1786
+	}
+	DIP = 5
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030530 }
+	name = "Po Tisuntiraydapuran"
+	startdate = {
+		year = 1786
+	}
+	deathdate = {
+		year = 1793
+	}
+	DIP = 3
+	MIL = 5
+	ADM = 4
+	dormant = no
+	remark = "Restored."
+}
+historicalmonarch = {
+	id = { type = 6 id = 030531 }
+	name = "Po Ladhuanpaghuh"
+	startdate = {
+		year = 1793
+	}
+	deathdate = {
+		year = 1799
+	}
+	DIP = 4
+	MIL = 4
+	ADM = 5
+	dormant = no
+}
+historicalmonarch = {
+	id = { type = 6 id = 030532 }
+	name = "Po Saong Nyung Ceng"
+	startdate = {
+		year = 1799
+	}
+	deathdate = {
+		year = 1822
+	}
+	DIP = 4
+	MIL = 6
+	ADM = 4
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 030506
+#First free id: 030533

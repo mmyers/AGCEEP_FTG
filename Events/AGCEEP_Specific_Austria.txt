@@ -2836,7 +2836,7 @@ event = {
 	country = HAB
 	name = "EVENTNAME179015" #Edicts of Worms and Brussels
 	desc = "EVENTHIST179015"
-	#-#Karl V, ruler of the Netherlands, King of Spain, Holy Roman Emperor, and grandson of Emperor Maximilian I in 1519 succeeded as Prince of the Austrian territories. In 1521 through the Edicts of Worms and Brussels Karl handed the Austrian territories over to his brother Ferdinand I, while Karl kept Spain, the Italian possessions, the Netherlands, and America. Although Ferdinand freely ruled the Austrian state internally, he was still subordinate to Karl and had to pay homage to Spain as well as enact any policies of the Spanish Emperor. In 1556 when Karl abdicated his imperial status, the Austrian line of the House of Habsburg gained total independence from the Spanish House of Habsburg.
+	#-#Charles V, ruler of the Netherlands, King of Spain, Holy Roman Emperor, and grandson of Emperor Maximilian I in 1519 succeeded as Prince of the Austrian territories. In 1521 through the Edicts of Worms and Brussels Karl handed the Austrian territories over to his brother Ferdinand I, while Karl kept Spain, the Italian possessions, the Netherlands, and America. Although Ferdinand freely ruled the Austrian state internally, he was still subordinate to Karl and had to pay homage to Spain as well as enact any policies of the Spanish Emperor. In 1556 when Karl abdicated his imperial status, the Austrian line of the House of Habsburg gained total independence from the Spanish House of Habsburg.
 
 	date = { day = 0 month = january year = 1521 }
 	offset = 7

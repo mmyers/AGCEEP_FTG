@@ -195,7 +195,7 @@ event = {
 	deathdate = { day = 29 month = December year = 1457 }
 
 	action_a = {
-		name = "ACTIONNAME3555A" #Rule it as an independent Kingdom
+		name = "ACTIONNAME111014A" #Rule it as an independent Kingdom
 		command = { type = vassal which = NAP }
 		command = { type = relation which = NAP value = 200 }
 		command = { type = relation which = TOS value = -25 }
@@ -2314,7 +2314,7 @@ event = {
 		name = "ACTIONNAME285132B" #Leave the Mediterranean to the Ottomans
 		command = { type = relation which = PAP value = -10 }
 		command = { type = relation which = KNI value = -50 }
-		command = { type = breakvassal which = TLE } #Tlemcen
+		command = { type = breakoverlord which = TLE } #Tlemcen
 		command = { type = trigger which = 301040} #TUR: Tlemcen submits to the Ottoman Empire
 		command = { type = sleepevent which = 332016 } #TLE: Between Aragonese and Ottomans
 		command = { type = sleepevent which = 332017 } #TLE: Between Aragonese and Ottomans

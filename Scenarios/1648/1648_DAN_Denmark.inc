@@ -161,7 +161,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1049 }
-		name = "Norway Army"
+		name = "Norwegian Army"
 		location = 255
 		infantry = 10000
 		cavalry = 3000
@@ -177,7 +177,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 1047 }
-		name = "Danish Colonial Fleet"
+		name = "Colonial Fleet"
 		location = 145
 		warships = 10
 		galleys = 0

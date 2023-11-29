@@ -99,6 +99,7 @@ province = { id = 704 religion = sunni } #Surabaja
 province = { id = 682 religion = sunni } #Palembang
 province = { id = 693 religion = sunni } #Mindanao
 province = { id = 706 religion = sunni } #Manado
+province = { id = 709 religion = sunni } #Salabanka
 province = { id = 713 religion = sunni } #Tindore
 
 #Others

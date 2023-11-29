@@ -614,7 +614,7 @@ historicalmonarch = {
 	ADM = 2
 	MIL = 4
 	dormant = no
-	remark = "Claimed to be Czar Pytor III of Russia."
+	remark = "Claimed to be Tsar Pytor III of Russia."
 }
 historicalmonarch = {
 	id = { type = 6 id = 0121038 }

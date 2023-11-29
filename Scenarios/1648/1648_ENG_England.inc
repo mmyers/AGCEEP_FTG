@@ -301,6 +301,7 @@ country = {
 		cityrights = yes
 	}
 	landunit = {
+		name = "New England Militia"
 		id = { type = 9423 id = 1091 }
 		location = 103
 		infantry = 6000
@@ -308,6 +309,7 @@ country = {
 		artillery = 0
 	}
 	landunit = {
+		name = "Army of Ireland"
 		id = { type = 9423 id = 1092 }
 		location = 233
 		infantry = 20000
@@ -315,6 +317,7 @@ country = {
 		artillery = 30
 	}
 	landunit = {
+		name = "Home Army"
 		id = { type = 9423 id = 1093 }
 		location = 240
 		infantry = 21000
@@ -322,14 +325,15 @@ country = {
 		artillery = 40
 	}
 	navalunit = {
-		id = { type = 9423 id = 1094 }
 		name = "Home Fleet"
+		id = { type = 9423 id = 1094 }
 		location = 249
 		warships = 55
 		galleys = 0
 		transports = 10
 	}
 	navalunit = {
+		name = "Atlantic Squadron"
 		id = { type = 9423 id = 1095 }
 		location = 1568
 		warships = 10
@@ -337,6 +341,7 @@ country = {
 		transports = 5
 	}
 	navalunit = {
+		name = "India Squadron"
 		id = { type = 9423 id = 1096 }
 		location = 571
 		warships = 6

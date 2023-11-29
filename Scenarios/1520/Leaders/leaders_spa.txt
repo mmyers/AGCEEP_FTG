@@ -342,7 +342,7 @@ historicalleader = {
 	fire = 4
 	shock = 4
 	siege = 1
-	dormant = no
+	dormant = yes # duplicate of 0127878/0127879
 }
 historicalleader = {
 	id = { type = 6 id = 0127878 }

@@ -63,6 +63,7 @@ country = {
 		capital = yes
 	}
 	landunit = {
+		name = "Ducal Guard"
 		id = { type = 9423 id = 1086 }
 		location = 375
 		infantry = 10000

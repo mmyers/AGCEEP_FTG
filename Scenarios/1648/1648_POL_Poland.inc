@@ -1,4 +1,4 @@
-#The Republic of Poland-Lithuania
+#Polish-Lithuanian Commonwealth
 
 #-----------------------------------------------------------------------------------------------
 
@@ -224,7 +224,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1014 }
-		name = "1st Polish Army"
+		name = "Masovian Army"
 		location = 291
 		infantry = 10000
 		cavalry = 5000
@@ -232,7 +232,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1015 }
-		name = "2nd Polish Army"
+		name = "Podolian Army"
 		location = 297
 		infantry = 10000
 		cavalry = 15000

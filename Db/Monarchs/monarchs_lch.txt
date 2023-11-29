@@ -153,7 +153,7 @@ historicalmonarch = {
 	ADM = 2
 	MIL = 3
 	dormant = no
-	remark = "Siezed power from the turmoil that ensued after the Burmese invasions during the time of the two previous chiefs. He ruled harshly and was unpopular amongst the population. Internal instabiity allowed Burma to invade Meng Yang again."
+	remark = "Seized power from the turmoil that ensued after the Burmese invasions during the time of the two previous chiefs. He ruled harshly and was unpopular amongst the population. Internal instabiity allowed Burma to invade Meng Yang again."
 }
 historicalmonarch = {
 	id = { type = 6 id = 077010 }

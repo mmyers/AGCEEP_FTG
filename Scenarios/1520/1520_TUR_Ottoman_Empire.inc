@@ -46,6 +46,7 @@ country = {
 		relation = { tag = ALD value = 100 refusetrade = no }
 		relation = { tag = TUN value = 100 refusetrade = no }
 		relation = { tag = TLE value = 100 refusetrade = no }
+		relation = { tag = AJU value = 100 access = yes }
 	}
 	knownprovinces = {
 		231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251
@@ -382,7 +383,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 563 }
-		name = "1st Army"
+		name = "Army of Anatolia"
 		location = 476
 		infantry = 15000
 		cavalry = 10000
@@ -390,7 +391,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 564 }
-		name = "2nd Army"
+		name = "Army of Macedonia"
 		location = 358
 		infantry = 15000
 		cavalry = 10000
@@ -398,7 +399,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 565 }
-		name = "3rd Army"
+		name = "Sultan's Army"
 		location = 478
 		infantry = 15000
 		cavalry = 10000
@@ -406,7 +407,7 @@ country = {
 	}
 	navalunit = {
 		id = { type = 9423 id = 567 }
-		name = "1st Fleet"
+		name = "Aegean Fleet"
 		location = 478
 		warships = 3
 		galleys = 45

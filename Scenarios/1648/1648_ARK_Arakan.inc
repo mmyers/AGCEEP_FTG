@@ -64,6 +64,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Arakan Army"
 		id = { type = 9423 id = 1132 }
 		location = 672
 		infantry = 11000
@@ -71,6 +72,7 @@ country = {
 		artillery = 0
 	}
 	navalunit = {
+		name = "Arakan Fleet"
 		id = { type = 9423 id = 1133 }
 		location = 672
 		warships = 10

@@ -62,7 +62,10 @@ country = {
 	}
 	nationalprovinces = {
 		1608
-		646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 1553 1555 1556 1557 1558 1559 1560 1561 1562 1563 1564 1565 1566 1567
+		646 647 648 649 650 651 652 653 654 655 656 657 658 659 660 661 1555 1556 1558 1559 1560 1561 1562 1563 1564 1565 1566 1567
+	}
+	claimedprovinces = {
+		1553 1557
 	}
 	city = {
 		fortress = { level = 1 }
@@ -324,7 +327,7 @@ country = {
 			shock = 3
 			siege = 0
 			location = 662
-			remark = "Military contributions during Cheng Zu's revolt against his nephew to sieze the throne. Replaced Zhang Fu in commanding Ming forces in Jiao Zhi. During his leadership he was at least able to get the rebellion under some control. His successors failed to do this."
+			remark = "Military contributions during Cheng Zu's revolt against his nephew to seize the throne. Replaced Zhang Fu in commanding Ming forces in Jiao Zhi. During his leadership he was at least able to get the rebellion under some control. His successors failed to do this."
 		}
 		infantry = 14000
 		cavalry = 5000

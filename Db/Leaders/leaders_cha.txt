@@ -1,1 +1,26 @@
-#Empty
+#Champa - Leaders
+
+#-----------------------------------------------------------------------------------------------
+#XV century
+
+historicalleader = {
+	id = { type = 6 id = 030800 }
+	category = monarch
+	name = "Indravarman VI"
+	startdate = { 
+		year = 1400
+	}
+	deathdate = {
+		year = 1441
+	}
+	rank = 0
+	movement = 3
+	fire = 2
+	shock = 4
+	siege = 1
+	dormant = no
+}
+
+#-----------------------------------------------------------------------------------------------
+
+#First free id: 030801

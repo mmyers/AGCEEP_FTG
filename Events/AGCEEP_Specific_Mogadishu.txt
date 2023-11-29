@@ -19,6 +19,47 @@ event = {
 	}
 }
 
+#(1540-1580) Mogadishu and the Ajuuraan Sultanate
+#by mandead - based on an event by zacharym87
+event = {
+	id = 160002
+	trigger = {
+		vassal = { country = AJU country = MGU }
+		NOT = {
+			countrysize = 3
+			war = { country = AJU country = MGU }
+		}
+	}
+	random = no
+	country = MGU
+	name = "EVENTNAME160002" #Mogadishu and the Ajuuraan Sultanate
+	desc = "EVENTHIST160002"
+	#-#Mogadishu had been the bustling southern port of the Ajuuraan Sultanate since the 13th century, over time exercising varying degrees of independence whilst being a nominal vassal. By the 16th century, foreign threats from both Europe and Asia had forced the wealthy Sultanate of Mogadishu to renounce its independence and accept annexation by its more powerful neighbour and suzerain.
+
+	date = { day = 1 month = january year = 1540 }
+	offset = 360
+	deathdate = { day = 29 month = december year = 1580 }
+
+	action_a = {
+		name = "ACTIONNAME160002A" #Request to join Ajuuraan
+		command = { type = trigger which = 340000 } #AJU: Mogadishu requests annexation
+		command = { type = trade value = 500 }
+		command = { type = merchants value = 1 }
+	}
+	action_b = {
+		name = "ACTIONNAME160002B" #Go our own way
+		command = { type = trigger which = 340001 } #AJU: Mogadishu rejects our suzerainty
+		command = { type = breakvassal which = AJU }
+		command = { type = relation which = MLI value = 50 }
+		command = { type = relation which = KIL value = 50 }
+		command = { type = relation which = ZAN value = 50 }
+		command = { type = relation which = MOM value = 50 }
+		command = { type = technology which = asian }
+		command = { type = infra value = 300 }
+		command = { type = diplomats value = 1 }
+	}
+}
+
 #(1660-1690) The Omani Empire in Africa
 #by zacharym87 - modified by sturmvogel
 event = {
@@ -29,6 +70,7 @@ event = {
 		NOT = {
 			countrysize = 3
 			war = { country = OMA country = MGU }
+			vassal = { country = AJU country = MGU }
 		}
 	}
 	random = no
@@ -58,4 +100,4 @@ event = {
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 160002
+#First free id: 160003

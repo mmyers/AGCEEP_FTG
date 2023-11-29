@@ -1,4 +1,4 @@
-#Order of Saint John
+#Order of St. John
 
 #-----------------------------------------------------------------------------------------------
 
@@ -57,6 +57,7 @@ country = {
 		819
 	}
 	city = {
+		name = "Valletta"
 		fortress = { level = 3 }
 		population = 15500
 		location = 819

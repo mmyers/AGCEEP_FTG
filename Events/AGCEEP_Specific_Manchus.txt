@@ -791,7 +791,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME10029A" #Expel them!
-		command = { type = technology which = exotic }
+		command = { type = technology which = african }
 		command = { type = infra value = -1000 }
 		command = { type = trade value = -1000 }
 		command = { type = domestic which = innovative value = -3 }

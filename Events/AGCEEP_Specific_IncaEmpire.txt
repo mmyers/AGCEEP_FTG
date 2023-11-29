@@ -24,7 +24,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME81004A" #Chimor Is Ours
 		command = { type = treasury value = 1000 }
-		command = { type = inherit which = CHM }
+		command = { type = annex which = CHM }
 	}
 }
 
@@ -645,7 +645,7 @@ event = {
 	}
 	action_c = {
 		name = "ACTIONNAME81026C" #We Can Learn Much From Them If We Let Them Be
-		command = { type = technology which = china }
+		command = { type = technology which = asian }
 		command = { type = domestic which = innovative value = 2 }
 		command = { type = relation which = SPA value = 50 }
 		command = { type = province_revoltrisk which = 168 value = -1 } #Lima
@@ -769,7 +769,7 @@ event = {
 	action_d = {
 		name = "ACTIONNAME81028D" #Reject Pagan Beliefs For The One True Faith
 		command = { type = religion which = catholic }
-		command = { type = technology which = china }
+		command = { type = technology which = asian }
 		command = { type = missionaries value = 6 }
 		command = { type = treasury value = 5000 } #Stored gold now becomes currency
 		command = { type = inflation value = 20 }

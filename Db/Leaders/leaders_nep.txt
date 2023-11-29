@@ -1,0 +1,26 @@
+#Nepal - Leaders
+
+#-----------------------------------------------------------------------------------------------
+#XVIII century
+
+historicalleader = {
+	id = { type = 6 id = 339500 }
+	category = monarch
+	name = "Prithvi Narayan"
+	startdate = { 
+		year = 1768
+	}
+	deathdate = {
+		year = 1775
+	}
+	rank = 0
+	movement = 3
+	fire = 5
+	shock = 4
+	siege = 1
+	dormant = no
+}
+
+#-----------------------------------------------------------------------------------------------
+
+#First free id: 339501

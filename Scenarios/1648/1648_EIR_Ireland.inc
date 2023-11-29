@@ -60,6 +60,7 @@ country = {
 		capital = yes
 	}
 	landunit = {
+		name = "Connaught Defenders"
 		id = { type = 9423 id = 1090 }
 		location = 231
 		infantry = 6500
@@ -67,6 +68,7 @@ country = {
 		artillery = 15
 	}
 	landunit = {
+		name = "Leinster Defenders"
 		id = { type = 9423 id = 1202 }
 		location = 234
 		infantry = 5500

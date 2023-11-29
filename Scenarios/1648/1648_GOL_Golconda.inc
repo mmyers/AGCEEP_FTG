@@ -58,7 +58,7 @@ country = {
 	}
 	landunit = {
 		id = { type = 9423 id = 1062 }
-		name = "Golconda Amry"
+		name = "Golconda Army"
 		location = 566
 		infantry = 12000
 		cavalry = 6000

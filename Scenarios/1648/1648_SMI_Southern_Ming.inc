@@ -129,6 +129,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Army of Guangdong"
 		id = { type = 9423 id = 1117 }
 		location = 659
 		infantry = 15000
@@ -136,6 +137,7 @@ country = {
 		artillery = 30
 	}
 	landunit = {
+		name = "Army of Guangxi"
 		id = { type = 9423 id = 1118 }
 		location = 661
 		infantry = 12000
@@ -143,6 +145,7 @@ country = {
 		artillery = 20
 	}
 	navalunit = {
+		name = "Ming Fleet"
 		id = { type = 9423 id = 1119 }
 		location = 660
 		warships = 20

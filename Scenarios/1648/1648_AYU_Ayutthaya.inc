@@ -74,6 +74,7 @@ country = {
 		courthouse = yes
 	}
 	landunit = {
+		name = "Siamese Army"
 		id = { type = 9423 id = 1192 }
 		location = 670
 		infantry = 18000

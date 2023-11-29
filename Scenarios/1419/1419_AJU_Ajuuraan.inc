@@ -1,0 +1,64 @@
+#Ajuuraan/Hobyo
+
+#-----------------------------------------------------------------------------------------------
+
+country = {
+	tag = AJU
+	ai = "SmallTrade1.txt"
+	colonialattempts = 0
+	colonialnation = no
+	major = no
+	colonists = 0
+	cancelledloans = 0
+	extendedloans = 0
+	treasury = 200
+	inflation = 0
+	merchants = 0
+	religion = { type = sunni }
+	culture = {
+		type = somali
+		type = arabic
+	}
+	diplomacy = {
+		relation = { tag = ADA value = 50 refusetrade = no }
+		relation = { tag = MGU value = 100 refusetrade = no }
+	}
+	knownprovinces = {
+		499 500 501 502 503 751 752 753 754 755 756 757 758 759 760 761 762 763 764 765 766 767 1516 1517 1518 1519 1590
+		1060 1061 1062 1064 1133 1134 1135 1185 1186
+	}
+	ownedprovinces = {
+		757 758 759
+	}
+	controlledprovinces = {
+		757 758 759
+	}
+	nationalprovinces = {
+		757 758 759
+	}
+	city = {
+		fortress = { level = 1 }
+		population = 2000
+		location = 757
+	}
+	city = {
+		fortress = { level = 1 }
+		population = 1500
+		location = 758
+	}
+	city = {
+		fortress = { level = 1 }
+		population = 6000
+		location = 759
+		capital = yes
+	}
+	technology = {
+		stability = { level = 2 value = 42 }
+		infra = { level = 0 value = 10 }
+		trade = { level = 0 value = 70 }
+		land = { level = 0 value = 50 }
+		naval = { level = 0 value = 0 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------

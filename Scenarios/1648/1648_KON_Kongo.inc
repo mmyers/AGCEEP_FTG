@@ -66,7 +66,8 @@ country = {
 		infra = { level = 2 value = 1000 }
 		trade = { level = 2 value = 1000 }
 		land = { level = 8 value = 700 }
-		naval = { level = 1 value = 0 }
+		naval = { level = 3 value = 0 }
+		group = african
 	}
 }
 

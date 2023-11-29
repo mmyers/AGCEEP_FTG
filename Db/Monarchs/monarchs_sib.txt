@@ -319,7 +319,21 @@ historicalmonarch = {
 	dormant = no
 	remark = "deathdate approxo"
 }
+historicalmonarch = {
+	id = { type = 6 id = 0123022 }
+	startdate = {
+		year = 1793
+	}
+	deathdate = {
+		year = 1820
+	}
+	name = "Local Khans *"
+	DIP = 4
+	ADM = 4
+	MIL = 4
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 0123022
+#First free id: 0123023

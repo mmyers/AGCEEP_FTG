@@ -1,4 +1,4 @@
-#Colony names
+#AGCEEP - Colony names
 
 #-----------------------------------------------------------------------------------------------
 
@@ -952,7 +952,7 @@ HOL = {
 	cityname = { location = 708 value = "Makassar" }
 	cityname = { location = 709 value = "Zalabanque" }
 	cityname = { location = 710 value = "Zoombava" }
-	cityname = { location = 713 value = "Tindore" }
+	cityname = { location = 713 value = "Tidore" }
 	cityname = { location = 714 value = "Amboína" }
 	cityname = { location = 722 value = "Nieuw Holland" }
 	cityname = { location = 731 value = "Van Diemen's Land" }
@@ -1475,12 +1475,12 @@ POR = {
 	cityname = { location = 197 value = "Porto Real" }
 	cityname = { location = 198 value = "Forte de Gurupá" }
 	cityname = { location = 199 value = "Belém" }
-	cityname = { location = 200 value = "São Luis" }
+	cityname = { location = 200 value = "São Luís" }
 	cityname = { location = 201 value = "Caxias" }
 	cityname = { location = 202 value = "Fortaleza" }
 	cityname = { location = 203 value = "Recife" }
 	cityname = { location = 204 value = "Crato" }
-	cityname = { location = 205 value = "Salvador" }
+	cityname = { location = 205 value = "São Salvador" }
 	cityname = { location = 206 value = "Barra" }
 	cityname = { location = 207 value = "Vitória" }
 	cityname = { location = 208 value = "Vila Rica" }
@@ -1491,10 +1491,12 @@ POR = {
 	cityname = { location = 213 value = "Rio Grande" }
 	cityname = { location = 214 value = "Santa Maria" }
 	cityname = { location = 215 value = "Montevideo" }
-	cityname = { location = 217 value = "Colonia do Sacramento" }
+	cityname = { location = 217 value = "Colónia do Sacramento" }
 	cityname = { location = 689 value = "Formosa" }
-	cityname = { location = 711 value = "Fort Larantula" }
+	cityname = { location = 711 value = "Forte Larantula" }
 	cityname = { location = 712 value = "Dili" }
+	cityname = { location = 760 value = "Mogadíscio" }
+	cityname = { location = 763 value = "Mombaça" }
 	cityname = { location = 768 value = "Moçambique" }
 	cityname = { location = 770 value = "Sofala" }
 	cityname = { location = 771 value = "Malindi" }
@@ -1505,10 +1507,10 @@ POR = {
 	cityname = { location = 784 value = "São Filipe de Benguela" }
 	cityname = { location = 785 value = "Cabinda" }
 	cityname = { location = 786 value = "São Paulo de Luanda" }
-	cityname = { location = 795 value = "El Mina" }
+	cityname = { location = 795 value = "São Jorge da Mina" }
 	cityname = { location = 799 value = "Cacheu" }
 	cityname = { location = 800 value = "Gorée" }
-	cityname = { location = 802 value = "Ilha Arguin" }
+	cityname = { location = 802 value = "Ilha Arguim" }
 	cityname = { location = 816 value = "São Thomé" }
 	cityname = { location = 818 value = "Praía" }
 	cityname = { location = 823 value = "Angra do Heroísmo" }
@@ -1527,43 +1529,42 @@ POR = {
 	cityname = { location = "South America" value = "Manaus" }
 	cityname = { location = "South America" value = "Porto Velho" }
 	cityname = { location = "South America" value = "Campos" }
-	cityname = { location = "South America" value = "Maceio" }
+	cityname = { location = "South America" value = "Maceió" }
 	cityname = { location = "South America" value = "São Salve" }
 	cityname = { location = "South America" value = "Santos" }
 	cityname = { location = "South America" value = "Campinas" }
-	cityname = { location = "South America" value = "Río Grande" }
-	cityname = { location = "South America" value = "Montes Clares" }
+	cityname = { location = "South America" value = "Rio Branco" }
+	cityname = { location = "South America" value = "Montes Claros" }
 	cityname = { location = "South America" value = "Natál" }
 	cityname = { location = Any value = "São Borge" }
 	cityname = { location = Any value = "São Pedro" }
 	cityname = { location = Any value = "São Manoel" }
 	cityname = { location = Any value = "São João" }
-	cityname = { location = Any value = "São Felipe" }
+	cityname = { location = Any value = "São Filipe" }
 	cityname = { location = Any value = "São Carlos" }
 	cityname = { location = Any value = "São Romualdo" }
 	cityname = { location = Any value = "Dourados" }
 	cityname = { location = Any value = "Quixada" }
-	cityname = { location = Any value = "Ilheus" }
+	cityname = { location = Any value = "Ilhéus" }
 	cityname = { location = Any value = "Goiania" }
-	cityname = { location = Any value = "Paraiba" }
+	cityname = { location = Any value = "Paraíba" }
 	cityname = { location = Any value = "Boa Vista" }
 	cityname = { location = Any value = "Carajas" }
 	cityname = { location = Any value = "Nova Sagres" }
 	cityname = { location = Any value = "Nova Lagos" }
 	cityname = { location = Any value = "Nova Beja" }
-	cityname = { location = Any value = "Fort Pinzón" }
-	cityname = { location = Any value = "Fort Da Gama" }
-	cityname = { location = Any value = "Fort Albuerquerque" }
-	cityname = { location = Any value = "Fort Almeida" }
-	cityname = { location = Any value = "Fort Torres" }
-	cityname = { location = Any value = "Fort Bragança" }
-	cityname = { location = Any value = "Fort Viejo" }
-	cityname = { location = Any value = "Fort León" }
-	cityname = { location = Any value = "Fort Obregón" }
+	cityname = { location = Any value = "Forte Pinzón" }
+	cityname = { location = Any value = "Forte de Gama" }
+	cityname = { location = Any value = "Forte Albuquerque" }
+	cityname = { location = Any value = "Forte Almeida" }
+	cityname = { location = Any value = "Forte Torres" }
+	cityname = { location = Any value = "Forte Bragança" }
+	cityname = { location = Any value = "Forte Viejo" }
+	cityname = { location = Any value = "Forte Leão" }
+	cityname = { location = Any value = "Forte Obregón" }
 	cityname = { location = Any value = "Porto Cabral" }
 	cityname = { location = Any value = "Porto Solis" }
 	cityname = { location = Any value = "Nova Margarita" }
-	cityname = { location = Any value = "Río Branco" }
 	cityname = { location = Any value = "Nova Madeira" }
 	cityname = { location = Any value = "Mascarehnas" }
 }
@@ -2029,6 +2030,7 @@ SPA = {
 	cityname = { location = Any value = "San Pedro" }
 	cityname = { location = Any value = "Saltillo" }
 	cityname = { location = Any value = "La Navidad" }
+	cityname = { location = Any value = "Río Blanco" }
 	cityname = { location = Any value = "Santa Clara" }
 	cityname = { location = Any value = "San Benito" }
 	cityname = { location = Any value = "San Fernando" }
@@ -2249,7 +2251,7 @@ VEN = {
 	cityname = { location = 689 value = "Cipango" }
 	cityname = { location = 711 value = "Larrantula" }
 	cityname = { location = 712 value = "Timorra" }
-	cityname = { location = 713 value = "Tindorria" }
+	cityname = { location = 713 value = "Tidore" }
 	cityname = { location = 714 value = "Coure Sacro" }
 	cityname = { location = 715 value = "Serrama" }
 	cityname = { location = 756 value = "Soccoterra" }

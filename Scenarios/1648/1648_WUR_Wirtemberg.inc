@@ -62,6 +62,7 @@ country = {
 		capital = yes
 	}
 	landunit = {
+		name = "Wirtemberg Army"
 		id = { type = 9423 id = 1055 }
 		location = 372
 		infantry = 12000

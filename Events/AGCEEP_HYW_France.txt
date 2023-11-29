@@ -136,6 +136,7 @@ event = {
 		command = { type = cedeprovince which = ENG value = 413 } #Normandie
 		command = { type = trigger which = 164166 } #ENG: The Treaty of Orleans
 		command = { type = trigger which = 137058 } #BUR: The Treaty of Orleans
+		command = { type = sleepevent which = 164064 } #ENG: King Henry's Illness
 	}
 }
 #(1420-1422) The Generous Peace of Henry V
@@ -156,6 +157,7 @@ event = {
 		command = { type = relation which = DAU value = 200 }
 		command = { type = relation which = ENG value = 100 }
 		command = { type = trigger which = 361012 } #DAU: The Generous Peace of Henry V
+		command = { type = sleepevent which = 164064 } #ENG: King Henry's Illness
 	}
 }
 

@@ -948,13 +948,13 @@ event = {
 	}
 }
 
-#(1480) Ludovico tries to sieze power
+#(1480) Ludovico tries to seize power
 #by mnorrefeldt adapted from idea by mcmaus
 event = {
 	id = 228005
 	random = no
 	country = MLO
-	name = "EVENTNAME228005" #Ludovico tries to sieze power
+	name = "EVENTNAME228005" #Ludovico tries to seize power
 	desc = "EVENTHIST228005"
 	#-#Duke Galeazzo Maria was assassinated in the Church of Santo Stefano in 1476, leaving a young son, Gian Galeazzo, then about eight years old. The government was carried on by his mother, Bona of Savoy, in the name of the infant and in her own. But dissensions soon arose between the regent and her brothers-in-law. In the first encounter Bona and her chief counsellor, Cicco Simonetta, were victorious and the brothers of Galeazzo Maria were obliged to leave the city. But before long Ludovico, the ablest of the sons of Francesco Sforza procured his own readmission. The fall and execution of Simonetta followed and from 1479 the real government of Milan lay in the hands of Ludovico, whose power was further secured in 1480 when he seized the person of the young duke and the duchess was obliged to leave Milan. Henceforward the rule of Ludovico was not seriously challenged. The young duke was a prisoner and Ludovico managed everything in his name.
 
@@ -963,7 +963,7 @@ event = {
 	deathdate = { day = 1 month = january year = 1481 }
 
 	action_a = {
-		name = "ACTIONNAME228005A" #Let Ludovico execute Simonetta and sieze power
+		name = "ACTIONNAME228005A" #Let Ludovico execute Simonetta and seize power
 		command = { type = relation which = SAV value = -30 } #Bona of Savoy
 		command = { type = infra value = -200 } #executing chief counsellor
 		command = { type = stability value = -1 }

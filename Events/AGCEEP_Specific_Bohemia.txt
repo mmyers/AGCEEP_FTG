@@ -546,6 +546,7 @@ event = {
 		OR = {
 			event = 129002 #BOH: The fate of the Bohemian Hussites
 			flag = [Hussites_suppressed] #Bohemia reformed by Romanists
+			ROM = { flag = [Hussites_suppressed] }
 		}
 		exists = HAB
 	}

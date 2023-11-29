@@ -138,8 +138,13 @@ event = {
 			owned = { province = 277 data = -1 } #Pskov
 			owned = { province = 268 data = -1 } #Vologda
 		}
+		OR = {
+			NOT = { exists = BYZ }
+			BYZ = { flag = [Fantasy_BYZ] }
+		}
 		NOT = { exists = RUS }
 		atwar = no
+		isvassal = no
 	}
 	random = no
 	country = NVG

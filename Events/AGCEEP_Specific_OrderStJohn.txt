@@ -1537,7 +1537,10 @@ event = {
 #(1565) Jean Parisot de la Valette
 event = {
 	id = 3541
-	trigger = { leader = 069801 } #Jean de La Valette (KNI)
+	trigger = {
+		leader = 069801 #Jean de La Valette (KNI)
+		owned = { province = 819 data = -1 } #Malta
+	}
 	random = no
 	country = KNI
 	name = "EVENTNAME3541" #Jean Parisot de la Valette
@@ -1550,7 +1553,8 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME3541A" #Improve defenses
-		command = { type = fortress which = -2 value = 1 }
+		command = { type = cityname which = 819 value = "Valletta" }
+		command = { type = fortress which = 819 value = 1 }
 		command = { type = domestic which = OFFENSIVE value = -2 }
 		command = { type = infra value = 250 }
 	}
@@ -1777,7 +1781,7 @@ event = {
 	country = KNI
 	name = "EVENTNAME24028" #A New Protector
 	desc = "EVENTHIST24028"
-	#-#In the 18th century Malta became a place of interest to the ever-expanding empires: Austria, England, France, and even Russia. Ecaterina II considered the island a great asset in her plans for expansion in the Balkans, and indeed, in 1768 a Russian squadron suddenly arrived off Malta, trying to enlist the Order's military help in their expedition against the Ottomans. Simultaneously, the empress' agents attempted to rouse the Maltese population against the Knights, and only with the help of the French royal court did the Order evade the threat. However, the French Revolution caused the Knights great financial problems, as over half of their lands were confiscated. When with the third partition of Poland the Russian czar took control of the Order's estates in Courland and Volyn, he decided to follow his mother's strategy, and declared himself the Protector of the Order of St. John. Distressed by the Revolution and the Knights' internal problems, Grand Master Emmanuel de Rohan accepted the offer in 1797.
+	#-#In the 18th century Malta became a place of interest to the ever-expanding empires: Austria, England, France, and even Russia. Ecaterina II considered the island a great asset in her plans for expansion in the Balkans, and indeed, in 1768 a Russian squadron suddenly arrived off Malta, trying to enlist the Order's military help in their expedition against the Ottomans. Simultaneously, the empress' agents attempted to rouse the Maltese population against the Knights, and only with the help of the French royal court did the Order evade the threat. However, the French Revolution caused the Knights great financial problems, as over half of their lands were confiscated. When with the third partition of Poland the Russian Tsar took control of the Order's estates in Courland and Volyn, he decided to follow his mother's strategy, and declared himself the Protector of the Order of St. John. Distressed by the Revolution and the Knights' internal problems, Grand Master Emmanuel de Rohan accepted the offer in 1797.
 
 	date = { day = 1 month = january year = 1797 }
 	offset = 90

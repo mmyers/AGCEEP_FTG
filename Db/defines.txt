@@ -1,4 +1,4 @@
-#Defines
+#AGCEEP - Defines
 
 #All following values are intended to be negative or positive according to comments.
 #However, as of For the Glory 1.3, all values can be either positive or negative
@@ -7,8 +7,15 @@
 #-----------------------------------------------------------------------------------------------
 
 global = {
-	_ABSOLUTE_START_YEAR_ = 1419 # Positive (defaults to 1419 if not present, and can be overridden in scenarios)
-	_ABSOLUTE_END_YEAR_   = 1819 # Positive (defaults to 1819 if not present)
+	_ABSOLUTE_START_YEAR_         = 1419 # Positive (defaults to 1419 if not present, and can be overridden in scenarios)
+	_ABSOLUTE_END_YEAR_           = 1819 # Positive (defaults to 1819 if not present)
+	_TECHNOLOGY_BASE_FACTOR_      =  260 # Positive: tech base cost is _TECHNOLOGY_BASE_FACTOR_ + (year difference) * _TECHNOLOGY_YEAR_NUMERATOR_ / _TECHNOLOGY_YEAR_DENOMINATOR_
+                                             # (to make the year cost stay constant, set the numerator and denominator to be equal)
+                                             # EU2 base cost was 275 + (year difference + 19)*137/300
+                                             # FTG 1.3 base cost was 260 + (year difference) * 135/240 until November 2023 beta.
+                                             # Moving _ABSOLUTE_START_YEAR_ from 1419 back to 1399 made tech about 4% more expensive in the early game, dwindling to 2.5% more expensive in the late game. New constant factors make the new cost nearly equal to the old cost.
+	_TECHNOLOGY_YEAR_NUMERATOR_   =  135 # Positive
+	_TECHNOLOGY_YEAR_DENOMINATOR_ =  240 # Positive
 }
 
 buildings = {
@@ -69,7 +76,7 @@ country = {
 	_COUNTRY_ALLIANCE_MAX_            =   5 #Positive
 	_COUNTRY_ALLIANCE_MONTHS_         = 120 #Positive
 	_COUNTRY_DYNASTIC_MONTHS_         = 300 #Positive
-	_COUNTRY_MINDIPLOANNEX_MONTHS_    = 120 #Positive
+	_COUNTRY_MINDIPLOANNEX_MONTHS_    = 600 #Positive
 	_COUNTRY_MINREVOLTER_MONTHS_      =  36 #Positive
 
 	_COUNTRY_CB_ANNEX_MONTHS_         = 24 #Positive

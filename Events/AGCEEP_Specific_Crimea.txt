@@ -33,7 +33,7 @@ event = {
 	country = CRI
 	name = "EVENTNAME152006" #Crimea loses grip on Eastern posessions
 	desc = "EVENTHIST152006"
-	#-#The move of the base of the Horde to Crimea has created a power vacuum which has been siezed upon by the other Khanates.
+	#-#The move of the base of the Horde to Crimea has created a power vacuum which has been seized upon by the other Khanates.
 
 	action_a = {
 		name = "ACTIONNAME152006A" #We will fight to regain control of the steppe

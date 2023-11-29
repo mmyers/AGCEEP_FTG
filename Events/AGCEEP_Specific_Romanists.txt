@@ -242,6 +242,7 @@ event = {
 		name = "GREAT"
 		command = { type = inherit which = HUS }
 		command = { type = inherit which = BOH } #just in case
+		command = { type = setflag which = [Hussites_suppressed] }
 		command = { type = vp value = 200 }
 		command = { type = province_revoltrisk which = 315 value = -14 } #Moravia
 		command = { type = province_revoltrisk which = 327 value = -4 } #Ostmarch
@@ -273,6 +274,7 @@ event = {
 	action_a = {
 		name = "GREAT"
 		command = { type = inherit which = BOH } #just in case
+		command = { type = setflag which = [Hussites_suppressed] }
 		command = { type = province_revoltrisk which = 315 value = -14 } #Moravia
 		command = { type = province_revoltrisk which = 327 value = -4 } #Ostmarch
 		command = { type = province_revoltrisk which = 328 value = -4 } #Bohemia

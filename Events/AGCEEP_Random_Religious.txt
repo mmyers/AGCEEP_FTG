@@ -13,7 +13,7 @@ event = {
 	random = yes
 	name = "EVENTNAME677" #Catholic influence in Africa
 	desc = "EVENTHIST677"
-	#-#Following increased contact with europeans, the Portuguese in particular, several african nations converted to Christians from the 15th century on. The Kongolese King Mbemba-a-Nzinga, also known as Afonso I, was a devouted catholic and cooperated close with the Portuguese. Other African Kings converted, though many in name only. Most of them kept many of their old rituals.
+	#-#Following increased contact with Europeans, the Portuguese in particular, several African nations converted to Christians from the 15th century on. The Kongolese King Mbemba-a-Nzinga, also known as Afonso I, was a devouted catholic and cooperated close with the Portuguese. Other African Kings converted, though many in name only. Most of them kept many of their old rituals.
 
 	action_a = {
 		name = "ACTIONNAME677A" #Honor the beliefs of our ancestors
@@ -23,9 +23,9 @@ event = {
 		name = "ACTIONNAME677B" #Convert to Christianity
 		command = { type = religion which = catholic }
 		command = { type = provincereligion which = -1 value = catholic }
-		command = { type = provincereligion which = -1 value = catholic }
-		command = { type = provincereligion which = -1 value = catholic }
-		command = { type = provincereligion which = -1 value = catholic }
+		command = { type = provincereligion which = -4 value = catholic }
+		command = { type = provincereligion which = -4 value = catholic }
+		command = { type = provincereligion which = -4 value = catholic }
 	}
 }
 
@@ -34,29 +34,33 @@ event = {
 	id = 684
 	trigger = {
 		year = 1500
-		continent = Asia
-		religion = hindu
+		region = Indonesia
+		OR = {
+			religion = hindu
+			religion = jain
+			religion = buddhist
+		}
 	}
 	random = yes
 	name = "EVENTNAME684" #Muslim influence in South East Asia
 	desc = "EVENTHIST684"
-	#-#In the 13th century Islam came to northern Sumatra. During the 14th and 15th century it spread south and east to the rest of the Indonerian islands.
+	#-#In the 13th century Islam came to northern Sumatra. During the 14th and 15th century it spread south and east to the rest of the Indonesian islands.
 
 	action_a = {
-		name = "ACTIONNAME684A" #Honor the beliefs of our ancestors
-		command = { type = stability value = 1 }
-	}
-	action_b = {
-		name = "ACTIONNAME684B" #Convert to Sunni Islam
+		name = "ACTIONNAME684A" #Convert to Sunni Islam
 		command = { type = religion which = eastern_sunni }
 		command = { type = provincereligion which = -1 value = sunni }
-		command = { type = provincereligion which = -1 value = sunni }
+		command = { type = provincereligion which = -4 value = sunni }
 	}
-	action_c = {
-		name = "ACTIONNAME684C" #Convert to Shi'a Islam
+	action_b = {
+		name = "ACTIONNAME684B" #Convert to Shi'a Islam
 		command = { type = religion which = eastern_shia }
 		command = { type = provincereligion which = -1 value = shia }
-		command = { type = provincereligion which = -1 value = shia }
+		command = { type = provincereligion which = -4 value = shia }
+	}
+	action_c = {
+		name = "ACTIONNAME684C" #Honor the beliefs of our ancestors
+		command = { type = stability value = 1 }
 	}
 }
 
@@ -71,7 +75,7 @@ event = {
 	random = yes
 	name = "EVENTNAME680" #Muslim influence in Africa
 	desc = "EVENTHIST680"
-	#-#Nations in sub-Saharan and eastern Africa had contact with Islamic nations through trade and war. Arab and North-African traders settled in Africa and brought with them customs and beliefs. In some areas these were introduced to and accepted by the locals. Some African Kings also converted to easen the relations with the nearby islamic nations.
+	#-#Nations in sub-Saharan and eastern Africa had contact with Islamic nations through trade and war. Arab and North-African traders settled in Africa and brought with them customs and beliefs. In some areas these were introduced to and accepted by the locals. Some African Kings also converted to easen the relations with the nearby Islamic nations.
 
 	action_a = {
 		name = "ACTIONNAME680A" #Honor the beliefs of our ancestors
@@ -81,17 +85,17 @@ event = {
 		name = "ACTIONNAME680B" #Convert to Sunni Islam
 		command = { type = religion which = sunni }
 		command = { type = provincereligion which = -1 value = sunni }
-		command = { type = provincereligion which = -1 value = sunni }
-		command = { type = provincereligion which = -1 value = sunni }
-		command = { type = provincereligion which = -1 value = sunni }
+		command = { type = provincereligion which = -4 value = sunni }
+		command = { type = provincereligion which = -4 value = sunni }
+		command = { type = provincereligion which = -4 value = sunni }
 	}
 	action_c = {
 		name = "ACTIONNAME680C" #Convert to Shi'a Islam
 		command = { type = religion which = shia }
 		command = { type = provincereligion which = -1 value = shia }
-		command = { type = provincereligion which = -1 value = shia }
-		command = { type = provincereligion which = -1 value = shia }
-		command = { type = provincereligion which = -1 value = shia }
+		command = { type = provincereligion which = -4 value = shia }
+		command = { type = provincereligion which = -4 value = shia }
+		command = { type = provincereligion which = -4 value = shia }
 	}
 }
 
@@ -116,9 +120,9 @@ event = {
 		name = "ACTIONNAME682B" #Convert to Christianity
 		command = { type = religion which = catholic }
 		command = { type = provincereligion which = -1 value = catholic }
-		command = { type = provincereligion which = -1 value = catholic }
-		command = { type = provincereligion which = -1 value = catholic }
-		command = { type = provincereligion which = -1 value = catholic }
+		command = { type = provincereligion which = -4 value = catholic }
+		command = { type = provincereligion which = -4 value = catholic }
+		command = { type = provincereligion which = -4 value = catholic }
 	}
 }
 
@@ -143,21 +147,21 @@ event = {
 		name = "ACTIONNAME683B" #Convert to Christianity
 		command = { type = religion which = protestant }
 		command = { type = provincereligion which = -1 value = protestant }
-		command = { type = provincereligion which = -1 value = protestant }
-		command = { type = provincereligion which = -1 value = protestant }
+		command = { type = provincereligion which = -4 value = protestant }
+		command = { type = provincereligion which = -4 value = protestant }
 	}
 }
 
-#(1750-1820) Christian influence in southern Africa
+#(1750-1820) Christian influence in South Africa
 event = {
 	id = 678
 	trigger = {
 		year = 1750
-		continent = Africa
+		region = "South Africa"
 		religion = pagan
 	}
 	random = yes
-	name = "EVENTNAME678" #Christian influence in southern Africa
+	name = "EVENTNAME678" #Christian influence in South Africa
 	desc = "EVENTHIST678"
 	#-#With the founding of the Nederduitse Gereformeerde Kerk in Cape Town in 1652 Christianity was introduced to southern Africa. The first native converts were slaves held by the colonizers in the Cape colony. They were later joined by the Xhosa in early 19th century and later the Zulus.
 
@@ -169,8 +173,8 @@ event = {
 		name = "ACTIONNAME678B" #Convert to Christianity
 		command = { type = religion which = reformed }
 		command = { type = provincereligion which = -1 value = reformed }
-		command = { type = provincereligion which = -1 value = reformed }
-		command = { type = provincereligion which = -1 value = reformed }
+		command = { type = provincereligion which = -4 value = reformed }
+		command = { type = provincereligion which = -4 value = reformed }
 	}
 }
 

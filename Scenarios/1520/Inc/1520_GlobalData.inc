@@ -106,6 +106,12 @@ globaldata = {
 		participant = { HUN BOH }
 	}
 	alliance = {
+		id = { type = 6000 id = 11 }
+		type = vassalization
+		expirydate = { year = 1820 }
+		participant = { AJU MGU }
+	}
+	alliance = {
 		id = { type = 6000 id = 12 }
 		type = dynasticalliance
 		name = ""
@@ -527,7 +533,6 @@ history = {
 	3536
 	3545
 	3546
-	3555 #Aragon Inheritance of Napoli
 	3556 #Viva Espana
 	3557 #Civil War in Castile
 	3559
@@ -542,7 +547,6 @@ history = {
 	3652
 	3654
 	3657
-	3660 #Aragon Inheritance of Napoli
 	3688
 	3689
 	3703
@@ -1000,6 +1004,7 @@ history = {
 	88012
 	88020
 	101004 #ADE: The Portuguese Covet Aden
+	111014 #ARG: The Aragonese Kingdom of Naples
 	113000 #ARM: Dominance of Portugal
 	123000 #BAL: Independence of Baluchistan
 	125011 #BAY: Aventinus

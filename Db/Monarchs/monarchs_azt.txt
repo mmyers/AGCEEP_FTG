@@ -1,4 +1,4 @@
-#Aztecs - Monarchs
+#Aztec Empire - Monarchs
 
 #-----------------------------------------------------------------------------------------------
 
@@ -140,7 +140,23 @@ historicalmonarch = {
 	ADM = 3
 	dormant = no
 }
+historicalmonarch = {
+	id = { type = 6 id = 017008 }
+	startdate = {
+		day = 28
+		month = february
+		year = 1525
+	}
+	deathdate = {
+		year = 1820
+	}
+	name = "Aztec Emperors *"
+	DIP = 3
+	MIL = 4
+	ADM = 3
+	dormant = no
+}
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 017008
+#First free id: 017009

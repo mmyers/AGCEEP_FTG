@@ -1,4 +1,4 @@
-#Adal
+#Adal/Harar
 
 #-----------------------------------------------------------------------------------------------
 
@@ -36,24 +36,41 @@ country = {
 		1067 1068 1069 1070 1071 1135 1516 1517 1518 1519 1588 1589 1590 
 	}
 	ownedprovinces = {
-		755
+		755 1518 1519
 	}
 	controlledprovinces = {
-		755
+		755 1518 1519
 	}
 	nationalprovinces = {
-		754 755 1517 1518 1519 758
+		754 755 1518 1519
+	}
+	claimedprovinces = {
+		1590
 	}
 	city = {
 		fortress = { level = 1 }
 		population = 5000
 		location = 755
+		bailiff = yes
+		courthouse = yes
+	}
+	city = {
+		fortress = { level = 1 }
+		population = 7000
+		location = 1518
 		capital = yes
 		bailiff = yes
 		courthouse = yes
 	}
+	city = {
+		fortress = { level = 1 }
+		population = 6000
+		location = 1519
+		bailiff = yes
+		courthouse = yes
+	}
 	technology = {
-		stability = { level = 2 value = 42 }
+		stability = { level = -3 value = 42 }
 		infra = { level = 4 value = 700 }
 		trade = { level = 4 value = 600 }
 		land = { level = 15 value = 500 }
