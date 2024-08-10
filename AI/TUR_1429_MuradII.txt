@@ -13,6 +13,7 @@ war = 40
 ferocity = no
 sreligion = no
 combat = { BUL SER ALB }
+galleys = yes
 base = 1.0
 front = 6.5
 conquer = {

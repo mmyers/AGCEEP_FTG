@@ -34,6 +34,7 @@ historicalmonarch = {
 	ADM = 1
 	MIL = 1
 	dormant = no
+	emperor = no
 	remark = "Civil disorder in Corsica following the death of Vincentellu d'Istria"
 }
 
@@ -117,6 +118,7 @@ historicalmonarch = {
 	ADM = 4
 	MIL = 4
 	dormant = no
+	emperor = no
 }
 historicalmonarch = {
 	id = { type = 6 id = 035507 }
@@ -244,6 +246,7 @@ historicalmonarch = {
 	ADM = 4
 	MIL = 5
 	dormant = no
+	emperor = no
 	remark = "Regency under Luiggi Giafferi, Ghjacintu Paoli and Lucca Ornano, only formal after 10th july 1739"
 }
 historicalmonarch = {
@@ -263,6 +266,7 @@ historicalmonarch = {
 	ADM = 5
 	MIL = 6
 	dormant = no
+	emperor = no
 	remark = "The Protectors: Ghjuvan Petru Gaffori and Aleriu Francescu Matra, under Ignaziu Venturini's formal presidency; associated with Dumenicu Rivarola and Ghjuvan Tomasu Giuliani after july 1746; Rivarola dies in april 1748; Matra enters the service of Sardinia in november 1748 and is then officially replaced by Giuliani"
 }
 historicalmonarch = {
@@ -301,6 +305,7 @@ historicalmonarch = {
 	ADM = 5
 	MIL = 5
 	dormant = no
+	emperor = no
 	remark = "Sovereign council, Ignaziu Venturini is still president, Clemente Paoli is one of the twelve members"
 }
 historicalmonarch = {
@@ -338,6 +343,7 @@ historicalmonarch = {
 	ADM = 5
 	MIL = 5
 	dormant = yes
+	emperor = no
 	remark = "awaken if Paoli is successful"
 }
 #-----------------------------------------------------------------------------------------------
@@ -356,6 +362,7 @@ historicalmonarch = {
 	ADM = 5
 	MIL = 5
 	dormant = no
+	emperor = no
 	remark = "in case of revival, slept if Paoli is successful"
 }
 

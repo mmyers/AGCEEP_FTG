@@ -17,6 +17,7 @@ war = -50
 ferocity = no
 sreligion = no
 combat = { }
+galleys = yes
 base = 0.1
 front = 5.0
 conquer = {

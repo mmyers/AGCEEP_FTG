@@ -6289,7 +6289,7 @@ USA = { #United States
 	leader_language = ENG
 	new_colony = ENG
 	gfx = {
-		army = MIN
+		army = USA
 		navy = MIN
 	}
 	policy = {

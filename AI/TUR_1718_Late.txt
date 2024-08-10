@@ -13,6 +13,7 @@ war = -75
 ferocity = no
 sreligion = no
 combat = { BUL GRE EGY }
+galleys = yes
 base = 0.1
 front = 5.0
 conquer = {

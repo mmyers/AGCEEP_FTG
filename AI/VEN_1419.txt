@@ -1,4 +1,6 @@
 #
+# Venice AI
+#
 region = { }
 area = { }
 expansion = 0
@@ -11,6 +13,8 @@ war = -50
 ferocity = no
 sreligion = no
 combat = { }
+naval = 1.4
+galleys = yes
 base = 3.0
 front = 4.0
 conquer = {

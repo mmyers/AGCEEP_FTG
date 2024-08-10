@@ -32,10 +32,10 @@ country = {
 		relation = { tag = HUN value = 155 }
 		relation = { tag = SIE value = 155 }
 		relation = { tag = VEN value = 150 }
-		relation = { tag = GEN value = 150 }
+		relation = { tag = GEN value = 150 trade = yes }
 		relation = { tag = KNI value = 25 }
 		relation = { tag = MRE value = 200 }
-		relation = { tag = GZI value = 50 }
+		relation = { tag = GZI value = 150 access = yes }
 		relation = { tag = THO value = 50 }
 	}
 	knownprovinces = {

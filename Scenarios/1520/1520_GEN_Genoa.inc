@@ -9,7 +9,7 @@ country = {
 			[giorgio] = yes
 		}
 	}
-	ai = "SmallCRC3.txt"
+	ai = "GEN_1419.txt"
 	colonialattempts = 0
 	colonialnation = no
 	major = no

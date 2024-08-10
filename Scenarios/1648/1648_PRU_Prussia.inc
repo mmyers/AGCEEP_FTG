@@ -71,6 +71,7 @@ country = {
 		bailiff = yes
 		courthouse = yes
 		cityrights = yes
+		capital = yes
 		fortress = { level = 2 }
 	}
 	technology = {

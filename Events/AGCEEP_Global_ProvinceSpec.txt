@@ -14050,8 +14050,35 @@ event = {
 	}
 }
 
+#Pirates sack our capital!
+#by MichaelM
+event = {
+	id = 338503
+	trigger = {
+		NOT = { countrysize = 3 }
+	}
+	random = no
+	persistent = yes
+
+	name = "EVENTNAME338503" #Pirates sack our capital!
+	desc = "EVENTHIST338503"
+	#-#Sire, pirate raiders have taken our capital and demand an outrageous ransom in exchange for their withdrawal. Shall we pay or not?
+
+	action_a = {
+		name = "ACTIONNAME338503A" #Pay them off
+		command = { type = treasury value = -100 }
+		command = { type = disbandrebels which = -2 }
+		command = { type = control which = -2 value = -1 }
+		command = { type = infantry which = -2 value = 5000 }
+	}
+	action_b = {
+		name = "ACTIONNAME338503B" #We can handle this
+		command = { type = vp value = 10 }
+	}
+}
+
 #-----------------------------------------------------------------------------------------------
 
 #Reserved: 338352-338399
 
-#First free id: 338503
+#First free id: 338504

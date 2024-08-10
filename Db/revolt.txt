@@ -811,7 +811,7 @@ GEN = { #Genoa
 	extra = { 398 }
 	capital = 403
 	group = latin
-	ai = "SmallCRC3.txt"
+	ai = "GEN_1419.txt"
 }
 GEO = { #Georgia
 	date = { day = 1 month = january year = 1419 }

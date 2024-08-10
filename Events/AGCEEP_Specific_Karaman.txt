@@ -63,7 +63,6 @@ event = {
 	action_a = {
 		name = "ACTIONNAME197000A" #Does the end draw near?
 		command = { type = vp value = -10 }
-		command = { type = relation which = TUR value = -300 }
 		command = { type = removecore which = 476 } #Angora
 		command = { type = removecore which = 477 } #Anatolia
 		command = { type = removecore which = 1610 } #Antalya

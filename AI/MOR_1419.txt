@@ -14,6 +14,7 @@ traders = 30
 monopoly = 10 #-100
 war = -50
 combat = { SUS }
+galleys = yes
 base = 5.0
 front = 0.1
 conquer = {

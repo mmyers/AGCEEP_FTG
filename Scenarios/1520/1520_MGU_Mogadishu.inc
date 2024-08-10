@@ -47,7 +47,7 @@ country = {
 	}
 	technology = {
 		stability = { level = 2 value = 42 }
-		infra = { level 1 = value = 0 }
+		infra = { level = 1 value = 0 }
 		trade = { level = 0 value = 70 }
 		land = { level = 3 value = 50 }
 		naval = { level = 2 value = 0 }
