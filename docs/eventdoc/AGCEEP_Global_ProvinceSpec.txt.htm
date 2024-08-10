@@ -452,6 +452,7 @@ Triggered (1500-1819): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338164">Mo
 Triggered (1500-1819): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338166">Morocco sacks Jenne</a> for <span class="province" title="Id:&nbsp;1490,&nbsp;area:&nbsp;Timbuktu,&nbsp;region:&nbsp;West Africa,&nbsp;continent:&nbsp;Africa">Bambuk</span><br />
 Triggered (1500-1819): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338165">Morocco sacks Timbuktu</a> for <span class="province" title="Id:&nbsp;1495,&nbsp;area:&nbsp;Timbuktu,&nbsp;region:&nbsp;West Africa,&nbsp;continent:&nbsp;Africa">Timbuktu</span><br />
 Triggered (1625-1626, 1625-1626): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338074">Notre Dame de Strasbourg is the tallest building</a> for <span class="province" title="Id:&nbsp;374,&nbsp;area:&nbsp;Lotharingia,&nbsp;region:&nbsp;HRE,&nbsp;continent:&nbsp;Europe">Alsace</span><br />
+<span class="error">Unknown: </span><a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338503">Pirates sack our capital!</a> for all countries<br />
 Triggered (1549-1550, 1549-1550): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338072">St. Olav's church is the tallest building</a> for <span class="province" title="Id:&nbsp;276,&nbsp;area:&nbsp;Baltic,&nbsp;region:&nbsp;Eastern Europe,&nbsp;continent:&nbsp;Europe">Estland</span><br />
 Triggered (1513-1539): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338496">Swiss expansion</a> for <span class="province" title="Id:&nbsp;405,&nbsp;area:&nbsp;Lotharingia,&nbsp;region:&nbsp;HRE,&nbsp;continent:&nbsp;Europe">Savoie</span><br />
 Triggered (triggered event): <a href="AGCEEP_Global_ProvinceSpec.txt.htm#evt338425">The Quebecer Rebellion</a> for <span class="province" title="Id:&nbsp;110,&nbsp;area:&nbsp;Quebec,&nbsp;region:&nbsp;North America,&nbsp;continent:&nbsp;America">Stadacone</span><br />
@@ -2362,8 +2363,6 @@ Capital is on continent America
 </ul>
 <p>Will happen within 1 days of <span class="date">April 2, 1419</span>
 <br />Checked again every 1 days until trigger is met (cannot happen after <span class="date">December 30, 1699</span>)
-
-<br />unless prevented by<br />Action B of <a href="AGCEEP_Specific_Portugal.txt.htm#evt18012" class="a_und">18012 - Commercial Conflict in the Indian Ocean</a> for <span class="country" title="POR">Portugal</span><br />
 </p>
 <h3>Description</h3>
 As the Europeans extended their rule in the Americas, the native economies and societies faced dramatic upheaval. The new masters would reduce the natives to serfdom, if not outright slavery, compounding the misery wrought by waves of epidemic disease. While destroying the native economy was not in the long-term interest of the state, there was no way to prevent the new masters from doing as they would.
@@ -4213,6 +4212,8 @@ Capital is on continent Asia
 </ul>
 <p>Will happen within 10 days of <span class="date">January 2, 1498</span>
 <br />Checked again every 10 days until trigger is met (cannot happen after <span class="date">January 2, 1545</span>)
+
+<br />unless prevented by<br />Action B of <a href="AGCEEP_Specific_Portugal.txt.htm#evt18012" class="a_und">18012 - Commercial Conflict in the Indian Ocean</a> for <span class="country" title="POR">Portugal</span><br />
 </p>
 <h3>Description</h3>
 These Portuguese visitors envy the richness of our Kingdom. We cannot trust them.
@@ -4574,6 +4575,8 @@ Capital is on continent Asia
 </ul>
 <p>Will happen within 10 days of <span class="date">January 2, 1498</span>
 <br />Checked again every 10 days until trigger is met (cannot happen after <span class="date">January 2, 1680</span>)
+
+<br />unless prevented by<br />Action B of <a href="AGCEEP_Specific_Portugal.txt.htm#evt18012" class="a_und">18012 - Commercial Conflict in the Indian Ocean</a> for <span class="country" title="POR">Portugal</span><br />
 </p>
 <h3>Description</h3>
 These Portuguese visitors envy the richness of our Kingdom. We cannot trust them.
@@ -22492,6 +22495,47 @@ When St. Olav's church in Reval (Tallinn) was destroyed by fire in 1625, Notre D
 <h3>Actions</h3>
 <blockquote>
 <h4 class="action_title">A. We are the tallest</h4>
+<ul class="action">
+<li>+10 victory points</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt338503" class="event_title">338503. Pirates sack our capital!</a></h2></div>
+<div class="event_body">
+<h3>All countries &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li class="combo">
+The following must not occur:
+<ul class="trigger">
+<li>
+Country has at least 3 non-colonial provinces
+</li>
+</ul>
+
+</li>
+</ul>
+<h3>Triggered by</h3>
+<span class="error">Not triggered!</span>
+<h3>Description</h3>
+Sire, pirate raiders have taken our capital and demand an outrageous ransom in exchange for their withdrawal. Shall we pay or not?
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Pay them off</h4>
+<ul class="action">
+<li>-100 <img src="../images/eventdoc/coin.png" alt="gold" title="ducats" /></li>
+<li>Give control of the capital province to -1</li>
+<li>+5000 infantry in the capital province</li>
+</ul>
+<h4 class="action_title">B. We can handle this</h4>
 <ul class="action">
 <li>+10 victory points</li>
 </ul>
