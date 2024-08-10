@@ -13,6 +13,7 @@ war = 50
 ferocity = no
 sreligion = no
 combat = { BUL AKK MAM QAR ALB BOS RAM SER KAR TRE ATH BYZ DUL GZI MRE TLE TUN THO HUN VEN }
+galleys = yes
 base = 0.1
 front = 5.0
 conquer = {

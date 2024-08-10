@@ -14,6 +14,7 @@ war = -40
 ferocity = no
 sreligion = no
 combat = { LAT UKR }
+galleys = yes
 base = 0.5
 front = 5.0
 conquer = {

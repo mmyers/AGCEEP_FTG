@@ -124,6 +124,8 @@ R06 = { #Pirate Raiders
 		domestic = { type = land value = 3 } # no pirate raids if high naval
 	}
 	weight = 1
+
+	on_capital_capture = 338503
 }
 
 #
@@ -148,6 +150,10 @@ NDR = { #Dutch Rebels
 			culture = dutch
 		}
 		year = 1550
+		OR = {
+			NOT = { exists = HOL }
+			NOT = { year = 1650 }
+		}
 	}
 	area = "Low Countries"
 	weight = 500
@@ -167,10 +173,13 @@ USR = { #American Rebels
 		NOT = {
 			tag = USA
 		}
-		culture = english
+		OR = {
+			culture = english
+			culture = celtic
+		}
 		year = 1750
 	}
-	area = America
-	culture = english
+	area = { America Georgia Maine Ohio }
+	culture = { english celtic }
 	weight = 500
 }

@@ -1,5 +1,5 @@
 #
-# Mehmed III of the Ottoman Empire AI
+# Genoa AI
 #
 region = { }
 area = { }
@@ -7,21 +7,22 @@ expansion = 0
 tradingpost = 50
 neighbour = 20
 enemies = 0
-traders = 100
-monopoly = 20
-war = 30 #0
+traders = 80
+monopoly = 10
+war = -75
 ferocity = no
-sreligion = no
-combat = { BUL MRE QAR KAR THO HAB HUN SER BOS ALB MAM }
+sreligion = yes
+combat = { COR }
+naval = 1.4
 galleys = yes
-base = 0.1
+base = 0.5
 front = 5.0
 conquer = {
 	enemy = 5.0
 	supply = 0.1
-	distance = 6.0
+	distance = 0.5
 	owner = 1.0
-	notsupply = 2.0
+	notsupply = 0.1
 	base = 0.3
 }
 garrison = {

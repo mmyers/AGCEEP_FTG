@@ -13,6 +13,7 @@ war = 50
 ferocity = yes
 sreligion = no
 combat = { MAM }
+galleys = yes
 base = 0.1
 front = 5.5
 conquer = {

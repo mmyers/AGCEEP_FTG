@@ -118,9 +118,9 @@ country = {
 	_COUNTRY_BB_DOW_              = 1 #Positive
 	_COUNTRY_BB_DOWNOCB_          = 1 #Positive
 	_COUNTRY_BB_DOWGOODREL_       = 2 #Positive
-	_COUNTRY_BB_PLAYERDIVIDER_    = 3 #Positive
-	_COUNTRY_BB_ANNSAMERELIGION_  = 5 #Positive
-	_COUNTRY_BB_ANNOTHERRELIGION_ = 2 #Positive
+	_COUNTRY_BB_PLAYERDIVIDER_    = 3 #Positive - reduced penalty for players declaring war on each other or conquering each other's provinces
+	_COUNTRY_BB_ANNSAMERELIGION_  = 5 #Positive - used if both countries are members of the same religious group defined with annex_same_penalty in religions.txt
+	_COUNTRY_BB_ANNOTHERRELIGION_ = 2 #Positive - used if the annexing country is a member of a religious group defined with annex_other_penalty in religions.txt
 	_COUNTRY_BB_LIMITBASE_        =  30 #Positive - badboy limit is base + 1 per 20 years since absolutestartyear + monarch diplomatic ability
 	_COUNTRY_BB_LIMITRULE_OFFSET_ = 371 #Positive - after this many years in-game, badboy limit begins to increase by 1 per year in addition to the above
 	_COUNTRY_BB_YEARLYREDUCTION_  = 0.25 #Positive - x2/3 on hard, x1/2 on very hard, multiplied by diplomacy/5
@@ -187,8 +187,12 @@ hre = {
 	_HRE_ELECT_SPECIAL_BONUS_     =  25 #Positive
 	_HRE_ELECT_RANDOM_BONUS_      =  10 #Positive
 
-	_HRE_SUPPORTIVE_INCOME_       = 2.00 #Positive
-	_HRE_SUPPORTIVE_MANPOWER_     = 1.00 #Positive
+	_HRE_SUPPORTIVE_RELATION_     = 100 #Positive or negative: minimum relation that an elector must have with the emperor to be considered "supportive" and give the below bonuses
+
+	_HRE_SUPPORTIVE_INCOME_         = 2.00 #Positive: yearly income for emperor per supportive elector
+	_HRE_SUPPORTIVE_MANPOWER_       = 1.00 #Positive: maximum manpower for emperor per supportive elector
+	_HRE_SUPPORTIVE_TECH_COST_      =-0.01 #Negative: tech cost reduction for emperor per supportive elector
+	_HRE_SUPPORTIVE_STABILITY_COST_ =-0.01 #Negative: stability cost reduction for emperor per supportive elector
 }
 
 mercenaries = {

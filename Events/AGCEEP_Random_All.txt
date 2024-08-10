@@ -1385,13 +1385,13 @@ event = {
 	}
 	action_c = {
 		name = "ACTIONNAME_RANDOM006C" #Use the excess revenue to expand commerce
-		command = { type = infra value = 100 }
-		command = { type = trade value = 100 }
+		command = { type = infra value = 250 }
+		command = { type = trade value = 250 }
 	}
 	action_d = {
 		name = "ACTIONNAME_RANDOM006D" #Use the excess revenue for military needs
-		command = { type = land value = 100 }
-		command = { type = naval value = 100 }
+		command = { type = land value = 250 }
+		command = { type = naval value = 250 }
 	}
 }
 
@@ -1414,17 +1414,17 @@ event = {
 	action_b = {
 		name = "ACTIONNAME_RANDOM006B" #Reinvest it in the local economy
 		command = { type = provincetax which = -1 value = 1 }
-		command = { type = provincetax which = -1 value = 1 }
+		command = { type = provincetax which = -4 value = 1 }
 	}
 	action_c = {
 		name = "ACTIONNAME_RANDOM006C" #Use the excess revenue to expand commerce
-		command = { type = infra value = 200 }
-		command = { type = trade value = 200 }
+		command = { type = infra value = 500 }
+		command = { type = trade value = 500 }
 	}
 	action_d = {
 		name = "ACTIONNAME_RANDOM006D" #Use the excess revenue for military needs
-		command = { type = land value = 200 }
-		command = { type = naval value = 200 }
+		command = { type = land value = 500 }
+		command = { type = naval value = 500 }
 	}
 }
 
@@ -1447,18 +1447,18 @@ event = {
 	action_b = {
 		name = "ACTIONNAME_RANDOM006B" #Reinvest it in the local economy
 		command = { type = provincetax which = -1 value = 1 }
-		command = { type = provincetax which = -1 value = 1 }
-		command = { type = provincetax which = -1 value = 1 }
+		command = { type = provincetax which = -4 value = 1 }
+		command = { type = provincetax which = -4 value = 1 }
 	}
 	action_c = {
 		name = "ACTIONNAME_RANDOM006C" #Use the excess revenue to expand commerce
-		command = { type = infra value = 300 }
-		command = { type = trade value = 300 }
+		command = { type = infra value = 750 }
+		command = { type = trade value = 750 }
 	}
 	action_d = {
 		name = "ACTIONNAME_RANDOM006D" #Use the excess revenue for military needs
-		command = { type = land value = 300 }
-		command = { type = naval value = 300 }
+		command = { type = land value = 750 }
+		command = { type = naval value = 750 }
 	}
 }
 

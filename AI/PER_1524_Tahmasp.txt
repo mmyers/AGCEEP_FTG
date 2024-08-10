@@ -7,6 +7,7 @@ monopoly = 10 #-500
 war = 20
 ferocity = no
 combat = { AKK QAR KHO UZB FAR IRA BAS TIM }
+galleys = yes
 base = .1
 front = 5.0
 conquer = {

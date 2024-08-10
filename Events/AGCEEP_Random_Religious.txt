@@ -135,6 +135,7 @@ event = {
 		religion = pagan
 	}
 	random = yes
+	weight = 3
 	name = "EVENTNAME683" #Protestant influence in the Americas
 	desc = "EVENTHIST683"
 	#-#Close contact with European colonists and missionaries made many indians convert to Christians, becoming what was known as 'praying indians'.
