@@ -1,4 +1,24 @@
 
+-Version 1.60, additional changes since November 2023 beta
+
+-added updated technologies.csv
+-added AI file for Genoa (applied in all scenarios and revolt.txt)
+-added trade agreement and military access between GEN-BYZ in 1419
+-added 'galleys = yes' to a number of AI files for countries (especially in the Med) whose navies should mostly comprise galleys rather than warships
+-added 'emperor = no' to some COR regency monarchs
+-added 'weight = 3' to event 683 'Protestant influence in the Americas'
+-enabled unique land sprite for USA
+-improved the tech boosts for options C/D in the 'Exceptional Year' random events
+-updated defines.txt with new HRE supportive modifiers
+-updated goods.txt with vanilla changes
+-updated rebels.txt with vanilla changes and a province event for removing Pirate Raiders from OPMs
+-fixed a stray = missing in MGU's 1520 scenario file
+-fixed PRU capital not being defined in 1648
+-fixed POR event 18012 'Commercial Conflict in the Indian Ocean' not sleeping the correct event IDs with option B
+-fixed KAR event 197000 'The Weakened Karamani State' giving -300 relations with TUR when the TUR version gives +100
+-fixed a few more typos
+
+
 -Version 1.60, additional changes since October 2023 beta
 
 -updated ToDo file

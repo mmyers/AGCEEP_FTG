@@ -23,7 +23,6 @@ country = {
 		type = mongol
 	}
 	diplomacy = {
-		relation = { tag = ZHO value = 150 }
 		relation = { tag = DAS value = 150 }
 		relation = { tag = DAX value = 150 }
 		relation = { tag = SMI value = -200 }

@@ -2,16 +2,17 @@
 
 #Goods must be uniquely named ("nothing" is reserved and may NOT be used).
 
-#base_price = X          Base price in $ (default is 1 if not specified).
-#min_demand = X.XX       Demand is never lower than this (default is 0.01 if not specified).
+#base_price = X          Base price in $ (default is 1 if not specified). 
+#min_demand = X.XX       Demand is never lower than this (default is 0.10 if not specified). Minimum global demand is 0.01.
 #max_demand = X.XX       Demand is never higher than this (default is 1.50 if not specified).
 #land_support = yes/no   If yes, increases land support limit (default is no if not specified).
 #naval_support = yes/no  If yes, increases naval support limit (default is no if not specified).
-#slaves_demand = X       Specific goods for slaves demand calculations (default is 0 if not specified).
+#slaves_demand = X.XX    Specific goods for slaves demand calculations (default is 0 if not specified).
+#                        If greater than 0, this value is multiplied by the slaves_effect of the owning country's religion to find the total demand from this province.
 #slaves = X.XX           If positive, each slaves_demand province increases slaves demand according to slaves value and under condition (default is 0.00 if not specified).
 #inflation = yes/no      If yes, increases inflation and mine value in province is used instead of supply-demand and base_price (default is no if not specified).
-#<building_name> = X.XX  Type of building or manufactory that gives a demand boost.
-#demand = { }            List of goods that get demand boost of the specified amount for each defined goods producing province (different from slaves_demand).
+#<building_name> = X.XX  Type of building or manufactory that modifies demand by the specified positive or negative amount.
+#demand = { }            List of goods that modify demand by the specified positive or negative amount for each defined goods producing province (different from slaves_demand).
 #manufactory             Type for default manufactory and related income increase above normal value for manufactories if yes (default is weapons manufactory with no increase if not specified).
 
 #-----------------------------------------------------------------------------------------------
@@ -25,7 +26,8 @@ cloth = {
 	
 	barrack = 0.01
 	
-	goods = 0.01
+	luxury = 0.01
+	goods = 0.02
 
 	demand = { cotton = 0.01 } #Each cloth province increases demand for cotton
 
@@ -36,7 +38,7 @@ fish = {
 	base_price = 10
 	
 	min_demand = 0.25
-	max_demand = 1.00
+	max_demand = 1.25
 	
 	barrack = 0.01
 	shipyard = 0.01
@@ -96,9 +98,9 @@ naval_supplies = {
 	min_demand = 0.50
 	max_demand = 1.50
 	
-	shipyard = 0.01
+	shipyard = 0.02
 	
-	navalequipment = 0.01
+	navalequipment = 0.02
 
 	manufactory = { type = navalequipment income = yes }
 }
@@ -107,7 +109,7 @@ salt = {
 	base_price = 15
 	
 	min_demand = 0.25
-	max_demand = 1.00
+	max_demand = 1.25
 	
 	barrack = 0.01
 	shipyard = 0.01
@@ -125,7 +127,7 @@ wine = {
 	base_price = 15
 	
 	min_demand = 0.25
-	max_demand = 1.00
+	max_demand = 1.25
 	
 	barrack = 0.01
 	shipyard = 0.01
@@ -167,7 +169,9 @@ copper = {
 	max_demand = 1.50
 
 	barrack = 0.01
-	shipyard = 0.01
+	shipyard = 0.02
+
+	weapons = 0.01
 
 	manufactory = { type = weapons income = yes }
 }
@@ -188,7 +192,7 @@ iron = {
 	min_demand = 0.50
 	max_demand = 1.50
 
-	barrack = 0.01
+	barrack = 0.02
 
 	weapons = 0.01
 
@@ -200,7 +204,7 @@ iron = {
 
 coffee = {
 	base_price = 10
-	slaves_demand = 1
+	slaves_demand = 2
 
 	min_demand = 0.75
 	max_demand = 2.00
@@ -221,22 +225,22 @@ coffee = {
 
 cotton = {
 	base_price = 7
-	slaves_demand = 1
+	slaves_demand = 2
 
 	min_demand = 0.50
 	max_demand = 1.50
 
-	goods = 0.01
+	goods = 0.02
 
 	manufactory = { type = goods income = yes }
 }
 
 sugar = {
 	base_price = 16
-	slaves_demand = 1
+	slaves_demand = 3
 
 	min_demand = 0.75
-	max_demand = 1.00
+	max_demand = 1.50
 
 	refinery = 0.01
 
@@ -245,7 +249,7 @@ sugar = {
 
 tobacco = {
 	base_price = 14
-	slaves_demand = 1
+	slaves_demand = 2
 
 	min_demand = 0.75
 	max_demand = 2.00

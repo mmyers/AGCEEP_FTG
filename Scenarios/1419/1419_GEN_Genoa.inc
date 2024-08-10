@@ -4,7 +4,7 @@
 
 country = {
 	tag = GEN
-	ai = "SmallCRC3.txt"
+	ai = "GEN_1419.txt"
 	colonialattempts = 0
 	colonialnation = no
 	major = no
@@ -17,7 +17,7 @@ country = {
 	religion = { type = catholic }
 	culture = { type = lombard }
 	diplomacy = {
-		relation = { tag = BYZ value = 150 }
+		relation = { tag = BYZ value = 150 access = yes trade = yes }
 		relation = { tag = VEN value = 75 }
 		relation = { tag = THO value = -50 }
 		relation = { tag = CYP value = -50 access = yes }

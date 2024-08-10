@@ -2198,6 +2198,11 @@ ACTIONNAME338501A;Our culture spreads!;x
 #;x
 EVENTNAME338502;Vietnamese settlers in Da Lat;x
 #;x
+EVENTNAME338503;Pirates sack our capital!;x
+EVENTHIST338503;Sire, pirate raiders have taken our capital and demand an outrageous ransom in exchange for their withdrawal. Shall we pay or not?;x
+ACTIONNAME338503A;Pay them off;x
+ACTIONNAME338503B;We can handle this;x
+#;x
 #;x
 ###############################
 #### AGCEEP_HugeEvents.txt ####
@@ -6462,7 +6467,7 @@ ACTIONNAME130009A;Support Duke's claims;x
 ACTIONNAME130009B;Try to stop the Duke;x
 #;x
 EVENTNAME130010;Death of Tvrtko II;x
-EVENTHIST130010;Close to the end of his life, Tvrtko II was scared of Ottoman progress in the Balkans and feld to Venice. He died in November 1443 without a male heir, but he outlived Hermann of Cilli who was supposed to inherit Bosnia in such case. With Hungary loosing a war against Ottoman Empire, Emperor Albrecht I was not in a position to press the claims of Hermann's successors. The only two remaining choices were the two sons of Stefan Ostoja, Tvrtko's predecessor, Radivoj and Tomas. Radivoj was an ally of Ottoman Turks and already showed his incapability by failing to gain influence in Bosnia despite Ottoman support. Before his death, King Tvrtko II named Tomas Ostojic, the more promising of the two brothers, his heir.;x
+EVENTHIST130010;Close to the end of his life, Tvrtko II was scared of Ottoman progress in the Balkans and fled to Venice. He died in November 1443 without a male heir, but he outlived Hermann of Cilli who was supposed to inherit Bosnia in such case. With Hungary loosing a war against Ottoman Empire, Emperor Albrecht I was not in a position to press the claims of Hermann's successors. The only two remaining choices were the two sons of Stefan Ostoja, Tvrtko's predecessor, Radivoj and Tomas. Radivoj was an ally of Ottoman Turks and already showed his incapability by failing to gain influence in Bosnia despite Ottoman support. Before his death, King Tvrtko II named Tomas Ostojic, the more promising of the two brothers, his heir.;x
 ACTIONNAME130010A;Choose Tomas, ally of Catholics;x
 ACTIONNAME130010B;Choose Radivoj, the Ottoman puppet;x
 ACTIONNAME130010C;Insist that Count of Cilli inherits the throne;x
@@ -12894,7 +12899,7 @@ ACTIONNAME170205A;This land will be called Louisiana!;x
 #;x
 EVENTNAME170206;Duchess Anne of Brittany Surrenders;x
 EVENTHIST170206;The French occupation of Brittany was now complete. The French troops had devastated Brittany and seized several fortress. Duchess Anne was taken prisoner and escorted to King Charles VIII with all the honors due to her standing. Charles VIII was now determined to have the Duchy for himself. Anne's 'bootless calf' marriage to Maximilian was annulled. In part to preserve as much of Brittany as was currently possible, Anne agreed to marry Charles. Thus, on December 6, 1491 Charles VIII married Anne of Brittany at Langeais.;x
-ACTIONNAME170206A;Long life to the King! Long life to the Queen!;x
+ACTIONNAME170206A;Long live the King! Long live the Queen!;x
 #;x
 EVENTNAME170207;Pope Alexander VI and Louis XII;x
 EVENTHIST170207;The accidental death of Charles VIII in April 1498 settled the Crown of France on the heir presumptive, Louis II Duke of Orleans, now King Louis XII, whom had long since reconciled with his old rival, Anne de Beaujeu, mother of Charles VIII. The days of the League of the Public Weal were now distant memories, and as the King of France, Louis XII quickly adopted the role and policies of his predecessors. Charles VIII had promised his wife Anne, Duchess of Brittany, that should he die without male issue, Brittany would be freed of its obligations to the Crown of France. Charles and Anne had had four children together, yet all had perished in their youth. Faced with no other option, Louis XII would have to marry his predecessor's widow in order to keep the Duchy of Brittany close to the Crown of France. However, Louis was currently married to the pious and disabled Jeanne de France, daughter of King Louis XI, whom had designed the marriage decades ago in an attempt to extinguish the House of Orleans. Pope Alexander VI was willing to annul Louis' marriage in exchange for the elevation of his son, Cesare Borgia, Count of Valentinois, to the rank of Duke, and military aid for the Pope's efforts in Italy. Louis XII accepted the terms. The county of Valentinois became a Duchy, and Cesare Borgia became the first Duke of Valentinois.;x
@@ -14460,7 +14465,7 @@ EVENTHIST188030;Kingdom of Bosnia was a chaotic realms where dukes constantly ba
 ACTIONNAME188030A;Bosnia is ours again;x
 #;x
 EVENTNAME188031;Count of Cilli inherits Bosnia;x
-EVENTHIST188031;Close to the end of his life, Tvrtko II was scared of Ottoman progress in the Balkans and feld to Venice. He died in November 1443 without a male heir, but he outlived Hermann of Cilli who was supposed to inherit Bosnia in such case. With Hungary loosing a war against Ottoman Empire, Emperor Albrecht I was not in a position to press the claims of Hermann's successors. The only two remaining choices were the two sons of Stefan Ostoja, Tvrtko's predecessor, Radivoj and Tomas. Just before his death, King Tvrtko II insisted that the treaty he signed with Hermann II be honored and that Count Ulrich of Cilli becomes King of Bosnia.;x
+EVENTHIST188031;Close to the end of his life, Tvrtko II was scared of Ottoman progress in the Balkans and fled to Venice. He died in November 1443 without a male heir, but he outlived Hermann of Cilli who was supposed to inherit Bosnia in such case. With Hungary loosing a war against Ottoman Empire, Emperor Albrecht I was not in a position to press the claims of Hermann's successors. The only two remaining choices were the two sons of Stefan Ostoja, Tvrtko's predecessor, Radivoj and Tomas. Just before his death, King Tvrtko II insisted that the treaty he signed with Hermann II be honored and that Count Ulrich of Cilli becomes King of Bosnia.;x
 #;x
 EVENTNAME188032;Consequence of the Peace of Szeged;x
 EVENTHIST188032;On June 12, 1444, after three days of discussion, the treaty was completed. The final terms stated that Murad would return 24 Serbian cities, including the large fortresses of Golubac and Smederevo, to the exiled Serbian monarch, Brankovic.;x
@@ -15119,7 +15124,7 @@ ACTIONNAME242007B;Brand Hosokawa a rebel;x
 #;x
 EVENTNAME242008;Ouchi Sends Reinforcements;x
 EVENTHIST242008;In September 1467 Ouichi's reinforcemnts arrive after having to surpress troubles at home do to Hosokawa's propoganda. Bolstered and refreshed from near defeat by these reinforcements Yamana decides to cut off all contact Hosokawa had with this bolster.;x
-ACTIONNAME242008A;Seize the inititive;x
+ACTIONNAME242008A;Seize the initiative;x
 ACTIONNAME242008B;Keep them back and wait;x
 #;x
 EVENTNAME242009;Ouchi's Reinforcements;x
@@ -15915,7 +15920,7 @@ ACTIONNAME199000A;We will bow;x
 ACTIONNAME199000B;Keep seperate Kingdoms;x
 #;x
 EVENTNAME199001;Golden Age of Lan Na;x
-EVENTHIST199001;The 15th century was the golden age of Chiang Mai, when Lan Na art and power reached its peak during the reign of King Tilokaraja. He was a great warlord and a devout Buddhist, able in 1455 AD to arrange the eighth world Bhuddist council in Chiang Mai. The fact that this was feasible attests to the power, wealth, safety and communications that Lan Na enjoyed.;x
+EVENTHIST199001;The 15th century was the golden age of Chiang Mai, when Lan Na art and power reached its peak during the reign of King Tilokaraja. He was a great warlord and a devout Buddhist, able in 1455 AD to arrange the eighth world Buddhist council in Chiang Mai. The fact that this was feasible attests to the power, wealth, safety and communications that Lan Na enjoyed.;x
 #;x
 EVENTNAME199002;Effect of the earthquake;x
 EVENTHIST199002;This is a disaster for Lan Na...;x
@@ -16102,7 +16107,7 @@ ACTIONNAME3465A;This Great Nation craves Revenge!;x
 #;x
 EVENTNAME20112;The last chance for the Crown of Lithuania;x
 EVENTHIST20112;Secretly backed by Jagiello, in 1429 Vytautas called a congress to city of Luck. Sigismund was invited too. Officially matters of discussion were Moldova, Hussites, and a Catholic synod. But in fact, the real issue was the title of King for Vytautas. The Polish embassy, led by chancellor Jan Szafraniec and Zbigniew Olesnicki, the bishop of Krakow, protested harshly. Olesnicki gained an offical statement from Pope Martin V forbidding Vytautas to accept the crown from the hands of Sigismund, on the pretext that the latter hadn't been crowned as Emperor. It was a forceful blow for Sigismund, whose animosity for Poland grew even stronger. The final blow came from Jagiello, who had been threatened by the Poles that the treaty of succession of the crown of Poland signed in 1425 would be revoked if Vytautas was coronated. Vytautas died on October 27, 1430, with no crown on his brow.;x
-ACTIONNAME20112A;Jagiello is being forced to back down, Lithuania wil receive no crown;x
+ACTIONNAME20112A;Jagiello is being forced to back down, Lithuania will receive no crown;x
 ACTIONNAME20112B;Convince Jagiello to support us, Lithuania must be a Kingdom whatever the price;x
 ACTIONNAME20112C;I'm too old for this, Vytautas abdicates the throne early;x
 #;x
@@ -18789,7 +18794,7 @@ EVENTHIST241022;As the Castilian nobles started to defect his side in his wars a
 #;x
 EVENTNAME241023;Juan, also King of Aragon;x
 EVENTHIST241023;With the death of Alfonso V of Aragon, his brother Juan I of Navarre becomes Juan II of Aragon. But Alfonso has left the Kingdom of Aragon in total disarray with his Italian adventures. The economical crisis of the County of Barcelona has the society split in two, the urban patrician nobility or Biga, the high nobility and the church in one side, and the artisans, merchants and burgheoises, or Busca, in the other side, with the peasants, or payeses of Remensa, opposed to their oppressing rural nobility. The nobility opposes the King, while the citizens and peasants try to extract from him rights and more power in exchange for their support. It is a poisoned gift for somebody like Juan, used to get what he wants by force. At the same time Carlos becomes the heir to Aragon, a situation that displeases Queen Juana, who already has a gifted son with Juan of name Fernando. The Beaumonts, supporters of Carlos, claim for a union with Aragon, the Gramonts defend the independence with Leonor and Gaston. Juan suspects Carlos might be joining the Castilians again, and inprisons him, and the civil war explodes again in both Navarre and Aragon. Juan is forced to release Carlos, but sick of tuberculosis, he dies in September 1461, leaving his sister Blanca as heir to his claim to the throne of Navarre. Juan has to fight the Castilians and Beaumonts, while he has the help of the Gramonts, Gaston of Foix and Louis XI of France. Blanca is an obstacle to the claim of Leonor and Gaston, but Juan will deliver her to Gaston who will inprison her in Moncada until her dead in 1464. When Enrique IV abandons his claim to the crown of Aragon offered by the rebel party in Barcelona, the Castilians leave the war, and the Beaumonts are defeated. Looks like peace, but it is only a respite.;x
-ACTIONNAME241023A;The heir has died, long life the new heir;x
+ACTIONNAME241023A;The heir has died, long live the new heir;x
 #;x
 EVENTNAME241024;Leonor Against Juan;x
 EVENTHIST241024;With Carlos and Blanca death, Navarre is running out of heirs. But the matter is not settled between the Beaumonts and Gramonts. The civil war is suicidal for Navarre, weakening her while her neighbors are sharpening their knifes. Louis XI, the spider King, has his eyes set in Navarre. His sister Madeleine of France is married to Gaston, son of Leonor and Gaston IV of Foix. Navarre is steering towards France once more after a century of Iberian influence. Once Louis has obtained the Rousillon from desperate Juan, he shifts his support to the rebels in Barcelona, that have offered the County to Renee of Anjou, Count of Provence. With the help of Louis, Leonor and Gaston, who have shown themselves as quite incompetent in ruling Navarre, decide to seize the chance and take the crown from old, blind, Juan, since it looks like he is going to live forever, or at least outlast them. The orphaned Beaumonts are more than happy to have someone to follow in hope of recovering their lost properties. Juan will once more disinherit one of his rebel children, naming Leonor's son, Gaston, heir to Navarre. But Gaston will die in a tournament in 1470, leaving two young children, Francois Febus and Catherine with his widow Madeleine de France. Juan has no choice but to reinstate Leonor as heir to Navarre. The war between Beaumont and Gramont however continued.;x
@@ -20730,7 +20735,7 @@ EVENTNAME301121;Bosnia submits;x
 ACTIONNAME301121A;Teach him a lesson;x
 #;x
 EVENTNAME301122;Radivoj inherits Bosnia;x
-EVENTHIST301122;Close to the end of his life, Tvrtko II was scared of Ottoman progress in the Balkans and feld to Venice. He died in November 1443 without a male heir, but he outlived Hermann of Cilli who was supposed to inherit Bosnia in such case. With Hungary loosing a war against Ottoman Empire, Emperor Albrecht I was not in a position to press the claims of Hermann's successors. The only two remaining choices were the two sons of Stefan Ostoja, Tvrtko's predecessor, Radivoj and Tomas. King Tvrtko choose the aggressive and ambitious Radivoj, our loyal vassal, as his successor.;x
+EVENTHIST301122;Close to the end of his life, Tvrtko II was scared of Ottoman progress in the Balkans and fled to Venice. He died in November 1443 without a male heir, but he outlived Hermann of Cilli who was supposed to inherit Bosnia in such case. With Hungary loosing a war against Ottoman Empire, Emperor Albrecht I was not in a position to press the claims of Hermann's successors. The only two remaining choices were the two sons of Stefan Ostoja, Tvrtko's predecessor, Radivoj and Tomas. King Tvrtko choose the aggressive and ambitious Radivoj, our loyal vassal, as his successor.;x
 #;x
 EVENTNAME301123;Serbia submits yet again;x
 EVENTHIST301123;After 1454, the political sentiment among Serbian nobility began to change. After many years of Hungarian failure to protect Serbia against Ottoman onslaught and with great support from Djuradj's daughter Mara, Serbian nobles began thinking that honest and loyal alliance with Ottoman Empire is the best option for Serbia. Internal conflicts of Hungary and actions of disloyal Lord of Belgrade against Despot Djuradj only strenghtened Turkophilic nobles in Serbia. Sultan Memhed II, aware of this change and with most of Serbia under his control, offered Despot Djuradj to let him rule a smaller despotate but with reduced tribute. Despot initially agreed, but changed his mind as Ottoman army was crossing Serbia to attack Belgrade. After suffering great losses in defense of Smederevo and Belgrade and even more to the plague that came afterwards and also took life of Janos Hunyadi, Despot Djuradj was forced to negotiate and new peace and vassalage with Ottoman Empire. He was stopped by death in 1456.;x
@@ -25755,7 +25760,7 @@ ACTIONNAME285059A;Not very friendly these Japanese;x
 #;x
 EVENTNAME285060;Luis I the Well-Beloved;x
 EVENTHIST285060;In many lists of Spanish Kings one is missing. On the tenth of January 1724, Felipe V unexpectedly decided to abdicate. He alleged a desire to dedicate to religious works, but the death in the previous month of the Duke of Orleans, regent and heir to the throne of France had opened his possibility of inheriting the Kingdom of France from his sickly nephew, as he was the grandson of Louis XIV. By virtue of the will of Carlos II and the Peace of Utrecht, he could not rule both France and Spain, but he had not abdicated of his personal rights to the crown of France. A month later, on the 9th of February, his son Louis was crowned as King of Spain. He was 17 years old and childish, despite being already married. His court in Madrid was supervised by his father from the palace of La Granja de San Ildefonso, not far from the capital. But his rule was not to bear any consequence and was called the lightning rule, as he soon fell sick of smallpox, the same disease that exterminated the family of his cousin Louis XV of France. Luis died the 31 of August, 1724, seven months after becoming King. He was called the Well-Beloved because his very young wife cared for him during his disease despite the considerable risk to her own life. His brother Fernando was his heir, but his father Felipe illegally retook the crown, given that Louis XV of France recovered and that his second wife Isabel de Farnesio wanted to be Queen, and nobody disputed his right. But the second rule of Felipe V was worse than the first, as he was affected by a progressive mental disease, and his wife, Duchess and heir of Parma, involved Spain in the recovery of the Italian territories for her sons. Felipe V renounced to his rights to the French throne in 1725.;x
-ACTIONNAME285060A;The King is dead. Long life the King;x
+ACTIONNAME285060A;The King is dead. Long live the King;x
 #;x
 EVENTNAME285061;Manuel Godoy, Prince of Peace;x
 EVENTHIST285061;Manuel Godoy was an army officer that raised to power through his affairs with the Queen of Spain, Maria Luisa de Parma. He became prime minister just prior to the declaration of war by Revolutionary France to Spain, after the reaction of Carlos IV to his cousin Louis XVI execution. After initial Spanish successes, the previous prime minister, the Count of Aranda, defended peace negotiations, but the war was popular and Godoy persisted until it turned into a disaster. At the peace of Basilea in 1795, Spain ceded the island of Santo Domingo to France and Godoy was given the title of Prince of Peace. At the first treaty of San Ildefonso in 1796 between France and Spain, Godoy turned the Spanish foreign policy into French hands, leading to a permanent confrontation with England of catastrophic consequences. Despite his efforts he failed to improve the economy. Finally his submission to Napoléon will lead to the invasion of Spain, and the forced abdication of Carlos IV. He was exiled by Fernando VII, and rehabilitated by Isabel II in 1847, a few years before his death in Paris.;x

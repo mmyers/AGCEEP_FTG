@@ -1020,8 +1020,8 @@ event = {
  		command = { type = sleepevent which = 227003 } #MLC: The Portuguese covet Malacca -II-
 		command = { type = sleepevent which = 338274 } #Province_Specific*677: The Portuguese covet Malacca
  		command = { type = sleepevent which = 101004 } #ADE: The Portuguese covet Aden
-		command = { type = sleepevent which = 338269 } #Province_Specific*500: The Portuguese covet Aden
-		command = { type = sleepevent which = 338273 } #Province_Specific*504: The Portuguese covet Ormuz
+		command = { type = sleepevent which = 338264 } #Province_Specific*500: The Portuguese covet Aden
+		command = { type = sleepevent which = 338276 } #Province_Specific*504: The Portuguese covet Ormuz
 	}
 }
 #(1498-1680) Sultan has defied our demands
@@ -5663,7 +5663,7 @@ event = {
 		command = { type = gainmanufactory which = -1 value = refinery }
 		command = { type = gainmanufactory which = -1 value = goods }
 		command = { type = stability value = -1 }
-		command = { type = trigger which = 3093 } #ENG: The Meuthen Agreement
+		command = { type = trigger which = 3093 } #ENG: The Methuen Agreement
 	}
 	action_b = {
 		name = "ACTIONNAME260031B" #Do not accept English suzerainty

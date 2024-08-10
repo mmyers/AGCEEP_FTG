@@ -13,6 +13,7 @@ war = -75
 ferocity = no
 sreligion = no
 combat = { TRI NUB ARA }
+galleys = yes
 base = 0.5
 front = 5.0
 conquer = {
