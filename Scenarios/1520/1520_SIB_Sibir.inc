@@ -30,10 +30,10 @@ country = {
 		1572 581 583 586 588
 	}
 	ownedprovinces = {
-		510 511 512 513 514 515 578 1570 1571 1573 1575
+		510 511 512 578 1570 1571 1573 1575
 	}
 	controlledprovinces = {
-		510 511 512 513 514 515 578 1570 1571 1573 1575
+		510 511 512 578 1570 1571 1573 1575
 	}
 	nationalprovinces = {
 		510 511 512 578 1570 1571 1573 1575
@@ -54,24 +54,6 @@ country = {
 		fortress = { level = 1 }
 		population = 900
 		location = 512
-		bailiff = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 3000
-		location = 513
-		bailiff = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 3500
-		location = 514
-		bailiff = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 2000
-		location = 515
 		bailiff = yes
 	}
 	city = {

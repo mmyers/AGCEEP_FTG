@@ -16,7 +16,7 @@ region = {
 	Australia
 }
 area = {
-	America
+	Appalachia
 	Antilles
 	Cuba
 	Haiti

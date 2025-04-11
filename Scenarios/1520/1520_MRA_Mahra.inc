@@ -45,6 +45,7 @@ country = {
 		capital = yes
 	}
 	city = {
+		name = "Suq"
 		fortress = { level = 1 }
 		population = 1100
 		location = 756

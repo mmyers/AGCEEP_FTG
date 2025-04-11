@@ -15,7 +15,7 @@ region = {
 	SWPacificSea
 }
 area = {
-	America
+	Appalachia
 	Antilles
 	Cuba
 	Haiti

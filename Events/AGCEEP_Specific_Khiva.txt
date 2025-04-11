@@ -49,6 +49,8 @@ event = {
 		command = { type = remove_countryculture which = turkoman }
 		command = { type = add_countryculture which = uzbek }
 		command = { type = add_countryculture which = turkoman }
+		command = { type = addcore which = 523 } #Kara Kum
+		command = { type = addcore which = 524 } #Turkmenistan
 		command = { type = CAV which = -2 value = 10000 }
 		command = { type = breakvassal which = UZB }
 		command = { type = trigger which = 325001 } #UZB: Khiva and The Western Provinces
@@ -92,6 +94,8 @@ event = {
 		command = { type = remove_countryculture which = turkoman }
 		command = { type = add_countryculture which = uzbek }
 		command = { type = add_countryculture which = turkoman }
+		command = { type = addcore which = 523 } #Kara Kum
+		command = { type = addcore which = 524 } #Turkmenistan
 		command = { type = CAV which = -2 value = 10000 }
 		command = { type = breakvassal which = BUK }
 		command = { type = trigger which = 352001 } #BUK: Khiva and The Western Provinces

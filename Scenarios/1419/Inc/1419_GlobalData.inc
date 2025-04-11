@@ -447,9 +447,21 @@ globaldata = {
 		expirydate = { day = 29 month = december year = 1427 }
 		participant = { TUR SER }
 	}
-¤IF Alternative_Wales
 	alliance = {
 		id = { type = 6000 id = 55 }
+		type = vassalization
+		expirydate = { year = 1820 }
+		participant = { MRA SOC }
+	}
+	alliance = {
+		id = { type = 6000 id = 56 }
+		type = vassalization
+		expirydate = { year = 1450 }
+		participant = { STE NOG }
+	}
+¤IF Alternative_Wales
+	alliance = {
+		id = { type = 6000 id = 57 }
 		type = vassalization
 		expirydate = { year = 1820 }
 		participant = { ENG WLS }

@@ -23,6 +23,7 @@ country = {
 		relation = { tag = HAD value = 125 }
 		relation = { tag = GHR value = 125 }
 		relation = { tag = HAA value = 125 }
+		relation = { tag = SOC value = -50 }
 	}
 	knownprovinces = {
 		357 358 359 360 441 470 471 472 473 474 475 476 477 478 479 480
@@ -36,24 +37,19 @@ country = {
 		1609 1610 1611 1613
 	}
 	ownedprovinces = {
-		502 756
+		502
 	}
 	controlledprovinces = {
-		502 756
+		502
 	}
 	nationalprovinces = {
-		502 756
+		502
 	}
 	city = {
 		fortress = { level = 1 }
 		population = 1350
 		location = 502
 		capital = yes
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 1000
-		location = 756
 	}
 	technology = {
 		stability = { level = 2 value = 42 }

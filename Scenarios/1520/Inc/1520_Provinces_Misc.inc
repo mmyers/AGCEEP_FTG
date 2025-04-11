@@ -15,4 +15,7 @@ province = { id = 686 province_revoltrisk = 10 } #Kansai
 province = { id = 687 province_revoltrisk = 10 } #Shikoku
 province = { id = 688 province_revoltrisk = 8 } #Kyushu
 
+#Looted provinces
+province = { id = 456 date = { day = 0 month = january year = 1521 } looted = yes } #Orenburg
+
 #-----------------------------------------------------------------------------------------------

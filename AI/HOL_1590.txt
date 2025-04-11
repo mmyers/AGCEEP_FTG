@@ -48,7 +48,7 @@ area = {
 	Bahia
 	Recife
 	Amazonia
-	America
+	Appalachia
 }
 expansion = 3
 tradingpost = 50

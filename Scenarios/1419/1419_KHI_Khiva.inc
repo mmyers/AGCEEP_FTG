@@ -29,7 +29,9 @@ country = {
 	controlledprovinces = {
 		521 522 1533
 	}
-	nationalprovinces = { }
+	nationalprovinces = {
+		521 522 1533
+	}
 	city = {
 		population = 3000
 		location = 1533

@@ -7,7 +7,7 @@ region = {
 }
 area = {
 	Georgia
-	America
+	Appalachia
 	Maine
 	Florida
 	"Grand Lacs"

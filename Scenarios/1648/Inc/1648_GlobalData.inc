@@ -1264,6 +1264,12 @@ history = {
 	194005
 	194007
 	194008
+	201005 #KNI: The Pirates of St. John -I-
+	201006 #KNI: The Pirates of St. John -II-
+	201007 #KNI: The Pirates of St. John -III-
+	201008 #KNI: The Pirates of St. John -IV-
+	201013 #KNI: The Pirates of St. John -V-
+	201014 #KNI: The Pirates of St. John -VI-
 	203004 #KON: Afonso I converts Kongo to Christianity
 	203005 #KON: Pope Leo X consecrates Henrique Bishop of Utica
 	206010 #KUR: The Mercantile Reforms of Duke Jacob Kettler
@@ -1725,6 +1731,7 @@ history = {
 	338909
 	338910
 	338911 #End of Mongolia Depopulation Events
+	345000 #MRA: The Socotran Question
 	355003 #COC: Appeal to Portugal
 	364001 #CLC: The Treachery of Cochin
 	364002 #CLC: Anti-Portuguese Feelings

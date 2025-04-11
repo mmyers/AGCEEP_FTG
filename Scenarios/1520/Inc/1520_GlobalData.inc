@@ -393,6 +393,25 @@ globaldata = {
 		expirydate = { year = 1820 }
 		participant = { FRA FOI }
 	}
+	alliance = {
+		id = { type = 6000 id = 53 }
+		type = militaryalliance
+		name = ""
+		expirydate = { year = 1535 }
+		participant = { SIB NOG }
+	}
+	alliance = {
+		id = { type = 6000 id = 54 }
+		type = dynasticalliance
+		expirydate = { year = 1550 }
+		participant = { KZK NOG }
+	}
+	alliance = {
+		id = { type = 6000 id = 55 }
+		type = dynasticalliance
+		expirydate = { year = 1550 }
+		participant = { CRI NOG }
+	}
 
 	war = {
 		id = { type = 6000 id = 100 }
@@ -460,6 +479,23 @@ globaldata = {
 			type = war
 			name = ""
 			participant = { POL LIT }
+		}
+	}
+	war = {
+		id = { type = 6000 id = 112 }
+		date = { year = 1519 month = january day = 1 }
+		enddate = { year = 1522 month = december day = 29 }
+		attackers = {
+			id = { type = 6000 id = 113 }
+			type = war
+			name = ""
+			participant = { NOG }
+		}
+		defenders = {
+			id = { type = 6000 id = 114 }
+			type = war
+			name = ""
+			participant = { AST }
 		}
 	}
 
@@ -1034,6 +1070,9 @@ history = {
 	179091 #HAB: The claim to Tyrol and Vorlande
 	179141 #HAB: Ostmarch and Habsburgs Hereditary Lands
 	184031 #HEL: Witch-hunting in Switzerland
+	201005 #KNI: The Pirates of St. John -I-
+	201006 #KNI: The Pirates of St. John -II-
+	201007 #KNI: The Pirates of St. John -III-
 	203000 #KON: Diogo Cao arrives in Kongo
 	203002 #KON: Missionaries and craftsmen from Portugal
 	203003 #KON: Missionaries and craftsmen from Portugal
@@ -1205,6 +1244,7 @@ history = {
 	338448 #Albania Veneta - 362 #Ragusa
 	338451 #German dominance in Odenburg - 352 #Odenburg
 	338496 #Swiss expansion - 405 #Savoie
+	345000 #MRA: The Socotran Question
 	355003 #COC: Appeal to Portugal
 	364001 #CLC: The Treachery of Cochin
 	364002 #CLC: Anti-Portuguese Feelings

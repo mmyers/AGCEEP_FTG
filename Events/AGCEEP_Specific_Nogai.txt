@@ -1,0 +1,31 @@
+#Nogaï (NOG)
+
+#-----------------------------------------------------------------------------------------------
+
+#(1466) The Nogaï Expansion
+#by mandead
+event = {
+	id = 346000 #triggered by STE_3689 A
+	random = no
+	country = NOG
+	name = "EVENTNAME346000" #The Nogaï Expansion
+	desc = "EVENTHIST346000"
+	#-#With the collapse of the Golden Horde in the mid-15th century, the Nogaï expanded northwards into the Steppe in order to exploit the ensuing power vacuum. Over the following decades they would quarrel with most of the Golden Horde's splinter states, and in 1481 killed Ahmed Khan of the Great Horde in battle. By the early 16th century the Nogaï had begun raiding both Astrakhan and Crimea, and they had been split between the 'Great' Nogaï at Saray-Jük and the 'Lesser' Nogaï in the Caucasus.
+
+	action_a = {
+		name = "ACTIONNAME346000A" #These lands are now ours!
+		command = { type = addcore which = 513 } #Orsk
+		command = { type = addcore which = 514 } #Irgiz
+		command = { type = CAV which = -2 value = 5000 }
+		command = { type = domestic which = OFFENSIVE value = 1 }
+		command = { type = breakvassal which = STE }
+		command = { type = dynastic which = SIB }
+		command = { type = relation which = SIB value = 100 }
+		command = { type = relation which = UZB value = 50 }
+		command = { type = relation which = STE value = -150 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------
+
+#First free id: 346001

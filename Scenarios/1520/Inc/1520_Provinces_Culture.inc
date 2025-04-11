@@ -11,6 +11,9 @@ province = { id = 749 religion = sunni } #Nubia
 province = { id = 750 religion = sunni } #Sudan
 province = { id = 751 religion = sunni } #Bisharin
 
+#Islam spread to Socotra
+province = { id = 756 religion = sunni } #Socotra
+
 #Turkish expansion
 province = { id = 356 religion = sunni } #Bulgaria
 province = { id = 361 religion = sunni } #Albania
