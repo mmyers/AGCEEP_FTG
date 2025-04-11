@@ -518,6 +518,7 @@ event = {
 		command = { type = vp value = 300 }
 		command = { type = trigger which = 287027 } #STE: Splintering of the Horde and Kazan
 		command = { type = trigger which = 287007 } #STE: Splintering of the Horde and Sibir
+		command = { type = trigger which = 346000 } #NOG: The Nogaï Expansion
 	}
 	action_b = {
 		name = "ACTIONNAME3689B" #Buy the Non-Mongols off
@@ -571,8 +572,10 @@ event = {
 			owned = { province = 513 data = -1 } #Orsk
 			owned = { province = 514 data = -1 } #Irgiz
 			owned = { province = 515 data = -1 } #Alga
+			owned = { province = 519 data = -1 } #Emba
+			owned = { province = 520 data = -1 } #Bouzatchi
 		}
-		neighbour = SIB
+		neighbour = NOG
 	}
 	random = no
 	country = STE
@@ -582,9 +585,11 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME287027A" #And so our power weakens further
-		command = { type = cedeprovince which = SIB value = 513 } #Orsk
-		command = { type = cedeprovince which = SIB value = 514 } #Irgiz
-		command = { type = cedeprovince which = SIB value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 513 } #Orsk
+		command = { type = cedeprovince which = NOG value = 514 } #Irgiz
+		command = { type = cedeprovince which = NOG value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 519 } #Emba
+		command = { type = cedeprovince which = NOG value = 520 } #Bouzatchi
 	}
 }
 

@@ -28,7 +28,7 @@ region = {
 	BarrierReefSea
 }
 area = {
-	America
+	Appalachia
 	"The Cape"
 	Malabar
 	Bengal

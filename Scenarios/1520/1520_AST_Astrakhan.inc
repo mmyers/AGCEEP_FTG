@@ -36,7 +36,7 @@ country = {
 		455 456 457 458
 	}
 	controlledprovinces = {
-		455 456 457 458
+		455 457 458
 	}
 	nationalprovinces = {
 		452 453 454 457 458
@@ -75,7 +75,7 @@ country = {
 		artillery = 0
 	}
 	technology = {
-		stability = { level = 2 value = 42 }
+		stability = { level = -2 value = 42 }
 		infra = { level = 1 value = 50 }
 		trade = { level = 1 value = 50 }
 		land = { level = 4 value = 0 }

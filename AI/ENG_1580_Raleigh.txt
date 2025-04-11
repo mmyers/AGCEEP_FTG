@@ -23,7 +23,7 @@ region = {
 }
 area = {
 	Georgia
-	America
+	Appalachia
 	Ohio
 	Maine
 	Acadie

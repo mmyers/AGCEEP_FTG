@@ -179,7 +179,7 @@ USR = { #American Rebels
 		}
 		year = 1750
 	}
-	area = { America Georgia Maine Ohio }
+	area = { Appalachia Georgia Maine Ohio }
 	culture = { english celtic }
 	weight = 500
 }

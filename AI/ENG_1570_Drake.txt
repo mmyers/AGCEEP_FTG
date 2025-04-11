@@ -16,7 +16,7 @@ region = {
 	NCAtlanticSea
 }
 area = {
-	America
+	Appalachia
 	Newfoundland
 	Acadie
 	Maine

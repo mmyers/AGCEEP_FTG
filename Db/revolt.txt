@@ -1658,8 +1658,8 @@ MOS = { #Muscovy
 MRA = { #Mahra
 	date = { day = 1 month = january year = 1419 }
 	expirydate = { year = 1820 }
-	minimum = { 502 756 }
-	extra = { }
+	minimum = { 502 }
+	extra = { 756 }
 	capital = 502
 	group = muslim
 	ai = "SmallTrade1.txt"
@@ -1765,6 +1765,16 @@ NIP = { #Japan
 	capital = 685
 	group = asian
 	ai = "SmallTrade3.txt"
+}
+NOG = { #Nogaï
+	date = { day = 1 month = january year = 1419 }
+	expirydate = { day = 29 month = december year = 1600 }
+	minimum = { 515 519 520 }
+	extra = { 513 514 }
+	capital = 515
+	group = muslim
+	culture = tatar
+	ai = "SmallTrade1.txt"
 }
 NOR = { #Norway
 	date = { day = 1 month = january year = 1419 }
@@ -2161,6 +2171,15 @@ SIN = { #Sindh
 	ai = "SmallTrade1.txt"
 }
 #SMI - Southern Ming
+SOC = { #Socotra
+	date = { day = 1 month = january year = 1419 }
+	expirydate = { year = 1820 }
+	minimum = { 756 }
+	extra = { }
+	capital = 756
+	group = african
+	ai = "SmallTrade0.txt"
+}
 SON = { #Songhai
 	date = { day = 1 month = january year = 1419 }
 	expirydate = { year = 1820 }

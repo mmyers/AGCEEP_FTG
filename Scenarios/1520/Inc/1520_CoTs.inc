@@ -22,12 +22,14 @@ cot = {
 #Kenya
 cot = {
 	location = 762
+	merchant = { TAG = MLI level = 3 }
 }
 
 #CoT 3 - LightBlue
 #Cuzco
 cot = {
 	location = 169
+	merchant = { TAG = INC level = 3 }
 }
 
 #CoT 4 - LightGray
@@ -45,6 +47,7 @@ cot = {
 	location = 457
 	merchant = { TAG = UZB level = 2 }
 	merchant = { TAG = KHI level = 1 }
+	merchant = { TAG = NOG level = 1 }
 }
 
 #CoT 6 - DarkYellow
@@ -120,6 +123,7 @@ cot = {
 #Timbuktu
 cot = {
 	location = 1495
+	merchant = { TAG = SON level = 3 }
 }
 
 #CoT 14 - White
@@ -133,6 +137,7 @@ cot = {
 #Zacatecas
 cot = {
 	location = 27
+	merchant = { TAG = AZT level = 3 }
 }
 
 #CoT 16 Red
@@ -170,6 +175,7 @@ cot = {
 #Al Kharam
 cot = {
 	location = 505
+	merchant = { TAG = POR level = 3 }
 }
 
 #CoT 21 - DarkOrange

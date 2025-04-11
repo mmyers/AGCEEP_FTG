@@ -2526,7 +2526,7 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME276000A" #We Are Great Britain!
-		command = { type = flagname which = "UK" }
+		command = { type = flagname which = "GBR" }
 		command = { type = countryname value = "GBR" }
 		command = { type = domestic which = centralization value = 1 }
 		command = { type = stability value = 1 }
@@ -2586,7 +2586,6 @@ event = {
 		name = "ACTIONNAME276002A" #Take the Crown of England in London
 		command = { type = flagname which = "" }
 		command = { type = country which = ENG }
-		command = { type = flagname which = "UK" }
 		command = { type = capital which = 247 } #London
 		command = { type = stability value = -3 }
 		command = { type = infra value = 500 }
@@ -2610,7 +2609,7 @@ event = {
 		command = { type = add_countryculture which = english }
 	}
 	action_c = {
-		name = "ACTIONNAME276002C" #Stay in the Edinburgh Castle
+		name = "ACTIONNAME276002C" #Stay in Edinburgh Castle
 		command = { type = provincetax which = 238 value = 1 } #Lothian
 		command = { type = provincemanpower which = 238 value = 1 } #Lothian
 	}

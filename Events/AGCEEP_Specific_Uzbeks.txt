@@ -42,9 +42,11 @@ event = {
 		command = { type = cedeprovince which = SIB value = 510 } #Kurgan
 		command = { type = cedeprovince which = SIB value = 511 } #Kustanai
 		command = { type = cedeprovince which = SIB value = 512 } #Tenghiz
-		command = { type = cedeprovince which = SIB value = 513 } #Orsk
-		command = { type = cedeprovince which = SIB value = 514 } #Irgiz
-		command = { type = cedeprovince which = SIB value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 513 } #Orsk
+		command = { type = cedeprovince which = NOG value = 514 } #Irgiz
+		command = { type = cedeprovince which = NOG value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 519 } #Emba
+		command = { type = cedeprovince which = NOG value = 520 } #Bouzatchi
 		command = { type = trigger which = 325021 } #UZB: Consequence of the Formation of the Sibir Khanate
 		command = { type = trigger which = 280000 } #SIB: The Formation of the Sibir Khanate
 	}
@@ -485,8 +487,11 @@ event = {
 		command = { type = sleepevent which = 325002 } #UZB: The Formation of the Kazakh Horde
 		command = { type = cedeprovince which = SIB value = 578 } #Ichim
 		command = { type = cedeprovince which = SIB value = 512 } #Tenghiz
-		command = { type = cedeprovince which = SIB value = 513 } #Orsk
-		command = { type = cedeprovince which = SIB value = 514 } #Irgiz
+		command = { type = cedeprovince which = NOG value = 513 } #Orsk
+		command = { type = cedeprovince which = NOG value = 514 } #Irgiz
+		command = { type = cedeprovince which = NOG value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 519 } #Emba
+		command = { type = cedeprovince which = NOG value = 520 } #Bouzatchi
 		command = { type = relation which = SIB value = 50 }
 		command = { type = clrflag which = [oirat] }
 	}
@@ -776,15 +781,15 @@ event = {
 
 	action_a = {
 		name = "ACTIONNAME325001A" #How bad is our luck?
+		command = { type = cedeprovince which = KHI value = 521 } #Karabogaz
 		command = { type = cedeprovince which = KHI value = 522 } #Khwarizm
 		command = { type = cedeprovince which = KHI value = 523 } #Kara Kum
-		command = { type = cedeprovince which = KHI value = 521 } #Karabogaz
-		command = { type = cedeprovince which = KHI value = 520 } #Bouzatchi
 		command = { type = cedeprovince which = KHI value = 524 } #Turkmenistan
-		command = { type = cedeprovince which = KHI value = 519 } #Emba
-		command = { type = cedeprovince which = SIB value = 514 } #Irgiz
-		command = { type = cedeprovince which = SIB value = 513 } #Orsk
-		command = { type = cedeprovince which = AST value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 513 } #Orsk
+		command = { type = cedeprovince which = NOG value = 514 } #Irgiz
+		command = { type = cedeprovince which = NOG value = 515 } #Alga
+		command = { type = cedeprovince which = NOG value = 519 } #Emba
+		command = { type = cedeprovince which = NOG value = 520 } #Bouzatchi
 	}
 }
 #(1511-1820) Independence of Khiva

@@ -13,7 +13,7 @@ region = {
 	Indonesia
 }
 area = {
-	America
+	Appalachia
 	Antilles
 	"St Helena"
 	Guiana

@@ -174,6 +174,12 @@ cot = {
 cot = {
 	location = 500
 	merchant = { TAG = ADE level = 3 }
+	merchant = { TAG = ADA level = 3 }
+	merchant = { TAG = AJU level = 2 }
+	merchant = { TAG = MRA level = 2 }
+	merchant = { TAG = HAD level = 2 }
+	merchant = { TAG = SOC level = 1 }
+	merchant = { TAG = YEM level = 1 }
 }
 
 #CoT 12 - Blue
@@ -182,6 +188,10 @@ cot = {
 	location = 505
 	merchant = { TAG = ADE level = 4 }
 	merchant = { TAG = GUJ level = 4 }
+	merchant = { TAG = ORM level = 3 }
+	merchant = { TAG = HAA level = 2 }
+	merchant = { TAG = BAS level = 2 }
+	merchant = { TAG = GHR level = 2 }
 }
 
 #CoT 13 - LightRed
@@ -255,6 +265,7 @@ cot = {
 #Timbuktu
 cot = {
 	location = 1495
+	merchant = { TAG = MAL level = 4 }
 }
 
 #CoT 21 - DarkRed

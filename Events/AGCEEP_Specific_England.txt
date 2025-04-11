@@ -14866,14 +14866,14 @@ event = {
 }
 
 #(1815) The Corn Laws
-#Edited by Johnny Canuck
+#Edited by Johnny Canuck and mandead
 event = {
 	id = 3054
 	random = no
 	country = ENG
 	name = "EVENTNAME3054" #The Corn Laws
 	desc = "EVENTHIST3054"
-	#-#A bad harvest in 1795 led to food riots
+	#-#The Corn Laws, enacted in Britain between 1815 and 1846, were a series of protectionist trade policies designed to maintain high prices for domestically produced grain by imposing tariffs and restrictions on imported grain. They were implemented following the catastrophic famine of 1815/16 - the 'Year Without a Summer' - and were intended to benefit British landowners and farmers by shielding them from foreign competition, particularly after the Napoleonic Wars when agricultural prices were under pressure. The consequences of the Corn Laws were significant and far-reaching. They led to higher food prices and contributed to widespread economic hardship and social unrest. As the Industrial Revolution got under way, the laws became increasingly controversial, with industrialists and urban workers pushing for their repeal in order to lower food costs and improve living standards. The Corn Laws also strained Britain's trade relations, as they were seen as a barrier to free trade. The growing opposition eventually led to their repeal in 1846, a landmark victory for the free trade movement over imperial protectionism.
 
 	date = { day = 1 month = january year = 1815 }
 	offset = 30
@@ -14882,6 +14882,12 @@ event = {
 	action_a = {
 		name = "ACTIONNAME3054A" #Issue the Act
 		command = { type = domestic which = MERCANTILISM value = 1 } #Removed -1 Innov.#
+		command = { type = relation which = -1 value = -25 } #Added relation hits#
+		command = { type = relation which = -4 value = -25 }
+		command = { type = relation which = -4 value = -25 }
+		command = { type = relation which = -4 value = -25 }
+		command = { type = relation which = -4 value = -25 }
+		command = { type = relation which = -4 value = -25 }
 		command = { type = stability value = -2 }
 	}
 	action_b = {

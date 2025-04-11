@@ -32,7 +32,7 @@ area = {
 	Guiana
 	Antilles
 	"The Cape"
-	America
+	Appalachia
 	Papua
 	"St Helena"
 	Malabar

@@ -49,7 +49,6 @@ country = {
 		bailiff = yes
 	}
 	city = {
-		name = "Soko"
 		fortress = { level = 1 }
 		population = 2000
 		location = 756

@@ -232,7 +232,7 @@ EVENTHIST366306;Joseph II was a controversial ruler. He began his reign with lib
 #;x
 EVENTHIST366307;The Habsburg ruler reserved two places for Hungarians in the Hofrat which he was organizing as his central advisory council for his dominions as a whole - it was they themselves who failed to take up the offer.;x
 #;x
-EVENTHIST366321;After the end of the reign of Louis XIV in France and the following wars of the Spanish succession, the age of enlightenment slowly began to spread all over Europe by the words of writers and philosophers of the time such as Locke, Rosseau, Diderot, Hume, Leibniz and Montesquieu. The New Ideals was religious freedom, education and freedom of speech and political opinion. The monumental work that captured the essence of the enlightenment was Diderot's Encyclopédie, taking 25 years for it's completion and in the end totaling a collection of no less then 35 volumes of 1000 pages each describing everything from how to knit a sock to methods of improving the manufacturing of artillery pieces. Of the monarchs of Europe none was a stronger believer of these ideas than the Holy Roman Emperor, Friedrich VIII also know as Frederick the Great.;x
+EVENTHIST366321;After the end of the reign of Louis XIV in France and the following wars of the Spanish succession, the age of enlightenment slowly began to spread all over Europe by the words of writers and philosophers of the time such as Locke, Rosseau, Diderot, Hume, Leibniz and Montesquieu. The New Ideals was religious freedom, education and freedom of speech and political opinion. The monumental work that captured the essence of the enlightenment was Diderot's Encyclopédie, taking 25 years for it's completion and in the end totaling a collection of no less than 35 volumes of 1000 pages each describing everything from how to knit a sock to methods of improving the manufacturing of artillery pieces. Of the monarchs of Europe none was a stronger believer of these ideas than the Holy Roman Emperor, Friedrich VIII also know as Frederick the Great.;x
 #;x
 EVENTHIST366322;Emperor Frederick VII William endowed the Holy Roman Empire with its military and bureaucratic character. He was fanatically addicted to work and a firm autocrat. Frederick William reorganized the administrative system, raised the army to XXXX men (equivalent to 4 percent of the population) and geared the whole organization of the state to the military machine. The Empire thus became a militaristic and absolutist state.;x
 #;x
@@ -757,7 +757,7 @@ EVENTNAME337830;Decline of Samarkand;x
 EVENTHIST337830;Colonization of Siberia opened new markets and revealed abundance of new resources. Minerals, furs and other commodities flow from Siberia while another stream of merchandises flow into Siberia. Unfortunatelly, Samarkand cannot compete any longer.;x
 ACTIONNAME337830A;Samarkand has lost its importance;x
 #;x
-EVENTHIST337832;Treaty of Passarowitz was the peace treaty signed on July 21, 1718 between the Ottoman Empire on one side and the Habsburg Monarchy of Austria and the Republic of Venice on the other. During the years 1714–1718, the Ottomans had been successful against Venice in Morea and Crete, but had been defeated by the Austrian troops of Prince Eugene of Savoy. The treaty reflected the military situation. The Ottoman Empire lost the Banat of Temeswar, northern Serbia , northern Bosnia and Lesser Wallachia to Austria. Venice lost its possessions on the Peloponnesus peninsula and on Crete, gained by the Treaty of Karlowitz, retaining only the Ionian Islands and Dalmatia. With the loss of Morea and Tinos, Venice lost it last stopover point for trade in the Levant.;x
+EVENTHIST337832;Treaty of Passarowitz was the peace treaty signed on July 21, 1718 between the Ottoman Empire on one side and the Habsburg Monarchy of Austria and the Republic of Venice on the other. During the years 1714-1718, the Ottomans had been successful against Venice in Morea and Crete, but had been defeated by the Austrian troops of Prince Eugene of Savoy. The treaty reflected the military situation. The Ottoman Empire lost the Banat of Temeswar, northern Serbia , northern Bosnia and Lesser Wallachia to Austria. Venice lost its possessions on the Peloponnesus peninsula and on Crete, gained by the Treaty of Karlowitz, retaining only the Ionian Islands and Dalmatia. With the loss of Morea and Tinos, Venice lost it last stopover point for trade in the Levant.;x
 #;x
 EVENTNAME337833;Vienna: economic center of Austria;x
 EVENTHIST337833;Vienna is firmly established as the economic center of the holdings of the Austrian Habsburgs.;x
@@ -1876,7 +1876,7 @@ EVENTNAME338290;Portuguese Settlement at Quelimane;x
 EVENTHIST338290;In 1544 the Portuguese founded a trading station at Quelimane. Portugal used Quelimane as a starting point to expansion along the Zambezi river.;x
 #;x
 EVENTNAME338291;Romanian dominance in Transylvania;x
-EVENTHIST338291;Wallachia is traditionally considered to have been founded in 1290 by Radu Negru ('Ralph the Black'), a Romanian vaivode (military governor) of Fagaras in southern Transylvania. Basarab I (1330–52) defeated the Hungarian King Charles I Robert in 1330 and secured Wallachian independence. However, it proved short-lived. In 1391 Prince Mircea the Old (1386–1418) was obliged to pay tribute to the Turks, and in 1417 he acknowledged Ottoman suzerainty. Wallachia was allowed to retain its own dynasty, territory and religion but was obliged to pay tribute to the Sultan and act in accordance with his wishes. However, some of its subsequent princes revived Wallachia's resistance - notably Vlad III the Impaler ('Dracula') and Michael the Brave (1593–1601), who briefly united Wallachia with Moldavia and Transylvania. The German and Hungarian inhabitants were not really enthusiastic seeing themselves become part of a Romanian principality and losing their dominant position.;x
+EVENTHIST338291;Wallachia is traditionally considered to have been founded in 1290 by Radu Negru ('Ralph the Black'), a Romanian vaivode (military governor) of Fagaras in southern Transylvania. Basarab I (1330-52) defeated the Hungarian King Charles I Robert in 1330 and secured Wallachian independence. However, it proved short-lived. In 1391 Prince Mircea the Old (1386-1418) was obliged to pay tribute to the Turks, and in 1417 he acknowledged Ottoman suzerainty. Wallachia was allowed to retain its own dynasty, territory and religion but was obliged to pay tribute to the Sultan and act in accordance with his wishes. However, some of its subsequent princes revived Wallachia's resistance - notably Vlad III the Impaler ('Dracula') and Michael the Brave (1593-1601), who briefly united Wallachia with Moldavia and Transylvania. The German and Hungarian inhabitants were not really enthusiastic seeing themselves become part of a Romanian principality and losing their dominant position.;x
 #;x
 EVENTNAME338292;Maize introduced in Wallachia;x
 EVENTHIST338292;This plant, originating from Mezo-America, was introduced in Wallachia and became the staple food of the country.;x
@@ -2221,7 +2221,7 @@ EVENTNAME115;The Gregorian Calendar;x
 EVENTHIST115;The Gregorian calendar was proposed by Aloysius Lilius, a physician from Naples, and adopted by Pope Gregory XIII in accordance with instructions from the Council of Trent (1545-1563) to correct for errors in the older Julian Calendar. In February, 1582, Pope Gregory XIII issued a Papal Bull requiring that 10 days should be dropped from October 1582 so that 15 October should follow immediately after 4 October, and from then on the reformed calendar should be used. This was observed in Italy, Poland, Portugal, and Spain. Other Catholic countries followed shortly after, the Rest of the World adopted it only after 1700. In most countries it was also decided to adopt 1 January as the start of the year at the same time. In the Gregorian calendar, the tropical year is approximated as 365 97/400 days = 365.2425 days. Thus it takes approximately 3300 years for the tropical year to shift one day with respect to the Gregorian calendar. The approximation 365 97/400 is achieved by having 97 leap years every 400 years. These are calculated introducing a new corrective device to curb further error: century years such as 1700 or 1800 are no longer to be counted as leap years, unless they are like 1600 divisible by 400. If somewhat inelegant, this system was undeniably effective since the Gregorian calendar differed from solar year only by 26 seconds.;x
 ACTIONNAME115A;The Pope has decreed it!;x
 #;x
-EVENTHIST204;Luther's followers created a formal church but Zwingli and later Calvin's followers created many churches – among them the French Huguenots the English Puritans the Scottish Presbyterians and the Dutch Reformed Church. Protestant nations may now convert to Reformed Christians thereby increasing their long term tax incomes.;x
+EVENTHIST204;Luther's followers created a formal church but Zwingli and later Calvin's followers created many churches - among them the French Huguenots the English Puritans the Scottish Presbyterians and the Dutch Reformed Church. Protestant nations may now convert to Reformed Christians thereby increasing their long term tax incomes.;x
 #;x
 EVENTNAME302;Edict of Tolerance;x
 EVENTHIST302;Starting in the latter part of the 16th century, the Edict of Nantes and other similar legislation aimed to stop religious hostilities by imposing tolerance and mutual recognition of other religious groups. Freedom of religion was not completely forthcoming, the Edict of Nantes was repealed in 1685 by the Edict of Fontainebleau, making Protestantism illegal in France, but a trend towards progress had been set in motion. By the end of the Thirty Year's War, the era of the so called Counter-Reformation was at a close. Concurrent with an increase of religious tolerance, the Treaty of Tordesillas was no longer viewed as an impediment to non-Spanish, non-Portuguese colonization. The boundaries of the Holy Roman Empire were also revised accordingly.;x
@@ -3840,8 +3840,8 @@ EVENTHIST65000;After the death of Taimur Shah, Sandar Payenda Khan attempted to 
 ACTIONNAME65000A;Support Zaman Shah;x
 ACTIONNAME65000B;Support Sandar Payenda Khan;x
 #;x
-EVENTNAME65028;Guerilla uprisings;x
-EVENTHIST65028;Massive guerilla uprisings are occuring throughout our country! Kashmir influence suspected!;x
+EVENTNAME65028;Guerrilla uprisings;x
+EVENTHIST65028;Massive guerrilla uprisings are occuring throughout our country! Kashmir influence suspected!;x
 #;x
 EVENTNAME102000;Afghan Response;x
 EVENTHIST102000;Punjab is asking for our aid in their ongoing war against the Marathas;x
@@ -4029,7 +4029,7 @@ EVENTHIST104004;In 1443, during the battle against the Hungarians of Hunyadi in 
 ACTIONNAME104004A;I have not brought you liberty, I found it here, among you;x
 #;x
 EVENTNAME104005;The Gathering at Lesh;x
-EVENTHIST104005;On March 1st, 1444, the Cathedral of St. Nicholas at Lesh was crowded with a motley throng. From every corner of the territory the princes had come in picturesque array. Among them was the representative of the Republic of Venice, intent on learning what this unusual gathering would accomplish, and at the same time mindful to steer the deliberations in a direction that would benefit only the Most Serene Republic. Those present gave their unreserved support to the immediate creation of a League of Albanian Princes – a feat that for years had seemed beyond the realms of possibility. George Kastrioti was unanimously elected as its Leader and as Commander of the joint armies. He was offered an annual revenue of two hundred thousand ducats for military requirements. Skanderbeg had also always admired the Janissary system of the Turks and used the same doctrine for the Albanian army.;x
+EVENTHIST104005;On March 1st, 1444, the Cathedral of St. Nicholas at Lesh was crowded with a motley throng. From every corner of the territory the princes had come in picturesque array. Among them was the representative of the Republic of Venice, intent on learning what this unusual gathering would accomplish, and at the same time mindful to steer the deliberations in a direction that would benefit only the Most Serene Republic. Those present gave their unreserved support to the immediate creation of a League of Albanian Princes - a feat that for years had seemed beyond the realms of possibility. George Kastrioti was unanimously elected as its Leader and as Commander of the joint armies. He was offered an annual revenue of two hundred thousand ducats for military requirements. Skanderbeg had also always admired the Janissary system of the Turks and used the same doctrine for the Albanian army.;x
 ACTIONNAME104005A;Elect Skanderbeg;x
 #;x
 EVENTNAME104006;Rescuing the Crown of Naples;x
@@ -4962,7 +4962,7 @@ ACTIONNAME179041A;This shall benefit us both, long live the King of Italy;x
 ACTIONNAME179041B;If they want the crown, let them come and take it;x
 #;x
 EVENTNAME179042;Reimprecht von Walsee;x
-EVENTHIST179042;Reimprecht von Walsee was the first counsel and Hofmeister of Albrecht V. In 1411, he managed to get the 14-year-old Duke Albrecht declared off-age, thereby removing him and Austria from the clutches of his Habsburg cousins, who were keen on obtaining tutelage over him and regency of Austria. After that, he was of immense help to Albrecht in ending the anarchy and lawlessness in Austria – which hadn't had much of a central authority between 1404 (the premature death of Albrecht IV) and 1411 (when Albrecht and the Austrian estates took over) and was therefore plagued by feuds and robbery - during the first years of his reign.;x
+EVENTHIST179042;Reimprecht von Walsee was the first counsel and Hofmeister of Albrecht V. In 1411, he managed to get the 14-year-old Duke Albrecht declared off-age, thereby removing him and Austria from the clutches of his Habsburg cousins, who were keen on obtaining tutelage over him and regency of Austria. After that, he was of immense help to Albrecht in ending the anarchy and lawlessness in Austria - which hadn't had much of a central authority between 1404 (the premature death of Albrecht IV) and 1411 (when Albrecht and the Austrian estates took over) and was therefore plagued by feuds and robbery - during the first years of his reign.;x
 ACTIONNAME179042A;An excellent minister;x
 #;x
 EVENTNAME179043;The Gesera of Vienna;x
@@ -4976,7 +4976,7 @@ EVENTHIST179044;Elisabeth of Luxemburg, born in 1409, was the only child of Sigm
 ACTIONNAME179044A;Until death do us part;x
 #;x
 EVENTNAME179045;Death of Emperor Sigmund;x
-EVENTHIST179045;Emperor Sigmund, father in law of Duke Albrecht V of Austria, died on December 9th 1437. Sigmund had always wanted Albrecht to succeed him in the Empire and the Kingdoms of Bohemia and Hungary. Although in neither of the three realms this choice was universally recognized as legally binding and there were demands for a free election of the successor, he managed to succeed to all three crowns. This was the first union of Austria, Bohemia and Hungary and the beginning of Habsburg ambitions to dominate Southeast Europe. Albrecht's rule in the Empire however remained merely nominal – in fact he was never even crowned – and in Bohemia was opposed by a faction of Hussites supporting Casimir of Poland, which resulted in a prolonged civil war and his authority in Bohemia becoming completely ineffective.;x
+EVENTHIST179045;Emperor Sigmund, father in law of Duke Albrecht V of Austria, died on December 9th 1437. Sigmund had always wanted Albrecht to succeed him in the Empire and the Kingdoms of Bohemia and Hungary. Although in neither of the three realms this choice was universally recognized as legally binding and there were demands for a free election of the successor, he managed to succeed to all three crowns. This was the first union of Austria, Bohemia and Hungary and the beginning of Habsburg ambitions to dominate Southeast Europe. Albrecht's rule in the Empire however remained merely nominal - in fact he was never even crowned - and in Bohemia was opposed by a faction of Hussites supporting Casimir of Poland, which resulted in a prolonged civil war and his authority in Bohemia becoming completely ineffective.;x
 #;x
 EVENTNAME179046;Albrecht receives the crown of St. Stephen;x
 EVENTHIST179046;Albrecht of Habsburg was crowned King of Hungary in Székesfehérvar on January 1st 1438.;x
@@ -5438,7 +5438,7 @@ EVENTNAME120007;White Elephants;x
 EVENTHIST120007;The Buddhist Kings of Southeast Asia have always treasured the possession of white elephants, enhancing royal prestige and ensuring the country's prosperity.;x
 #;x
 EVENTNAME120008;Restoration of Thai Independence;x
-EVENTHIST120008;Together with his younger brother, Ekatotsarot, Naresuen began to gather armed followers. He had gained an insight into Burmese armed strength and strategies during his formative years. He trained his troops in the art of guerilla warfare and their hit-and-run tactics earned them the nicknames Wild Tigers and Peeping Cats. Naresuen's opportunity to restore Siamese independence came following the death of Bayinnaung, in 1581. Revolts in the Shan states and at Ava were tying young King Nandabayin down at home when Naresuen declared Ayutthaya's freedom, in 1584. During the following nine years, the Burmese made several attempts to resubjugate Siam, but Naresuen had taken thorough defensive measures and repulsed all invasions. On one of these occasions, he killed the Burmese crown prince in single combat, both of them mounted on elephants.;x
+EVENTHIST120008;Together with his younger brother, Ekatotsarot, Naresuen began to gather armed followers. He had gained an insight into Burmese armed strength and strategies during his formative years. He trained his troops in the art of guerrilla warfare and their hit-and-run tactics earned them the nicknames Wild Tigers and Peeping Cats. Naresuen's opportunity to restore Siamese independence came following the death of Bayinnaung, in 1581. Revolts in the Shan states and at Ava were tying young King Nandabayin down at home when Naresuen declared Ayutthaya's freedom, in 1584. During the following nine years, the Burmese made several attempts to resubjugate Siam, but Naresuen had taken thorough defensive measures and repulsed all invasions. On one of these occasions, he killed the Burmese crown prince in single combat, both of them mounted on elephants.;x
 ACTIONNAME120008A;Kick out the Burmese;x
 ACTIONNAME120008B;Let us still bow down;x
 #;x
@@ -6387,7 +6387,7 @@ ACTIONNAME129047A;Return to Vienna;x
 ACTIONNAME129047B;Forget Vienna;x
 #;x
 EVENTNAME129048;Ostmarch and Habsburgs Hereditary Lands;x
-EVENTHIST129048;In 976, the march ruled by the Babenberg family was described as regione vulgari vocabulo Ostarrîchi, that is, the region called 'Ostarrîchi' (the Eastern Realm) in the vernacular. The term Ostarrîchi is linguistic ancestor of the German name for Austria, Österreich. Under Ernest the Brave (1055–1075), the colonisation of the Waldviertel was begun and the Bohemian and Hungarian marches were united to Austria.;x
+EVENTHIST129048;In 976, the march ruled by the Babenberg family was described as regione vulgari vocabulo Ostarrîchi, that is, the region called 'Ostarrîchi' (the Eastern Realm) in the vernacular. The term Ostarrîchi is linguistic ancestor of the German name for Austria, Österreich. Under Ernest the Brave (1055-1075), the colonisation of the Waldviertel was begun and the Bohemian and Hungarian marches were united to Austria.;x
 ACTIONNAME129048A;Ostmarch belongs to Austria;x
 #;x
 EVENTNAME129051;Taborite republic;x
@@ -6565,7 +6565,7 @@ ACTIONNAME3518B;Defensive Army Reform;x
 ACTIONNAME3518C;Navy Reform;x
 #;x
 EVENTNAME3521;Protestants expelled from France;x
-EVENTHIST3521;The cancellation of the religious freedom of Protestants in France by Louis the XIVs and the ensuing prosecution and force conversion back to the catholic faith made literally hundreds of thousands of the protestant French Hugenotts to flee into neighboring countries. As a main center piece of the Hugenotts belief were the high praise of hard work and education, most countries where more then happy to welcome these refugees into their society.;x
+EVENTHIST3521;The cancellation of the religious freedom of Protestants in France by Louis the XIVs and the ensuing prosecution and force conversion back to the catholic faith made literally hundreds of thousands of the protestant French Hugenotts to flee into neighboring countries. As a main center piece of the Hugenotts belief were the high praise of hard work and education, most countries where more than happy to welcome these refugees into their society.;x
 ACTIONNAME3521A;Welcome with open arms;x
 #;x
 EVENTNAME3523;The Prussian African Trade Company;x
@@ -6925,7 +6925,7 @@ EVENTHIST20044;Nothing could be more repugnant to the interests of the house of 
 ACTIONNAME20044A;Defy the English, and Feudal Law;x
 ACTIONNAME20044B;Submit to English Authority, and Become a Vassal of England;x
 #;x
-EVENTHIST20047;Mary of Valois was the only daughter of Charles le Téméraire (Charles the Bold) and so heiress of all the rich Burgundian domains from the Saone River up to the Low Countries. When her father died in 1477 at the age of 43, Mary was only nineteen. The Duchy of Burgundy was one of the largest medieval states in Western Europe, covering most of the Low Countries (today's Belgium and Holland), Luxembourg and Franche-Comté. By marriage Mary would pass the lands of her father to Austria, but what would have happened if Charles the Bold would have survived the world will never know. We can only speculate...;x
+EVENTHIST20047;Mary of Valois was the only daughter of Charles le Téméraire (Charles the Bold) and so heiress of all the rich Burgundian domains from the Saone River up to the Low Countries. When her father died in 1477 at the age of 43, Mary was only nineteen. The Duchy of Burgundy was one of the largest medieval states in Western Europe, covering most of the Low Countries (today's Belgium and Holland), Luxemburg and Franche-Comté. By marriage Mary would pass the lands of her father to Austria, but what would have happened if Charles the Bold would have survived the world will never know. We can only speculate...;x
 #;x
 EVENTNAME20300;Unrest in Alsace;x
 EVENTHIST20300;The Alsatians dared to overthrow our local governor!;x
@@ -7062,7 +7062,7 @@ EVENTNAME137024;The Dutch Wittelsbach possessions;x
 ACTIONNAME137025A;It's open war with them!;x
 #;x
 EVENTNAME137028;Resistance in Luxemburg;x
-EVENTHIST137028;Having bought the Duchy of Luxembourg from Elisabeth of Görlitz, Philip the Good needed some time to secure, his new possession. Full control of the Duchy wasn't still achieved even if the Burgundian troops took the city of Luxemburg by a nightly ambush. However, another step on Burgundy's way towards achieving the primary goal of its policies, connecting their hereditary, lands with their Dutch possessions, had been already made.;x
+EVENTHIST137028;Having bought the Duchy of Luxemburg from Elisabeth of Görlitz, Philip the Good needed some time to secure, his new possession. Full control of the Duchy wasn't still achieved even if the Burgundian troops took the city of Luxemburg by a nightly ambush. However, another step on Burgundy's way towards achieving the primary goal of its policies, connecting their hereditary, lands with their Dutch possessions, had been already made.;x
 #;x
 EVENTNAME137029;Louis XI Regains the Somme Towns;x
 EVENTHIST137029;Under the terms of the treaty signed so long ago between Charles VII and the Duke of Burgundy, the Crown reserved the right to purchase back the Somme territories for a sum that, at the time, no one had believed the Crown would ever afford. As a result, it was to Duke Philip's great surprise when King Louis XI requested the territories back at the exorbitant sum of 400,000 ecus.;x
@@ -7172,13 +7172,13 @@ EVENTHIST137303;During the Burgundian reign over Flanders many cities revolted a
 EVENTNAME137304;Order restored;x
 EVENTHIST137304;Due to the growing power of the Burgundian monarchs, rebellious cities were soon put in line.;x
 #;x
-EVENTNAME137305;The purchase of Luxembourg;x
-EVENTHIST137305;The Burgundians bought Luxembourg from Elizabeth von Görlitz, making it part of their possessions in the Netherlands.;x
+EVENTNAME137305;The purchase of Luxemburg;x
+EVENTHIST137305;The Burgundians bought Luxemburg from Elizabeth von Görlitz, making it part of their possessions in the Netherlands.;x
 ACTIONNAME137305A;It seems fair to me;x
 ACTIONNAME137305B;No, it's to much;x
 #;x
 EVENTNAME137306;Annexation of Luxemburg;x
-EVENTHIST137306;Having bought the Duchy of Luxembourg from Elisabeth of Görlitz, Philip the Good needed some time to secure his new possession. Full control of the Duchy was only achieved when they took the city of Luxemburg by a nightly ambush. With Luxemburg, another step on Burgundy's way towards their goal of connecting their hereditary lands with their Dutch possessions had been made.;x
+EVENTHIST137306;Having bought the Duchy of Luxemburg from Elisabeth of Görlitz, Philip the Good needed some time to secure his new possession. Full control of the Duchy was only achieved when they took the city of Luxemburg by a nightly ambush. With Luxemburg, another step on Burgundy's way towards their goal of connecting their hereditary lands with their Dutch possessions had been made.;x
 #;x
 EVENTNAME137307;Treaty of Delft;x
 EVENTHIST137307;Jacqueline's attempt to secure her inheritance of the lowlands has failed miserably, and her pitiful rebellion has disintegrated. Moreover, her English husband has abandoned her and a papal decree has annulled the marriage. Imprisoned at Ghent, Jacqueline was forced to sign the Treaty of Delft, which recognized her as nominal countess and Philip Duke of Burgundy as her administrator and heir.;x
@@ -7260,7 +7260,7 @@ EVENTNAME136006;White Elephants;x
 EVENTHIST136006;The Buddhist Kings of Southeast Asia have always treasured the possession of white elephants, enhancing royal prestige and ensuring the country's prosperity.;x
 #;x
 EVENTNAME136007;Thai Impudence;x
-EVENTHIST136007;Together with his younger brother, Ekatotsarot, Naresuen began to gather armed followers. He had gained an insight into Burmese armed strength and strategies during his formative years. He trained his troops in the art of guerilla warfare and their hit-and-run tactics earned them the nicknames Wild Tigers and Peeping Cats. Naresuen's opportunity to restore Siamese independence came following the death of Bayinnaung, in 1581. Revolts in the Shan states and at Ava were tying young King Nandabayin down at home when Naresuen declared Ayutthaya's freedom, in 1584. During the following nine years, the Burmese made several attempts to resubjugate Siam, but Naresuen had taken thorough defensive measures and repulsed all invasions. On one of these occasions, he killed the Burmese crown prince in single combat, both of them mounted on elephants.;x
+EVENTHIST136007;Together with his younger brother, Ekatotsarot, Naresuen began to gather armed followers. He had gained an insight into Burmese armed strength and strategies during his formative years. He trained his troops in the art of guerrilla warfare and their hit-and-run tactics earned them the nicknames Wild Tigers and Peeping Cats. Naresuen's opportunity to restore Siamese independence came following the death of Bayinnaung, in 1581. Revolts in the Shan states and at Ava were tying young King Nandabayin down at home when Naresuen declared Ayutthaya's freedom, in 1584. During the following nine years, the Burmese made several attempts to resubjugate Siam, but Naresuen had taken thorough defensive measures and repulsed all invasions. On one of these occasions, he killed the Burmese crown prince in single combat, both of them mounted on elephants.;x
 ACTIONNAME136007A;Hmmmpphhh!;x
 #;x
 EVENTNAME136008;Move to Pegu;x
@@ -9725,7 +9725,7 @@ ACTIONNAME3048B;Keep all Tolls;x
 ACTIONNAME3048C;Abolish all Tolls;x
 #;x
 EVENTNAME3049;The American Revolution;x
-EVENTHIST3049;Following the closure of Boston harbor in 1773, there were skirmishes at Lexington and Concord in 1775, and an attempted invasion of British Canada late in 1775. The lack of compromise from the British and the spirit of the Sons of Liberty on the colonial side led to the meeting of a Continental Congress which issued the Declaration of Independence on 4th July, 1776. The United States of America were born and would endure nearly 7 years of guerilla and regular warfare, with its lot of betrayal, unrest, torn-families, defeats and victories (Saratoga 1777, bringing in the French alliance in 1778, and Yorktown 1781) that would finally lead England to concede defeat, lose all the territory of her former 13 colonies, and recognize the American independence at the Treaty of Paris in 1783.;x
+EVENTHIST3049;Following the closure of Boston harbor in 1773, there were skirmishes at Lexington and Concord in 1775, and an attempted invasion of British Canada late in 1775. The lack of compromise from the British and the spirit of the Sons of Liberty on the colonial side led to the meeting of a Continental Congress which issued the Declaration of Independence on 4th July, 1776. The United States of America were born and would endure nearly 7 years of guerrilla and regular warfare, with its lot of betrayal, unrest, torn-families, defeats and victories (Saratoga 1777, bringing in the French alliance in 1778, and Yorktown 1781) that would finally lead England to concede defeat, lose all the territory of her former 13 colonies, and recognize the American independence at the Treaty of Paris in 1783.;x
 ACTIONNAME3049A;Revoke the Constitutional Freedom of the Colonies;x
 ACTIONNAME3049B;Install British Administration and Judges;x
 ACTIONNAME3049C;Start Negotiations for Self-Determination;x
@@ -9739,7 +9739,7 @@ EVENTHIST3051;The American Revolution shattered the British Empire in North Amer
 ACTIONNAME3051A;Loyalists we welcome you!;x
 #;x
 EVENTNAME3052;The North American Union;x
-EVENTHIST3052;As the British won what they call 'The War of American Rebellion' hostilities dragged on. Heavily occupied by British troops isolated insurrectionists held on to the flag of freedom with guerilla attacks. The British Government though took certain measures, making all colonists British citizens and all territories of His Majesty's Government equal in rights and power. Most so-called 'Americans' still felt themselves being different from the average Londoner, but King George's rule was just and fair. Slowly the insurrectionists attacks started to strike back at themselves as ordinary people started to view them as brigands. In pace with their failure to get support they become more radical and when the French Revolution appeared they happily picked up that ideology of violence and hatred. The Reign of Terror in France and the British problems in Quebec quickly made ordinary people to flock to the English banners. The British Government seized the initiative and issued the Act of the North American Union. All colonies would now become province with their own parliament fully empowered for local governance. The same would be true for the Motherland. The British Government in London and the Grand Parliament would now also accept and include members from the North American Union. This decision was very successful and with the power of the New World behind her back London could much direct the decisions of the Congress of Vienna in 1801.;x
+EVENTHIST3052;As the British won what they call 'The War of American Rebellion' hostilities dragged on. Heavily occupied by British troops isolated insurrectionists held on to the flag of freedom with guerrilla attacks. The British Government though took certain measures, making all colonists British citizens and all territories of His Majesty's Government equal in rights and power. Most so-called 'Americans' still felt themselves being different from the average Londoner, but King George's rule was just and fair. Slowly the insurrectionists attacks started to strike back at themselves as ordinary people started to view them as brigands. In pace with their failure to get support they become more radical and when the French Revolution appeared they happily picked up that ideology of violence and hatred. The Reign of Terror in France and the British problems in Quebec quickly made ordinary people to flock to the English banners. The British Government seized the initiative and issued the Act of the North American Union. All colonies would now become province with their own parliament fully empowered for local governance. The same would be true for the Motherland. The British Government in London and the Grand Parliament would now also accept and include members from the North American Union. This decision was very successful and with the power of the New World behind her back London could much direct the decisions of the Congress of Vienna in 1801.;x
 ACTIONNAME3052A;We won the Struggle!;x
 #;x
 EVENTNAME3053;The Bank Restriction Act;x
@@ -9748,7 +9748,7 @@ ACTIONNAME3053A;Issue the Act;x
 ACTIONNAME3053B;Don't issue the Act;x
 #;x
 EVENTNAME3054;The Corn Laws;x
-EVENTHIST3054;A bad harvest in 1795 led to food riots;x
+EVENTHIST3054;The Corn Laws, enacted in Britain between 1815 and 1846, were a series of protectionist trade policies designed to maintain high prices for domestically produced grain by imposing tariffs and restrictions on imported grain. They were implemented following the catastrophic famine of 1815/16 - the 'Year Without a Summer' - and were intended to benefit British landowners and farmers by shielding them from foreign competition, particularly after the Napoleonic Wars when agricultural prices were under pressure. The consequences of the Corn Laws were significant and far-reaching. They led to higher food prices and contributed to widespread economic hardship and social unrest. As the Industrial Revolution got under way, the laws became increasingly controversial, with industrialists and urban workers pushing for their repeal in order to lower food costs and improve living standards. The Corn Laws also strained Britain's trade relations, as they were seen as a barrier to free trade. The growing opposition eventually led to their repeal in 1846, a landmark victory for the free trade movement over imperial protectionism.;x
 ACTIONNAME3054A;Issue the Act;x
 ACTIONNAME3054B;Don't issue the Act;x
 #;x
@@ -10683,7 +10683,7 @@ EVENTNAME164088;Warwick's landing and Montagu's Betrayal;x
 EVENTHIST164088;King Louis XI of France had orchestrated a reconciliation and allaince between the disgruntled Yorkists and the exiled Lancastrians led by the unrelenting though aged Lancastrian Queen, Margaret, and her seventeen year old son, Edward. This paradoxical alliance was bent on restoring Henry VI to power. Priot to Warwick's landing, Henry, Baron Fitz-Hugh, at Warwick's urging, began a rebellion in the North. The Fitz-Hughes were known Lancastrians, and Henry had fought for Lancaster at the second battle of St Albans not too many years ago. King Edward decided to take his men north to stamp out the rebellion, and thus invite Warwick to land. The King planned to subsequently raise troops in the north at York and along his way south to meet Warwick on the field and destroy the traitorous magnate once and for all. Instead, once Edward supressed the rebellion, he found himself an exile at Duke Charles's court. The key difference was John Neville Marquess of Montagu, Richard Earl of Warwick's brother, who had lost the Earldom of Northumberland to Henry Percy. Despite Montagu's exemplary service to the House of York, even in the face of Warwick's rebellions, Edward found he could trust the Nevilles no longer and had deprived John of the Earldom not too many months before. Although Edward had seemingly compensated John for his loss with a promotion to Marquess and estates in Devonshire, John's new estates and offices paled in comparison to what he had enjoyed before in the north. And so the Marquess had decided to support Warwick's bid to reinstate Henry VI as King of England. Edward's men learned of John's plan, and compelled their King to flee abroad.;x
 #;x
 EVENTNAME164089;Elizabeth Woodville;x
-EVENTHIST164089;Edward IV was by now the most eligable bachelor in Europe 'a man so vigorous and handsome that he might have been made for the pleasures of the flesh'. Many in his administration were anxious to find him a suitable bride. Edward, however, found one for himself, marrying Elizabeth Woodville, a woman of questionable birth. Although her mother had been Jacquetta of Luxembourg, her father had been a squire, and later promoted to Lord Rivers. Elizabeth was a widow of the late John Grey, a baron who'd died fighting for the Lancastrians. As such she was considered unsuitable both as a bride for Edward and as a Yorkist Queen. Thus the Nobles reacted with dismay when Edward announced his bride to the Council after having kept it secret for well over four months. Warwick, the most powerful magnate in England had been advocating a French bride for Edward in both the English and French courts, and now faced a serious blow to his political integrity. When Elizabeth came to court she brought with her five unmarried brothers, seven unmarried sisters, and two sons from her previous marriage. As members of the royal entourage, the Woodvilles would have to be elevated to a more respectable status than their background could justify. This meant land, titles and marriages into the English nobility. Warwick, among others, would take great personal insult to the influx of Woodvilles, and could do little as marriage prospects for his own two daughters and heirs dissapeared. Nevertheless there was another English candidate for Edward. Eleanor Talbot who, like Elizabeth, was a widowed Lancastrian, but unlike Elizabeth, was not saddled with a large family to promote in court. Moreover, the Bishop of Bath would later testify that Edward had in fact entered into a marriage contract with Eleanor, a legally binding promise which would render Edward's marriage to Elizabeth void on grounds of bigomy. Of course Edward could have bowed to Warwick's whim...;x
+EVENTHIST164089;Edward IV was by now the most eligable bachelor in Europe 'a man so vigorous and handsome that he might have been made for the pleasures of the flesh'. Many in his administration were anxious to find him a suitable bride. Edward, however, found one for himself, marrying Elizabeth Woodville, a woman of questionable birth. Although her mother had been Jacquetta of Luxemburg, her father had been a squire, and later promoted to Lord Rivers. Elizabeth was a widow of the late John Grey, a baron who'd died fighting for the Lancastrians. As such she was considered unsuitable both as a bride for Edward and as a Yorkist Queen. Thus the Nobles reacted with dismay when Edward announced his bride to the Council after having kept it secret for well over four months. Warwick, the most powerful magnate in England had been advocating a French bride for Edward in both the English and French courts, and now faced a serious blow to his political integrity. When Elizabeth came to court she brought with her five unmarried brothers, seven unmarried sisters, and two sons from her previous marriage. As members of the royal entourage, the Woodvilles would have to be elevated to a more respectable status than their background could justify. This meant land, titles and marriages into the English nobility. Warwick, among others, would take great personal insult to the influx of Woodvilles, and could do little as marriage prospects for his own two daughters and heirs dissapeared. Nevertheless there was another English candidate for Edward. Eleanor Talbot who, like Elizabeth, was a widowed Lancastrian, but unlike Elizabeth, was not saddled with a large family to promote in court. Moreover, the Bishop of Bath would later testify that Edward had in fact entered into a marriage contract with Eleanor, a legally binding promise which would render Edward's marriage to Elizabeth void on grounds of bigomy. Of course Edward could have bowed to Warwick's whim...;x
 ACTIONNAME164089A;Welcome Elizabeth Woodville, Queen of England!;x
 ACTIONNAME164089B;Ahem...welcome Eleanor Talbot, Queen of England!;x
 ACTIONNAME164089C;Err...I meant...I'll let Warwick decide...;x
@@ -11531,7 +11531,7 @@ EVENTHIST3126;It was an insignificant village made famous by Louis XIV, who buil
 ACTIONNAME3126A;A Sun-Palace for a Sun-King!;x
 #;x
 EVENTNAME3127;Chambers of Reunion;x
-EVENTHIST3127;Aiming at European hegemony and the rounding of French frontiers in the North and in the East (to the Rhine), Louis XIV had established the Chambers of Reunion, courts that advanced claimed to Imperial territories. These expansionist policies were at first tolerated by France powerless neighbors. It reached its climax in 1681, with the annexation of the free city of Strasbourg in Alsace and the 1684 occupation of Luxembourg. The reunion were recognized by the Empire in the 1684 Truce of Regensburg, mostly because the Emperor was preoccupied by the Turkish menace (siege of Vienna in 1683) and this led to the creation of the anti-French League of Augsburg (1686);x
+EVENTHIST3127;Aiming at European hegemony and the rounding of French frontiers in the North and in the East (to the Rhine), Louis XIV had established the Chambers of Reunion, courts that advanced claimed to Imperial territories. These expansionist policies were at first tolerated by France powerless neighbors. It reached its climax in 1681, with the annexation of the free city of Strasbourg in Alsace and the 1684 occupation of Luxemburg. The reunion were recognized by the Empire in the 1684 Truce of Regensburg, mostly because the Emperor was preoccupied by the Turkish menace (siege of Vienna in 1683) and this led to the creation of the anti-French League of Augsburg (1686);x
 ACTIONNAME3127A;Make the Claim;x
 ACTIONNAME3127B;Let the matter fall;x
 #;x
@@ -12233,7 +12233,7 @@ EVENTNAME170027;Restoration of the Orange dynasty in the Netherlands;x
 EVENTHIST170027;After Coalition troops reinstated the French monarchy they decided to form a new country out of the northern and southern Netherlands, the United Kingdom of the Netherlands, as a buffer state against France with Stadtholder Willem V's son as King Willem I.;x
 #;x
 EVENTNAME170028;Belgium ceded to the United Kingdom of the Netherlands;x
-EVENTHIST170028;After its creation in 1814 the newly formed United Kingdom of the Netherlands received all of Belgium and Luxembourg from France.;x
+EVENTHIST170028;After its creation in 1814 the newly formed United Kingdom of the Netherlands received all of Belgium and Luxemburg from France.;x
 #;x
 EVENTNAME170029;The Crown of Italy;x
 ACTIONNAME170029A;We are King of Italy;x
@@ -12363,7 +12363,7 @@ ACTIONNAME170060A;Burgundy belongs to France now;x
 EVENTNAME170061;Margarete's dowry;x
 #;x
 EVENTNAME170062;Radisson and des Groseilliers;x
-EVENTHIST170062;Pierre-Esprit Radisson (1640 – 1710) and his brother-in-law Médard des Groseilliers (1618 – 1696) were two French fur trappers and explorers. After coming to the New World from France both Pierre and Médard quickly adapted to the life of the coureur des bois (runner of the woods), the trappers and fur traders in the Canadian wilderness. They both learned the language of the natives and were very successful in the fur trade. In 1660 after returning to Québec from the wilds with their furs, their hard earned gains where confiscated from them by the authorities, as the brothers did not have a licence.;x
+EVENTHIST170062;Pierre-Esprit Radisson (1640 - 1710) and his brother-in-law Médard des Groseilliers (1618 - 1696) were two French fur trappers and explorers. After coming to the New World from France both Pierre and Médard quickly adapted to the life of the coureur des bois (runner of the woods), the trappers and fur traders in the Canadian wilderness. They both learned the language of the natives and were very successful in the fur trade. In 1660 after returning to Québec from the wilds with their furs, their hard earned gains where confiscated from them by the authorities, as the brothers did not have a licence.;x
 ACTIONNAME170062A;Confiscate the furs!;x
 ACTIONNAME170062B;Let them keep their furs...;x
 #;x
@@ -12797,7 +12797,7 @@ EVENTNAME170168;Claim on Pfalz is lost;x
 #;x
 EVENTNAME170169;Claim on Lorraine is lost;x
 #;x
-EVENTNAME170170;Claim on Luxembourg is lost;x
+EVENTNAME170170;Claim on Luxemburg is lost;x
 #;x
 EVENTNAME170171;Claim on Brabant is lost;x
 #;x
@@ -13137,7 +13137,7 @@ EVENTNAME170284;The restoration of the Kingdom of Poland;x
 EVENTHIST170284;In the Congress of Vienna, Poland again was the victim of the victorious powers appetite. As most Poles had been staunch supporters of the French to the very end - only a group of Polish nobles around Prince Adam Czartoryski had accepted the Tsar as Poland's lord - they were not represented on the Congress. Russian Tsar Alexander planned the reestablihment of a Polish Kingdom in dynastic union with Russia. This kingdom would comprise of the Duchy of Warsaw an possibly include territories further east, acquired by Russia in the Polish Partitions 1772-1795.\n However, the British side had objections, and a compromise was found according to which the province of Posen became Prussian, and the rest of the Duchy of Poland (Congress Poland) was reestablished as a Kingdom, in dynastic union with Russia. Cracow was declared a free city under the joint protection of its three neighbours, Austria, Prussia and Russia.;x
 #;x
 EVENTNAME170300;Boerenkrijg;x
-EVENTHIST170300;The Boerenkrijg or 'Peasant's war' was a planned revolt in the southern Netherlands that broke out early because of a conscription law requiring every man of a certain age to serve in the army. It was a major revolt in which cities were captured and the French lost several battles. The same events led to a smaller revolt known as the Klöpplkrieg in Luxembourg.;x
+EVENTHIST170300;The Boerenkrijg or 'Peasant's war' was a planned revolt in the southern Netherlands that broke out early because of a conscription law requiring every man of a certain age to serve in the army. It was a major revolt in which cities were captured and the French lost several battles. The same events led to a smaller revolt known as the Klöpplkrieg in Luxemburg.;x
 #;x
 EVENTNAME170301;The Concordat with the Roman Catholic Church;x
 EVENTHIST170301;The Civil Constitution of the Clergy had reduced the number of bishoprics in France from 136 to 83, confiscated church property and turned priests into civil servants of the state. It had also alienated moderate reformers such as the Girondins who saw Catholicism as part of France. The resulting UltraMontaine movement that looked 'over the mountains' to Rome for salvation caused a split that the Jacobins had been able to exploit and that continued to cause problems in French society. Napoléon was determined to unify the country again and on 26 Messidor, IX (July 16, 1802) Pope Pius VII and First Consul Bonaparte reestablished the Catholic Church in France.;x
@@ -13259,7 +13259,7 @@ ACTIONNAME171000B;Remain free;x
 EVENTNAME171001;Burgundian Claims on Friesen;x
 #;x
 EVENTNAME171002;Vetkopers and Schieringers;x
-EVENTHIST171002;In 1439 the factionalism which had abated for some years started once again in Gaasterland, the Vetkoper under Galamas against the Schieringer under Harinxmas. A violent conflict that continued until 1456. The dispute in Oostergo (1441–1444) was settled through a court of law under the influence of Groningen. Shortly thereafter the Donia War (1458-1463) began, followed by an explosion of other disputes, the towns Sneek now played a large role, some actively, some passively, Dokkum 1470, Leeuwarden in 1487. Attempts by the Emperor to settle the dispute proved fruitless.;x
+EVENTHIST171002;In 1439 the factionalism which had abated for some years started once again in Gaasterland, the Vetkoper under Galamas against the Schieringer under Harinxmas. A violent conflict that continued until 1456. The dispute in Oostergo (1441-1444) was settled through a court of law under the influence of Groningen. Shortly thereafter the Donia War (1458-1463) began, followed by an explosion of other disputes, the towns Sneek now played a large role, some actively, some passively, Dokkum 1470, Leeuwarden in 1487. Attempts by the Emperor to settle the dispute proved fruitless.;x
 ACTIONNAME171002A;Stalemate;x
 #;x
 EVENTNAME171003;Groningen and the Ommelanden;x
@@ -13290,78 +13290,6 @@ ACTIONNAME171008A;Change of Province status;x
 #;x
 EVENTNAME171010;Frisia finally united;x
 EVENTHIST171010;As promised when 'Coronike van Vrieslant' was published, we have united the Greater Frisia despite the quarrelsome nature of our people.;x
-#;x
-#;x
-######################################
-#### AGCEEP_Specific_Guelders.txt ####
-######################################
-#;x
-EVENTNAME3806;The Dutch Republic;x
-EVENTHIST3806;A united Dutch Republic has broken free from the oppressors. This is a chance to unite the Netherlands at last... Shall we join our brothers and sisters in the republic?;x
-ACTIONNAME3806A;Join the new Republic (End Game);x
-ACTIONNAME3806B;Walk our own path;x
-#;x
-EVENTNAME22023;The Frisians call upon us to assist them;x
-EVENTHIST22023;Due to Albert's sons Heindrich and Georg of Saxony as well as their competitor, Edzard Cirksena, count of East Friesland failing to erect lordship over Friesland. Friesland agreed to be subjugated by Charles of Egmond, Duke of Guelders in October 1514. Heindrich sold his portion of West Friesland to his brother Georg, who sold it in May 1515, to Charles II of Burgundy. This led to another war between Charles II of Burgundy and Charles of Egmond. Fortunes of war fluctuated until 1517, when a Friesian fleet under Greate Pier landed 4000 troops in Zuider Zee and ravaged southern Holland as well as capturing the bulk of the Burgundian fleet.;x
-ACTIONNAME22023A;Let's teach them a lesson;x
-ACTIONNAME22023B;Who cares?;x
-#;x
-EVENTHIST28002;The monopoly on positions of authority by those born in Geldern, many of whom abused their positions for personal profit, has become a source of resentment in the remainder of the low countries. Demands for power to be devolved to the cities were presented by the burghers of Amsterdam, Haarlem and Delft. Most of the remaining cities outside Geldern and some of the rural nobility soon signed up to this League of Holland. We have two courses of action to choose between. Firstly, we could replace some of our officials with wavering individuals from within the League, thus dividing the League, removing one of their key grievances and cleansing our bureaucracy of graft. Alternatively, we might have to accede to the League's demand to share power.;x
-ACTIONNAME28002A;Become Holland;x
-ACTIONNAME28002B;Remain as Geldern;x
-#;x
-EVENTNAME75000;Death of the last Duke of Jülich-Guelders;x
-EVENTHIST75000;In 1423 Reinald, the last Duke of Jülich-Guelders, died. The estates elected Arnold, the Count of Egmont as new Duke, defying the claims of the duke of Berg, and Guelders was again independent of German rule. In order to get the estates' support the new Duke had to make large concessions to them limiting the ducal prerogatives, and granting large powers to a council consisting of representatives of the nobles and the four most important cities.;x
-ACTIONNAME75000A;Arnold of Egmont shall become Duke;x
-ACTIONNAME75000B;Berg shall inherit Guelders (End Game);x
-#;x
-EVENTNAME75002;Civil war in Guelders;x
-EVENTHIST75002;In 1459 the Duke's son Adolf demanded his father's abdication. However Duke Arnold refused and Adolf tried to claim the throne by force. He imprisoned his father and took control of the Duchy which caused the Duke of Kleve, Arnolds brother in law, to intervene.;x
-ACTIONNAME75002A;Adolf claims the throne;x
-ACTIONNAME75002B;Adolf is suppressed;x
-#;x
-EVENTNAME75003;The sale of Guelders;x
-EVENTHIST75003;After several years of conflict between father and son, Charles the Bold, the Duke of Burgundy, was asked to be arbitrarian. Charles decided that Adolf would become stateholder of Guelders and that Arnold would officially remain the Duke and receive a pension of 3000 Gulden. But Adolf did not accept this judgement and continued to fight until he was arrested by Charles. The old Duke was restored to the throne, yet could not consolidate his rule. Therefore he offered the Duchy to Charles the Bold for 300,000 Gulden.;x
-ACTIONNAME75003A;Offer the duchy to Charles the Bold;x
-ACTIONNAME75003B;Try to restore Arnold's rule;x
-#;x
-EVENTNAME75005;Death of Charles of Egmont;x
-EVENTHIST75005;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the protestant Duke Wilhelm of Kleve who had just unified Kleve and Berg. However, the Habsburgs who had inherited the claim from Burgundy interfered, and after defeating Kleve annexed Guelders.;x
-ACTIONNAME75005A;Elect Wilhelm of Kleve (End Game);x
-ACTIONNAME75005B;Elect Karl of Habsburg (End Game);x
-ACTIONNAME75005C;Elect a local noble instead;x
-#;x
-EVENTHIST75010;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the protestant Duke of Kleve who had just unified Kleve and Berg.;x
-#;x
-EVENTHIST75012;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the protestant Duke Wilhelm of Kleve who had just unified Kleve and Berg. However, the King of France who had inherited the claim from Burgundy interfered, and after defeating Kleve annexed Guelders.;x
-ACTIONNAME75012B;Elect the King of France (End Game);x
-#;x
-EVENTHIST75017;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected Karl of Habsburg who had inherited the claim from Burgundy.;x
-#;x
-EVENTHIST75018;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the King of France who had inherited the claim from Burgundy.;x
-#;x
-EVENTHIST75021;In 1423 Reinald, the last Duke of Jülich-Guelders, died. The estates elected Arnold, the Count of Egmont as new Duke, and Guelders was again independent of German rule. In order to get the estates' support the new Duke had to make large concessions to them limiting the ducal prerogatives, and granting large powers to a council consisting of representatives of the nobles and the four most important cities.;x
-#;x
-EVENTNAME173000;Karel of Egmont;x
-EVENTHIST173000;Despite resistance from the dethroned heir to the Duchy of Guelders, Adolf, and his sister Catherine, Charles the Bold's son in law and successor Maximilian of Habsburg managed to secure Guelders for himself and his wife in 1483. However, Adolf's son Karel did not surrender his claims and turned to Maximilian's archenemy the King of France for aid. With an army funded by Charles VIII Karel succeeded in reconquering his hereditary lands in the course of 1492 and 1493 and was a constant annoyance for the Habsburgs until his death in 1538.;x
-#;x
-EVENTNAME173001;Inheritance of Jülich-Berg;x
-EVENTHIST173001;Wilhelm IV of Jülich-Berg died in 1511 without a male heir. His only daughter had been betrothed to Johann, the son of Duke Johann of Kleve-Mark, and by a hereditary union in 1496 Kleve-Mark and Jülich-Berg had guaranteed each other right of succession in case of one of them lacked a direct heir. Nevertheless, Karel of Guelders and the elector also made claims to Jülich-Berg. Karel's claim prevailed and he added Jülich-Berg to his possessions.;x
-#;x
-EVENTNAME173003;Berg renounces our rightfull Duke;x
-EVENTHIST173003;The choice of Arnold of Egmont as the new Duke of Guelders was contested both by the Duchy of Berg and by Sigismund, the Emperor of the Holy Roman Empire. Arnold of Egmont, however, was supported by both the local nobility, and the Duke of Burgundy. The ensuing conflict lasted several years, but none of the parties engaged in open warfare.;x
-ACTIONNAME173003A;Our Duke is the only Duke!;x
-#;x
-EVENTNAME173004;End of the succession crisis;x
-EVENTHIST173004;With the death of Adolf of Gulik-Berg, Duke of Jülich-Berg, the Duchies of Guelders and Jülich-Berg grew further apart, and the succession crisis ended.;x
-ACTIONNAME173004A;Peace at last!;x
-#;x
-EVENTNAME173005;Burgundian Claims on Guelders;x
-#;x
-EVENTNAME173006;Recognizing Douwama;x
-EVENTHIST173006;In 1514 Douwama was leader of Karel's Gelder army that invaded Friesland. In 1517 disagreements between the Duke of Guelders and Jancko concerning the planning of the governing board of Friesland, and Guelders refusing to recognize Douwama as hereditary-lord eventually led to Jancko changing allegiances. In 1521 Jancko swore an oath of allegiance to the Holy Roman Emperor Charles V, the arch-enemy of the Duke of Guelders. The Frisians chose Jancko Douwama as their imperial stadtholder in 1522.;x
-ACTIONNAME173006A;Douwama's treason;x
-ACTIONNAME173006B;keep Frisia, it's ours;x
 #;x
 #;x
 ###################################
@@ -13989,6 +13917,78 @@ EVENTNAME176024;Mozarab revolt;x
 EVENTHIST176024;The Mozarabs were the Christian community that lived among the Muslims in al-Andalus. They could keep their religion by paying high taxes and by not showing signs of their faith openly. But sometimes, the pressure of the Muslim community was so high that they rebelled..;x
 ACTIONNAME176024A;Crush the mozarabs!;x
 ACTIONNAME176024B;Relax the pressure;x
+#;x
+#;x
+######################################
+#### AGCEEP_Specific_Guelders.txt ####
+######################################
+#;x
+EVENTNAME3806;The Dutch Republic;x
+EVENTHIST3806;A united Dutch Republic has broken free from the oppressors. This is a chance to unite the Netherlands at last... Shall we join our brothers and sisters in the republic?;x
+ACTIONNAME3806A;Join the new Republic (End Game);x
+ACTIONNAME3806B;Walk our own path;x
+#;x
+EVENTNAME22023;The Frisians call upon us to assist them;x
+EVENTHIST22023;Due to Albert's sons Heindrich and Georg of Saxony as well as their competitor, Edzard Cirksena, count of East Friesland failing to erect lordship over Friesland. Friesland agreed to be subjugated by Charles of Egmond, Duke of Guelders in October 1514. Heindrich sold his portion of West Friesland to his brother Georg, who sold it in May 1515, to Charles II of Burgundy. This led to another war between Charles II of Burgundy and Charles of Egmond. Fortunes of war fluctuated until 1517, when a Friesian fleet under Greate Pier landed 4000 troops in Zuider Zee and ravaged southern Holland as well as capturing the bulk of the Burgundian fleet.;x
+ACTIONNAME22023A;Let's teach them a lesson;x
+ACTIONNAME22023B;Who cares?;x
+#;x
+EVENTHIST28002;The monopoly on positions of authority by those born in Geldern, many of whom abused their positions for personal profit, has become a source of resentment in the remainder of the low countries. Demands for power to be devolved to the cities were presented by the burghers of Amsterdam, Haarlem and Delft. Most of the remaining cities outside Geldern and some of the rural nobility soon signed up to this League of Holland. We have two courses of action to choose between. Firstly, we could replace some of our officials with wavering individuals from within the League, thus dividing the League, removing one of their key grievances and cleansing our bureaucracy of graft. Alternatively, we might have to accede to the League's demand to share power.;x
+ACTIONNAME28002A;Become Holland;x
+ACTIONNAME28002B;Remain as Geldern;x
+#;x
+EVENTNAME75000;Death of the last Duke of Jülich-Guelders;x
+EVENTHIST75000;In 1423 Reinald, the last Duke of Jülich-Guelders, died. The estates elected Arnold, the Count of Egmont as new Duke, defying the claims of the duke of Berg, and Guelders was again independent of German rule. In order to get the estates' support the new Duke had to make large concessions to them limiting the ducal prerogatives, and granting large powers to a council consisting of representatives of the nobles and the four most important cities.;x
+ACTIONNAME75000A;Arnold of Egmont shall become Duke;x
+ACTIONNAME75000B;Berg shall inherit Guelders (End Game);x
+#;x
+EVENTNAME75002;Civil war in Guelders;x
+EVENTHIST75002;In 1459 the Duke's son Adolf demanded his father's abdication. However Duke Arnold refused and Adolf tried to claim the throne by force. He imprisoned his father and took control of the Duchy which caused the Duke of Kleve, Arnolds brother in law, to intervene.;x
+ACTIONNAME75002A;Adolf claims the throne;x
+ACTIONNAME75002B;Adolf is suppressed;x
+#;x
+EVENTNAME75003;The sale of Guelders;x
+EVENTHIST75003;After several years of conflict between father and son, Charles the Bold, the Duke of Burgundy, was asked to be arbitrarian. Charles decided that Adolf would become stateholder of Guelders and that Arnold would officially remain the Duke and receive a pension of 3000 Gulden. But Adolf did not accept this judgement and continued to fight until he was arrested by Charles. The old Duke was restored to the throne, yet could not consolidate his rule. Therefore he offered the Duchy to Charles the Bold for 300,000 Gulden.;x
+ACTIONNAME75003A;Offer the duchy to Charles the Bold;x
+ACTIONNAME75003B;Try to restore Arnold's rule;x
+#;x
+EVENTNAME75005;Death of Charles of Egmont;x
+EVENTHIST75005;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the protestant Duke Wilhelm of Kleve who had just unified Kleve and Berg. However, the Habsburgs who had inherited the claim from Burgundy interfered, and after defeating Kleve annexed Guelders.;x
+ACTIONNAME75005A;Elect Wilhelm of Kleve (End Game);x
+ACTIONNAME75005B;Elect Karl of Habsburg (End Game);x
+ACTIONNAME75005C;Elect a local noble instead;x
+#;x
+EVENTHIST75010;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the protestant Duke of Kleve who had just unified Kleve and Berg.;x
+#;x
+EVENTHIST75012;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the protestant Duke Wilhelm of Kleve who had just unified Kleve and Berg. However, the King of France who had inherited the claim from Burgundy interfered, and after defeating Kleve annexed Guelders.;x
+ACTIONNAME75012B;Elect the King of France (End Game);x
+#;x
+EVENTHIST75017;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected Karl of Habsburg who had inherited the claim from Burgundy.;x
+#;x
+EVENTHIST75018;In 1538 Duke Charles died without an heir. Once again the estates of Guelders had to choose a successor. They elected the King of France who had inherited the claim from Burgundy.;x
+#;x
+EVENTHIST75021;In 1423 Reinald, the last Duke of Jülich-Guelders, died. The estates elected Arnold, the Count of Egmont as new Duke, and Guelders was again independent of German rule. In order to get the estates' support the new Duke had to make large concessions to them limiting the ducal prerogatives, and granting large powers to a council consisting of representatives of the nobles and the four most important cities.;x
+#;x
+EVENTNAME173000;Karel of Egmont;x
+EVENTHIST173000;Despite resistance from the dethroned heir to the Duchy of Guelders, Adolf, and his sister Catherine, Charles the Bold's son in law and successor Maximilian of Habsburg managed to secure Guelders for himself and his wife in 1483. However, Adolf's son Karel did not surrender his claims and turned to Maximilian's archenemy the King of France for aid. With an army funded by Charles VIII Karel succeeded in reconquering his hereditary lands in the course of 1492 and 1493 and was a constant annoyance for the Habsburgs until his death in 1538.;x
+#;x
+EVENTNAME173001;Inheritance of Jülich-Berg;x
+EVENTHIST173001;Wilhelm IV of Jülich-Berg died in 1511 without a male heir. His only daughter had been betrothed to Johann, the son of Duke Johann of Kleve-Mark, and by a hereditary union in 1496 Kleve-Mark and Jülich-Berg had guaranteed each other right of succession in case of one of them lacked a direct heir. Nevertheless, Karel of Guelders and the elector also made claims to Jülich-Berg. Karel's claim prevailed and he added Jülich-Berg to his possessions.;x
+#;x
+EVENTNAME173003;Berg renounces our rightfull Duke;x
+EVENTHIST173003;The choice of Arnold of Egmont as the new Duke of Guelders was contested both by the Duchy of Berg and by Sigismund, the Emperor of the Holy Roman Empire. Arnold of Egmont, however, was supported by both the local nobility, and the Duke of Burgundy. The ensuing conflict lasted several years, but none of the parties engaged in open warfare.;x
+ACTIONNAME173003A;Our Duke is the only Duke!;x
+#;x
+EVENTNAME173004;End of the succession crisis;x
+EVENTHIST173004;With the death of Adolf of Gulik-Berg, Duke of Jülich-Berg, the Duchies of Guelders and Jülich-Berg grew further apart, and the succession crisis ended.;x
+ACTIONNAME173004A;Peace at last!;x
+#;x
+EVENTNAME173005;Burgundian Claims on Guelders;x
+#;x
+EVENTNAME173006;Recognizing Douwama;x
+EVENTHIST173006;In 1514 Douwama was leader of Karel's Gelder army that invaded Friesland. In 1517 disagreements between the Duke of Guelders and Jancko concerning the planning of the governing board of Friesland, and Guelders refusing to recognize Douwama as hereditary-lord eventually led to Jancko changing allegiances. In 1521 Jancko swore an oath of allegiance to the Holy Roman Emperor Charles V, the arch-enemy of the Duke of Guelders. The Frisians chose Jancko Douwama as their imperial stadtholder in 1522.;x
+ACTIONNAME173006A;Douwama's treason;x
+ACTIONNAME173006B;keep Frisia, it's ours;x
 #;x
 #;x
 #####################################
@@ -15630,19 +15630,6 @@ EVENTNAME197002;End of the Karamani beylik;x
 EVENTHIST197002;In 1487 the Karamani state was finally absorbed as a province into the Ottoman Empire.;x
 #;x
 #;x
-###################################
-#### AGCEEP_Specific_Kazan.txt ####
-###################################
-#;x
-EVENTNAME40059;Independence of Kazan;x
-EVENTHIST40059;Fearing revolts and assassination, Ulugh Muhammad left Sarai and settled in Kazan, founding an independent Khanate of Kazan.;x
-ACTIONNAME40059A;Success at last!;x
-#;x
-EVENTNAME40061;Death of Ulugh Muhammad;x
-EVENTHIST40061;Ulugh Muhammad has been murdered! With his death, the way is open for improved relations with the Golden Horde.;x
-ACTIONNAME40061A;That's inevitability for you;x
-#;x
-#;x
 #####################################
 #### AGCEEP_Specific_Kazakhs.txt ####
 #####################################
@@ -15659,6 +15646,19 @@ ACTIONNAME65015A;Settle;x
 EVENTNAME207000;The Formation of the Kazakh Horde;x
 EVENTHIST207000;Attacks from the Oirats in the mid-fifteenth century, left the eastern lands of Abul Khayr, vulnerable to would be aspirants to power. In 1469, Janibek and Ghirei, distant relatives of Khayr, exploited this vacuum of power and established their state in the lands between the Chu and Talas rivers. The sons of Barak Khan, a rival claimant, the two had been waiting for a time to move on Khayr's lands. The destruction at the hands of the Oirats, gave them there chance.;x
 ACTIONNAME207000A;We are free!;x
+#;x
+#;x
+###################################
+#### AGCEEP_Specific_Kazan.txt ####
+###################################
+#;x
+EVENTNAME40059;Independence of Kazan;x
+EVENTHIST40059;Fearing revolts and assassination, Ulugh Muhammad left Sarai and settled in Kazan, founding an independent Khanate of Kazan.;x
+ACTIONNAME40059A;Success at last!;x
+#;x
+EVENTNAME40061;Death of Ulugh Muhammad;x
+EVENTHIST40061;Ulugh Muhammad has been murdered! With his death, the way is open for improved relations with the Golden Horde.;x
+ACTIONNAME40061A;That's inevitability for you;x
 #;x
 #;x
 ###################################
@@ -15738,7 +15738,7 @@ ACTIONNAME203004B;Convert to Christianity but refuse help from the Portuguese;x
 ACTIONNAME203004C;Refuse Christianity and help from the Portuguese;x
 #;x
 EVENTNAME203005;Pope Leo X consecrates Henrique Bishop of Utica;x
-EVENTHIST203005;In 1518 Pope Leo X consecrated Dom Henrique, the son of Afonso I of Kongo, Bishop of Utica. Henrique directed the Christianization of the country in 1518–36. Although this attempt at developing an indigenous clergy failed. The Kingdom nevertheless slowly became partly Christianized. Henrique was the first native bishop of West Africa.;x
+EVENTHIST203005;In 1518 Pope Leo X consecrated Dom Henrique, the son of Afonso I of Kongo, Bishop of Utica. Henrique directed the Christianization of the country in 1518-36. Although this attempt at developing an indigenous clergy failed. The Kingdom nevertheless slowly became partly Christianized. Henrique was the first native bishop of West Africa.;x
 ACTIONNAME203005A;He will help spread the faith;x
 #;x
 EVENTNAME203006;Afonso I complains to Portugal about the bad effects of the slave trade on his country;x
@@ -16167,7 +16167,7 @@ ACTIONNAME210004A;Demand tribute;x
 ACTIONNAME210004B;Maybe I should choose a more diplomatic way;x
 #;x
 EVENTNAME210005;Preparations of Vytautas;x
-EVENTHIST210005;After subduing Pskov, Vytautas turned his attention to Novgorod. In 1428 he invaded Novgorod and forced it to pay a very high tribute (11,000 rubles). Had Vytautas not fought on in the north, his diplomatic contacts with Sigismund Luxembourg could started earlier.;x
+EVENTHIST210005;After subduing Pskov, Vytautas turned his attention to Novgorod. In 1428 he invaded Novgorod and forced it to pay a very high tribute (11,000 rubles). Had Vytautas not fought on in the north, his diplomatic contacts with Sigismund Luxemburg could started earlier.;x
 ACTIONNAME210005A;Demand tribute;x
 ACTIONNAME210005B;Maybe I should choose a more diplomatic way;x
 #;x
@@ -16400,16 +16400,16 @@ ACTIONNAME213005A;Let go of Friesland;x
 ACTIONNAME213005B;Crush the Frisian rebels;x
 #;x
 EVENTNAME213101;Elizabeth of Görlitz;x
-EVENTHIST213101;Due to the inability of Sigismund to repay his debts, Elizabeth of Görlitz assumed the rule of Luxembourg, trying to regain her money.;x
+EVENTHIST213101;Due to the inability of Sigismund to repay his debts, Elizabeth of Görlitz assumed the rule of Luxemburg, trying to regain her money.;x
 ACTIONNAME213101A;Welcome my liege!;x
 #;x
 EVENTNAME213102;The Luxemburgian sale;x
 EVENTHIST213102;Since Philip of Burgundy was interested in the Duchy and Elizabeth didn't see another way to regain her money, she offered the Duchy to the Burgundians.;x
 ACTIONNAME213102A;Offer to sell the Duchy;x
-ACTIONNAME213102B;I earn better the money back by keeping Luxembourg;x
+ACTIONNAME213102B;I earn better the money back by keeping Luxemburg;x
 #;x
 EVENTNAME213103;A nightly ambush;x
-EVENTHIST213103;Having bought the Duchy of Luxembourg from Elisabeth of Görlitz, Philip the Good needed some time to secure his new possession. Full control of the Duchy was finally achieved when they took the city of Luxemburg by a nightly ambush. Thereby, another step on Burgundy's way towards achieving the primary goal of its policies, connecting their hereditary lands with their Dutch possessions, had been made.;x
+EVENTHIST213103;Having bought the Duchy of Luxemburg from Elisabeth of Görlitz, Philip the Good needed some time to secure his new possession. Full control of the Duchy was finally achieved when they took the city of Luxemburg by a nightly ambush. Thereby, another step on Burgundy's way towards achieving the primary goal of its policies, connecting their hereditary lands with their Dutch possessions, had been made.;x
 ACTIONNAME213103A;All hope is lost! (End Game);x
 ACTIONNAME213103B;We'll beat them back;x
 #;x
@@ -16448,39 +16448,14 @@ EVENTNAME119001;Moro wars (III);x
 EVENTHIST119001;In response to a diplomatic incident in 1627, the Raja of Sulu attacked Camarines Sur and the Central Visayas. The Spaniards invaded Sulu in response. Sulu and Magindanao allied and jointly invaded the Central Visayas in 1634. War waged until 1644, when the Spaniards opted for abandoning Sulu and signed another peace. However Sulu and Magindanao had been weakened. By then Spain had gotten hold of a large part of Magindanao, and strong immigration by Christian Filipinos was changing the demography of the island. Sulu would continue the wars and rebellions into the North American conquest of the Philippines, but Magindanao came under Spanish control except for the occasional rebellion.;x
 #;x
 #;x
-#######################################
-#### AGCEEP_Specific_Mahrattis.txt ####
-#######################################
+######################################
+##### AGCEEP_Specific_Mahra.txt ######
+######################################
 #;x
-EVENTNAME30352;Struggle for power;x
-EVENTHIST30352;After the death of Rajaram, his wife Tara Bai was ruling on behalf of her son Shivaji II. The Mughals released Shahu from captivity in 1708 and a struggle for power ensued. As a result the Maratthi's Kingdom split into two: Shivaji and Tara Bai had to flee to Kolhapur, and Shahu remained in Satara.;x
-ACTIONNAME30352A;Rule from Satara;x
-ACTIONNAME30352B;Rule from Kolhapur;x
-#;x
-EVENTNAME216000;Escape of Shivaji;x
-EVENTHIST216000;Shivaji escapes from Delhi!;x
-ACTIONNAME216000A;We are through with diplomacy!;x
-#;x
-EVENTNAME216002;Number one in India;x
-EVENTHIST216002;The year 1718 marked the beginning of the Maratha influence in Delhi, to which they remained closely acquainted, till 1803.;x
-ACTIONNAME216002A;Let us rule with wisdom!;x
-#;x
-EVENTNAME216003;Number one in India;x
-EVENTHIST216003;The year 1718 marked the beginning of the Maratha influence in Delhi, to which they remained closely acquainted, till 1803.;x
-ACTIONNAME216003A;Let us rule with wisdom!;x
-#;x
-EVENTNAME216004;Shivaji faces the south;x
-EVENTHIST216004;In 1676, Shivaji began a set of expeditions to conquer the Carnatic. Gingee would serve as the Maratha capital for 9 years.;x
-ACTIONNAME216004A;We will unite all of India!;x
-#;x
-EVENTNAME216005;The 2nd Battle of Panipat;x
-EVENTHIST216005;In 1761, a well equipped Maratha army was routed by an Afghan-Punjab coalition;x
-ACTIONNAME216005A;We have been thoroughly humiliated!;x
-#;x
-EVENTNAME216006;Shivaji's Ambition;x
-EVENTHIST216006;In 1647 the seventeen-year-old Shivaji began to form the Maratha state with the captures of the region of Pune and the forts of Kondana and Rajgad. Quickly he undermined Bijapur's authority and established the first Maratha homeland.;x
-ACTIONNAME216006A;Shivaji will show us the way;x
-ACTIONNAME216006B;Don't anger the Muslims for now;x
+EVENTNAME345000;The Socotran Question;x
+EVENTHIST345000;The island of Socotra has been a haven for merchants, missionaries and pirates since time immemorial, and for much of the 15th century had been under nominal suzerainty of the Mahra Sultanate. Despite this loose influence, the island itself was mostly Eastern Christian, and had a mixed population of Arabs, Somalis and Copts. Over time, the Mahri had expressed greater interest in Socotra's strategic location between the Red Sea and Horn of Africa, and by 1480 had begun settling the island with Arab Muslims and expanding its port at Suq. The main impetus behind the capture of Socotra was to disrupt trade and launch raids against Mahra's main rival - the Kathiri dynasty in Hadhramaut.;x
+ACTIONNAME345000A;We must take the island by force;x
+ACTIONNAME345000B;The status quo seems reasonable enough;x
 #;x
 #;x
 ###################################
@@ -17075,6 +17050,65 @@ ACTIONNAME220036A;Endorse Mattioli's scheme;x
 ACTIONNAME220036B;Conclude pact with France;x
 #;x
 #;x
+#######################################
+#### AGCEEP_Specific_Marathas.txt #####
+#######################################
+#;x
+EVENTNAME30352;Struggle for power;x
+EVENTHIST30352;After the death of Rajaram, his wife Tara Bai was ruling on behalf of her son Shivaji II. The Mughals released Shahu from captivity in 1708 and a struggle for power ensued. As a result the Maratthi's Kingdom split into two: Shivaji and Tara Bai had to flee to Kolhapur, and Shahu remained in Satara.;x
+ACTIONNAME30352A;Rule from Satara;x
+ACTIONNAME30352B;Rule from Kolhapur;x
+#;x
+EVENTNAME216000;Escape of Shivaji;x
+EVENTHIST216000;Shivaji escapes from Delhi!;x
+ACTIONNAME216000A;We are through with diplomacy!;x
+#;x
+EVENTNAME216002;Number one in India;x
+EVENTHIST216002;The year 1718 marked the beginning of the Maratha influence in Delhi, to which they remained closely acquainted, till 1803.;x
+ACTIONNAME216002A;Let us rule with wisdom!;x
+#;x
+EVENTNAME216003;Number one in India;x
+EVENTHIST216003;The year 1718 marked the beginning of the Maratha influence in Delhi, to which they remained closely acquainted, till 1803.;x
+ACTIONNAME216003A;Let us rule with wisdom!;x
+#;x
+EVENTNAME216004;Shivaji faces the south;x
+EVENTHIST216004;In 1676, Shivaji began a set of expeditions to conquer the Carnatic. Gingee would serve as the Maratha capital for 9 years.;x
+ACTIONNAME216004A;We will unite all of India!;x
+#;x
+EVENTNAME216005;The 2nd Battle of Panipat;x
+EVENTHIST216005;In 1761, a well equipped Maratha army was routed by an Afghan-Punjab coalition;x
+ACTIONNAME216005A;We have been thoroughly humiliated!;x
+#;x
+EVENTNAME216006;Shivaji's Ambition;x
+EVENTHIST216006;In 1647 the seventeen-year-old Shivaji began to form the Maratha state with the captures of the region of Pune and the forts of Kondana and Rajgad. Quickly he undermined Bijapur's authority and established the first Maratha homeland.;x
+ACTIONNAME216006A;Shivaji will show us the way;x
+ACTIONNAME216006B;Don't anger the Muslims for now;x
+#;x
+#;x
+#####################################
+#### AGCEEP_Specific_Masovia.txt ####
+#####################################
+#;x
+EVENTNAME20141;The end of Piast dynasty on Masovia;x
+EVENTHIST20141;The last princes of the Masovian line of the Piast dynasty lived short lives and were more interested in trivial distractions than in governing their state. When Janusz IV died in 1526, few cried, and Poland had no problems with incorporating their once-owned province back into the Crown.;x
+ACTIONNAME20141A;We accept;x
+ACTIONNAME20141B;Refuse Polish demands;x
+#;x
+EVENTNAME225000;Masovia becomes Poland;x
+EVENTHIST225000;We have united main Polish lands under our rule. Shall we revive that old Kingdom of Poland?;x
+ACTIONNAME225000A;We shall become Poland;x
+ACTIONNAME225000B;No, we have other things to do;x
+#;x
+EVENTNAME225001;Polish crown inherits Masovian duchies;x
+EVENTHIST225001;In late XV century Masovia consisted of many duchies ruled by Masovian Piasts, however with the time some of Masovian Piast were dying without leaving male heritage. Polish crown used these opportunities to inherit such duchies. In 1462 Poland inherited Gostynin, Rawa and Belz and in 1492 entire Plock duchy.;x
+ACTIONNAME225001A;We have to be more cautious about policy of Poland;x
+#;x
+EVENTNAME225002;Prince Janusz II and the Teutonic Order;x
+EVENTHIST225002;In late XV century Masovia was facing threats of being incorporated to Poland, despite of this Janusz II, the prince of Ciechanow and Plock duchies in Masovia was very active in politics. One of results of his policy was normalizing and improving relations with the Teutonic Order. In 1489 as only Polish he was invited by the Teutonic Order Grandmaster, Johann von Tieffen to become member of the Order.;x
+ACTIONNAME225002A;Accept the offer;x
+ACTIONNAME225002B;Refuse;x
+#;x
+#;x
 #####################################
 #### AGCEEP_Specific_Mataram.txt ####
 #####################################
@@ -17234,30 +17268,6 @@ ACTIONNAME234228B;We aren't strong enough;x
 EVENTNAME234229;Banten converts to Islam;x
 EVENTHIST234229;Gunungjati and son Hasanuddin did both covert and overt missionary work in West Java to weaken the Kingdom of Pajajaran and its alliance with the Portuguese. Local ruler of Banten, formerly dependent on Pajajaran, converted to Islam and joined Demak's side.;x
 ACTIONNAME234229A;Convert to Islam;x
-#;x
-#;x
-#####################################
-#### AGCEEP_Specific_Masovia.txt ####
-#####################################
-#;x
-EVENTNAME20141;The end of Piast dynasty on Masovia;x
-EVENTHIST20141;The last princes of the Masovian line of the Piast dynasty lived short lives and were more interested in trivial distractions than in governing their state. When Janusz IV died in 1526, few cried, and Poland had no problems with incorporating their once-owned province back into the Crown.;x
-ACTIONNAME20141A;We accept;x
-ACTIONNAME20141B;Refuse Polish demands;x
-#;x
-EVENTNAME225000;Masovia becomes Poland;x
-EVENTHIST225000;We have united main Polish lands under our rule. Shall we revive that old Kingdom of Poland?;x
-ACTIONNAME225000A;We shall become Poland;x
-ACTIONNAME225000B;No, we have other things to do;x
-#;x
-EVENTNAME225001;Polish crown inherits Masovian duchies;x
-EVENTHIST225001;In late XV century Masovia consisted of many duchies ruled by Masovian Piasts, however with the time some of Masovian Piast were dying without leaving male heritage. Polish crown used these opportunities to inherit such duchies. In 1462 Poland inherited Gostynin, Rawa and Belz and in 1492 entire Plock duchy.;x
-ACTIONNAME225001A;We have to be more cautious about policy of Poland;x
-#;x
-EVENTNAME225002;Prince Janusz II and the Teutonic Order;x
-EVENTHIST225002;In late XV century Masovia was facing threats of being incorporated to Poland, despite of this Janusz II, the prince of Ciechanow and Plock duchies in Masovia was very active in politics. One of results of his policy was normalizing and improving relations with the Teutonic Order. In 1489 as only Polish he was invited by the Teutonic Order Grandmaster, Johann von Tieffen to become member of the Order.;x
-ACTIONNAME225002A;Accept the offer;x
-ACTIONNAME225002B;Refuse;x
 #;x
 #;x
 #########################################
@@ -17564,7 +17574,7 @@ ACTIONNAME228050A;Cede Vercelli in exchange for neutrality;x
 ACTIONNAME228050B;No bargain with Savoy;x
 #;x
 EVENTNAME228051;The Mercenary Wars;x
-EVENTHIST228051;For more then ten years Northern Italy was the war theater of 'Mercenari' at disposal of the best offerer between Milan and the other Italian states united in a League originally formed by Venice and Florence. It was to the interest of all soldiers of fortune of both sides to make the operations last as long as possible, to avoid decisive operations and to liberate all prisoners quickly. Consequently the campaign were very exhausting and dragged on interminably, some battles were won and others lost, truces and peace treaties were made only to be broken, and no definite result was achieved. A peace treaty was also stipulated in Ferrara in 1428 in which at first Visconti stated to renounce claims to territories lying beyond the Panaro-Magra Rivers, but refused to concede the territories of Bergamo and Brescia to Venice, which was still occupying with her troops. Political and economic interests of both sides were conflicting and when the new Pope, Eugenius IV, was being suspected of involvement with the League to damage Milan, Visconti retaliated sending his troops to invade the Papal States. That represented a violation of the peace treaty and subsequently a new Antivisconti League was formed to wage war against Milan.;x
+EVENTHIST228051;For more than ten years Northern Italy was the war theater of 'Mercenari' at disposal of the best offerer between Milan and the other Italian states united in a League originally formed by Venice and Florence. It was to the interest of all soldiers of fortune of both sides to make the operations last as long as possible, to avoid decisive operations and to liberate all prisoners quickly. Consequently the campaign were very exhausting and dragged on interminably, some battles were won and others lost, truces and peace treaties were made only to be broken, and no definite result was achieved. A peace treaty was also stipulated in Ferrara in 1428 in which at first Visconti stated to renounce claims to territories lying beyond the Panaro-Magra Rivers, but refused to concede the territories of Bergamo and Brescia to Venice, which was still occupying with her troops. Political and economic interests of both sides were conflicting and when the new Pope, Eugenius IV, was being suspected of involvement with the League to damage Milan, Visconti retaliated sending his troops to invade the Papal States. That represented a violation of the peace treaty and subsequently a new Antivisconti League was formed to wage war against Milan.;x
 ACTIONNAME228051A;We pursue our plans;x
 ACTIONNAME228051B;We abandon own plans;x
 #;x
@@ -19388,6 +19398,15 @@ ACTIONNAME186443A;Surrender Ternate to British;x
 ACTIONNAME186443B;Keep fighting!;x
 #;x
 #;x
+######################################
+##### AGCEEP_Specific_Nogai.txt ######
+######################################
+#;x
+EVENTNAME346000;The Nogaï Expansion;x
+EVENTHIST346000;With the collapse of the Golden Horde in the mid-15th century, the Nogaï expanded northwards into the Steppe in order to exploit the ensuing power vacuum. Over the following decades they would quarrel with most of the Golden Horde's splinter states, and in 1481 killed Ahmed Khan of the Great Horde in battle. By the early 16th century the Nogaï had begun raiding both Astrakhan and Crimea, and they had been split between the 'Great' Nogaï at Saray-Jük and the 'Lesser' Nogaï in the Caucasus.;x
+ACTIONNAME346000A;These lands are now ours!;x
+#;x
+#;x
 ####################################
 #### AGCEEP_Specific_Norway.txt ####
 ####################################
@@ -20947,7 +20966,7 @@ ACTIONNAME80701B;The Priyayi shall rule;x
 #########################################
 #;x
 EVENTNAME3546;The Commissioning of the Saint Peter's Basilica;x
-EVENTHIST3546;Pope Julius II started building the Basilica not very long after him being elected Pope. The completion would take more then 100 years and one of most famous artist in history, Michelangelo, had a large role at times in its completion, both as an architect and as a painter.;x
+EVENTHIST3546;Pope Julius II started building the Basilica not very long after him being elected Pope. The completion would take more than 100 years and one of most famous artist in history, Michelangelo, had a large role at times in its completion, both as an architect and as a painter.;x
 ACTIONNAME3546A;Build church;x
 ACTIONNAME3546B;Concentrate on worldly matters;x
 #;x
@@ -20970,7 +20989,7 @@ ACTIONNAME3550A;Burn the heretic;x
 ACTIONNAME3550B;Spare his life;x
 #;x
 EVENTNAME3551;The Saint Peter's Basilica stand in Unearthly Glory;x
-EVENTHIST3551;In 1615, more then 100 years after construction had started, the Saint Peter's Basilica was finally finished. It remains today the largest church ever built.;x
+EVENTHIST3551;In 1615, more than 100 years after construction had started, the Saint Peter's Basilica was finally finished. It remains today the largest church ever built.;x
 ACTIONNAME3551A;Rejoice!;x
 #;x
 EVENTNAME3552;The Cleansing of the Pontinian Marches;x
@@ -21608,7 +21627,7 @@ ACTIONNAME20126A;Try to maintain a balance;x
 ACTIONNAME20126B;The Polish population is dominant;x
 #;x
 EVENTNAME20127;Polish dominance in Silesia;x
-EVENTHIST20127;Medieval Silesia was composed of many small principalities. Most of them were vassalized by Jan of Luxembourg in 1329, but some parts remained under the control of Poland. The Jagiellonians were not as interested as the Piasts in this province, so Poland slowly gave up its rights. Germans were settling in the west Silesia since the first part of the 13th century and eventually west and central Silesia had been Germanized, including remnants of the Piast dynasty. Upper Silesia remained mostly Polish, providing a good example of what might have happened had the whole province been recovered.;x
+EVENTHIST20127;Medieval Silesia was composed of many small principalities. Most of them were vassalized by Jan of Luxemburg in 1329, but some parts remained under the control of Poland. The Jagiellonians were not as interested as the Piasts in this province, so Poland slowly gave up its rights. Germans were settling in the west Silesia since the first part of the 13th century and eventually west and central Silesia had been Germanized, including remnants of the Piast dynasty. Upper Silesia remained mostly Polish, providing a good example of what might have happened had the whole province been recovered.;x
 ACTIONNAME20127A;Try to maintain a balance;x
 ACTIONNAME20127B;The Polish population is dominant;x
 #;x
@@ -21704,7 +21723,7 @@ EVENTHIST40212;Grand Duke Svitrigaila has died. Lithuanian nobles has invited Ca
 EVENTHIST40214;Grand Duke Michailis has died. Lithuanian nobles has invited Casimir, our King, to be their ruler.;x
 #;x
 EVENTNAME3475;The Act of Union-'Rzeczpospolita Polska';x
-EVENTHIST3475;On July 1, 1569 the Lithuanian and Polish magnates as well as the Sejms of these countries met at Lublin on the border of their realms and unanimously signed a new Act of Union. There now existed one united Sejm convening in Warszawa and the country would have one King not only de facto but also de jure. The Grand Duchy of Lithuania was to keep its old laws, a separate treasury and its own army under its own Grand Hetman and Field-Hetman. Effectively the Union was a marriage of two partners, with only the slightest hint of the dominant position of Poland. The combined Kingdom now formally became ''Serenissima Respublica Polonie (Polish–Lithuanian Commonwealth)''.;x
+EVENTHIST3475;On July 1, 1569 the Lithuanian and Polish magnates as well as the Sejms of these countries met at Lublin on the border of their realms and unanimously signed a new Act of Union. There now existed one united Sejm convening in Warszawa and the country would have one King not only de facto but also de jure. The Grand Duchy of Lithuania was to keep its old laws, a separate treasury and its own army under its own Grand Hetman and Field-Hetman. Effectively the Union was a marriage of two partners, with only the slightest hint of the dominant position of Poland. The combined Kingdom now formally became ''Serenissima Respublica Polonie (Polish-Lithuanian Commonwealth)''.;x
 ACTIONNAME3475A;Enact the Union;x
 ACTIONNAME3475B;Keep it a loose structure;x
 #;x
@@ -21763,7 +21782,7 @@ ACTIONNAME258021A;We need money;x
 ACTIONNAME258021B;We do not want to destroy our economy;x
 #;x
 EVENTNAME258022;30 Polish groszes;x
-EVENTHIST258022;Because of financial problems Poland was forced to find new sources of money to finance the army that was fighting its many foes Andrew Tynf, main commissary of the Polish mintssuggested a solution, namely minting the 'zloty' – a coin worth 30 groszes - with 60 percent less silver in it than in ordinary coins. The only compensation was the phrase engraved on the coins: Dat Pretium Servata Salus Potior Q3 Metallo Est ('The desire to save the Fatherland is larger than the price of metal'). The Sejm accepted this proposal.;x
+EVENTHIST258022;Because of financial problems Poland was forced to find new sources of money to finance the army that was fighting its many foes Andrew Tynf, main commissary of the Polish mintssuggested a solution, namely minting the 'zloty' - a coin worth 30 groszes - with 60 percent less silver in it than in ordinary coins. The only compensation was the phrase engraved on the coins: Dat Pretium Servata Salus Potior Q3 Metallo Est ('The desire to save the Fatherland is larger than the price of metal'). The Sejm accepted this proposal.;x
 ACTIONNAME258022A;More money for the army;x
 #;x
 EVENTNAME258023;More Cheap Money;x
@@ -21771,7 +21790,7 @@ EVENTHIST258023;Burattini executed his task soon, but the 'cheap money' gave qui
 ACTIONNAME258023A;We have no choice;x
 #;x
 EVENTNAME258024;Corrupted mints;x
-EVENTHIST258024;The minting of the cheap coins provoked a real paralysis of the Polish economy. The country was full of cheap inflatory cupper coins and almost no normal silver money. Trade and industry were destroyed. In this situation the creator of cheap '30 groszes' (which became known now after his name – tynf) understood that he could become responsible for his invention and fled to Germany, taking with him four million zlotys, which he underpaid to the state.;x
+EVENTHIST258024;The minting of the cheap coins provoked a real paralysis of the Polish economy. The country was full of cheap inflatory cupper coins and almost no normal silver money. Trade and industry were destroyed. In this situation the creator of cheap '30 groszes' (which became known now after his name - tynf) understood that he could become responsible for his invention and fled to Germany, taking with him four million zlotys, which he underpaid to the state.;x
 ACTIONNAME258024A;Bastard;x
 #;x
 EVENTNAME258025;Economical crisis;x
@@ -23086,7 +23105,7 @@ ACTIONNAME3529A;We will defend our claims;x
 ACTIONNAME3529B;Leave this deathtrap alone;x
 #;x
 EVENTNAME3530;The Enlightened Reforms of Frederick the Great;x
-EVENTHIST3530;After the end of the reign of Louis XIV in France and the following wars of the Spanish succession, the age of enlightenment slowly began to spread all over Europe by the words of writers and philosophers of the time such as Locke, Rosseau, Diderot, Hume, Leibniz and Montesquieu. The New Ideals was religious freedom, education and freedom of speech and political opinion. The monumental work that captured the essence of the enlightenment was Diderot's Encyclopédie, taking 25 years for it's completion and in the end totaling a collection of no less then 35 volumes of 1000 pages each describing everything from how to knit a sock to methods of improving the manufacturing of artillery pieces. Of the monarchs of Europe none was a stronger believer of these ideas than the Prussian King, Friedrich II also know as Frederick the Great.;x
+EVENTHIST3530;After the end of the reign of Louis XIV in France and the following wars of the Spanish succession, the age of enlightenment slowly began to spread all over Europe by the words of writers and philosophers of the time such as Locke, Rosseau, Diderot, Hume, Leibniz and Montesquieu. The New Ideals was religious freedom, education and freedom of speech and political opinion. The monumental work that captured the essence of the enlightenment was Diderot's Encyclopédie, taking 25 years for it's completion and in the end totaling a collection of no less than 35 volumes of 1000 pages each describing everything from how to knit a sock to methods of improving the manufacturing of artillery pieces. Of the monarchs of Europe none was a stronger believer of these ideas than the Prussian King, Friedrich II also know as Frederick the Great.;x
 ACTIONNAME3530A;Reforms of Enlightenment;x
 ACTIONNAME3530B;No Change;x
 ACTIONNAME3530C;Reforms of Reaction;x
@@ -25438,7 +25457,7 @@ ACTIONNAME3167A;Expel the Infidels!;x
 ACTIONNAME3167B;Let them be as they are needed for the economy;x
 #;x
 EVENTNAME3172;France opens Chambers of Reunion;x
-EVENTHIST3172;Under Louis XIV, France relentlessly pursued expansionism. Spain was under no situation to defend those lands desired by Louis, and one by one they were taken by force of arms. Carlos II was forced to accept the inevitable, and surrendered the claims to Artois and Franco Condado that for 150 years had been part of Spain. Spanish troops also abandoned Luxembourg.;x
+EVENTHIST3172;Under Louis XIV, France relentlessly pursued expansionism. Spain was under no situation to defend those lands desired by Louis, and one by one they were taken by force of arms. Carlos II was forced to accept the inevitable, and surrendered the claims to Artois and Franco Condado that for 150 years had been part of Spain. Spanish troops also abandoned Luxemburg.;x
 ACTIONNAME3172A;Surrender Burgundian claims to French expansionism;x
 ACTIONNAME3172B;Not a garden will be taken from us;x
 #;x
@@ -26130,7 +26149,7 @@ EVENTHIST285160;The new Emperor Manco Inca, was in fact a prisoner in his own pa
 ACTIONNAME285160A;Ask for reinforcements;x
 #;x
 EVENTNAME285161;Help arrives at last;x
-EVENTHIST285161;It took many months, but finally help arrived in the form of reinforcements from Ecuador, Panama, Nicaragua, and the Caribbean. Cortez sent supplies from Mexico, even from Spain the Queen sent 50 arquebusiers and 50 crossbowmen. And from the south, an angry Almagro was returning from his adventure in Chile, upon learning that his share of the Inca empire consisted of deserts and wasteland. This signaled the collapse of Manco's rebellion, who then fled with his followers deeper and deeper into the Amazon rainforest, and waged a low level guerilla war against the Spanish that would continue for decades.;x
+EVENTHIST285161;It took many months, but finally help arrived in the form of reinforcements from Ecuador, Panama, Nicaragua, and the Caribbean. Cortez sent supplies from Mexico, even from Spain the Queen sent 50 arquebusiers and 50 crossbowmen. And from the south, an angry Almagro was returning from his adventure in Chile, upon learning that his share of the Inca empire consisted of deserts and wasteland. This signaled the collapse of Manco's rebellion, who then fled with his followers deeper and deeper into the Amazon rainforest, and waged a low level guerrilla war against the Spanish that would continue for decades.;x
 ACTIONNAME285161A;Hooray!;x
 #;x
 EVENTNAME285162;The Viceroyalty of Peru;x
@@ -26832,7 +26851,7 @@ EVENTNAME261012;Regency of Friedrich IV, Count of Tyrol;x
 EVENTHIST261012;Friedrich IV's regency, during which Styria was governed from Tyrol by a regent whose main interest was to get as much profit as possible for himself out of his office, led to a notable weakening of central power and further strengthened the local noble dynasties and landowners, which led to increased taxes they demanded from their peasants, making the decline of their situation even more rapid.;x
 #;x
 EVENTNAME261013;Change of regent;x
-EVENTHIST261013;Unsatisfied with Friedrich IV's handling of matters in Styria, the estates of Inner Austria decided to entrust the regency into the hands of the Counts of Cilli. In 1437, Emperor Siegmund of Luxembourg, elevated the Counts of Cilli to State Princes. Since Hermann II was the son of Hermann I, Count of Cilli, and his wife was Katerina of Bosnia. The title of Lord of Bosnia was entrusted to the counts of Styria.;x
+EVENTHIST261013;Unsatisfied with Friedrich IV's handling of matters in Styria, the estates of Inner Austria decided to entrust the regency into the hands of the Counts of Cilli. In 1437, Emperor Siegmund of Luxemburg, elevated the Counts of Cilli to State Princes. Since Hermann II was the son of Hermann I, Count of Cilli, and his wife was Katerina of Bosnia. The title of Lord of Bosnia was entrusted to the counts of Styria.;x
 ACTIONNAME261013A;We prefer Herman of Cilli;x
 #;x
 EVENTNAME261014;Friedrich V comes of age;x
@@ -27861,66 +27880,6 @@ EVENTHIST332016;The confrontation between Aragon and the Sultan of the Ottomans 
 ACTIONNAME332016A;The Aragonese are the strongest;x
 #;x
 #;x
-#######################################
-#### AGCEEP_Specific_Trebizond.txt ####
-#######################################
-#;x
-EVENTNAME3874;The Restoration of Byzantium;x
-EVENTHIST3874;Constantinople is back in the hands of its rightful heirs! We now have a unique opportunity to restore the glorious Roman Empire under its legitimate Palaeologus dynasty. In my humble opinion we have nothing to lose and everything to gain by moving our capital to Constantinople and declaring the Roman Empire restored!;x
-ACTIONNAME3874A;Restore the Roman Empire!;x
-ACTIONNAME3874B;Create a new Empire!;x
-#;x
-EVENTNAME298000;Byzantine refugees;x
-EVENTHIST298000;When Constantinople fell, many of its inhabitants were killed or enslaved. The more fortunate fled to the Italian city-states, the Despotates at Serbia and Morea or Trapezountas on the Black Sea Coast.;x
-ACTIONNAME298000A;Welcome them!;x
-#;x
-EVENTNAME298001;Assassination of Alexios IV;x
-EVENTHIST298001;Stemming from the alleged adultery of Empress Theodora Kantakouzena, Kaloioannes (Ioannes IV) through his agents overthrew Alexios IV. With rumours of his part in the conspiracy, the new Megas Komnenos punished the murderers and buried his father in state at the Metropolitan Church. Remembering the role Alexios IV played in hastening the death of his father Manouel III for showing favouritism to a common page, the people remained unconvinced.;x
-ACTIONNAME298001A;Kakou korakos kakon oön (Like father, like son);x
-#;x
-EVENTNAME298003;Keeping the Peace;x
-EVENTHIST298003;Refusing to pay tribute to Sultan Mehmed II, Trapezountas was invested by the Ottoman governor of Amaseia by land and sea (1456). Knowing he couldn't sustain another siege, Ioannes IV submitted whilst taking measures to prepare for the inevitable reprisal. He married his daughter Theodora (aka Despina Hatun) to Uzun Hasan of the Ak-Koyunlu and his sister Eudokia-Valenza to Niccolo Crispo (son of Latin Duke of the Archipelago) in return for promises of protection. He also secured promises of help from the Turkish emirs of Sinope and Karamania. Further cementing of ties occurred was when David, brother of Ioannes, married the daughter of the Georgian dynastic family of Vardanisdze, Mamia Vardanisdze-Gurieli.;x
-ACTIONNAME298003A;Bolster our position;x
-ACTIONNAME298003B;Acquiesce to the Sultan's will;x
-#;x
-EVENTNAME298005;Tempting Fate;x
-EVENTHIST298005;Capitalising on his brother's treaties, Dauid II intrigued with the European powers to rid himself of the Turk. Sending ambassadors to Philippe III of Burgundy and Pope Pius II, Komnenos made wild promises about the reconquest of Jerusalem and downfall of Islam. Meanwhile he secured Uzun Hasan's promise to enlist the Emirs of Sinope and Karaman against the Ottomans. Komnenos's premature demands to Mehmed II led to Trapezountas being isolated from its allies and forced to capitulate through the treacherous Georgios Amiroutzes.;x
-ACTIONNAME298005A;Appeal to the West;x
-ACTIONNAME298005B;Rely on local alliances;x
-ACTIONNAME298005C;Don't antagonize the Turk;x
-#;x
-EVENTNAME298009;End of Trebizond;x
-EVENTHIST298009;Facing the Ottomans alone, Trapezountas was besieged by Mehmed II. With his army defeated and suburbs plundered, Dauid II Komnenos listened to his logothetes Georgios Amiroutzes and surrendered to the Sultan in exchange for a honourable retirement.;x
-ACTIONNAME298009A;Heed Amiroutzes's advice (End Game);x
-ACTIONNAME298009B;Continue to hold out;x
-#;x
-EVENTNAME298012;Komnenoi Affair;x
-EVENTHIST298012;In 1426, Despotes Kaloioannes murdered a courtier for an alleged affair with his mother (Empress Theodora Kantakouzena). In a heated argument he lost his position to his brother Skantarios, attacked his parents then fled to Georgia. There he wed Aleksandri I's daughter but couldn't secure support to depose his father Alexios IV. Kaloioannes then sailed to Genoan-Kaffa (1427) and returned with a large galley who helped by some Trapuzentine nobles murdered the Megas Komnenos (1429). It was Skantarios's turn to flee to the Byzantine Court.;x
-ACTIONNAME298012A;Crown Skantarios Despotes;x
-ACTIONNAME298012B;Leave Kaloioannes Despotes;x
-#;x
-EVENTNAME298013;Genoan Arrears;x
-EVENTHIST298013;Despite owing his rise to Genoa, Ioannes IV failed to reimburse them (1431). Relations were further strained when he ordered the seizure and pillage of a Genoan ship without compensation (1435). When diplomatic channels failed, the Genoan Fleet at Kaffa advanced on Trapezountas - threatening to blockade the city (1447). Although he was friendlier with Genoa's rival Venice, the whole dispute seriously injured commerce in the Black Sea.;x
-ACTIONNAME298013A;Refuse to pay;x
-ACTIONNAME298013B;Settle outstanding debts;x
-#;x
-EVENTNAME298014;Turkoman Raids;x
-EVENTHIST298014;Throughout Ioannes IV's reign, the neighbouring Turkomans grew increasingly hostile towards Trapezountas. In 1442 Sultan Murad II attacked the Empire's dependancies in the Crimea but it was saved by a sudden storm. Meanwhile various Turkish Emirs besieged the capital before being bought off, or simply tired of a lengthy siege.;x
-ACTIONNAME298014A;Close the gates!;x
-ACTIONNAME298014B;Buy them off;x
-#;x
-EVENTNAME298015;Art of Diplomacy;x
-EVENTHIST298015;Upon the ascension of Konstantinos XI to Byzantium, he sent Georgios Phrantzes to negotiate a marital alliance with either the Komnenoi or the Bagrationi of Georgia. While neither project bore fruit, relations between the states were restored with Ioannes IV's exiled brother Skantarios allowed to return home.;x
-#;x
-#;x
-#####################################
-#### AGCEEP_Specific_Tripoli.txt ####
-#####################################
-#;x
-EVENTNAME51028;Independence of Tripoli;x
-EVENTHIST51028;Upon the death of Abu Amr Uthman, Hafsid authority crumbled. The royal family grew to bickering and eventually fueding that damage the position of the Hafisd dynasty. Clearly, the golden age of the Hafsid dynasty was over. No longer could the sultan of Tunis exercise control over the Zayyanids and Tripoli.;x
-#;x
-#;x
 ##########################################
 #### AGCEEP_Specific_Transylvania.txt ####
 ##########################################
@@ -28011,6 +27970,66 @@ EVENTNAME282017;Agreement with Karl X Gustav of Sweden;x
 EVENTHIST282017;Rákóczi had an agreement with Sweden in order to conquer the Polish throne.;x
 ACTIONNAME282017A;We want the Polish Crown!;x
 ACTIONNAME282017B;Stay out of the conflict;x
+#;x
+#;x
+#######################################
+#### AGCEEP_Specific_Trebizond.txt ####
+#######################################
+#;x
+EVENTNAME3874;The Restoration of Byzantium;x
+EVENTHIST3874;Constantinople is back in the hands of its rightful heirs! We now have a unique opportunity to restore the glorious Roman Empire under its legitimate Palaeologus dynasty. In my humble opinion we have nothing to lose and everything to gain by moving our capital to Constantinople and declaring the Roman Empire restored!;x
+ACTIONNAME3874A;Restore the Roman Empire!;x
+ACTIONNAME3874B;Create a new Empire!;x
+#;x
+EVENTNAME298000;Byzantine refugees;x
+EVENTHIST298000;When Constantinople fell, many of its inhabitants were killed or enslaved. The more fortunate fled to the Italian city-states, the Despotates at Serbia and Morea or Trapezountas on the Black Sea Coast.;x
+ACTIONNAME298000A;Welcome them!;x
+#;x
+EVENTNAME298001;Assassination of Alexios IV;x
+EVENTHIST298001;Stemming from the alleged adultery of Empress Theodora Kantakouzena, Kaloioannes (Ioannes IV) through his agents overthrew Alexios IV. With rumours of his part in the conspiracy, the new Megas Komnenos punished the murderers and buried his father in state at the Metropolitan Church. Remembering the role Alexios IV played in hastening the death of his father Manouel III for showing favouritism to a common page, the people remained unconvinced.;x
+ACTIONNAME298001A;Kakou korakos kakon oön (Like father, like son);x
+#;x
+EVENTNAME298003;Keeping the Peace;x
+EVENTHIST298003;Refusing to pay tribute to Sultan Mehmed II, Trapezountas was invested by the Ottoman governor of Amaseia by land and sea (1456). Knowing he couldn't sustain another siege, Ioannes IV submitted whilst taking measures to prepare for the inevitable reprisal. He married his daughter Theodora (aka Despina Hatun) to Uzun Hasan of the Ak-Koyunlu and his sister Eudokia-Valenza to Niccolo Crispo (son of Latin Duke of the Archipelago) in return for promises of protection. He also secured promises of help from the Turkish emirs of Sinope and Karamania. Further cementing of ties occurred was when David, brother of Ioannes, married the daughter of the Georgian dynastic family of Vardanisdze, Mamia Vardanisdze-Gurieli.;x
+ACTIONNAME298003A;Bolster our position;x
+ACTIONNAME298003B;Acquiesce to the Sultan's will;x
+#;x
+EVENTNAME298005;Tempting Fate;x
+EVENTHIST298005;Capitalising on his brother's treaties, Dauid II intrigued with the European powers to rid himself of the Turk. Sending ambassadors to Philippe III of Burgundy and Pope Pius II, Komnenos made wild promises about the reconquest of Jerusalem and downfall of Islam. Meanwhile he secured Uzun Hasan's promise to enlist the Emirs of Sinope and Karaman against the Ottomans. Komnenos's premature demands to Mehmed II led to Trapezountas being isolated from its allies and forced to capitulate through the treacherous Georgios Amiroutzes.;x
+ACTIONNAME298005A;Appeal to the West;x
+ACTIONNAME298005B;Rely on local alliances;x
+ACTIONNAME298005C;Don't antagonize the Turk;x
+#;x
+EVENTNAME298009;End of Trebizond;x
+EVENTHIST298009;Facing the Ottomans alone, Trapezountas was besieged by Mehmed II. With his army defeated and suburbs plundered, Dauid II Komnenos listened to his logothetes Georgios Amiroutzes and surrendered to the Sultan in exchange for a honourable retirement.;x
+ACTIONNAME298009A;Heed Amiroutzes's advice (End Game);x
+ACTIONNAME298009B;Continue to hold out;x
+#;x
+EVENTNAME298012;Komnenoi Affair;x
+EVENTHIST298012;In 1426, Despotes Kaloioannes murdered a courtier for an alleged affair with his mother (Empress Theodora Kantakouzena). In a heated argument he lost his position to his brother Skantarios, attacked his parents then fled to Georgia. There he wed Aleksandri I's daughter but couldn't secure support to depose his father Alexios IV. Kaloioannes then sailed to Genoan-Kaffa (1427) and returned with a large galley who helped by some Trapuzentine nobles murdered the Megas Komnenos (1429). It was Skantarios's turn to flee to the Byzantine Court.;x
+ACTIONNAME298012A;Crown Skantarios Despotes;x
+ACTIONNAME298012B;Leave Kaloioannes Despotes;x
+#;x
+EVENTNAME298013;Genoan Arrears;x
+EVENTHIST298013;Despite owing his rise to Genoa, Ioannes IV failed to reimburse them (1431). Relations were further strained when he ordered the seizure and pillage of a Genoan ship without compensation (1435). When diplomatic channels failed, the Genoan Fleet at Kaffa advanced on Trapezountas - threatening to blockade the city (1447). Although he was friendlier with Genoa's rival Venice, the whole dispute seriously injured commerce in the Black Sea.;x
+ACTIONNAME298013A;Refuse to pay;x
+ACTIONNAME298013B;Settle outstanding debts;x
+#;x
+EVENTNAME298014;Turkoman Raids;x
+EVENTHIST298014;Throughout Ioannes IV's reign, the neighbouring Turkomans grew increasingly hostile towards Trapezountas. In 1442 Sultan Murad II attacked the Empire's dependancies in the Crimea but it was saved by a sudden storm. Meanwhile various Turkish Emirs besieged the capital before being bought off, or simply tired of a lengthy siege.;x
+ACTIONNAME298014A;Close the gates!;x
+ACTIONNAME298014B;Buy them off;x
+#;x
+EVENTNAME298015;Art of Diplomacy;x
+EVENTHIST298015;Upon the ascension of Konstantinos XI to Byzantium, he sent Georgios Phrantzes to negotiate a marital alliance with either the Komnenoi or the Bagrationi of Georgia. While neither project bore fruit, relations between the states were restored with Ioannes IV's exiled brother Skantarios allowed to return home.;x
+#;x
+#;x
+#####################################
+#### AGCEEP_Specific_Tripoli.txt ####
+#####################################
+#;x
+EVENTNAME51028;Independence of Tripoli;x
+EVENTHIST51028;Upon the death of Abu Amr Uthman, Hafsid authority crumbled. The royal family grew to bickering and eventually fueding that damage the position of the Hafisd dynasty. Clearly, the golden age of the Hafsid dynasty was over. No longer could the sultan of Tunis exercise control over the Zayyanids and Tripoli.;x
 #;x
 #;x
 ###################################
@@ -28415,7 +28434,7 @@ EVENTHIST322019;Friedrich IV gradually reduced the power of the rebellious nobil
 ACTIONNAME322019A;Crush these traitors;x
 #;x
 EVENTNAME322020;First assembly of the Tyrolean diet at Meran;x
-EVENTHIST322020;The league against Friedrich IV founded in July 1423 was basically doomed from the beginning. Ever since his return from his imprisonment, Friedrich IV had been seeking the support of burghers and peasantry, who had suffered much from the decade of unrest, largely despised the rebellious nobles whom they perceived to betray Tyrol to satisfy their personal greed and ambitions and therefore willingly rallied behind the popular, folksy count. Castle Greifenstein, the apparently impregnable stronghold of the Starkenberg dynasty which was among the most important adherents to the rebellion, fell to Friedrich in 1423. The decisive move happened in Meran in November 1423: for the first time in the history of Tyrol, a diet with representatives of all estates, including the burghers and the peasantry, assembled and forced the league of the nobles to surrender and dissolve. Political power was thereby shifted to Friedrich and the elements that had supported him – the lesser nobility, the burghers and the peasantry. The influence of the noble oligarchy was almost entirely broken. Oswald von Wolkenstein, their former leader, was captured and had to submit to Friedrich in 1427, and Peter Spaur, another important rebel, committed suicide when he realized that his plans had thoroughly failed.;x
+EVENTHIST322020;The league against Friedrich IV founded in July 1423 was basically doomed from the beginning. Ever since his return from his imprisonment, Friedrich IV had been seeking the support of burghers and peasantry, who had suffered much from the decade of unrest, largely despised the rebellious nobles whom they perceived to betray Tyrol to satisfy their personal greed and ambitions and therefore willingly rallied behind the popular, folksy count. Castle Greifenstein, the apparently impregnable stronghold of the Starkenberg dynasty which was among the most important adherents to the rebellion, fell to Friedrich in 1423. The decisive move happened in Meran in November 1423: for the first time in the history of Tyrol, a diet with representatives of all estates, including the burghers and the peasantry, assembled and forced the league of the nobles to surrender and dissolve. Political power was thereby shifted to Friedrich and the elements that had supported him - the lesser nobility, the burghers and the peasantry. The influence of the noble oligarchy was almost entirely broken. Oswald von Wolkenstein, their former leader, was captured and had to submit to Friedrich in 1427, and Peter Spaur, another important rebel, committed suicide when he realized that his plans had thoroughly failed.;x
 ACTIONNAME322020A;Ally with the lower classes;x
 ACTIONNAME322020B;Compromise with the rebellious nobles;x
 #;x
@@ -29176,7 +29195,7 @@ EVENTNAME326070;Genoa joins the league against Milan;x
 EVENTHIST326070;As Alfonso of Aragon convinced the Duke of Milan to join his side against Angevin interference in Italy, the Republic of Genoa, a bitter rival of Aragon during centuries of dispute over Sardinia, Corsica, and the control of the Western Mediterranean trade, rejected Visconti's lordship joining the league formed by Venice and Florence against her former suzerain.;x
 #;x
 EVENTNAME326071;Treaty of Karlowitz;x
-EVENTHIST326071;The Treaty of Karlowitz was signed on January 26, 1699, concluding the Austro-Ottoman War of 1683–1697 in which the Ottoman side had finally been defeated at the Battle of Senta. Following a two-month congress between the Ottoman Empire on one side and the Holy League of 1684, a coalition of various European powers including the Habsburg Monarchy, the Polish-Lithuanian Commonwealth, the Republic of Venice and Muscovite Russia, a treaty was signed on January 26, 1699. The Ottomans ceded most of Hungary, Transylvania and Slavonia to Austria while Podolia returned to Poland. Most of Dalmatia passed to Venice, along with the Morea (the Peloponnesus peninsula). The Treaty of Karlowitz marked the beginning of the Ottoman decline in Eastern Europe, and made the Habsburg Monarchy the dominant power in Central Europe.;x
+EVENTHIST326071;The Treaty of Karlowitz was signed on January 26, 1699, concluding the Austro-Ottoman War of 1683-1697 in which the Ottoman side had finally been defeated at the Battle of Senta. Following a two-month congress between the Ottoman Empire on one side and the Holy League of 1684, a coalition of various European powers including the Habsburg Monarchy, the Polish-Lithuanian Commonwealth, the Republic of Venice and Muscovite Russia, a treaty was signed on January 26, 1699. The Ottomans ceded most of Hungary, Transylvania and Slavonia to Austria while Podolia returned to Poland. Most of Dalmatia passed to Venice, along with the Morea (the Peloponnesus peninsula). The Treaty of Karlowitz marked the beginning of the Ottoman decline in Eastern Europe, and made the Habsburg Monarchy the dominant power in Central Europe.;x
 ACTIONNAME326071A;Accept the Slavs;x
 #;x
 EVENTNAME326072;Native mercenaries in Zeta;x
@@ -29349,7 +29368,7 @@ ACTIONNAME3832A;We owe the Turks nothing! Let them squirm on the stakes!;x
 ACTIONNAME3832B;Apologize to the Sultan;x
 #;x
 EVENTNAME19000;The Dragon;x
-EVENTHIST19000;The German Emperor Sigismund of Luxembourg and his 2nd wife, Barbara von Cilli, founded the Order of the Dragon in 1387 as a secret military and religious organization with the aim of protecting the Catholic Church against heretics, such as the Hussites (who rose in Bohemia recently). An additional objective is the organization of Crusades against the Ottoman Turks, who had overrun most of the Balkan peninsula. On February 8, 1431, Vlad, henceforth known as Vlad Dracul, or the Dragon, was inducted in this order along with King Ladislas of Poland and Prince Lazarevic of Serbia. In addition, the Holy Roman Emperor has invested Vlad Dracul as the sovereign ruler of the Princedom of Wallachia. Dracul made good his claim by expelling Alexandru during the winter of 1436, and taking the throne.;x
+EVENTHIST19000;The German Emperor Sigismund of Luxemburg and his 2nd wife, Barbara von Cilli, founded the Order of the Dragon in 1387 as a secret military and religious organization with the aim of protecting the Catholic Church against heretics, such as the Hussites (who rose in Bohemia recently). An additional objective is the organization of Crusades against the Ottoman Turks, who had overrun most of the Balkan peninsula. On February 8, 1431, Vlad, henceforth known as Vlad Dracul, or the Dragon, was inducted in this order along with King Ladislas of Poland and Prince Lazarevic of Serbia. In addition, the Holy Roman Emperor has invested Vlad Dracul as the sovereign ruler of the Princedom of Wallachia. Dracul made good his claim by expelling Alexandru during the winter of 1436, and taking the throne.;x
 ACTIONNAME19000A;Wonderful... Sigismund is now our lord;x
 ACTIONNAME19000B;Stab Sigismund in the back!;x
 #;x
@@ -29850,7 +29869,7 @@ EVENTNAME717033800;Geldre converted to Protestantism;x
 EVENTNAME717033900;Holland converted to Protestantism;x
 EVENTNAME717034000;Zeeland converted to Protestantism;x
 EVENTNAME717037500;Lorraine converted to Protestantism;x
-EVENTNAME717037700;Luxembourg converted to Protestantism;x
+EVENTNAME717037700;Luxemburg converted to Protestantism;x
 EVENTNAME717037800;Brabant converted to Protestantism;x
 EVENTNAME717038000;Flandern converted to Protestantism;x
 #;x
@@ -29974,7 +29993,7 @@ EVENTNAME717033810;Geldre converted to reformed;x
 EVENTNAME717033910;Holland converted to reformed;x
 EVENTNAME717034010;Zeeland converted to reformed;x
 EVENTNAME717037510;Lorraine converted to reformed;x
-EVENTNAME717037710;Luxembourg converted to reformed;x
+EVENTNAME717037710;Luxemburg converted to reformed;x
 EVENTNAME717037810;Brabant converted to reformed;x
 EVENTNAME717038010;Flandern converted to reformed;x
 #;x

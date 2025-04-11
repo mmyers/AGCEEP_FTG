@@ -1,10 +1,10 @@
-#Uzbeks
+#Nogaï
 
 #-----------------------------------------------------------------------------------------------
 
 country = {
-	tag = UZB
-	ai = "UZB_1419_Default.txt"
+	tag = NOG
+	ai = "SmallTrade1.txt"
 	colonialattempts = 0
 	colonialnation = no
 	major = no
@@ -17,8 +17,9 @@ country = {
 	religion = { type = sunni }
 	culture = { type = tatar }
 	diplomacy = {
-		relation = { tag = SIB value = 150 refusetrade = no }
-		relation = { tag = STE value = 150 refusetrade = no }
+		relation = { tag = SIB value = 50 refusetrade = no }
+		relation = { tag = STE value = 100 refusetrade = no }
+		relation = { tag = UZB value = 100 refusetrade = no }
 		relation = { tag = KHI value = 0 refusetrade = no }
 	}
 	knownprovinces = {
@@ -26,62 +27,45 @@ country = {
 		518 519 520 521 522 523 524 525 526 578 579 1527 1528 1531 1532 1533 1534 1535 1536 1571 1570 1573 1591 1592 1593 1594 1598 1599
 		#Siberian corridor - South
 		1572 580 582 584 585 587 589
+		#Caspian sea coast
+		471 487 529 530
 	}
 	ownedprovinces = {
-		1534 1535 516 1536 517 579 518
+		515 519 520
 	}
 	controlledprovinces = {
-		1534 1535 516 1536 517 579 518
+		515 519 520
 	}
 	nationalprovinces = {
-		1534 1535 516 1536 517 579 518
+		515 519 520
 	}
 	city = {
+		name = "Saray-Jük"
 		fortress = { level = 1 }
-		population = 6000
-		location = 1536
+		population = 4000
+		location = 515
 		capital = yes
 	}
 	city = {
 		fortress = { level = 1 }
-		population = 4000
-		location = 1534
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 4000
-		location = 1535
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 3000
-		location = 516
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 3000
-		location = 517
-	}
-	city = {
-		fortress = { level = 1 }
-		population = 3000
-		location = 518
-	}
-	city = {
-		fortress = { level = 1 }
 		population = 2000
-		location = 579
+		location = 519
+	}
+	city = {
+		fortress = { level = 1 }
+		population = 3000
+		location = 520
 	}
 	landunit = {
-		id = { type = 6001 id = 214 }
-		name = "Khan's Guard"
-		location = 1536
+		id = { type = 6001 id = 275 }
+		name = "Nogaï Horde"
+		location = 515
 		infantry = 0
-		cavalry = 7000
+		cavalry = 5000
 		artillery = 0
 	}
 	technology = {
-		stability = { level = 1 value = 50 }
+		stability = { level = 2 value = 50 }
 		infra = { level = 0 value = 0 }
 		trade = { level = 0 value = 20 }
 		land = { level = 0 value = 50 }

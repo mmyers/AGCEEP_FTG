@@ -1,0 +1,45 @@
+#Mahra (MRA)
+
+#-----------------------------------------------------------------------------------------------
+
+#(1470-1510) The Socotran Question
+#by mandead
+event = {
+	id = 345000
+	trigger = {
+		exists = SOC
+	}
+	random = no
+	country = MRA
+	name = "EVENTNAME345000" #The Socotran Question
+	desc = "EVENTHIST345000"
+	#-#The island of Socotra has been a haven for merchants, missionaries and pirates since time immemorial, and for much of the 15th century had been under nominal suzerainty of the Mahra Sultanate. Despite this loose influence, the island itself was mostly Eastern Christian, and had a mixed population of Arabs, Somalis and Copts. Over time, the Mahri had expressed greater interest in Socotra's strategic location between the Red Sea and Horn of Africa, and by 1480 had begun settling the island with Arab Muslims and expanding its port at Suq. The main impetus behind the capture of Socotra was to disrupt trade and launch raids against Mahra's main rival - the Kathiri dynasty in Hadhramaut.
+
+	date = { day = 1 month = january year = 1470 }
+	offset = 150
+	deathdate = { day = 1 month = january year = 1510 }
+
+	action_a = {
+		name = "ACTIONNAME345000A" #We must take the island by force
+		command = { type = addcore which = 756 } #Socotra
+		command = { type = domestic which = OFFENSIVE value = 1 }
+		command = { type = breakoverlord which = SOC }
+		command = { type = casusbelli which = SOC value = 60 }
+		command = { type = relation which = SOC value = -150 }
+		command = { type = relation which = HAD value = -100 }
+		command = { type = warships which = 502 value = 3 } #Dofhar
+	}
+	action_b = {
+		name = "ACTIONNAME345000B" #The status quo seems reasonable enough
+		command = { type = stability value = 1 }
+		command = { type = merchants value = 3 }
+		command = { type = domestic which = MERCANTILISM value = -1 }
+		command = { type = trade value = 500 }
+		command = { type = relation which = SOC value = 100 }
+		command = { type = relation which = HAD value = 50 }
+	}
+}
+
+#-----------------------------------------------------------------------------------------------
+
+#First free id: 345001

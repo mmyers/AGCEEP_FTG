@@ -11,7 +11,7 @@ region = {
 }
 area = {
 	Newfoundland
-	America
+	Appalachia
 }
 expansion = 0
 tradingpost = 100
