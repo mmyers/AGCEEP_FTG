@@ -25,10 +25,10 @@
 1633-1819: <a href="AGCEEP_Specific_DaXi.txt.htm#evt315002">Claiming the Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
 1633-1819: <a href="AGCEEP_Specific_DaXi.txt.htm#evt315004">Claiming the Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
 1633-1819: <a href="AGCEEP_Specific_DaXi.txt.htm#evt315006">Peace returns to China</a> for <span class="country" title="DAX">Da Xi</span><br />
-Triggered (triggered event): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315005">A new dynasty for China</a> for <span class="country" title="DAX">Da Xi</span><br />
-Triggered (1633-1819): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315003">The Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
-Triggered (triggered event): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315007">The Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
-Triggered (1633-1644, 1633-1644, 1633-1644): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315001">We openly declare war</a> for <span class="country" title="DAX">Da Xi</span><br />
+1633-1644, 1633-1644, 1633-1644 (triggered by 3 events): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315001">We openly declare war</a> for <span class="country" title="DAX">Da Xi</span><br />
+1633-1819 (triggered): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315003">The Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
+1633-1819 (triggered): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315005">A new dynasty for China</a> for <span class="country" title="DAX">Da Xi</span><br />
+1633-1819 (triggered): <a href="AGCEEP_Specific_DaXi.txt.htm#evt315007">The Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
 </div> <!-- End of event list -->
 <br />
 </div> <!-- End of index body -->
@@ -355,19 +355,25 @@ Xi dynasty reunified and brought peace back to China.
 
 
 <div class="event">
-<div class="event_head"><h2><a id="evt315005" class="event_title">315005. A new dynasty for China</a></h2></div>
+<div class="event_head"><h2><a id="evt315001" class="event_title">315001. We openly declare war</a></h2></div>
 <div class="event_body">
 <h3><span class="country" title="DAX">Da Xi</span> &mdash; Not random</h3>
 <h3>Triggered by</h3>
-Action A of <a href="AGCEEP_Specific_DaXi.txt.htm#evt315007" class="a_und">315007 - The Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
+Action A of <a href="AGCEEP_Specific_China.txt.htm#evt147124" class="a_und">147124 - Resistant leader declares an independent state</a> for <span class="country" title="CHI">China</span><br />
+Action A of <a href="AGCEEP_Specific_DaXi.txt.htm#evt315000" class="a_und">315000 - Da Xi is independent</a> for <span class="country" title="DAX">Da Xi</span><br />
+Action A of <a href="AGCEEP_Specific_SouthMing.txt.htm#evt317001" class="a_und">317001 - Resistant leader declares an independent state</a> for <span class="country" title="SMI">Southern Ming</span><br />
 <h3>Description</h3>
-With the sucessful capture and control of the core provinces of mainland China, the monarchy of rebel Da Xi becomes the new legitimate Emperor of China.
+Zhang Xian Zhong declares his independent state of Da Xi and declares himself the true emperor of China claiming the Ming dynasty no longer has its divine mandate having abused their power.
 <h3>Actions</h3>
 <blockquote>
-<h4 class="action_title">A. Long live the Emperor!</h4>
+<h4 class="action_title">A. OK</h4>
 <ul class="action">
-<li>Flag graphics set to default</li>
-<li>Become <span class="country" title="CHI">China</span></li>
+<li>Start a war with <span class="country" title="CHI">China</span></li>
+<li>Start a war with <span class="country" title="SMI">Southern Ming</span></li>
+<li>+25000 infantry in the capital province</li>
+<li>+3000 cavalry in the capital province</li>
+<li>+10 artillery in the capital province</li>
+<li>+300 <img src="../images/eventdoc/coin.png" alt="gold" title="ducats" /></li>
 </ul>
 </blockquote>
 </div> <!-- End of event body -->
@@ -438,6 +444,30 @@ With the sucessful capture and control of the core provinces of mainland China, 
 
 
 <div class="event">
+<div class="event_head"><h2><a id="evt315005" class="event_title">315005. A new dynasty for China</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="DAX">Da Xi</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action A of <a href="AGCEEP_Specific_DaXi.txt.htm#evt315007" class="a_und">315007 - The Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span><br />
+<h3>Description</h3>
+With the sucessful capture and control of the core provinces of mainland China, the monarchy of rebel Da Xi becomes the new legitimate Emperor of China.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Long live the Emperor!</h4>
+<ul class="action">
+<li>Flag graphics set to default</li>
+<li>Become <span class="country" title="CHI">China</span></li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
 <div class="event_head"><h2><a id="evt315007" class="event_title">315007. The Imperial Throne</a></h2></div>
 <div class="event_body">
 <h3><span class="country" title="DAX">Da Xi</span> &mdash; Not random</h3>
@@ -486,36 +516,6 @@ With the sucessful capture and control of the core provinces of mainland China, 
 <li>zhuang will become an accepted culture</li>
 <li>Event <a href="AGCEEP_Specific_DaXi.txt.htm#evt315004" class="a_und">315004 - Claiming the Imperial Throne</a> for <span class="country" title="DAX">Da Xi</span> will never fire</li>
 <li>Event <a href="AGCEEP_Specific_DaXi.txt.htm#evt315005" class="a_und">315005 - A new dynasty for China</a> for <span class="country" title="DAX">Da Xi</span> is triggered immediately</li>
-</ul>
-</blockquote>
-</div> <!-- End of event body -->
-<div class="event_footer">
-<p><a href="#top">Back to top</a></p>
-</div>
-</div> <!-- End of event -->
-
-
-
-<div class="event">
-<div class="event_head"><h2><a id="evt315001" class="event_title">315001. We openly declare war</a></h2></div>
-<div class="event_body">
-<h3><span class="country" title="DAX">Da Xi</span> &mdash; Not random</h3>
-<h3>Triggered by</h3>
-Action A of <a href="AGCEEP_Specific_China.txt.htm#evt147124" class="a_und">147124 - Resistant leader declares an independent state</a> for <span class="country" title="CHI">China</span><br />
-Action A of <a href="AGCEEP_Specific_DaXi.txt.htm#evt315000" class="a_und">315000 - Da Xi is independent</a> for <span class="country" title="DAX">Da Xi</span><br />
-Action A of <a href="AGCEEP_Specific_SouthMing.txt.htm#evt317001" class="a_und">317001 - Resistant leader declares an independent state</a> for <span class="country" title="SMI">Southern Ming</span><br />
-<h3>Description</h3>
-Zhang Xian Zhong declares his independent state of Da Xi and declares himself the true emperor of China claiming the Ming dynasty no longer has its divine mandate having abused their power.
-<h3>Actions</h3>
-<blockquote>
-<h4 class="action_title">A. OK</h4>
-<ul class="action">
-<li>Start a war with <span class="country" title="CHI">China</span></li>
-<li>Start a war with <span class="country" title="SMI">Southern Ming</span></li>
-<li>+25000 infantry in the capital province</li>
-<li>+3000 cavalry in the capital province</li>
-<li>+10 artillery in the capital province</li>
-<li>+300 <img src="../images/eventdoc/coin.png" alt="gold" title="ducats" /></li>
 </ul>
 </blockquote>
 </div> <!-- End of event body -->

@@ -34,8 +34,8 @@
 1468-1478: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165004">Loss of Emperor's authority</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1468-1478: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165044">Other Campaigns of Baeda Maryam</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1468-1478: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165046">Other Campaigns of Baeda Maryam</a> for <span class="country" title="ETH">Ethiopia</span><br />
-1472-1478: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047">Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1472-1478: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165043">Reformation of Dobe'a</a> for <span class="country" title="ETH">Ethiopia</span><br />
+1472-1478: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047">Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1480-1482: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165045">Nicolò Brancaleon</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1494: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165048">Ascension of Emperor Na'od</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1494-1494: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165013">Pêro da Covilhã in the court of Prester John</a> for <span class="country" title="ETH">Ethiopia</span><br />
@@ -47,6 +47,7 @@
 1557-1819: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165018">The loss of Massawa</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1567-1568: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165021">To whom the Muslims bow</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1577-1577: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165022">Slave trade</a> for <span class="country" title="ETH">Ethiopia</span><br />
+1577-1578, 1577-1578 (triggered by 2 events): <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165020">The disintegration of Adal</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1603-1604: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165023">Za Dengel and Pedro Páez</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1604-1605: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165024">Za Dengel becomes Catholic</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1605-1606: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165025">Danqaz</a> for <span class="country" title="ETH">Ethiopia</span><br />
@@ -71,7 +72,6 @@
 1759: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165041">Mikael ''the Astute'' Isqias</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1769: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165003">Zemene Mesafint</a> for <span class="country" title="ETH">Ethiopia</span><br />
 1770: <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165042">Christmas of terror</a> for <span class="country" title="ETH">Ethiopia</span><br />
-Triggered (1577-1578, 1577-1578): <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165020">The disintegration of Adal</a> for <span class="country" title="ETH">Ethiopia</span><br />
 </div> <!-- End of event list -->
 <br />
 </div> <!-- End of index body -->
@@ -528,7 +528,7 @@ Dobe'a were primitive nomadic people who inhabited the northeastern part of Ethi
 <li><span class="province" title="Id:&nbsp;1518,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Arsi</span> will be considered a claim province</li>
 <li><span class="province" title="Id:&nbsp;1519,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Harerge</span> will be considered a claim province</li>
 <li>Centralization +1</li>
-<li>Set flag [dobea_campaigns] for events</li>
+<li>Set flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a> for events</li>
 </ul>
 <h4 class="action_title">B. Leave the Dobe'a alone</h4>
 <ul class="action">
@@ -579,7 +579,7 @@ Baeda Maryam was unable to hold together the far-flung empire his father left hi
 The following must not occur:
 <ul class="trigger">
 <li>
-Flag [dobea_campaigns] is set
+Flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a> is set
 </li>
 </ul>
 
@@ -648,7 +648,7 @@ After successful campaigns against the Dobe'a, Baeda Maryam turned to other corn
 The following must not occur:
 <ul class="trigger">
 <li>
-Flag [dobea_campaigns] is set
+Flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a> is set
 </li>
 </ul>
 
@@ -701,13 +701,62 @@ With religious similarities bringing peace with muslims within the Empire, Baeda
 
 
 <div class="event">
+<div class="event_head"><h2><a id="evt165043" class="event_title">165043. Reformation of Dobe'a</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="ETH">Ethiopia</span> &mdash; Not random</h3>
+<h3>Conditions</h3>
+<ul class="trigger">
+<li>
+Flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a> is set
+</li>
+<li>
+Own <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span>
+</li>
+<li>
+Control <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span>
+</li>
+</ul>
+<p>Will happen within 350 days of <span class="date">January 2, 1472</span>
+<br />Checked again every 350 days until trigger is met (cannot happen after <span class="date">November 9, 1478</span>)
+
+<br />unless prevented by<br />Action A of <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047" class="a_und">165047 - Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span><br />
+Action B of <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165019" class="a_und">165019 - Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span><br />
+</p>
+<h3>Description</h3>
+After their defeat at the hands of Baeda Maryam, the Dobe'a were forced to convert to Christianity and beg the Emperor for pardon. The Emperor in turn returned their cattle, supplementing it with others from the southern provinces of Wej and Genz and stationed soldiers in their country. He further built a church in Dobe'a country dedicated to the Virgin Mary and planted orange trees, lemon trees, and vines in the area, in fulfillment of his earlier declaration. Baeda Maryam soon returned to the Dobe'a country and appointed governors and ''regulated the social condition of the people,'' as well as encouraging the celebration of the death of the Virgin Mary every January, upon which occasion he distributed bread, tela (beer), and tej (a type of honey wine/mead) to the people. He further ordered that the Dobe'a become cultivators, as opposed to bandits and left the country for the last time.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Bandits become farmers</h4>
+<ul class="action">
+<li>-10 <img src="../images/eventdoc/coin.png" alt="gold" title="ducats" /></li>
+<li>+5000 population in <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span></li>
+<li>+1 base tax value in <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span></li>
+<li>Clear flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a></li>
+<li>Trade tech investment: +500</li>
+<li>Event <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047" class="a_und">165047 - Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span> will never fire</li>
+</ul>
+<h4 class="action_title">B. Execute them all!</h4>
+<ul class="action">
+<li>Innovativeness -1</li>
+<li>Event <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047" class="a_und">165047 - Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span> will never fire</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
 <div class="event_head"><h2><a id="evt165047" class="event_title">165047. Failure of Dobe'a Campaigns</a></h2></div>
 <div class="event_body">
 <h3><span class="country" title="ETH">Ethiopia</span> &mdash; Not random</h3>
 <h3>Conditions</h3>
 <ul class="trigger">
 <li>
-Flag [dobea_campaigns] is set
+Flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a> is set
 </li>
 <li>
 Own <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span>
@@ -732,57 +781,8 @@ The crafty Dobe'a managed to defeat even the Royal Eagle. The most elite of Ethi
 <li>Quality -1</li>
 <li>Trade tech investment: -100</li>
 <li>-10 victory points</li>
-<li>Clear flag "[dobea_campaigns]"</li>
+<li>Clear flag <a href=../eventflags.htm#flag[dobea_campaigns] class='a_und'>[dobea_campaigns]</a></li>
 <li>Event <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165043" class="a_und">165043 - Reformation of Dobe'a</a> for <span class="country" title="ETH">Ethiopia</span> will never fire</li>
-</ul>
-</blockquote>
-</div> <!-- End of event body -->
-<div class="event_footer">
-<p><a href="#top">Back to top</a></p>
-</div>
-</div> <!-- End of event -->
-
-
-
-<div class="event">
-<div class="event_head"><h2><a id="evt165043" class="event_title">165043. Reformation of Dobe'a</a></h2></div>
-<div class="event_body">
-<h3><span class="country" title="ETH">Ethiopia</span> &mdash; Not random</h3>
-<h3>Conditions</h3>
-<ul class="trigger">
-<li>
-Flag [dobea_campaigns] is set
-</li>
-<li>
-Own <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span>
-</li>
-<li>
-Control <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span>
-</li>
-</ul>
-<p>Will happen within 350 days of <span class="date">January 2, 1472</span>
-<br />Checked again every 350 days until trigger is met (cannot happen after <span class="date">November 9, 1478</span>)
-
-<br />unless prevented by<br />Action A of <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047" class="a_und">165047 - Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span><br />
-Action B of <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165019" class="a_und">165019 - Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span><br />
-</p>
-<h3>Description</h3>
-After their defeat at the hands of Baeda Maryam, the Dobe'a were forced to convert to Christianity and beg the Emperor for pardon. The Emperor in turn returned their cattle, supplementing it with others from the southern provinces of Wej and Genz and stationed soldiers in their country. He further built a church in Dobe'a country dedicated to the Virgin Mary and planted orange trees, lemon trees, and vines in the area, in fulfillment of his earlier declaration. Baeda Maryam soon returned to the Dobe'a country and appointed governors and ''regulated the social condition of the people,'' as well as encouraging the celebration of the death of the Virgin Mary every January, upon which occasion he distributed bread, tela (beer), and tej (a type of honey wine/mead) to the people. He further ordered that the Dobe'a become cultivators, as opposed to bandits and left the country for the last time.
-<h3>Actions</h3>
-<blockquote>
-<h4 class="action_title">A. Bandits become farmers</h4>
-<ul class="action">
-<li>-10 <img src="../images/eventdoc/coin.png" alt="gold" title="ducats" /></li>
-<li>+5000 population in <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span></li>
-<li>+1 base tax value in <span class="province" title="Id:&nbsp;1516,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Welo</span></li>
-<li>Clear flag "[dobea_campaigns]"</li>
-<li>Trade tech investment: +500</li>
-<li>Event <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047" class="a_und">165047 - Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span> will never fire</li>
-</ul>
-<h4 class="action_title">B. Execute them all!</h4>
-<ul class="action">
-<li>Innovativeness -1</li>
-<li>Event <a href="AGCEEP_Specific_Ethiopia.txt.htm#evt165047" class="a_und">165047 - Failure of Dobe'a Campaigns</a> for <span class="country" title="ETH">Ethiopia</span> will never fire</li>
 </ul>
 </blockquote>
 </div> <!-- End of event body -->
@@ -1262,6 +1262,30 @@ The continuous campaigns of Sarsa Dengel produced lots of Muslim and Jewish pris
 <ul class="action">
 <li>Infrastructure tech investment: +300</li>
 <li>+20 victory points</li>
+</ul>
+</blockquote>
+</div> <!-- End of event body -->
+<div class="event_footer">
+<p><a href="#top">Back to top</a></p>
+</div>
+</div> <!-- End of event -->
+
+
+
+<div class="event">
+<div class="event_head"><h2><a id="evt165020" class="event_title">165020. The disintegration of Adal</a></h2></div>
+<div class="event_body">
+<h3><span class="country" title="ETH">Ethiopia</span> &mdash; Not random</h3>
+<h3>Triggered by</h3>
+Action A of <a href="AGCEEP_Specific_Adal.txt.htm#evt155008" class="a_und">155008 - The end of Adal</a> for <span class="country" title="ADA">Adal</span><br />
+Action A, B of <a href="AGCEEP_Specific_Adal.txt.htm#evt155007" class="a_und">155007 - The end of Adal</a> for <span class="country" title="ADA">Adal</span><br />
+<h3>Description</h3>
+By 1567, the sultanate of Adal had been reduced to the city of Harar and the Oromo had cut her vital connection to the ports of Saylac and Barbera. What had been Adal disintegrated, part falling under control of Somalies, and most becoming Oromo lands. The Ottomans took control of the Red Sea ports as payment for their help. In 1575, Emir Muhammad IV made the mistake of joining the rebellion of the governor of a Muslim province in the North East of Ethiopia. He was captured and executed by Emperor Sarsa Dengel, and this defeat saw the end of Adal's last army. In 1577, the emir transferred the sultanate of Adal to the Aussa oasis in the Danakil depression. This desert below sea-level was located in no-mans land between the Afars, the Ottomans at Massawa and the Ethiopians. By moving to one of the nastiest places in Africa the sultanate prolonged its nominal existence until it was overrun by Afars and Oromo in 1672. The city of Harar, remained viable behind its walls, independent from the sultanate since 1647, as a city-state. It always has been Muslim, and today is considered the fourth sacred city of Islam. For all practical purposes, 1577 saw the end of Adal as a state. The Ethiopians probably didn't notice it. Due to the Oromo they had lost control over most of the South, that was self-ruled by petty Kingdoms.
+<h3>Actions</h3>
+<blockquote>
+<h4 class="action_title">A. Enough of supporting my rebels</h4>
+<ul class="action">
+<li><span class="province" title="Id:&nbsp;753,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Keren</span> revolts</li>
 </ul>
 </blockquote>
 </div> <!-- End of event body -->
@@ -2013,30 +2037,6 @@ After a rebellion that saw Mikael Sehul expelled from Gonder, dissensions within
 <ul class="action">
 <li>Stability -1</li>
 <li>The capital province revolts</li>
-</ul>
-</blockquote>
-</div> <!-- End of event body -->
-<div class="event_footer">
-<p><a href="#top">Back to top</a></p>
-</div>
-</div> <!-- End of event -->
-
-
-
-<div class="event">
-<div class="event_head"><h2><a id="evt165020" class="event_title">165020. The disintegration of Adal</a></h2></div>
-<div class="event_body">
-<h3><span class="country" title="ETH">Ethiopia</span> &mdash; Not random</h3>
-<h3>Triggered by</h3>
-Action A of <a href="AGCEEP_Specific_Adal.txt.htm#evt155008" class="a_und">155008 - The end of Adal</a> for <span class="country" title="ADA">Adal</span><br />
-Action A, B of <a href="AGCEEP_Specific_Adal.txt.htm#evt155007" class="a_und">155007 - The end of Adal</a> for <span class="country" title="ADA">Adal</span><br />
-<h3>Description</h3>
-By 1567, the sultanate of Adal had been reduced to the city of Harar and the Oromo had cut her vital connection to the ports of Saylac and Barbera. What had been Adal disintegrated, part falling under control of Somalies, and most becoming Oromo lands. The Ottomans took control of the Red Sea ports as payment for their help. In 1575, Emir Muhammad IV made the mistake of joining the rebellion of the governor of a Muslim province in the North East of Ethiopia. He was captured and executed by Emperor Sarsa Dengel, and this defeat saw the end of Adal's last army. In 1577, the emir transferred the sultanate of Adal to the Aussa oasis in the Danakil depression. This desert below sea-level was located in no-mans land between the Afars, the Ottomans at Massawa and the Ethiopians. By moving to one of the nastiest places in Africa the sultanate prolonged its nominal existence until it was overrun by Afars and Oromo in 1672. The city of Harar, remained viable behind its walls, independent from the sultanate since 1647, as a city-state. It always has been Muslim, and today is considered the fourth sacred city of Islam. For all practical purposes, 1577 saw the end of Adal as a state. The Ethiopians probably didn't notice it. Due to the Oromo they had lost control over most of the South, that was self-ruled by petty Kingdoms.
-<h3>Actions</h3>
-<blockquote>
-<h4 class="action_title">A. Enough of supporting my rebels</h4>
-<ul class="action">
-<li><span class="province" title="Id:&nbsp;753,&nbsp;area:&nbsp;Ethiopia,&nbsp;region:&nbsp;East Africa,&nbsp;continent:&nbsp;Africa">Keren</span> revolts</li>
 </ul>
 </blockquote>
 </div> <!-- End of event body -->
