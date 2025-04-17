@@ -154,7 +154,7 @@ ul.trigger {
 	border: thin ridge gold;
 }
 
-.event_flag_table_wrapper td, th {
+.event_flag_table_wrapper td, .event_flag_table_wrapper th {
 	border-bottom: thin ridge gold;
 	border-right: thin ridge gold;
 	border-left: thin ridge gold;
