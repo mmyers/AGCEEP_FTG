@@ -21,7 +21,7 @@ area = {
 }
 expansion = 12
 tradingpost = 50
-neighbour = 0
+neighbour = 20 # 0
 enemies = 0
 traders = 100
 monopoly = 10 #-100

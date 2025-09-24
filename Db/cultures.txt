@@ -230,6 +230,12 @@ german = {
 	color = Yellow
 }
 
+gondi = {
+	city = MOG
+	buildings = MOG
+	color = DarkGreen
+}
+
 greek = {
 	city = BYZ
 	buildings = MIN

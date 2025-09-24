@@ -7,6 +7,9 @@ region = {
 area = {
 	"Cape Verde"
 }
+ignore = {
+	America
+}
 expansion = 0
 tradingpost = 50
 neighbour = 0

@@ -12,7 +12,7 @@ area = {
 	Acadie
 	Labrador
 	Quebec
-	Maine
+	#Maine
 	Iberia
 	"Cape Verde"
 }

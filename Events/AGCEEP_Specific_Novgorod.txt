@@ -34,6 +34,92 @@ event = {
 	}
 }
 
+#(1425-1435) Novgorodian Foreign Policy
+#by mandead
+event = {
+	id = 245001
+	trigger = {
+		isvassal = no
+	}
+	random = no
+	country = NVG
+	name = "EVENTNAME245001" #Novgorodian Foreign Policy
+	desc = "EVENTHIST245001"
+	#-#The Novgorod Republic had a long and complicated history of shifting alliances and foreign policy goals as the political narrative of the region evolved. Traditionally the easternmost trading hub of the Hanseatic League, the city became immensely wealthy owing to its monopoly of the Russian fur trade, and its merchants sailed to ports as far away as Alexandria and Constantinople. By the mid-15th century the Republic was rich but politically isolated, as although its territories were vast they were sparsely populated and poorly defensible. Always in danger of being encircled, Novgorod's primary threats were the Teutonic Order to the south, the Swedes to the west, and the other Rus' princes - primarily Moscow - to the east. Another approach would have been to repair relations with the Hansa and attempt to reclaim Baltic trading rights on Gotland.
+
+	date = { day = 1 month = january year = 1425 }
+	offset = 60
+	deathdate = { day = 1 month = january year = 1435 }
+
+	action_a = {
+		name = "ACTIONNAME245001A" #Focus on the Livonians
+		command = { type = addcore_claim which = 276 } #Estland
+		command = { type = addcore_claim which = 282 } #Livland
+		command = { type = domestic which = QUALITY value = 1 }
+		command = { type = land value = 500 }
+		command = { type = relation which = SWE value = 50 }
+		command = { type = relation which = LAT value = -100 }
+		command = { type = relation which = LIV value = -100 }
+		command = { type = stability value = -1 }
+	}
+	action_b = {
+		name = "ACTIONNAME245001B" #Push into Savonia
+		command = { type = addcore_claim which = 264 } #Tavastland
+		command = { type = addcore_claim which = 265 } #Nyland
+		command = { type = addcore_claim which = 273 } #Savolaks
+		command = { type = domestic which = OFFENSIVE value = 2 }
+		command = { type = missionaries value = 2 }
+		command = { type = manpower value = 10 }
+		command = { type = relation which = LAT value = 50 }
+		command = { type = relation which = LIV value = 50 }
+		command = { type = relation which = SWE value = -100 }
+		command = { type = stability value = -1 }
+	}
+	action_c = {
+		name = "ACTIONNAME245001C" #Consolidate our Rus' holdings
+		command = { type = INF which = 274 value = 5000 } #Novgorod
+		command = { type = provincetax which = 274 value = 3 } #Novgorod
+		command = { type = provincemanpower which = 274 value = 1 } #Novgorod
+		command = { type = gainbuilding which = 274 value = bailiff } #Novgorod
+		command = { type = fortress which = 274 value = 1 } #Novgorod
+		command = { type = domestic which = CENTRALIZATION value = 2 }
+		command = { type = domestic which = SERFDOM value = 1 }
+		command = { type = domestic which = OFFENSIVE value = -1 }
+		command = { type = colonists value = 3 }
+		command = { type = infra value = 400 }
+		command = {
+			trigger = { vassal = { country = NVG country = PSK } }
+			type = inherit which = PSK
+		}
+		command = { type = relation which = MOS value = -100 }
+		command = { type = relation which = RYA value = -50 }
+		command = { type = relation which = TVE value = -50 }
+		command = { type = relation which = PSK value = -50 }
+		command = { type = stability value = -2 }
+	}
+	action_d = {
+		name = "ACTIONNAME245001D" #Strengthen ties with the Hansa
+		command = { type = addcore_claim which = 308 } #Gotland
+		command = { type = warships which = 275 value = 5 } #Ingermanland
+		command = { type = domestic which = ARISTOCRACY value = -1 }
+		command = { type = domestic which = MERCANTILISM value = 2 }
+		command = { type = domestic which = LAND value = -2 }
+		command = { type = merchants value = 4 }
+		command = { type = treasury value = 200 }
+		command = { type = naval value = 500 }
+		command = { type = trade value = 800 }
+		command = { type = relation which = MEC value = 50 }
+		command = { type = relation which = BRE value = 50 }
+		command = { type = relation which = SHL value = 50 }
+		command = { type = relation which = POM value = 50 }
+		command = { type = relation which = STT value = 50 }
+		command = { type = relation which = BRA value = 50 }
+		command = { type = relation which = OLD value = 50 }
+		command = { type = relation which = DAN value = -100 }
+		command = { type = stability value = -2 }
+	}
+}
+
 #(1426-1429) Lithuanian demands
 #Vilkouak
 event = {
@@ -42,7 +128,7 @@ event = {
 	country = NVG
 	name = "EVENTNAME245000" #Lithuanian demands
 	desc = "EVENTHIST245000"
-	#-#In 1425 Wassilij I, ruler of Muscovy, fostered his young son Vassilij II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy. After subduing Pskov, Vytautas turned his attention to Novgorod. In 1428 he invaded Novgorod and forced it to pay a very high tribute (11,000 rubles).
+	#-#In 1425 Vasily I, ruler of Muscovy, fostered his young son Vasily II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy. After subduing Pskov, Vytautas turned his attention to Novgorod. In 1428 he invaded Novgorod and forced it to pay a very high tribute (11,000 rubles).
 
 	action_a = {
 		name = "ACTIONNAME245000A" #Better pay
@@ -195,4 +281,4 @@ event = {
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 245001
+#First free id: 245002

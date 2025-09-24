@@ -452,7 +452,7 @@ AYU = { #Ayutthaya
 		innovative = 5
 		mercantilism = 6
 		offensive = 8
-		land = 6
+		land = 4
 		quality = 8
 		serfdom = 8
 	}
@@ -2264,7 +2264,7 @@ GON = { #Gondwana
 	picture = "gfx\scenarios\picture_mog.bmp"
 	color = Brown
 	techgroup = muslim
-	leader_language = MLW
+	leader_language = GON
 	new_colony = ENG
 	gfx = {
 		army = MOG
@@ -2272,10 +2272,10 @@ GON = { #Gondwana
 	}
 	policy = {
 		aristocracy = 8
-		centralization = 0
+		centralization = 2
 		innovative = 5
 		mercantilism = 9
-		offensive = 9
+		offensive = 3
 		land = 10
 		quality = 9
 		serfdom = 8
@@ -4663,8 +4663,8 @@ NVG = { #Novgorod
 		mercantilism = 3
 		offensive = 1
 		land = 5
-		quality = 1
-		serfdom = 5
+		quality = 4
+		serfdom = 3
 	}
 	elector = 0
 	history = { }
@@ -5316,7 +5316,9 @@ USR = { #American Rebels
 	policy = {
 		land = 9
 		aristocracy = 2
-		serfdom = 2
+		offensive = 6
+		quality = 6
+		serfdom = 1
 	}
 }
 
@@ -5817,8 +5819,8 @@ STE = { #Golden Horde
 		centralization = 0
 		innovative = 2
 		mercantilism = 8
-		offensive = 6
-		land = 6
+		offensive = 9
+		land = 10
 		quality = 2
 		serfdom = 10
 	}
@@ -6344,7 +6346,7 @@ USA = { #United States
 		aristocracy = 4
 		centralization = 4
 		innovative = 6
-		mercantilism = 7
+		mercantilism = 5
 		offensive = 3
 		land = 6
 		quality = 4

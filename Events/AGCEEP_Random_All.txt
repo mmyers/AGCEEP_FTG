@@ -2062,7 +2062,7 @@ event = {
 }
 
 #-----------------------------------------------------------------------------------------------
-#Unexpected Invention (non-Confusician)
+#Unexpected Invention (non-Confucian)
 #-----------------------------------------------------------------------------------------------
 
 event = {
@@ -2129,11 +2129,11 @@ event = {
 }
 
 #-----------------------------------------------------------------------------------------------
-#Unexpected Invention (Confusician)
+#Unexpected Invention (Confucian)
 #-----------------------------------------------------------------------------------------------
 
 #(Neo-)confucian stressed, more than any other religion/philosophy
-#ar the time, stability over change. New innovations brought change
+#at the time, stability over change. New innovations brought change
 #which ultimately leads to instability. That is why confucian
 #countries get special innovation event
 

@@ -459,9 +459,15 @@ globaldata = {
 		expirydate = { year = 1450 }
 		participant = { STE NOG }
 	}
-¤IF Alternative_Wales
 	alliance = {
 		id = { type = 6000 id = 57 }
+		type = vassalization
+		expirydate = { day = 22 month = september year = 1422 }
+		participant = { BMD GON }
+	}
+¤IF Alternative_Wales
+	alliance = {
+		id = { type = 6000 id = 58 }
 		type = vassalization
 		expirydate = { year = 1820 }
 		participant = { ENG WLS }
@@ -933,6 +939,12 @@ globaldata = {
 		type = dynasticalliance
 		expirydate = { year = 1422 }
 		participant = { BMD VIJ }
+	}
+	alliance = {
+		id = { type = 6000 id = 137 }
+		type = dynasticalliance
+		expirydate = { year = 1432 }
+		participant = { BMD GON }
 	}
 
 	emperor = HUN

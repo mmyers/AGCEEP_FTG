@@ -15,7 +15,7 @@ country = {
 	inflation = 0
 	merchants = 0.083333
 	religion = { type = hindu }
-	culture = { type = hindi }
+	culture = { type = gondi }
 	diplomacy = { }
 	knownprovinces = {
 		505 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 
@@ -33,12 +33,23 @@ country = {
 	nationalprovinces = {
 		552
 	}
+	claimedprovinces = {
+		563
+	}
 	city = {
 		fortress = { level = 1 }
 		population = 20000
 		location = 552
 		bailiff = yes
 		capital = yes
+	}
+	landunit = {
+		id = { type = 9423 id = 849 }
+		name = "Gond Army"
+		location = 552
+		infantry = 6000
+		cavalry = 2000
+		artillery = 0
 	}
 	technology = {
 		stability = { level = 2 value = 42 }

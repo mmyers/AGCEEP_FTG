@@ -12,14 +12,15 @@ area = {
 	Tanganyika
 	Gabon
 	Angola
-	Namibia
+	#Namibia
 	Mozambicque
 	Aden
 	Ivory
 	Gold
 	Cameroon
-	"The Cape"
+	#"The Cape"
 }
+ignore = { } # empty block to reset the ignore list
 expansion = 4 #6
 tradingpost = 40
 neighbour = -30
@@ -28,7 +29,7 @@ traders = 80
 monopoly = 10 #-100
 war = -200 #-75
 ferocity = no
-combat = { }
+combat = { KIL }
 base = 2.0
 front = 5.0
 conquer = {

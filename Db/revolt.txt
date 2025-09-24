@@ -856,10 +856,11 @@ GOL = { #Golconda
 GON = { #Gondwana
 	date = { day = 1 month = january year = 1419 }
 	expirydate = { year = 1820 }
-	minimum = { 552 563 }
-	extra = { }
+	minimum = { 552 }
+	extra = { 563 }
 	capital = 552
 	group = muslim
+	culture = gondi
 	ai = "SmallTrade1.txt"
 }
 GOT = { #Gotland

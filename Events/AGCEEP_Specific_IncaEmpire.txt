@@ -463,6 +463,7 @@ event = {
 event = {
 	id = 191000
 	trigger = {
+		monarch = 063005 #Atahuallpa
 		leader = 0127821 #Late Pizarro still active
 	}
 	random = no

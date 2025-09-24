@@ -7,6 +7,7 @@ region = {
 	NEIndianSea
 	GulfSea
 	ThaiSea
+	India
 }
 area = {
 	"Cape Verde"
@@ -23,7 +24,7 @@ area = {
 	Oman
 	Bahia
 	Madagascar
-	"The Cape"
+	#"The Cape"
 }
 expansion = 6
 tradingpost = 20
@@ -33,7 +34,7 @@ traders = 100
 monopoly = 10 #-100
 war = -50
 ferocity = no
-combat = { KIL MOM GUJ BLI BJR MLC ADE OMA SOC }
+combat = { KIL MOM GUJ BLI BJR MLC ADE OMA SOC LNK COC ZAN }
 base = 2.0
 front = 5.0
 conquer = {

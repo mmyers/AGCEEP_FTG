@@ -1089,6 +1089,7 @@ history = {
 	234000 #End of majapahit era
 	234228 #Demak attacks Portuguese in Malacca
 	242028 #NIP: Ashikaga Yoshitane is driven from the throne
+	245001 #NVG: Novgorodian Foreign Policy
 	249024 #ORI: The River of God
 	251024 #PAP: Leo Africanus
 	252011 #MOD: The Sound of Music

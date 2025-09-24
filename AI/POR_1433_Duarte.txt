@@ -9,6 +9,9 @@ area = {
 	Gold
 	Ivory
 }
+ignore = {
+	America
+}
 expansion = 2
 tradingpost = 95
 neighbour = 0

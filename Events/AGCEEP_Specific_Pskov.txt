@@ -10,7 +10,7 @@ event = {
 	country = PSK
 	name = "EVENTNAME264000" #Lithuanian demands
 	desc = "EVENTHIST264000"
-	#-#In 1425 Wassilij I, ruler of Muscovy, fostered his young son Vassilij II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy.
+	#-#In 1425 Vasily I, ruler of Muscovy, fostered his young son Vasily II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy.
 
 	action_a = {
 		name = "ACTIONNAME264000A" #Better pay

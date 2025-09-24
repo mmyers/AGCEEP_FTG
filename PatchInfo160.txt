@@ -1,4 +1,44 @@
 
+-Version 1.60 (changes since patch v1.3)
+
+Bugfixes
+-fixed some typos in events.csv
+-fixed some typos in AGCEEP_Random_All.txt
+-fixed Tuscon > Tucson typo in colonynames.txt
+-rewrote some event text relating to Napoleon's expedition to Egypt (parts of events 363001 and 170125)
+
+Changes & Additions
+-changed the minimum time to diploannex a vassal from 50 years to 20 years (as per vanilla change)
+-added province event 338504 'American Revolt Spreads' for when USR (American Rebels) first appear
+-added GON as vassal of BMD in 1419
+-added gondi as a new culture for prov #552 (Gondwana)
+-added prov #563 (Bastar) as a claim for GON in 1419/1520 and revolt.txt
+-added starting army for GON in 1419/1520
+-added leadername list for GON
+-added monarch file for GON
+-added "Narsingh Rai" (339200) and "Rani Durgavati" (339201) as leaders for GON
+-added new NVG event 245001 'Novgorodian Foreign Policy' and added it to the history log in 1520/1648
+-added new ENG explorers "S. Cabot" (046410) and "Chancellor" (046411) to help buff ENG early exploration of North America
+-added new FRA explorer "J.F. Roberval" (049816)
+-slightly increased the lifespan of "J. Cabot" (046319) so he actually has time to explore
+-GON now starts with gondi as its primary culture in 1419/1520
+-INC event 191000 'Date with destiny' now requires 063005 'Atahuallpa' to be monarch (rather than his brother)
+-AYU now starts with mon as an accepted culture in 1419; removed with option A of event 6910 'Boromo Trailokanat's Reforms'
+-reduced AYU default Land slider from 6 > 4
+-reduced GON default Offensive slider from 9 > 3; increased Centralization slider from 0 > 2
+-reduced NVG default Serfdom slider from 5 > 3; increased Quality slider from 1 > 4
+-reduced USA default Mercantilism slider from 7 > 5
+-reduced the offset for MOG events 3899 'Akbar's Reforms' and 6900 'Akbar's Religious Tolerance' from 1000 to 150
+-improved the triggers for MOG events 6902 'Aurangzeb's Religious Intolerance' and 6903 'The Sikh Rebellions'
+-increased STE default Land slider from 6 > 10; Offensive slider from 6 > 9
+-increased STE land tech from 0 > 1 in 1419
+-increased TIM land tech from 0 > 1 in 1419
+-buffed USR (American Rebels) as per vanilla changes
+-nerfed several generic rebel types as per vanilla changes
+-updated some FRA/POR/RUS/OMA AI files with balance tweaks from vanilla
+
+
+
 -Version 1.60
 
 -revived AGCEEP website at: www.agceep.org

@@ -30,7 +30,6 @@ monarchs_ang.txt
 monarchs_brz.txt
 monarchs_bth.txt
 monarchs_gin.txt
-monarchs_gon.txt
 monarchs_got.txt
 monarchs_gre.txt
 monarchs_hya.txt

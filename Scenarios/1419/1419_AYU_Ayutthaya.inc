@@ -15,7 +15,7 @@ country = {
 	inflation = 0
 	merchants = 0
 	religion = { type = buddhist }
-	culture = { type = thai }
+	culture = { type = thai type = mon }
 	diplomacy = {
 		relation = { tag = LNA value = 25 }
 		relation = { tag = DAI value = 100 }

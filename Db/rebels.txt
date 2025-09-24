@@ -8,8 +8,8 @@ REB = { #Peasant Rebels
 	type = peasants
 	morale_base = parent
 	morale_multiplier = 0.8
-	tech_base = latin
-	tech_bonus = -3
+	tech_base = muslim
+	tech_bonus = -1
 	min_tech = 0
 	may_defect = no
 	army = {
@@ -42,12 +42,12 @@ R02 = { #Religious Rebels
 	type = religious
 	morale_base = parent
 	tech_base = latin
-	tech_bonus = -1
+	tech_bonus = -2
 	min_tech = 0
 	army = {
-		infantry = 70
+		infantry = 65
 		cavalry = 20
-		artillery = 10
+		artillery = 15
 	}
 	possible = {
 		NOT = {
@@ -60,8 +60,9 @@ R02 = { #Religious Rebels
 R03 = { #Cultural Rebels
 	type = cultural
 	morale_base = parent
+	morale_multiplier = 0.9
 	tech_base = latin
-	tech_bonus = -1
+	tech_bonus = -2
 	min_tech = 0
 	army = {
 		infantry = 70
@@ -75,7 +76,7 @@ R04 = { #Colonial Rebels
 	type = colonial
 	morale_base = parent
 	tech_base = latin
-	tech_bonus = -1
+	tech_bonus = -2
 	min_tech = 0
 	army = {
 		infantry = 80
@@ -125,7 +126,7 @@ R06 = { #Pirate Raiders
 	}
 	weight = 1
 
-	on_capital_capture = 338503
+	on_capital_capture = 338503	# Pirates sack our capital! (AGCEEP_Global_ProvinceSpec.txt)
 }
 
 #
@@ -162,12 +163,13 @@ NDR = { #Dutch Rebels
 USR = { #American Rebels
 	type = colonial
 	morale_base = parent
+	morale_multiplier = 1.1
 	tech_base = latin
 	retreat = yes
 	army = {
-		infantry = 80
+		infantry = 75
 		cavalry = 10
-		artillery = 10
+		artillery = 15
 	}
 	possible = {
 		NOT = {
@@ -182,4 +184,6 @@ USR = { #American Rebels
 	area = { Appalachia Georgia Maine Ohio }
 	culture = { english celtic }
 	weight = 500
+
+	on_province_capture = 338504	# American Revolt Spreads (AGCEEP_Global_ProvinceSpec.txt)
 }

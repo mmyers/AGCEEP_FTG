@@ -344,6 +344,24 @@ historicalleader = {
 	remark = "he discovered Canada"
 }
 historicalleader = {
+	id = { type = 6 id = 049816 }
+	category = explorer
+	name = "J.F. Roberval" #Jean-François de La Rocque de Roberval
+	startdate = {
+		year = 1541
+	}
+	deathdate = {
+		year = 1547
+	}
+	rank = 8
+	movement = 3
+	fire = 3
+	shock = 3
+	siege = 0
+	dormant = no
+	remark = "Should really be a privateer but we don't use these in AGCEEP yet."
+}
+historicalleader = {
 	id = { type = 6 id = 049826 }
 	category = admiral
 	name = "Claude d'Annebaut"
@@ -2223,5 +2241,4 @@ historicalleader = {
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 049816 - 049823 - 049827 - 049860 - next: 049923
-
+#First free id: 049823 - 049827 - 049860 - next: 049923

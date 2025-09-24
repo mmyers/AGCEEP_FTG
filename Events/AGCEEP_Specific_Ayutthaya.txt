@@ -68,6 +68,7 @@ event = {
 	action_a = {
 		name = "ACTIONNAME6910A" #Go with the reforms
 		command = { type = stability value = -1 }
+		command = { type = remove_countryculture which = mon }
 		command = { type = domestic which = centralization value = 1 }
 		command = { type = domestic which = aristocracy value = 1 }
 		command = { type = domestic which = serfdom value = 1 }

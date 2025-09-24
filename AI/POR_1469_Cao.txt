@@ -7,13 +7,16 @@ region = {
 }
 area = {
 	"Cape Verde"
-	Malabar
+	#Malabar
 	Tanganyika
 	Angola
 	Mozambicque
 	Ivory
 	Gold
 	Cameroon
+}
+ignore = {
+	America
 }
 expansion = 4 #6
 tradingpost = 50

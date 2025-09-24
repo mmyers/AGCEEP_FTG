@@ -19,6 +19,7 @@ country = {
 	diplomacy = {
 		relation = { tag = DLH value = -50 }
 		relation = { tag = GUJ value = -100 }
+		relation = { tag = GON value = -100 }
 		relation = { tag = RAJ value = 125 }
 	}
 	knownprovinces = {

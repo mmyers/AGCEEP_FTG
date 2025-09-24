@@ -10,6 +10,10 @@ area = {
 	Ivory
 	Gold
 	Cameroon
+	Senegal
+}
+ignore = {
+	America
 }
 expansion = 2
 tradingpost = 100

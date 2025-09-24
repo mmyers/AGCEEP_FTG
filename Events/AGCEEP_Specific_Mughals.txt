@@ -727,7 +727,7 @@ event = {
 	#-#The Emperor has proposed sweeping reforms in order to modernize and restructure our state. These include economic reforms, a better tax-gathering system, a streamlined beaurocracy, and military restructuring. However, such a plan will be expensive and will cause a fair amount of resentment among the populace, the bureaucracy, and the military. Shall we implement the reforms?
 
 	date = { day = 1 month = january year = 1570 }
-	offset = 1000
+	offset = 150
 	deathdate = { day = 29 month = december year = 1574 }
 
 	action_a = {
@@ -858,7 +858,7 @@ event = {
 	}
 }
 
-#(1580-1584) Akbar's Religious Tolerance
+#(1570-1575) Akbar's Religious Tolerance
 event = {
 	id = 6900
 	trigger = {
@@ -870,9 +870,9 @@ event = {
 	desc = "EVENTHIST6900"
 	#-#The Emperor is very interested in comparative religion, and has hosted many debates by the learned of many different faiths. He believes that each person should be able to choose his or her own belief system, without interference by any others. He wishes this to become the law of the empire, but while this will be greeted with joy by our heathen population, it will be looked upon with horror and resentment by the Muslim ruling classes. Should we follow his wishes?
 
-	date = { day = 1 month = january year = 1580 }
-	offset = 1000
-	deathdate = { day = 29 month = december year = 1584 }
+	date = { day = 1 month = january year = 1570 }
+	offset = 150
+	deathdate = { day = 29 month = december year = 1575 }
 
 	action_a = {
 		name = "ACTIONNAME6900A" #Tolerate all beliefs
@@ -1319,6 +1319,12 @@ event = {
 	id = 6902
 	trigger = {
 		monarch = 090007 #Aurangzeb
+		OR = {
+			religion = sunni
+			religion = eastern_sunni
+			religion = shia
+			religion = eastern_shia
+		}
 	}
 	random = no
 	country = MOG
@@ -1516,7 +1522,10 @@ event = {
 			owned = { province = 1520 data = -1 }
 			owned = { province = 1521 data = -1 }
 		}
-		NOT = { exists = KSH }
+		NOT = {
+			religion = sikh
+			exists = KSH
+		}
 	}
 	random = no
 	country = MOG

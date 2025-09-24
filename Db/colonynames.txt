@@ -1188,7 +1188,7 @@ MEX = {
 	cityname = { location = 12 value = "Tijuana" }
 	cityname = { location = 13 value = "La Paz" }
 	cityname = { location = 14 value = "Arizona" }
-	cityname = { location = 15 value = "Tuscon" }
+	cityname = { location = 15 value = "Tucson" }
 	cityname = { location = 16 value = "Nogales" }
 	cityname = { location = 17 value = "Hermosillo" }
 	cityname = { location = 18 value = "El Paso" }
@@ -1920,7 +1920,7 @@ SPA = {
 	cityname = { location = 12 value = "Tijuana" }
 	cityname = { location = 13 value = "La Paz" }
 	cityname = { location = 14 value = "Arizona" }
-	cityname = { location = 15 value = "Tuscon" }
+	cityname = { location = 15 value = "Tucson" }
 	cityname = { location = 16 value = "Nogales" }
 	cityname = { location = 17 value = "Hermosillo" }
 	cityname = { location = 18 value = "El Paso" }

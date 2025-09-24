@@ -2203,6 +2203,10 @@ EVENTHIST338503;Sire, pirate raiders have taken our capital and demand an outrag
 ACTIONNAME338503A;Pay them off;x
 ACTIONNAME338503B;We can handle this;x
 #;x
+EVENTNAME338504;American Revolt Spreads;x
+EVENTHIST338504;During the early stages of the American Revolutionary War, the colonists did not see much success on the battlefield. But when Ethan Allen and his Green Mountain Boys captured Fort Ticonderoga in May 1775, the emboldened revolutionaries used captured armaments to take the offensive, resulting in the successful siege of Boston and the failed invasion of Quebec in winter of 1775/76.;x
+ACTIONNAME338504A;Oh no!;x
+#;x
 #;x
 ###############################
 #### AGCEEP_HugeEvents.txt ####
@@ -5701,7 +5705,7 @@ ACTIONNAME80712A;All glory to the Kingdom!;x
 ###################################
 #;x
 EVENTNAME412000;Princes of Badaskhan;x
-EVENTHIST412000;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarizm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
+EVENTHIST412000;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarazm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
 ACTIONNAME412000A;We shall be unstoppable!;x
 #;x
 #;x
@@ -9480,7 +9484,7 @@ EVENTHIST363000;In 1798, General Bonaparte proposed an expedition to seize Egypt
 ACTIONNAME363000A;The French are at the Pyramids;x
 #;x
 EVENTNAME363001;French troops abandon Egypt;x
-EVENTHIST363001;In their marching to Cairo the French troops had to fight against the Mamluks which were easily tamed in the socalled 'battle of the Pyramids' but a terrible defeat at the bay of Abu Qir by means of the British Navy skillfully commanded by Admiral Nelson cut the French supply lines. Bonaparte continued his military campaign by attacking the Turks in Syria but both desease and short supplies which weakened his soldiers and the bad news coming from France forced him to leave Egypt abandoning there his troops. Successfully dodging the British fleet constantly patrolling the Mediterranean in search of French presence, he managed to make return to France. Letting alone and without command and precise orders, the French troops found themselves at the mercy of the British troops better fitted and supplied. Even if they managed to win some battles they eventually surrendered to the British, however they were taken home by means of the British navy itself. The Napoléon's expedition in Egypt, even if a complete failure under the military aspect, was a huge worldwide success under the cultural historical aspect: with the French occupation the egyptology, the study of ancient Egypt, was born!;x
+EVENTHIST363001;In their marching to Cairo the French troops had to fight against the Mamluks which were easily tamed in the socalled 'battle of the Pyramids' but a terrible defeat at the bay of Abu Qir by means of the British Navy skillfully commanded by Admiral Nelson cut the French supply lines. Bonaparte continued his military campaign by attacking the Turks in Syria but both disease and short supplies which weakened his soldiers and the bad news coming from France forced him to leave Egypt abandoning there his troops. Successfully dodging the British fleet constantly patrolling the Mediterranean in search of French presence, he managed to make return to France. Letting alone and without command and precise orders, the French troops found themselves at the mercy of the British troops better fitted and supplied. Even if they managed to win some battles they eventually surrendered to the British, however they were taken home by means of the British navy itself. Napoléon's expedition in Egypt, even if a complete failure militarily, was a huge success culturally: with the French occupation, Egyptology - the study of ancient Egypt - was born!;x
 ACTIONNAME363001A;We gained our independence again;x
 #;x
 EVENTNAME363002;Reign of Muhammad Ali Pasha;x
@@ -11412,7 +11416,7 @@ EVENTHIST243000;Despite starting of as a ruler in Ferghana, his uncles and the U
 ACTIONNAME243000A;Our destiny lies in the south;x
 #;x
 EVENTNAME243001;Princes of Ferghana;x
-EVENTHIST243001;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarizm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
+EVENTHIST243001;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarazm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
 ACTIONNAME243001A;We shall be unstoppable!;x
 #;x
 #;x
@@ -12633,7 +12637,7 @@ ACTIONNAME170124A;Let's oppose the British Empire;x
 ACTIONNAME170124B;It's only a waste of money;x
 #;x
 EVENTNAME170125;At the Pyramids;x
-EVENTHIST170125;In their marching to Cairo the French troops had to fight against the Mamluks which were easily tamed in the socalled 'battle of the Pyramids' but a terrible defeat at the bay of Abu Qir by means of the British Navy skillfully commanded by Admiral Nelson cut the French supply lines. Bonaparte continued his military campaign by attacking the Turks in Syria but both desease and short supplies which weakened his soldiers and the bad news coming from France forced him to leave Egypt abandoning there his troops. Successfully dodging the British fleet constantly patrolling the Mediterranean in search of French presence, he managed to make return to France where the coup d'état of the 18 Brumaire would then have occurred. Letting alone and without command and precise orders, the French troops found themselves at the mercy of the British troops better fitted and supplied. Even if they managed to win some battles they eventually surrendered to the British, however they were taken home by means of the British navy itself.The Napoléon's expedition in Egypt, even if a complete failure under the military aspect, was a huge worldwide success under the cultural historical aspect: with the French occupation the egyptology, the study of ancient Egypt, was born!;x
+EVENTHIST170125;In their marching to Cairo the French troops had to fight against the Mamluks which were easily tamed in the socalled 'battle of the Pyramids' but a terrible defeat at the bay of Abu Qir by means of the British Navy skillfully commanded by Admiral Nelson cut the French supply lines. Bonaparte continued his military campaign by attacking the Turks in Syria but both disease and short supplies which weakened his soldiers and the bad news coming from France forced him to leave Egypt abandoning there his troops. Successfully dodging the British fleet constantly patrolling the Mediterranean in search of French presence, he managed to make return to France where the coup d'état of the 18 Brumaire would then have occurred. Letting alone and without command and precise orders, the French troops found themselves at the mercy of the British troops better fitted and supplied. Even if they managed to win some battles they eventually surrendered to the British, however they were taken home by means of the British navy itself. Napoléon's expedition in Egypt, even if a complete failure militarily, was a huge success culturally: with the French occupation, Egyptology - the study of ancient Egypt - was born!;x
 ACTIONNAME170125A;Let's retreat from Egypt;x
 ACTIONNAME170125B;Let's withstand the Turks;x
 #;x
@@ -13823,7 +13827,7 @@ ACTIONNAME7123B;We can handle the situation;x
 #;x
 EVENTNAME7153;Sultan sends us money;x
 EVENTHIST7153;The sultan has rejected our petition of military aid. Nevertheless, he has sent some sumptuous presents instead.;x
-ACTIONNAME7153A;Well, it's bhan nothing...;x
+ACTIONNAME7153A;Well, it's better than nothing...;x
 #;x
 EVENTNAME7154;Sultan sends troops to help us;x
 EVENTHIST7154;The sultan has accepted our request. His best troops are coming!;x
@@ -15440,7 +15444,7 @@ EVENTHIST375001;In October of 1504, Babur sent messages to Muqim Beg Arghun, tel
 ACTIONNAME375001A;Our destiny lies in the south;x
 #;x
 EVENTNAME375002;Princes of Kabul;x
-EVENTHIST375002;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarizm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
+EVENTHIST375002;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarazm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
 ACTIONNAME375002A;We shall be unstoppable!;x
 #;x
 EVENTNAME375003;Timurid-Persian Alliance;x
@@ -15673,7 +15677,7 @@ EVENTHIST303000;While Shaibani Khan was busy conquering the Timurid states of Ce
 ACTIONNAME303000A;We are free!;x
 #;x
 EVENTNAME303001;The Uzbek Offensive;x
-EVENTHIST303001;In 1431, Abul Khayr of the Uzbeks launched an offensive on the city of Khwarizm. With its capture he established Uzbek control over the region.;x
+EVENTHIST303001;In 1431, Abul Khayr of the Uzbeks launched an offensive on the city of Khwarazm. With its capture he established Uzbek control over the region.;x
 ACTIONNAME303001A;Our days of freedom are over (End Game);x
 #;x
 #;x
@@ -16162,7 +16166,7 @@ EVENTHIST210003;After a heavy defeat upon Kalka in 1399, Vytautas temporarily ga
 ACTIONNAME210003B;I have no time for this;x
 #;x
 EVENTNAME210004;Preparations of Vytautas;x
-EVENTHIST210004;In 1425 Wassilij I, ruler of Muscovy, fostered his young son Vassilij II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy. An alternative route for Vytautas may have been to pay for Sigismund's help in his bid for the crown.;x
+EVENTHIST210004;In 1425 Vasily I, ruler of Muscovy, fostered his young son Vasily II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy. An alternative route for Vytautas may have been to pay for Sigismund's help in his bid for the crown.;x
 ACTIONNAME210004A;Demand tribute;x
 ACTIONNAME210004B;Maybe I should choose a more diplomatic way;x
 #;x
@@ -19473,9 +19477,16 @@ EVENTNAME40099;Plague in Novgorod;x
 EVENTHIST40099;In the fall of 1552 plague hit Novgorod extremely hard, as 280,000 people has died from the epidemic.;x
 #;x
 EVENTNAME245000;Lithuanian demands;x
-EVENTHIST245000;In 1425 Wassilij I, ruler of Muscovy, fostered his young son Vassilij II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy. After subduing Pskov, Vytautas turned his attention to Novgorod. In 1428 he invaded Novgorod and forced it to pay a very high tribute (11,000 rubles).;x
+EVENTHIST245000;In 1425 Vasily I, ruler of Muscovy, fostered his young son Vasily II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy. After subduing Pskov, Vytautas turned his attention to Novgorod. In 1428 he invaded Novgorod and forced it to pay a very high tribute (11,000 rubles).;x
 ACTIONNAME245000A;Better pay;x
 ACTIONNAME245000B;We will defend our independence;x
+#;x
+EVENTNAME245001;Novgorodian Foreign Policy;x
+EVENTHIST245001;The Novgorod Republic had a long and complicated history of shifting alliances and foreign policy goals as the political narrative of the region evolved. Traditionally the easternmost trading hub of the Hanseatic League, the city became immensely wealthy owing to its monopoly of the Russian fur trade, and its merchants sailed to ports as far away as Alexandria and Constantinople. By the mid-15th century the Republic was rich but politically isolated, as although its territories were vast they were sparsely populated and poorly defensible. Always in danger of being encircled, Novgorod's primary threats were the Teutonic Order to the south, the Swedes to the west, and the other Rus' princes - primarily Moscow - to the east. Another approach would have been to repair relations with the Hansa and attempt to reclaim Baltic trading rights on Gotland.;x
+ACTIONNAME245001A;Focus on the Livonians;x
+ACTIONNAME245001B;Push into Savonia;x
+ACTIONNAME245001C;Consolidate our Rus' holdings;x
+ACTIONNAME245001D;Strengthen ties with the Hansa;x
 #;x
 #;x
 ###################################
@@ -23209,7 +23220,7 @@ EVENTNAME40100;Plague in Pskov;x
 EVENTHIST40100;The plague that hit Novgorod during previous fall, spread out to Pskov and claimed the lives of close to a 100,000 people in Pskov in the winter of 1553.;x
 #;x
 EVENTNAME264000;Lithuanian demands;x
-EVENTHIST264000;In 1425 Wassilij I, ruler of Muscovy, fostered his young son Vassilij II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy.;x
+EVENTHIST264000;In 1425 Vasily I, ruler of Muscovy, fostered his young son Vasily II with his father-in-law Vytautas, and soon afterwards died. Vytautas was still determined to win a crown, but needed a visible success which could be proof of his strong position in eastern Europe and thus strengthen his claims. His first objective was Pskov. In 1426 he invaded the republic and forced it to pay tribute. In 1427 he made the borderland between Lithuania and Muscovy, known as the Wierchovian princedoms, subordinate to himself. It was composed of many small regions, which maintained their independence by maintaining tensions between Lithuania and Muscovy.;x
 ACTIONNAME264000A;Better pay;x
 ACTIONNAME264000B;We will defend our independence;x
 #;x
@@ -24066,7 +24077,7 @@ EVENTNAME65055;Karim Khan;x
 EVENTHIST65055;After destroying his Afghani enemies, Karim Khan turned to rebuilding the country. While technically in charge of the country, he used Ismail III, the last representative of the Safavid dynasty, as a puppet ruler. During his reign, Karim Khan managed to bring order and prosperity to Persia. The roads, only a few years ago infested by gangs of all kinds, were now the safest in the region to travel, and the economy (and especially agriculture) destroyed by the rampage of Nadir Shah and 10 years of instability that followed his death, was finally on the rise.;x
 #;x
 EVENTNAME254010;Khiva and Shi'a Governors;x
-EVENTHIST254010;When Persia conquered parts of Khwarizim, Shi'a governors were setup up in the various regions. The Shi'a governors offended the sensibilities of the Sunni steppe population. When the Khiva Khanate was founded, many of these centers rebelled and joined the newly formed state. Despite this, Persia would establish and maintain good relations with the khanate.;x
+EVENTHIST254010;When Persia conquered parts of Khwarazm, Shi'a governors were setup up in the various regions. The Shi'a governors offended the sensibilities of the Sunni steppe population. When the Khiva Khanate was founded, many of these centers rebelled and joined the newly formed state. Despite this, Persia would establish and maintain good relations with the khanate.;x
 #;x
 EVENTNAME254011;Yarubis Request Intervention;x
 EVENTHIST254011;With his grip on his country slipping away, Sayf II, last of the Yarubi Imams of Oman, sought aid from the Persians. Persia seized the opportunity to attempt the conquest of Oman.;x
@@ -25027,7 +25038,7 @@ ACTIONNAME277040B;Never!;x
 ###################################
 #;x
 EVENTNAME280000;The Formation of the Sibir Khanate;x
-EVENTHIST280000;Following the disintegration of the Horde, descendents of One Khan formed the Khanate of Sibir, near the modern day city of Tyumen. They quickly established their domain which existed from Kurgan in the West, to Ichim in the East. This khanate would survive well into the 16th century until it was extinguished by Cossacks from Russia.;x
+EVENTHIST280000;Following the disintegration of the Horde, descendents of On Khan formed the Khanate of Sibir, near the modern day city of Tyumen. They quickly established their domain which existed from Kurgan in the West, to Ichim in the East. This khanate would survive well into the 16th century until it was extinguished by Cossacks from Russia.;x
 ACTIONNAME280000A;Go Sibir!;x
 #;x
 EVENTNAME280001;Tyumen or Sibir;x
@@ -27728,7 +27739,7 @@ EVENTHIST296600;In November of 1446, Rûkh's grandson, Muhammed Sultan, would tak
 ACTIONNAME296600A;Nice try poppet;x
 #;x
 EVENTNAME296601;The Uzbek Offensive;x
-EVENTHIST296601;When Abul Khayr of the Uzbeks led an attack on the Khwarizm, no one expected his offensive to be successful. Unfortunately for the Timurids, it resulted in the loss of the entire region. This was an ominous portend for further Uzbek-Timurid conflicts...;x
+EVENTHIST296601;When Abul Khayr of the Uzbeks led an attack on the Khwarazm, no one expected his offensive to be successful. Unfortunately for the Timurids, it resulted in the loss of the entire region. This was an ominous portend for further Uzbek-Timurid conflicts...;x
 ACTIONNAME296601A;Abandon the northern border to the Uzbeks;x
 #;x
 EVENTNAME296602;Abû Sa'id Reunites Transoxiana and Khorasan;x
@@ -27754,7 +27765,7 @@ ACTIONNAME296607A;How we crumble!;x
 ACTIONNAME296607B;We shall never give up hope!;x
 #;x
 EVENTNAME296610;Might of Abû Sa'id;x
-EVENTHIST296610;Only through military might was Abû Sa'id was able to hold the Empire together, as widespread dissent and outright revolts wracked the Empire.;x
+EVENTHIST296610;Only through military might was Abû Sa'id able to hold the Empire together, as widespread dissent and outright revolts wracked the Empire.;x
 ACTIONNAME296610A;Attack all traitors!;x
 #;x
 EVENTNAME296611;Abû Sa'id Reunites Transoxiana and Khorasan;x
@@ -27762,7 +27773,7 @@ EVENTHIST296611;With his successful capture of Sultan Mahmud's capital of Herat,
 ACTIONNAME296611A;We are one again;x
 #;x
 EVENTNAME296612;The Dissolution of Abû Sa'id's Kingdom;x
-EVENTHIST296612;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarizm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
+EVENTHIST296612;Upon the death of Abû Sa'id, the Empire literally fell to pieces. Husain Baiqara, great-grandson of Timur's son, Umar Shaikh, succeeded in occupying Eastern Persia and Khwarazm. The rest of Sa'id's Kingdom was divided between his four sons. The eldest, Ahmad, was established in Samarkand and Bukhara. His second son, Sultan Mahmud was given Badaskhan, Khultan, Tirmiz, Qunduz, and Hisar. Ulugh Beg, his third, was given Kabul and Ghazni with the fourth, Umar Shaikh as ruler of Ferghana. The glory days of the Timurid Empire were at an end.;x
 ACTIONNAME296612A;Without a strong hand things fall apart;x
 #;x
 EVENTNAME296614;Independence of Baluchistan;x
@@ -28684,7 +28695,7 @@ ACTIONNAME324008B;Let us remain in the current capital;x
 ####################################
 #;x
 EVENTNAME65006;Uzbeks on Offensive;x
-EVENTHIST65006;During his lifetime (1425-1468), Abu'l Khayr carved himself a huge empire, stretching from Tura in Northern Siberia all the way down to Khwarizm.;x
+EVENTHIST65006;During his lifetime (1425-1468), Abu'l Khayr carved himself a huge empire, stretching from Tura in Northern Siberia all the way down to Khwarazm.;x
 ACTIONNAME65006A;Show them all who we are!;x
 ACTIONNAME65006B;Those lands are a total waste;x
 #;x
@@ -28729,15 +28740,15 @@ EVENTHIST325002;Attacks from the Oirats in the mid-fifteenth century, left the e
 ACTIONNAME325002A;Damn them!;x
 #;x
 EVENTNAME325003;Khayr's Summer Residence;x
-EVENTHIST325003;Upon the capture of Khwarizm, Khayr made Sygnak his summer residence and the city henceforth, became the major trading area for the people of the Great Steppes. The region also became profitable as through his consolidation, Khayr managed to unite the Turkic people of Khwarizim.;x
+EVENTHIST325003;Upon the capture of Khwarazm, Khayr made Sygnak his summer residence and the city henceforth, became the major trading area for the people of the Great Steppes. The region also became profitable as through his consolidation, Khayr managed to unite the Turkic people of Khwarazm.;x
 ACTIONNAME325003A;Enjoy the beauty of Sygnak;x
 #;x
 EVENTNAME325004;Independence of the Uzbeks;x
-EVENTHIST325004;In 1428, Abul Khayr was declared khan of the Uzbek people in Sibir (near-modern day Tobolsk). His reign marked a separation of Uzbek and Golden Horde foreign policies into two entirely different categories. The Uzbeks were free to pursue their interests which would be determined to lie within the regions of Khwarizm and Transoxiana. From Khayr's beginning, the Shaybanid dynasty would eventually carve a large empire and a name into history for themselves.;x
+EVENTHIST325004;In 1428, Abul Khayr was declared khan of the Uzbek people in Sibir (near-modern day Tobolsk). His reign marked a separation of Uzbek and Golden Horde foreign policies into two entirely different categories. The Uzbeks were free to pursue their interests which would be determined to lie within the regions of Khwarazm and Transoxiana. From Khayr's beginning, the Shaybanid dynasty would eventually carve a large empire and a name into history for themselves.;x
 ACTIONNAME325004A;Free at last!;x
 #;x
 EVENTNAME325005;The Uzbek Peoples;x
-EVENTHIST325005;When Abul Khayr conquered Khwarizm, he sent into motion the events that would contribute to the fall of the Timurid Empire and the rise of Uzbek Khanates. Their culture had begun to differ from those of other Mongols prior to Khayr's conquest, and his efforts allowed the Uzbek peoples to declare their complete independence. From now on, with the help of their Turkoman allies, the destiny of the Uzbeks would lie in the south, not in the north.;x
+EVENTHIST325005;When Abul Khayr conquered Khwarazm, he sent into motion the events that would contribute to the fall of the Timurid Empire and the rise of Uzbek Khanates. Their culture had begun to differ from those of other Mongols prior to Khayr's conquest, and his efforts allowed the Uzbek peoples to declare their complete independence. From now on, with the help of their Turkoman allies, the destiny of the Uzbeks would lie in the south, not in the north.;x
 ACTIONNAME325005A;Settle;x
 #;x
 EVENTNAME325006;The Formation of the Kazakh Horde;x
@@ -28785,7 +28796,7 @@ EVENTNAME325016;Shaibani in Samarkand;x
 EVENTHIST325016;After marching through Bukhara, it was only a matter of time before Shaibani of the Uzbeks came to collect Samarkand. Although the city would swap back and forth between the Uzbeks and Timurid princes for brief period of times, the reign of the Timurids from Samarkand was pretty much at an end. The future of the Timurids lay in the southern lands.;x
 ACTIONNAME325016A;It is ours!;x
 #;x
-ACTIONNAME325019A;We march victoriously into Khwarazim;x
+ACTIONNAME325019A;We march victoriously into Khwarazm;x
 #;x
 EVENTNAME325021;Consequence of the Formation of the Sibir Khanate;x
 EVENTHIST325021;Our primary focus is in the south.;x

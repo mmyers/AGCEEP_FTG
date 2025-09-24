@@ -14050,6 +14050,10 @@ event = {
 	}
 }
 
+#-----------------------------------------------------------------------------------------------
+#Province capture events
+#-----------------------------------------------------------------------------------------------
+
 #Pirates sack our capital!
 #by MichaelM
 event = {
@@ -14077,8 +14081,40 @@ event = {
 	}
 }
 
+#American Revolt Spreads
+#by MichaelM
+event = {
+	id = 338504
+	trigger = {
+		continent = Europe
+		NOT = {
+			exists = USA
+			flag = [LexingtonConcord]
+		}
+	}
+
+	random = no
+	persistent = yes
+
+	name = "EVENTNAME338504" #American Revolt Spreads
+	desc = "EVENTHIST338504"
+	#-#During the early stages of the American Revolutionary War, the colonists did not see much success on the battlefield. But when Ethan Allen and his Green Mountain Boys captured Fort Ticonderoga in May 1775, the emboldened revolutionaries used captured armaments to take the offensive, resulting in the successful siege of Boston and the failed invasion of Quebec in winter of 1775/76.
+
+	action_a = {
+		name = "ACTIONNAME338504A" #Oh no!
+		command = { type = revolt value = USR which = -1 }
+		command = { type = revolt value = USR which = -3 }
+		command = { type = revolt value = USR which = -3 }
+		command = { type = revolt value = USR which = -4 }
+		command = { type = revolt value = USR which = -3 }
+		command = { type = revolt value = USR which = -4 }
+		command = { type = revolt value = USR which = -4 }
+		command = { type = setflag which = [LexingtonConcord] }	# this event only fires once per country
+	}
+}
+
 #-----------------------------------------------------------------------------------------------
 
 #Reserved: 338352-338399
 
-#First free id: 338504
+#First free id: 338505

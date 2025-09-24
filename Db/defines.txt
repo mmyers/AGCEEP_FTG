@@ -76,7 +76,7 @@ country = {
 	_COUNTRY_ALLIANCE_MAX_            =   5 #Positive
 	_COUNTRY_ALLIANCE_MONTHS_         = 120 #Positive
 	_COUNTRY_DYNASTIC_MONTHS_         = 300 #Positive
-	_COUNTRY_MINDIPLOANNEX_MONTHS_    = 600 #Positive
+	_COUNTRY_MINDIPLOANNEX_MONTHS_    = 240 #Positive
 	_COUNTRY_MINREVOLTER_MONTHS_      =  36 #Positive
 
 	_COUNTRY_CB_ANNEX_MONTHS_         = 24 #Positive

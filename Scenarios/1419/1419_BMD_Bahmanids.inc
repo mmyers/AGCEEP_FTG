@@ -21,6 +21,7 @@ country = {
 	}
 	diplomacy = {
 		relation = { tag = GUJ value = -50 }
+		relation = { tag = GON value = -25 }
 	}
 	knownprovinces = {
 		#Indian Mainland

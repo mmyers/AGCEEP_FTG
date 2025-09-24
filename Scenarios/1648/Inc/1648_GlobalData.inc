@@ -1291,10 +1291,12 @@ history = {
 	234000 #End of majapahit era
 	239004
 	242028 #NIP: Ashikaga Yoshitane is driven from the throne
+	245001 #NVG: Novgorodian Foreign Policy
 	248002 #OMA: Theft of Portuguese ships
 	248004 #OMA: Covert Aid From the West
 	248008
 	249024 #ORI: The River of God
+	245001 #NVG: Novgorodian Foreign Policy
 	251011
 	251016
 	251024 #PAP: Leo Africanus

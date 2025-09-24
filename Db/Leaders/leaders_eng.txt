@@ -393,6 +393,7 @@ historicalleader = {
 	dormant = yes
 }
 #-----------------------------------------------------------------------------------------------
+#XV century
 
 historicalleader = {
 	id = { type = 6 id = 046407 }
@@ -433,17 +434,16 @@ historicalleader = {
 	dormant = no
 }
 historicalleader = {
-	category = explorer
 	id = { type = 6 id = 046319 }
-	name = "J. Cabot"
+	category = explorer
+	name = "J. Cabot" #John Cabot
 	startdate = {
-		day = 20
-		month = may
-		year = 1497
+		month = june
+		year = 1496 #received royal patent in march; probably set sail that summer
 	}
 	deathdate = {
 		month = may
-		year = 1498
+		year = 1499 #lost at sea sometime ~1499
 	}
 	rank = 9
 	movement = 5
@@ -451,6 +451,25 @@ historicalleader = {
 	shock = 4
 	siege = 0
 	dormant = no
+	remark = "Father of Sebastian Cabot."
+}
+historicalleader = {
+	id = { type = 6 id = 046410 }
+	category = explorer
+	name = "S. Cabot" #Sebastian Cabot
+	startdate = {
+		year = 1504 #first expedition from Bristol to N.A.
+	}
+	deathdate = {
+		year = 1512 #became royal cartographer; later entered Spanish service
+	}
+	rank = 12
+	movement = 3
+	fire = 2
+	shock = 2
+	siege = 0
+	dormant = no
+	remark = "Son of John Cabot. Also for Spain from 1526."
 }
 
 #-----------------------------------------------------------------------------------------------
@@ -528,6 +547,26 @@ historicalleader = {
 	shock = 3
 	siege = 0
 	dormant = no
+}
+historicalleader = {
+	id = { type = 6 id = 046411 }
+	category = explorer
+	name = "Chancellor" #Richard Chancellor
+	startdate = {
+		year = 1552
+	}
+	deathdate = {
+		year = 1556
+		month = november
+		day = 10
+	}
+	rank = 8
+	movement = 4
+	fire = 2
+	shock = 2
+	siege = 0
+	dormant = no
+	remark = "Explored the White Sea and established relations with Russia."
 }
 historicalleader = {
 	id = { type = 6 id = 046325 }
@@ -2079,4 +2118,4 @@ historicalleader = {
 
 #-----------------------------------------------------------------------------------------------
 
-#First free id: 046410
+#First free id: 046412
