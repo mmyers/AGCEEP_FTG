@@ -1,7 +1,7 @@
 #
 # Ak Koyunlu (White Sheep Turks) AI
 #
-# Henrik FÃ¥hraeus 01-10-2001
+# Henrik Fåhraeus 01-10-2001
 #
 expansion = 0
 tradingpost = 0

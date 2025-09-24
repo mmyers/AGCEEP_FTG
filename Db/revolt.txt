@@ -492,7 +492,7 @@ CHI = { #China
 	religion = confucian
 	ai = "CHI_1525_Perfectionist.txt"
 }
-CHM = { #ChimÃº
+CHM = { #Chimú
 	date = { day = 1 month = january year = 1419 }
 	expirydate = { day = 29 month = december year = 1530 }
 	minimum = { 164 }
@@ -629,7 +629,7 @@ DAS = { #Da Shun
 	culture = han
 	ai = "CHI_1635_CivilWar.txt"
 }
-#DAU - DauphinÃ©
+#DAU - Dauphiné
 DAX = { #Da Xi
 	revolt = no
 	date = { day = 1 month = february year = 1633 }
@@ -1767,7 +1767,7 @@ NIP = { #Japan
 	group = asian
 	ai = "SmallTrade3.txt"
 }
-NOG = { #NogaÃ¯
+NOG = { #Nogaï
 	date = { day = 1 month = january year = 1419 }
 	expirydate = { day = 29 month = december year = 1600 }
 	minimum = { 515 519 520 }

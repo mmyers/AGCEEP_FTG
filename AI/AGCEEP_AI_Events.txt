@@ -730,7 +730,7 @@ event = {
 	id = 600065
 	trigger = {
 		ai = yes
-		monarch = 049539 #Napol√©on Ier
+		monarch = 049539 #NapolÈon Ier
 		OR = {
 			war = { country = FRA country = ENG }
 			war = { country = FRA country = SPA }
@@ -2538,7 +2538,7 @@ event = {
 	id = 600340
 	trigger = {
 		ai = yes
-		monarch = 061012 #M√°ty√°s Corvin
+		monarch = 061012 #M·ty·s Corvin
 	}
 	random = no
 	country = HUN
@@ -2627,7 +2627,7 @@ event = {
 }
 
 #-----------------------------------------------------------------------------------------------
-#Dauphin√© (DAU): 600360-600369
+#DauphinÈ (DAU): 600360-600369
 
 event = {
 	id = 600360
